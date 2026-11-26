@@ -1357,7 +1357,7 @@ Atualizado em 26/11/2026 · **532** repositórios ativos · explicados por IA: 0
 
 - **O que é:** SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 
-**[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)** · ⭐ 73,7 mil · HTML · MIT
+**[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)** · ⭐ 73,8 mil · HTML · MIT
 
 - **O que é:** Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 
