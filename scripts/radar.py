@@ -551,9 +551,17 @@ def linha_cabecalho(r):
     return " · ".join(partes)
 
 
+def resumo_pt(e):
+    """O catálogo é sempre em português: a descrição original do GitHub (geralmente em inglês)
+    só aparece depois de traduzida ou explicada pelo Claude."""
+    if e.get("gerado_por") == "regras" and not e.get("traduzido"):
+        return "_Explicação em português pendente — entra na próxima execução._"
+    return e["resumo"]
+
+
 def bloco_repo(r, e):
     linhas = [linha_cabecalho(r), ""]
-    linhas.append(f"- **O que é:** {e['resumo']}")
+    linhas.append(f"- **O que é:** {resumo_pt(e)}")
     if e.get("por_que_importa"):
         linhas.append(f"- **Por que importa:** {e['por_que_importa']}")
     if e.get("segmentos"):
@@ -742,6 +750,25 @@ def importar(arq, cfg):
     log(f"{feitos} explicações importadas.")
 
 
+def importar_traducoes(arq, cfg):
+    """Aplica resumos em português (TSV: id<TAB>texto) aos repositórios que ainda não têm explicação completa."""
+    base = ler_json(ARQ_REPOS, {})
+    expl = ler_json(ARQ_EXPL, {})
+    n = 0
+    for linha in Path(arq).read_text(encoding="utf-8").splitlines():
+        if "\t" not in linha:
+            continue
+        rid, texto = (x.strip() for x in linha.split("\t", 1))
+        e = expl.get(rid)
+        if e and e.get("gerado_por") == "regras" and texto:
+            e.update(resumo=texto, traduzido=True)
+            n += 1
+    salvar_json(ARQ_EXPL, expl)
+    gerar_catalogo(base, expl, cfg)
+    gerar_segmentos(base, expl, cfg)
+    log(f"{n} resumos em português aplicados.")
+
+
 def abrir_issue(repo):
     flag = DIR_TMP / "abrir_issue.txt"
     if not flag.exists() or flag.read_text().strip() != "true":
@@ -765,6 +792,7 @@ def main():
                     help="grava .radar/pendentes.json com os novos + até N repositórios sem explicação")
     ap.add_argument("--importar", metavar="ARQ", help="importa explicações (JSON) e regenera os arquivos, sem nova busca")
     ap.add_argument("--abrir-issue", metavar="DONO/REPO", help="abre a issue do dia via API, se houver novidades")
+    ap.add_argument("--importar-traducoes", metavar="ARQ.tsv", help="aplica resumos em português (id<TAB>texto)")
     args = ap.parse_args()
     if args.data:
         HOJE = args.data
@@ -774,6 +802,8 @@ def main():
         return abrir_issue(args.abrir_issue)
     if args.importar:
         return importar(args.importar, cfg)
+    if args.importar_traducoes:
+        return importar_traducoes(args.importar_traducoes, cfg)
     if not TOKEN:
         log("Aviso: sem GITHUB_TOKEN — a busca fica mais lenta.")
 
