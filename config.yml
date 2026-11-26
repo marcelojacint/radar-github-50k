@@ -14,13 +14,15 @@ busca:
   incluir_arquivados: false   # repositórios arquivados não servem para projeto novo
 
 ia:
+  # claude-agendado   -> [padrão] as explicações são escritas pela tarefa agendada do Claude,
+  #                      que roda o script, explica os pendentes e envia as mudanças (sem chave, sem custo extra)
   # openai-compativel -> qualquer API no formato da OpenAI. Padrão: Groq, plano gratuito
   #                      (sem cartão; passou do limite, a API só recusa até o dia seguinte).
   #                      Secret: LLM_API_KEY
   # anthropic         -> Claude (pago por uso). Secret: ANTHROPIC_API_KEY
   # nenhum            -> só regras locais (sem explicação por segmento)
   # Sem o secret configurado, o radar roda normalmente e só pula a parte de IA.
-  provedor: openai-compativel
+  provedor: claude-agendado
   openai_compativel:
     url: https://api.groq.com/openai/v1/chat/completions
     modelo: openai/gpt-oss-120b

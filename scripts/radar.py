@@ -487,7 +487,7 @@ def explicar(base, expl, cfg, novos, limite):
         expl.setdefault(str(r["id"]), explicacao_por_regras(r))
 
     prov = cfg["ia"].get("provedor", "nenhum")
-    if prov == "nenhum" or limite <= 0:
+    if prov in ("nenhum", "claude-agendado") or limite <= 0:
         return 0, "IA desativada"
     if prov == "anthropic":
         chamar, modelo, segredo = chamar_anthropic, cfg["ia"]["modelo_anthropic"], "ANTHROPIC_API_KEY"
@@ -557,7 +557,7 @@ def bloco_repo(r, e):
     if e.get("por_que_importa"):
         linhas.append(f"- **Por que importa:** {e['por_que_importa']}")
     if e.get("segmentos"):
-        segs = "; ".join(f"**{s['segmento']}** ({s['relevancia']}) — {s['como_usar']}" for s in e["segmentos"])
+        segs = "; ".join(f"**{s['segmento']}** ({s['relevancia']}) — {s['como_usar'].rstrip('.')}" for s in e["segmentos"])
         linhas.append(f"- **Segmentos:** {segs}")
     if e.get("maturidade"):
         linhas.append(f"- ⚠️ {e['maturidade']}")
@@ -679,12 +679,78 @@ def publicar_saidas(texto, mud, cfg):
     corpo = texto if len(texto) < 60000 else texto[:60000] + f"\n\n…relatório completo em relatorios/{HOJE}.md\n"
     (DIR_TMP / "issue.md").write_text(corpo, encoding="utf-8")
     (DIR_TMP / "titulo.txt").write_text(titulo, encoding="utf-8")
+    (DIR_TMP / "abrir_issue.txt").write_text("true" if abrir else "false", encoding="utf-8")
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
             f.write(f"abrir_issue={'true' if abrir else 'false'}\nnovos={n}\n")
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as f:
             f.write(texto)
+
+
+
+# ──────────────── fluxo da tarefa agendada do Claude ────────────────
+
+CAMPOS_EXPORT = ("id", "nome", "url", "descricao", "linguagem", "topicos", "estrelas", "licenca",
+                 "ultimo_push", "criado_em", "homepage")
+
+
+def exportar_pendentes(base, expl, cfg, mud, n):
+    """Grava .radar/pendentes.json: todos os novos do dia + até N repositórios ainda sem explicação."""
+    ativos = [r for r in base["repos"].values() if r.get("ativo")]
+    novos = set(mud["novos"])
+    pend = [r for r in ativos if expl[str(r["id"])].get("gerado_por") == "regras"]
+    pend.sort(key=lambda r: -r["estrelas"])
+    lista = [r for r in pend if str(r["id"]) in novos] + [r for r in pend if str(r["id"]) not in novos][:n]
+    saida = {
+        "data": HOJE,
+        "total_sem_explicacao": len(pend),
+        "categorias": list(CATEGORIAS),
+        "segmentos": cfg["segmentos"],
+        "repos": [{**{k: r.get(k) for k in CAMPOS_EXPORT}, "id": str(r["id"]), "novo": str(r["id"]) in novos}
+                  for r in lista],
+    }
+    salvar_json(DIR_TMP / "pendentes.json", saida)
+    log(f"{len(lista)} repositórios exportados para explicação ({len(pend)} sem explicação no total)")
+
+
+def importar(arq, cfg):
+    """Importa explicações escritas fora do script e regenera catálogo, segmentos e relatório do dia."""
+    base = ler_json(ARQ_REPOS, {})
+    expl = ler_json(ARQ_EXPL, {})
+    dados = json.loads(Path(arq).read_text(encoding="utf-8"))
+    itens = dados.get("repos", []) if isinstance(dados, dict) else dados
+    feitos = 0
+    for item in itens:
+        rid = str(item.get("id"))
+        r = base.get("repos", {}).get(rid)
+        if not r:
+            log(f"id {rid} não está na base — ignorado")
+            continue
+        expl[rid] = validar(item, r, cfg, "claude (tarefa agendada)")
+        feitos += 1
+    mud = ler_json(DIR_TMP / "mudancas.json", {})
+    if mud.get("data") != HOJE:
+        mud = {"data": HOJE, "novos": [], "sairam": [], "voltaram": [], "nova_base": False, "feitos": 0}
+    mud["feitos"] = mud.get("feitos", 0) + feitos
+    salvar_json(DIR_TMP / "mudancas.json", mud)
+    salvar_json(ARQ_EXPL, expl)
+    gerar_catalogo(base, expl, cfg)
+    gerar_segmentos(base, expl, cfg)
+    texto = gerar_relatorio(base, expl, cfg, mud, (mud["feitos"], ""))
+    publicar_saidas(texto, mud, cfg)
+    log(f"{feitos} explicações importadas.")
+
+
+def abrir_issue(repo):
+    flag = DIR_TMP / "abrir_issue.txt"
+    if not flag.exists() or flag.read_text().strip() != "true":
+        log("Sem novidades — nenhuma issue aberta.")
+        return
+    corpo = {"title": (DIR_TMP / "titulo.txt").read_text(encoding="utf-8").strip(),
+             "body": (DIR_TMP / "issue.md").read_text(encoding="utf-8")}
+    st, txt, _ = http(f"{API}/repos/{repo}/issues", "POST", corpo, gh_headers(), tentativas=2)
+    log(f"Issue aberta: {json.loads(txt).get('html_url')}" if st == 201 else f"Falha ao abrir issue (HTTP {st}): {txt[:200]}")
 
 
 # ─────────────────────────────── main ───────────────────────────────
@@ -695,11 +761,19 @@ def main():
     ap.add_argument("--max-explicacoes", type=int, help="sobrescreve ia.max_por_execucao")
     ap.add_argument("--sem-ia", action="store_true", help="não chama a IA nesta execução")
     ap.add_argument("--data", help="força a data (AAAA-MM-DD), útil para testes")
+    ap.add_argument("--exportar-pendentes", type=int, metavar="N",
+                    help="grava .radar/pendentes.json com os novos + até N repositórios sem explicação")
+    ap.add_argument("--importar", metavar="ARQ", help="importa explicações (JSON) e regenera os arquivos, sem nova busca")
+    ap.add_argument("--abrir-issue", metavar="DONO/REPO", help="abre a issue do dia via API, se houver novidades")
     args = ap.parse_args()
     if args.data:
         HOJE = args.data
 
     cfg = yaml.safe_load((RAIZ / "config.yml").read_text(encoding="utf-8"))
+    if args.abrir_issue:
+        return abrir_issue(args.abrir_issue)
+    if args.importar:
+        return importar(args.importar, cfg)
     if not TOKEN:
         log("Aviso: sem GITHUB_TOKEN — a busca fica mais lenta.")
 
@@ -721,6 +795,9 @@ def main():
     gerar_segmentos(base, expl, cfg)
     texto = gerar_relatorio(base, expl, cfg, mud, ia_info)
     publicar_saidas(texto, mud, cfg)
+    salvar_json(DIR_TMP / "mudancas.json", {"data": HOJE, **mud, "feitos": ia_info[0]})
+    if args.exportar_pendentes is not None:
+        exportar_pendentes(base, expl, cfg, mud, args.exportar_pendentes)
     log("Concluído.")
 
 

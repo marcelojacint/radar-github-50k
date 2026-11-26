@@ -1,18 +1,18 @@
 # Catálogo — repositórios com 50 mil+ estrelas
 
-Atualizado em 26/11/2026 · **532** repositórios ativos · explicados por IA: 0/532
+Atualizado em 26/11/2026 · **532** repositórios ativos · explicados por IA: 10/532
 
 **Por segmento:** [Saúde e clínicas](segmentos/saude-e-clinicas.md) · [Indústria e ERP](segmentos/industria-e-erp.md) · [Varejo e e-commerce](segmentos/varejo-e-e-commerce.md) · [Finanças e fintech](segmentos/financas-e-fintech.md) · [Educação](segmentos/educacao.md) · [Serviços e agendamento](segmentos/servicos-e-agendamento.md) · [Agronegócio](segmentos/agronegocio.md) · [Setor público](segmentos/setor-publico.md)
 
 ## Categorias
 
-- [IA e Machine Learning](#ia-e-machine-learning) (171)
+- [IA e Machine Learning](#ia-e-machine-learning) (170)
 - [Frontend e UI](#frontend-e-ui) (58)
 - [Backend e APIs](#backend-e-apis) (21)
 - [Mobile e Desktop](#mobile-e-desktop) (46)
 - [DevOps e Cloud](#devops-e-cloud) (22)
 - [Dados e Bancos de dados](#dados-e-bancos-de-dados) (22)
-- [Segurança](#segurança) (15)
+- [Segurança](#segurança) (16)
 - [Ferramentas de desenvolvimento](#ferramentas-de-desenvolvimento) (33)
 - [Linguagens e runtimes](#linguagens-e-runtimes) (10)
 - [Sistemas operacionais e infraestrutura](#sistemas-operacionais-e-infraestrutura) (1)
@@ -22,13 +22,12 @@ Atualizado em 26/11/2026 · **532** repositórios ativos · explicados por IA: 0
 
 ## IA e Machine Learning
 
-**[morluto/rea](https://github.com/morluto/rea)** · ⭐ 479,6 mil · TypeScript · MIT
-
-- **O que é:** Reverse engineer anything with agents, from app behavior down to native binaries.
-
 **[openclaw/openclaw](https://github.com/openclaw/openclaw)** · ⭐ 395,3 mil · TypeScript · MIT
 
-- **O que é:** The AI that really does things. Any OS. Any Platform. The lobster way. 🦞
+- **O que é:** Assistente pessoal de IA que roda na sua própria máquina e executa tarefas de verdade (mensagens, arquivos, automações), conversando por apps como WhatsApp e Telegram.
+- **Por que importa:** Mostra como montar um agente de IA auto-hospedado que age em sistemas e canais de mensagem; útil como base ou referência para assistentes de atendimento e automação.
+- **Segmentos:** **Serviços e agendamento** (média) — Base para um assistente que responde clientes no WhatsApp e cuida de lembretes e remarcações; **Saúde e clínicas** (média) — Referência para um assistente de recepção que confirma consultas por mensagem; exige cuidado com dados sensíveis
+- ⚠️ Projeto recente e de evolução rápida; o agente tem acesso amplo à máquina, então revise a segurança antes de usar com dados de clientes.
 
 **[mattpocock/skills](https://github.com/mattpocock/skills)** · ⭐ 333,5 mil · Shell · MIT
 
@@ -829,7 +828,7 @@ Atualizado em 26/11/2026 · **532** repositórios ativos · explicados por IA: 0
 
 - **O que é:** Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路,完整单步/回看/变速/语音讲解在 algomooc.com）
 
-**[remotion-dev/remotion](https://github.com/remotion-dev/remotion)** · ⭐ 75,9 mil · TypeScript · outra
+**[remotion-dev/remotion](https://github.com/remotion-dev/remotion)** · ⭐ 76 mil · TypeScript · outra
 
 - **O que é:** 🎥      Make videos programmatically with React
 
@@ -1413,6 +1412,12 @@ Atualizado em 26/11/2026 · **532** repositórios ativos · explicados por IA: 0
 
 ## Segurança
 
+**[morluto/rea](https://github.com/morluto/rea)** · ⭐ 479,6 mil · TypeScript · MIT
+
+- **O que é:** Ferramenta com agentes de IA para engenharia reversa, do comportamento de aplicativos até binários nativos, com integração a assistentes de código como o Claude Code.
+- **Por que importa:** Pode acelerar análise de apps e binários de terceiros, por exemplo para entender integrações sem documentação ou auditar segurança.
+- ⚠️ Projeto muito recente com crescimento de estrelas fora do comum; avalie maturidade, licença e implicações legais antes de usar.
+
 **[Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)** · ⭐ 126,7 mil · CC0-1.0
 
 - **O que é:** A collection of various awesome lists for hackers, pentesters and security researchers
@@ -1664,35 +1669,56 @@ Atualizado em 26/11/2026 · **532** repositórios ativos · explicados por IA: 0
 
 **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** · ⭐ 565,8 mil · Markdown
 
-- **O que é:** Master programming by recreating your favorite technologies from scratch.
+- **O que é:** Coleção de tutoriais para recriar do zero tecnologias conhecidas (banco de dados, Git, Docker, servidor web, blockchain etc.) em várias linguagens.
+- **Por que importa:** Forma a base técnica do time: entender como um banco ou um servidor HTTP funciona por dentro ajuda a depurar e a decidir arquitetura em projetos reais. Não é biblioteca para usar em produção.
+- **Segmentos:** **Educação** (alta) — Trilha prática para cursos técnicos e bootcamps, com projetos guiados de construir a própria ferramenta
+- ⚠️ É uma lista de tutoriais externos, não um software para instalar.
 
 **[sindresorhus/awesome](https://github.com/sindresorhus/awesome)** · ⭐ 543,3 mil · CC0-1.0
 
-- **O que é:** 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]
+- **O que é:** Índice das listas 'awesome': coleções curadas de ferramentas, bibliotecas e materiais sobre praticamente qualquer tema de tecnologia.
+- **Por que importa:** Ponto de partida para pesquisar opções antes de escolher uma biblioteca ou ferramenta num projeto; economiza tempo de garimpo.
+- ⚠️ É uma lista de links, não um software.
 
 **[public-apis/public-apis](https://github.com/public-apis/public-apis)** · ⭐ 501,7 mil · Python · MIT
 
-- **O que é:** A collective list of free APIs
+- **O que é:** Lista colaborativa de APIs públicas e gratuitas organizadas por categoria (clima, CEP, câmbio, governo, saúde, transporte etc.).
+- **Por que importa:** Ajuda a encontrar rapidamente APIs prontas para integrar em protótipos e MVPs, evitando construir dados ou serviços do zero. Verifique termos de uso e estabilidade antes de usar em produção.
+- **Segmentos:** **Finanças e fintech** (média) — Encontrar APIs de câmbio, cotações e dados econômicos para dashboards e calculadoras; **Setor público** (média) — Localizar APIs de dados abertos governamentais para portais de transparência e serviços ao cidadão; **Varejo e e-commerce** (média) — Achar APIs de frete, endereço e geolocalização para checkout e logística
+- ⚠️ É uma lista de links; a qualidade de cada API varia.
 
 **[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** · ⭐ 459,7 mil · TypeScript · BSD-3-Clause
 
-- **O que é:** freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
+- **O que é:** Código-fonte e currículo da plataforma freeCodeCamp: cursos gratuitos e interativos de programação, matemática e ciência da computação, com certificações.
+- **Por que importa:** Além de material de estudo, é um exemplo real de plataforma de ensino de grande escala (TypeScript/Node/React) que pode ser estudado como referência de arquitetura.
+- **Segmentos:** **Educação** (alta) — Referência de arquitetura e de exercícios interativos para quem monta uma plataforma de cursos online com trilhas e certificados
 
 **[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)** · ⭐ 402,3 mil · Python · CC-BY-4.0
 
-- **O que é:** :books: Freely available programming books
+- **O que é:** Lista enorme de livros, cursos e materiais de programação gratuitos, em vários idiomas (inclusive português).
+- **Por que importa:** Fonte gratuita de estudo para o time e para capacitação de equipes.
+- **Segmentos:** **Educação** (média) — Montar bibliografia gratuita para cursos e trilhas de capacitação em tecnologia
+- ⚠️ É uma lista de links, não um software.
 
 **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)** · ⭐ 379,4 mil · Python · outra
 
-- **O que é:** Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
+- **O que é:** Guia de design de sistemas de grande escala: cache, filas, balanceamento, bancos distribuídos, com exercícios e flashcards para entrevistas.
+- **Por que importa:** Ajuda a tomar decisões de arquitetura com fundamento (escalabilidade, consistência, disponibilidade) quando um sistema começa a crescer.
+- **Segmentos:** **Educação** (média) — Material de apoio para disciplinas de arquitetura de software e preparação para entrevistas
+- ⚠️ Material de estudo, não um software.
 
 **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)** · ⭐ 372,8 mil · TypeScript · outra
 
-- **O que é:** Interactive roadmaps, guides and other educational content to help developers grow in their careers.
+- **O que é:** Roadmaps interativos (roadmap.sh) com trilhas de estudo para frontend, backend, DevOps, banco de dados, IA e outras carreiras de tecnologia.
+- **Por que importa:** Ajuda a planejar o que estudar e a montar planos de desenvolvimento para devs júnior do time.
+- **Segmentos:** **Educação** (alta) — Base para montar grades e trilhas de cursos de tecnologia por carreira
 
 **[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)** · ⭐ 365,1 mil · CC-BY-SA-4.0
 
-- **O que é:** A complete computer science study plan to become a software engineer.
+- **O que é:** Plano de estudos completo de ciência da computação (estruturas de dados, algoritmos, sistemas) para se preparar para vagas de engenharia de software.
+- **Por que importa:** Organiza a base teórica cobrada em entrevistas técnicas e melhora a capacidade de resolver problemas de desempenho no dia a dia.
+- **Segmentos:** **Educação** (média) — Roteiro de estudo para programas de formação e mentoria de desenvolvedores
+- ⚠️ Plano de estudos, não um software.
 
 **[awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)** · ⭐ 340,8 mil · outra
 

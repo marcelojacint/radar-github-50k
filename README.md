@@ -1,11 +1,13 @@
 # Radar GitHub 50k
 
-Todo dia, às 06:17 (horário de Brasília), um GitHub Actions:
+Todo dia, às 06:17 (horário de Brasília), uma **tarefa agendada do Claude**:
 
 1. busca **todos os repositórios open source com 50 mil+ estrelas** (hoje são ~530, sem contar os arquivados);
 2. compara com o dia anterior e marca os **novos**, os que **saíram** e os que **mais cresceram**;
 3. usa IA para explicar cada repositório: **o que é**, **por que importa** num projeto real e **em quais segmentos de negócio** ele faz sentido (relevância alta ou média, com um uso concreto);
 4. salva tudo neste próprio repositório e abre uma **issue** quando aparece novidade (o GitHub te avisa por e-mail ou no app).
+
+O repositório serve só para guardar e versionar os resultados. Quem faz o trabalho é o Claude, sem chave de API e sem custo extra além do seu plano.
 
 ## Onde fica salvo
 
@@ -19,20 +21,23 @@ Todo dia, às 06:17 (horário de Brasília), um GitHub Actions:
 
 Como tudo é commitado, o próprio histórico do Git mostra a evolução de cada repositório.
 
-## Instalação (5 minutos)
+## Como a tarefa agendada roda
 
-1. Crie um repositório no GitHub (ex.: `radar-github-50k`), público ou privado.
-2. Suba todos os arquivos desta pasta, incluindo `.github/workflows/radar-diario.yml`.
-3. Vá em **Actions** → **Radar GitHub 50k (diário)** → **Run workflow** para a primeira execução.
-4. Pronto. A partir daí roda sozinho todo dia.
+```bash
+python scripts/radar.py --sem-ia --exportar-pendentes 80   # busca, compara com ontem e lista o que falta explicar
+# o Claude lê .radar/pendentes.json e escreve .radar/explicacoes_novas.json
+python scripts/radar.py --importar .radar/explicacoes_novas.json   # grava as explicações e regenera tudo
+python scripts/radar.py --abrir-issue marcelojacint/radar-github-50k   # issue só se houver novos
+git commit + push
+```
 
-Na primeira execução ele cria a base de referência e começa a gerar explicações (100 por dia, por padrão). A base inteira fica explicada em uns 6 dias. Para acelerar, rode manualmente informando um número maior em `max_explicacoes`.
+Os novos do dia são sempre explicados. Além deles, entram até 80 repositórios antigos por dia, então a base atual fica completa em cerca de 7 dias.
 
-Se o passo de salvar der erro 403: **Settings → Actions → General → Workflow permissions → Read and write permissions**.
+O workflow do GitHub Actions continua no repositório, mas só para execução manual (**Actions → Run workflow**). Ele faz a busca e o catálogo, sem as explicações. O agendamento dele está comentado para não conflitar com a tarefa do Claude.
 
-## IA usada para as explicações (sem custo)
+## Alternativas para as explicações (se não quiser usar a tarefa do Claude)
 
-- **Padrão: Groq, plano gratuito.** Crie uma conta em console.groq.com (não pede cartão), gere uma API key e salve como secret `LLM_API_KEY` em *Settings → Secrets and variables → Actions*. Quando o limite gratuito do dia acaba, a API só recusa as chamadas, e o radar continua no dia seguinte, sem cobrança.
+- **Groq, plano gratuito:** mude `ia.provedor` para `openai-compativel`. Crie uma conta em console.groq.com (não pede cartão), gere uma API key e salve como secret `LLM_API_KEY` em *Settings → Secrets and variables → Actions*. Quando o limite gratuito do dia acaba, a API só recusa as chamadas, e o radar continua no dia seguinte, sem cobrança.
 - **Outro provedor no formato da OpenAI** (Gemini, OpenRouter, OpenAI etc.): troque `url` e `modelo` em `ia.openai_compativel` no `config.yml`. O secret continua sendo `LLM_API_KEY`.
 - **Claude (Anthropic, pago por uso):** `ia.provedor: anthropic` e secret `ANTHROPIC_API_KEY`.
 - **Sem IA:** `ia.provedor: nenhum`. O catálogo sai só com a descrição original do GitHub e uma categoria definida por regras.

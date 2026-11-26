@@ -353,11 +353,22 @@
  "1103012935": {
   "categoria": "IA e Machine Learning",
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
-  "resumo": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
-  "segmentos": []
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente e de evolução rápida; o agente tem acesso amplo à máquina, então revise a segurança antes de usar com dados de clientes.",
+  "por_que_importa": "Mostra como montar um agente de IA auto-hospedado que age em sistemas e canais de mensagem; útil como base ou referência para assistentes de atendimento e automação.",
+  "resumo": "Assistente pessoal de IA que roda na sua própria máquina e executa tarefas de verdade (mensagens, arquivos, automações), conversando por apps como WhatsApp e Telegram.",
+  "segmentos": [
+   {
+    "como_usar": "Base para um assistente que responde clientes no WhatsApp e cuida de lembretes e remarcações.",
+    "relevancia": "média",
+    "segmento": "Serviços e agendamento"
+   },
+   {
+    "como_usar": "Referência para um assistente de recepção que confirma consultas por mensagem; exige cuidado com dados sensíveis.",
+    "relevancia": "média",
+    "segmento": "Saúde e clínicas"
+   }
+  ]
  },
  "1104332987": {
   "categoria": "IA e Machine Learning",
@@ -918,12 +929,12 @@
   "segmentos": []
  },
  "1209966933": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Segurança",
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
-  "resumo": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto muito recente com crescimento de estrelas fora do comum; avalie maturidade, licença e implicações legais antes de usar.",
+  "por_que_importa": "Pode acelerar análise de apps e binários de terceiros, por exemplo para entender integrações sem documentação ou auditar segurança.",
+  "resumo": "Ferramenta com agentes de IA para engenharia reversa, do comportamento de aplicativos até binários nativos, com integração a assistentes de código como o Claude Code.",
   "segmentos": []
  },
  "1211139949": {
@@ -1172,11 +1183,17 @@
  "132750724": {
   "categoria": "Aprendizado e listas de recursos",
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
-  "resumo": "Master programming by recreating your favorite technologies from scratch.",
-  "segmentos": []
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "É uma lista de tutoriais externos, não um software para instalar.",
+  "por_que_importa": "Forma a base técnica do time: entender como um banco ou um servidor HTTP funciona por dentro ajuda a depurar e a decidir arquitetura em projetos reais. Não é biblioteca para usar em produção.",
+  "resumo": "Coleção de tutoriais para recriar do zero tecnologias conhecidas (banco de dados, Git, Docker, servidor web, blockchain etc.) em várias linguagens.",
+  "segmentos": [
+   {
+    "como_usar": "Trilha prática para cursos técnicos e bootcamps, com projetos guiados de construir a própria ferramenta.",
+    "relevancia": "alta",
+    "segmento": "Educação"
+   }
+  ]
  },
  "133251103": {
   "categoria": "DevOps e Cloud",
@@ -1226,11 +1243,17 @@
  "13491895": {
   "categoria": "Aprendizado e listas de recursos",
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
-  "resumo": ":books: Freely available programming books",
-  "segmentos": []
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "É uma lista de links, não um software.",
+  "por_que_importa": "Fonte gratuita de estudo para o time e para capacitação de equipes.",
+  "resumo": "Lista enorme de livros, cursos e materiais de programação gratuitos, em vários idiomas (inclusive português).",
+  "segmentos": [
+   {
+    "como_usar": "Montar bibliografia gratuita para cursos e trilhas de capacitação em tecnologia.",
+    "relevancia": "média",
+    "segmento": "Educação"
+   }
+  ]
  },
  "1359648985": {
   "categoria": "Outros",
@@ -1955,10 +1978,10 @@
  "21737465": {
   "categoria": "Aprendizado e listas de recursos",
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
-  "resumo": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "É uma lista de links, não um software.",
+  "por_que_importa": "Ponto de partida para pesquisar opções antes de escolher uma biblioteca ou ferramenta num projeto; economiza tempo de garimpo.",
+  "resumo": "Índice das listas 'awesome': coleções curadas de ferramentas, bibliotecas e materiais sobre praticamente qualquer tema de tecnologia.",
   "segmentos": []
  },
  "21872392": {
@@ -2342,11 +2365,17 @@
  "28457823": {
   "categoria": "Aprendizado e listas de recursos",
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
-  "resumo": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-  "segmentos": []
+  "por_que_importa": "Além de material de estudo, é um exemplo real de plataforma de ensino de grande escala (TypeScript/Node/React) que pode ser estudado como referência de arquitetura.",
+  "resumo": "Código-fonte e currículo da plataforma freeCodeCamp: cursos gratuitos e interativos de programação, matemática e ciência da computação, com certificações.",
+  "segmentos": [
+   {
+    "como_usar": "Referência de arquitetura e de exercícios interativos para quem monta uma plataforma de cursos online com trilhas e certificados.",
+    "relevancia": "alta",
+    "segmento": "Educação"
+   }
+  ]
  },
  "28699471": {
   "categoria": "Aprendizado e listas de recursos",
@@ -3215,11 +3244,27 @@
  "54346799": {
   "categoria": "Aprendizado e listas de recursos",
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
-  "resumo": "A collective list of free APIs",
-  "segmentos": []
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "É uma lista de links; a qualidade de cada API varia.",
+  "por_que_importa": "Ajuda a encontrar rapidamente APIs prontas para integrar em protótipos e MVPs, evitando construir dados ou serviços do zero. Verifique termos de uso e estabilidade antes de usar em produção.",
+  "resumo": "Lista colaborativa de APIs públicas e gratuitas organizadas por categoria (clima, CEP, câmbio, governo, saúde, transporte etc.).",
+  "segmentos": [
+   {
+    "como_usar": "Encontrar APIs de câmbio, cotações e dados econômicos para dashboards e calculadoras.",
+    "relevancia": "média",
+    "segmento": "Finanças e fintech"
+   },
+   {
+    "como_usar": "Localizar APIs de dados abertos governamentais para portais de transparência e serviços ao cidadão.",
+    "relevancia": "média",
+    "segmento": "Setor público"
+   },
+   {
+    "como_usar": "Achar APIs de frete, endereço e geolocalização para checkout e logística.",
+    "relevancia": "média",
+    "segmento": "Varejo e e-commerce"
+   }
+  ]
  },
  "5483330": {
   "categoria": "Outros",
@@ -3476,11 +3521,17 @@
  "60493101": {
   "categoria": "Aprendizado e listas de recursos",
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
-  "resumo": "A complete computer science study plan to become a software engineer.",
-  "segmentos": []
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Plano de estudos, não um software.",
+  "por_que_importa": "Organiza a base teórica cobrada em entrevistas técnicas e melhora a capacidade de resolver problemas de desempenho no dia a dia.",
+  "resumo": "Plano de estudos completo de ciência da computação (estruturas de dados, algoritmos, sistemas) para se preparar para vagas de engenharia de software.",
+  "segmentos": [
+   {
+    "como_usar": "Roteiro de estudo para programas de formação e mentoria de desenvolvedores.",
+    "relevancia": "média",
+    "segmento": "Educação"
+   }
+  ]
  },
  "6093316": {
   "categoria": "Outros",
@@ -4304,11 +4355,17 @@
  "83222441": {
   "categoria": "Aprendizado e listas de recursos",
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
-  "resumo": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-  "segmentos": []
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Material de estudo, não um software.",
+  "por_que_importa": "Ajuda a tomar decisões de arquitetura com fundamento (escalabilidade, consistência, disponibilidade) quando um sistema começa a crescer.",
+  "resumo": "Guia de design de sistemas de grande escala: cache, filas, balanceamento, bancos distribuídos, com exercícios e flashcards para entrevistas.",
+  "segmentos": [
+   {
+    "como_usar": "Material de apoio para disciplinas de arquitetura de software e preparação para entrevistas.",
+    "relevancia": "média",
+    "segmento": "Educação"
+   }
+  ]
  },
  "834369920": {
   "categoria": "IA e Machine Learning",
@@ -4367,11 +4424,17 @@
  "85077558": {
   "categoria": "Aprendizado e listas de recursos",
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
-  "resumo": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-  "segmentos": []
+  "por_que_importa": "Ajuda a planejar o que estudar e a montar planos de desenvolvimento para devs júnior do time.",
+  "resumo": "Roadmaps interativos (roadmap.sh) com trilhas de estudo para frontend, backend, DevOps, banco de dados, IA e outras carreiras de tecnologia.",
+  "segmentos": [
+   {
+    "como_usar": "Base para montar grades e trilhas de cursos de tecnologia por carreira.",
+    "relevancia": "alta",
+    "segmento": "Educação"
+   }
+  ]
  },
  "8514": {
   "categoria": "Backend e APIs",
