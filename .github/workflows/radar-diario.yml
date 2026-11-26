@@ -13,7 +13,6 @@ on:
 permissions:
   contents: write   # commitar data/, CATALOGO.md, segmentos/ e relatorios/
   issues: write     # abrir a issue diária com as novidades
-  models: read      # usar o GitHub Models (IA grátis) com o GITHUB_TOKEN
 
 concurrency:
   group: radar-50k
@@ -38,6 +37,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           MAX_EXPL: ${{ github.event.inputs.max_explicacoes }}
         run: |
           if [ -n "$MAX_EXPL" ]; then

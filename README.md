@@ -32,9 +32,13 @@ Se o passo de salvar der erro 403: **Settings → Actions → General → Workfl
 
 ## IA usada para as explicações
 
-- **Padrão: GitHub Models**, grátis, usando o `GITHUB_TOKEN` do próprio Actions (permissão `models: read`, já configurada no workflow). Não precisa de chave nem de cadastro. Tem limite diário; quando ele acaba, o radar para e continua no dia seguinte, sem perder nada.
-- **Alternativa: Claude (Anthropic)**: crie o secret `ANTHROPIC_API_KEY` em *Settings → Secrets and variables → Actions* e mude `ia.provedor` para `anthropic` no `config.yml`. É pago por uso, mas a qualidade é maior e não tem limite diário.
-- **Sem IA**: `ia.provedor: nenhum`. O catálogo sai só com a descrição original do GitHub e uma categoria por regras.
+- **Padrão: Claude (Anthropic).** Crie o secret `ANTHROPIC_API_KEY` em *Settings → Secrets and variables → Actions*. O custo é por uso. Como cada repositório é explicado uma vez só, o gasto maior acontece nos primeiros dias, enquanto a base inicial é preenchida. Depois disso, só os repositórios novos geram chamadas.
+- **Alternativa: API no formato da OpenAI** (OpenAI, Groq, OpenRouter, Gemini etc.): crie o secret `LLM_API_KEY`, mude `ia.provedor` para `openai-compativel` e ajuste `url` e `modelo` no `config.yml`.
+- **Sem IA**: `ia.provedor: nenhum`. O catálogo sai só com a descrição original do GitHub e uma categoria definida por regras.
+
+Sem o secret configurado, o radar continua rodando todo dia (busca, novidades, catálogo) e o relatório avisa que a IA está pausada.
+
+> O GitHub Models (IA gratuita via `GITHUB_TOKEN`) foi descontinuado em 30/07/2026 e não é mais usado.
 
 ## Personalizar (`config.yml`)
 
@@ -51,7 +55,8 @@ Se você mudar o filtro, a próxima execução cria uma nova base de referência
 pip install -r requirements.txt
 export GITHUB_TOKEN=ghp_seu_token   # opcional, mas deixa a busca 3x mais rápida
 python scripts/radar.py --sem-ia    # só busca e catálogo
-python scripts/radar.py             # com IA (GitHub Models precisa de token com models:read)
+export ANTHROPIC_API_KEY=sk-ant-...  # para a IA
+python scripts/radar.py             # com IA
 ```
 
 ## Detalhes que evitam alarme falso

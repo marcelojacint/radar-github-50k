@@ -37,7 +37,6 @@ DIR_SEG = RAIZ / "segmentos"
 DIR_TMP = RAIZ / ".radar"
 
 API = "https://api.github.com"
-URL_GH_MODELS = "https://models.github.ai/inference/chat/completions"
 URL_ANTHROPIC = "https://api.anthropic.com/v1/messages"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 BRT = dt.timezone(dt.timedelta(hours=-3))
@@ -390,59 +389,33 @@ class LimiteIA(Exception):
     """A IA recusou por limite, permissão ou chave — para de tentar nesta execução."""
 
 
-PREFERIDOS_GH = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1", "openai/gpt-4o"]
-
-
-def resolver_modelo_github(modelo):
-    """Confere no catálogo do GitHub Models se o modelo existe; se não, usa o primeiro disponível da lista."""
-    st, txt, _ = http("https://models.github.ai/catalog/models", cabecalhos=gh_headers(), tentativas=2)
-    if st != 200:
-        log(f"Catálogo do GitHub Models indisponível (HTTP {st}); usando {modelo}")
-        return modelo
-    try:
-        ids = {m.get("id") for m in json.loads(txt)}
-    except (ValueError, AttributeError):
-        return modelo
-    if modelo in ids:
-        log(f"Modelo de IA: {modelo}")
-        return modelo
-    for alt in PREFERIDOS_GH:
-        if alt in ids:
-            log(f"Modelo {modelo} não está no catálogo; usando {alt}")
-            return alt
-    log(f"Modelo {modelo} não encontrado. Disponíveis: {', '.join(sorted(i for i in ids if i)[:20])}")
-    return modelo
-
-
-def chamar_github_models(prompt, cfg):
-    if not TOKEN:
-        raise LimiteIA("GITHUB_TOKEN ausente")
+def chamar_openai_compativel(prompt, cfg):
+    """Qualquer API no formato chat/completions da OpenAI (OpenAI, Groq, OpenRouter, Gemini etc.)."""
+    oc = cfg["ia"]["openai_compativel"]
     corpo = {
-        "model": cfg["ia"]["modelo_github"],
+        "model": oc["modelo"],
         "messages": [{"role": "system", "content": SISTEMA}, {"role": "user", "content": prompt}],
         "temperature": 0.2,
-        "max_tokens": 3500,
+        "max_tokens": 4000,
         "response_format": {"type": "json_object"},
     }
-    cab = {"Authorization": f"Bearer {TOKEN}", "Accept": "application/vnd.github+json",
-           "X-GitHub-Api-Version": "2022-11-28"}
-    st, txt, _ = http(URL_GH_MODELS, "POST", corpo, cab, tentativas=3, timeout=180)
+    cab = {"Authorization": f"Bearer {os.environ.get('LLM_API_KEY', '')}"}
+    st, txt, _ = http(oc["url"], "POST", corpo, cab, tentativas=3, timeout=180)
     if st == 400 and "response_format" in txt:
         corpo.pop("response_format")
-        st, txt, _ = http(URL_GH_MODELS, "POST", corpo, cab, tentativas=3, timeout=180)
+        st, txt, _ = http(oc["url"], "POST", corpo, cab, tentativas=3, timeout=180)
     if st in (401, 403, 429):
-        raise LimiteIA(f"GitHub Models HTTP {st}: {txt[:200]}")
+        raise LimiteIA(f"HTTP {st}: {txt[:200]}")
     if st != 200:
-        raise RuntimeError(f"GitHub Models HTTP {st}: {txt[:300]}")
+        raise RuntimeError(f"HTTP {st}: {txt[:300]}")
     try:
         dados = json.loads(txt)
     except ValueError:
-        raise RuntimeError(f"GitHub Models devolveu corpo não-JSON: {txt[:300]!r}")
+        raise RuntimeError(f"corpo não-JSON: {txt[:300]!r}")
     escolha = (dados.get("choices") or [{}])[0]
     conteudo = (escolha.get("message") or {}).get("content") or ""
     if not conteudo.strip():
-        raise RuntimeError(f"resposta vazia (finish_reason={escolha.get('finish_reason')}, "
-                           f"usage={dados.get('usage')}, corpo={txt[:300]!r})")
+        raise RuntimeError(f"resposta vazia (finish_reason={escolha.get('finish_reason')}, corpo={txt[:300]!r})")
     return conteudo
 
 
@@ -463,7 +436,14 @@ def chamar_anthropic(prompt, cfg):
         raise LimiteIA(f"Anthropic HTTP {st}: {txt[:200]}")
     if st != 200:
         raise RuntimeError(f"Anthropic HTTP {st}: {txt[:300]}")
-    return "".join(b.get("text", "") for b in json.loads(txt)["content"])
+    try:
+        dados = json.loads(txt)
+    except ValueError:
+        raise RuntimeError(f"corpo não-JSON: {txt[:300]!r}")
+    conteudo = "".join(b.get("text", "") for b in dados.get("content", []))
+    if not conteudo.strip():
+        raise RuntimeError(f"resposta vazia (stop_reason={dados.get('stop_reason')})")
+    return conteudo
 
 
 def extrair_json(texto):
@@ -505,13 +485,16 @@ def explicar(base, expl, cfg, novos, limite):
     prov = cfg["ia"].get("provedor", "nenhum")
     if prov == "nenhum" or limite <= 0:
         return 0, "IA desativada"
-    if prov == "github-models":
-        cfg["ia"]["modelo_github"] = resolver_modelo_github(cfg["ia"]["modelo_github"])
-        chamar, modelo = chamar_github_models, cfg["ia"]["modelo_github"]
-    elif prov == "anthropic":
-        chamar, modelo = chamar_anthropic, cfg["ia"]["modelo_anthropic"]
+    if prov == "anthropic":
+        chamar, modelo, segredo = chamar_anthropic, cfg["ia"]["modelo_anthropic"], "ANTHROPIC_API_KEY"
+    elif prov == "openai-compativel":
+        chamar, modelo, segredo = chamar_openai_compativel, cfg["ia"]["openai_compativel"]["modelo"], "LLM_API_KEY"
+    elif prov == "github-models":
+        return 0, "o GitHub Models foi descontinuado em 30/07/2026; troque ia.provedor no config.yml"
     else:
         return 0, f"provedor desconhecido: {prov}"
+    if not os.environ.get(segredo):
+        return 0, f"configure o secret {segredo} em Settings → Secrets and variables → Actions"
 
     novos = set(novos)
     pend = [r for r in ativos if expl[str(r["id"])].get("gerado_por") == "regras"]
@@ -549,7 +532,7 @@ def explicar(base, expl, cfg, novos, limite):
                 expl[str(r["id"])] = validar(item, r, cfg, modelo)
                 feitos += 1
         log(f"Explicados {feitos}/{len(pend)}")
-        time.sleep(5)  # respeita o limite por minuto do plano gratuito
+        time.sleep(2)  # folga para limites por minuto do provedor
     return feitos, motivo
 
 
@@ -714,7 +697,7 @@ def main():
 
     cfg = yaml.safe_load((RAIZ / "config.yml").read_text(encoding="utf-8"))
     if not TOKEN:
-        log("Aviso: sem GITHUB_TOKEN — a busca fica mais lenta e a IA do GitHub Models não funciona.")
+        log("Aviso: sem GITHUB_TOKEN — a busca fica mais lenta.")
 
     base = ler_json(ARQ_REPOS, {})
     expl = ler_json(ARQ_EXPL, {})
