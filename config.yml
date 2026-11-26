@@ -14,18 +14,22 @@ busca:
   incluir_arquivados: false   # repositórios arquivados não servem para projeto novo
 
 ia:
-  # anthropic         -> Claude (crie o secret ANTHROPIC_API_KEY)  [padrão]
-  # openai-compativel -> qualquer API no formato da OpenAI: OpenAI, Groq, OpenRouter,
-  #                      Gemini etc. (crie o secret LLM_API_KEY e ajuste url/modelo abaixo)
+  # openai-compativel -> qualquer API no formato da OpenAI. Padrão: Groq, plano gratuito
+  #                      (sem cartão; passou do limite, a API só recusa até o dia seguinte).
+  #                      Secret: LLM_API_KEY
+  # anthropic         -> Claude (pago por uso). Secret: ANTHROPIC_API_KEY
   # nenhum            -> só regras locais (sem explicação por segmento)
   # Sem o secret configurado, o radar roda normalmente e só pula a parte de IA.
-  provedor: anthropic
-  modelo_anthropic: claude-haiku-5-5
+  provedor: openai-compativel
   openai_compativel:
-    url: https://api.openai.com/v1/chat/completions
-    modelo: gpt-4.1-mini     # troque pelo modelo do provedor escolhido
-  lote: 6                  # repositórios por chamada à IA
-  max_por_execucao: 150    # explicações novas por dia (a base inicial completa em ~4 dias)
+    url: https://api.groq.com/openai/v1/chat/completions
+    modelo: openai/gpt-oss-120b
+    parametros_extras:
+      reasoning_effort: low      # menos "raciocínio" = menos tokens gastos da cota grátis
+  modelo_anthropic: claude-haiku-5-5
+  lote: 5                  # repositórios por chamada à IA
+  pausa_segundos: 60       # espera entre chamadas (o plano grátis do Groq limita tokens por minuto)
+  max_por_execucao: 100    # explicações novas por dia (a base inicial completa em ~6 dias)
   ler_readme: true         # usa o começo do README para explicar melhor
 
 # Segmentos de negócio usados na análise de importância.

@@ -399,10 +399,14 @@ def chamar_openai_compativel(prompt, cfg):
         "max_tokens": 4000,
         "response_format": {"type": "json_object"},
     }
+    extras = dict(oc.get("parametros_extras") or {})
+    corpo.update(extras)
     cab = {"Authorization": f"Bearer {os.environ.get('LLM_API_KEY', '')}"}
     st, txt, _ = http(oc["url"], "POST", corpo, cab, tentativas=3, timeout=180)
-    if st == 400 and "response_format" in txt:
-        corpo.pop("response_format")
+    if st == 400 and (extras or "response_format" in corpo):  # provedor recusou um parâmetro opcional
+        for k in list(extras) + ["response_format"]:
+            corpo.pop(k, None)
+        log(f"Provedor recusou parâmetros opcionais; repetindo sem eles ({txt[:150]})")
         st, txt, _ = http(oc["url"], "POST", corpo, cab, tentativas=3, timeout=180)
     if st in (401, 403, 429):
         raise LimiteIA(f"HTTP {st}: {txt[:200]}")
@@ -532,7 +536,7 @@ def explicar(base, expl, cfg, novos, limite):
                 expl[str(r["id"])] = validar(item, r, cfg, modelo)
                 feitos += 1
         log(f"Explicados {feitos}/{len(pend)}")
-        time.sleep(2)  # folga para limites por minuto do provedor
+        time.sleep(float(cfg["ia"].get("pausa_segundos", 2)))  # respeita o limite por minuto do provedor
     return feitos, motivo
 
 

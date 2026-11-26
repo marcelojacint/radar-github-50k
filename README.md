@@ -26,17 +26,18 @@ Como tudo é commitado, o próprio histórico do Git mostra a evolução de cada
 3. Vá em **Actions** → **Radar GitHub 50k (diário)** → **Run workflow** para a primeira execução.
 4. Pronto. A partir daí roda sozinho todo dia.
 
-Na primeira execução ele cria a base de referência e começa a gerar explicações (150 por dia, por padrão). A base inteira fica explicada em uns 4 dias. Para acelerar, rode manualmente informando um número maior em `max_explicacoes`.
+Na primeira execução ele cria a base de referência e começa a gerar explicações (100 por dia, por padrão). A base inteira fica explicada em uns 6 dias. Para acelerar, rode manualmente informando um número maior em `max_explicacoes`.
 
 Se o passo de salvar der erro 403: **Settings → Actions → General → Workflow permissions → Read and write permissions**.
 
-## IA usada para as explicações
+## IA usada para as explicações (sem custo)
 
-- **Padrão: Claude (Anthropic).** Crie o secret `ANTHROPIC_API_KEY` em *Settings → Secrets and variables → Actions*. O custo é por uso. Como cada repositório é explicado uma vez só, o gasto maior acontece nos primeiros dias, enquanto a base inicial é preenchida. Depois disso, só os repositórios novos geram chamadas.
-- **Alternativa: API no formato da OpenAI** (OpenAI, Groq, OpenRouter, Gemini etc.): crie o secret `LLM_API_KEY`, mude `ia.provedor` para `openai-compativel` e ajuste `url` e `modelo` no `config.yml`.
-- **Sem IA**: `ia.provedor: nenhum`. O catálogo sai só com a descrição original do GitHub e uma categoria definida por regras.
+- **Padrão: Groq, plano gratuito.** Crie uma conta em console.groq.com (não pede cartão), gere uma API key e salve como secret `LLM_API_KEY` em *Settings → Secrets and variables → Actions*. Quando o limite gratuito do dia acaba, a API só recusa as chamadas, e o radar continua no dia seguinte, sem cobrança.
+- **Outro provedor no formato da OpenAI** (Gemini, OpenRouter, OpenAI etc.): troque `url` e `modelo` em `ia.openai_compativel` no `config.yml`. O secret continua sendo `LLM_API_KEY`.
+- **Claude (Anthropic, pago por uso):** `ia.provedor: anthropic` e secret `ANTHROPIC_API_KEY`.
+- **Sem IA:** `ia.provedor: nenhum`. O catálogo sai só com a descrição original do GitHub e uma categoria definida por regras.
 
-Sem o secret configurado, o radar continua rodando todo dia (busca, novidades, catálogo) e o relatório avisa que a IA está pausada.
+Sem o secret configurado, o radar continua rodando todo dia (busca, novidades, catálogo) e o relatório avisa que a IA está pausada. Em repositório público, o GitHub Actions também não tem custo.
 
 > O GitHub Models (IA gratuita via `GITHUB_TOKEN`) foi descontinuado em 30/07/2026 e não é mais usado.
 
@@ -55,7 +56,7 @@ Se você mudar o filtro, a próxima execução cria uma nova base de referência
 pip install -r requirements.txt
 export GITHUB_TOKEN=ghp_seu_token   # opcional, mas deixa a busca 3x mais rápida
 python scripts/radar.py --sem-ia    # só busca e catálogo
-export ANTHROPIC_API_KEY=sk-ant-...  # para a IA
+export LLM_API_KEY=gsk_...          # chave do Groq, para a IA
 python scripts/radar.py             # com IA
 ```
 
