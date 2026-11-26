@@ -829,7 +829,7 @@ Atualizado em 26/11/2026 · **532** repositórios ativos · explicados por IA: 0
 
 - **O que é:** Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路,完整单步/回看/变速/语音讲解在 algomooc.com）
 
-**[remotion-dev/remotion](https://github.com/remotion-dev/remotion)** · ⭐ 76 mil · TypeScript · outra
+**[remotion-dev/remotion](https://github.com/remotion-dev/remotion)** · ⭐ 75,9 mil · TypeScript · outra
 
 - **O que é:** 🎥      Make videos programmatically with React
 
@@ -1026,7 +1026,7 @@ Atualizado em 26/11/2026 · **532** repositórios ativos · explicados por IA: 0
 
 - **O que é:** The Free Software Media System - Server Backend & API
 
-**[rails/rails](https://github.com/rails/rails)** · ⭐ 59,2 mil · Ruby · MIT
+**[rails/rails](https://github.com/rails/rails)** · ⭐ 59,1 mil · Ruby · MIT
 
 - **O que é:** Ruby on Rails
 
@@ -1476,7 +1476,7 @@ Atualizado em 26/11/2026 · **532** repositórios ativos · explicados por IA: 0
 
 ## Ferramentas de desenvolvimento
 
-**[yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)** · ⭐ 210,9 mil · Python · Unlicense
+**[yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)** · ⭐ 211 mil · Python · Unlicense
 
 - **O que é:** A feature-rich command-line audio/video downloader
 
