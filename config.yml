@@ -1,0 +1,41 @@
+# ─────────────────────────────────────────────────────────────
+# Radar GitHub 50k — configuração
+# Edite este arquivo direto no GitHub; a próxima execução já usa.
+# ─────────────────────────────────────────────────────────────
+
+busca:
+  min_estrelas: 50000
+  # Filtro extra na sintaxe de busca do GitHub (deixe "" para tudo).
+  # Exemplos:
+  #   "topic:agent-skills"   -> só repositórios de skills para agentes
+  #   "language:csharp"      -> só C#
+  #   "topic:llm"            -> só LLM
+  filtro_extra: ""
+  incluir_arquivados: false   # repositórios arquivados não servem para projeto novo
+
+ia:
+  # github-models -> grátis, usa o GITHUB_TOKEN do próprio Actions (padrão)
+  # anthropic     -> usa o secret ANTHROPIC_API_KEY (pago, melhor qualidade)
+  # nenhum        -> só regras locais (sem explicação por segmento)
+  provedor: github-models
+  modelo_github: openai/gpt-4.1-mini
+  modelo_anthropic: claude-haiku-5-5
+  lote: 6                  # repositórios por chamada à IA
+  max_por_execucao: 150    # explicações novas por dia (a base inicial completa em ~4 dias)
+  ler_readme: true         # usa o começo do README para explicar melhor
+
+# Segmentos de negócio usados na análise de importância.
+# Troque à vontade: a IA só usa nomes desta lista.
+segmentos:
+  - Saúde e clínicas
+  - Indústria e ERP
+  - Varejo e e-commerce
+  - Finanças e fintech
+  - Educação
+  - Serviços e agendamento
+  - Agronegócio
+  - Setor público
+
+relatorio:
+  abrir_issue: quando_houver_novos   # sempre | quando_houver_novos | nunca
+  top_crescimento: 10
