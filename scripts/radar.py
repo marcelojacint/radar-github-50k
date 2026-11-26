@@ -390,6 +390,30 @@ class LimiteIA(Exception):
     """A IA recusou por limite, permissão ou chave — para de tentar nesta execução."""
 
 
+PREFERIDOS_GH = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1", "openai/gpt-4o"]
+
+
+def resolver_modelo_github(modelo):
+    """Confere no catálogo do GitHub Models se o modelo existe; se não, usa o primeiro disponível da lista."""
+    st, txt, _ = http("https://models.github.ai/catalog/models", cabecalhos=gh_headers(), tentativas=2)
+    if st != 200:
+        log(f"Catálogo do GitHub Models indisponível (HTTP {st}); usando {modelo}")
+        return modelo
+    try:
+        ids = {m.get("id") for m in json.loads(txt)}
+    except (ValueError, AttributeError):
+        return modelo
+    if modelo in ids:
+        log(f"Modelo de IA: {modelo}")
+        return modelo
+    for alt in PREFERIDOS_GH:
+        if alt in ids:
+            log(f"Modelo {modelo} não está no catálogo; usando {alt}")
+            return alt
+    log(f"Modelo {modelo} não encontrado. Disponíveis: {', '.join(sorted(i for i in ids if i)[:20])}")
+    return modelo
+
+
 def chamar_github_models(prompt, cfg):
     if not TOKEN:
         raise LimiteIA("GITHUB_TOKEN ausente")
@@ -410,7 +434,16 @@ def chamar_github_models(prompt, cfg):
         raise LimiteIA(f"GitHub Models HTTP {st}: {txt[:200]}")
     if st != 200:
         raise RuntimeError(f"GitHub Models HTTP {st}: {txt[:300]}")
-    return json.loads(txt)["choices"][0]["message"]["content"]
+    try:
+        dados = json.loads(txt)
+    except ValueError:
+        raise RuntimeError(f"GitHub Models devolveu corpo não-JSON: {txt[:300]!r}")
+    escolha = (dados.get("choices") or [{}])[0]
+    conteudo = (escolha.get("message") or {}).get("content") or ""
+    if not conteudo.strip():
+        raise RuntimeError(f"resposta vazia (finish_reason={escolha.get('finish_reason')}, "
+                           f"usage={dados.get('usage')}, corpo={txt[:300]!r})")
+    return conteudo
 
 
 def chamar_anthropic(prompt, cfg):
@@ -436,6 +469,8 @@ def chamar_anthropic(prompt, cfg):
 def extrair_json(texto):
     texto = re.sub(r"^```(?:json)?|```$", "", texto.strip(), flags=re.M)
     inicio, fim = texto.find("{"), texto.rfind("}")
+    if inicio < 0 or fim < inicio:
+        raise ValueError(f"sem JSON na resposta: {texto[:200]!r}")
     return json.loads(texto[inicio:fim + 1])
 
 
@@ -471,6 +506,7 @@ def explicar(base, expl, cfg, novos, limite):
     if prov == "nenhum" or limite <= 0:
         return 0, "IA desativada"
     if prov == "github-models":
+        cfg["ia"]["modelo_github"] = resolver_modelo_github(cfg["ia"]["modelo_github"])
         chamar, modelo = chamar_github_models, cfg["ia"]["modelo_github"]
     elif prov == "anthropic":
         chamar, modelo = chamar_anthropic, cfg["ia"]["modelo_anthropic"]
@@ -482,7 +518,7 @@ def explicar(base, expl, cfg, novos, limite):
     pend.sort(key=lambda r: (str(r["id"]) not in novos, -r["estrelas"]))  # novos primeiro, depois os maiores
     pend = pend[:limite]
     tam = max(1, int(cfg["ia"].get("lote", 6)))
-    feitos, motivo = 0, ""
+    feitos, motivo, falhas = 0, "", 0
     for i in range(0, len(pend), tam):
         lote = pend[i:i + tam]
         if cfg["ia"].get("ler_readme", True):
@@ -495,11 +531,17 @@ def explicar(base, expl, cfg, novos, limite):
             log(f"IA indisponível ({motivo}). O restante fica para a próxima execução.")
             break
         except Exception as e:  # resposta inválida: pula o lote, tenta de novo amanhã
+            falhas += 1
             log(f"Lote ignorado: {e}")
+            if falhas >= 3:
+                motivo = f"3 lotes seguidos falharam (último erro: {str(e)[:150]})"
+                log("Parando a IA nesta execução para não gastar cota.")
+                break
             continue
         finally:
             for r in lote:
                 r.pop("_readme", None)
+        falhas = 0
         por_id = {str(x.get("id")): x for x in resposta.get("repos", []) if isinstance(x, dict)}
         for r in lote:
             item = por_id.get(str(r["id"]))
