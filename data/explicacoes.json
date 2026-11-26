@@ -1,0 +1,4790 @@
+{
+ "100060912": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The new Windows Terminal and the original Windows console host, all in the same place!",
+  "segmentos": []
+ },
+ "1006414368": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The open-source CapCut alternative",
+  "segmentos": []
+ },
+ "1010681419": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+  "segmentos": []
+ },
+ "101138315": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
+  "segmentos": []
+ },
+ "1012087571": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
+  "segmentos": []
+ },
+ "101296881": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A collection of (mostly) technical things every software developer should know about",
+  "segmentos": []
+ },
+ "1024554267": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The agent that grows with you",
+  "segmentos": []
+ },
+ "10270250": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The library for web and native user interfaces.",
+  "segmentos": []
+ },
+ "102969245": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Standard Go Project Layout",
+  "segmentos": []
+ },
+ "1031912724": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+  "segmentos": []
+ },
+ "1032459340": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Spec-driven development (SDD) for AI coding assistants.",
+  "segmentos": []
+ },
+ "1032808806": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+  "segmentos": []
+ },
+ "1035029907": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+  "segmentos": []
+ },
+ "103633984": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "✅ The Node.js best practices list (July 2026)",
+  "segmentos": []
+ },
+ "1039520": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Command-line program to download videos from YouTube.com and other video sites",
+  "segmentos": []
+ },
+ "1042367133": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "💫 Toolkit to help you get started with SDD or any other process!",
+  "segmentos": []
+ },
+ "104337773": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
+  "segmentos": []
+ },
+ "1044296738": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open-Source Frontier Voice AI",
+  "segmentos": []
+ },
+ "1048065319": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+  "segmentos": []
+ },
+ "1052050442": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+  "segmentos": []
+ },
+ "1053118194": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+  "segmentos": []
+ },
+ "1054793726": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Chrome DevTools for coding agents",
+  "segmentos": []
+ },
+ "106017343": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A utility-first CSS framework for rapid UI development.",
+  "segmentos": []
+ },
+ "1061953414": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Public repository for Agent Skills",
+  "segmentos": []
+ },
+ "1062356571": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🐹 Open-source Mac and PC cleaner. Keep your machine clean, light, and running like new. Fast CLI, plus native Mac and Windows apps.",
+  "segmentos": []
+ },
+ "1062897": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A collection of useful .gitignore templates",
+  "segmentos": []
+ },
+ "1065059442": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+  "segmentos": []
+ },
+ "107111421": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🗂 The essential checklist for modern web development, for humans and AI agents",
+  "segmentos": []
+ },
+ "1073224795": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An agentic skills framework & software development methodology that works.",
+  "segmentos": []
+ },
+ "10744183": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations",
+  "segmentos": []
+ },
+ "1075372545": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+  "segmentos": []
+ },
+ "1075431749": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The best ChatGPT that $100 can buy.",
+  "segmentos": []
+ },
+ "1078079172": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+  "segmentos": []
+ },
+ "1079456184": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+  "segmentos": []
+ },
+ "1086419061": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Hindsight: Agent Memory That Learns",
+  "segmentos": []
+ },
+ "1087192965": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "from vibe coding to agentic engineering - practice makes claude perfect",
+  "segmentos": []
+ },
+ "108761645": {
+  "categoria": "Apps prontos e self-hosted",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
+  "segmentos": []
+ },
+ "109343098": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps",
+  "segmentos": []
+ },
+ "1097346685": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+  "segmentos": []
+ },
+ "1103012935": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+  "segmentos": []
+ },
+ "1104332987": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+  "segmentos": []
+ },
+ "110446844": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
+  "segmentos": []
+ },
+ "1106996539": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+  "segmentos": []
+ },
+ "1108837393": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
+  "segmentos": []
+ },
+ "1113573066": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+  "segmentos": []
+ },
+ "111583593": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Display and control your Android device",
+  "segmentos": []
+ },
+ "11171548": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "JSON for Modern C++",
+  "segmentos": []
+ },
+ "11180687": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The world’s fastest framework for building websites.",
+  "segmentos": []
+ },
+ "11225014": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Distributed reliable key-value store for the most critical data of a distributed system",
+  "segmentos": []
+ },
+ "1124219907": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+  "segmentos": []
+ },
+ "112507086": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Coding articles to level up your development skills",
+  "segmentos": []
+ },
+ "1126947080": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+  "segmentos": []
+ },
+ "1129940957": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+  "segmentos": []
+ },
+ "1130564872": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+  "segmentos": []
+ },
+ "1131513930": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+  "segmentos": []
+ },
+ "1132001614": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Browser automation CLI for AI agents",
+  "segmentos": []
+ },
+ "1133707766": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Shared task board where people and AI coding agents work as teammates. Source-available, self-hostable.",
+  "segmentos": []
+ },
+ "1134426800": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
+  "segmentos": []
+ },
+ "1135212071": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+  "segmentos": []
+ },
+ "1136590548": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+  "segmentos": []
+ },
+ "1136666433": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Agent skill that removes signs of AI-generated writing from text",
+  "segmentos": []
+ },
+ "1137078255": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+  "segmentos": []
+ },
+ "1139971460": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+  "segmentos": []
+ },
+ "1140843380": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+  "segmentos": []
+ },
+ "1141704318": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
+  "segmentos": []
+ },
+ "1141782198": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The open-source AI voice studio. Clone, dictate, create.",
+  "segmentos": []
+ },
+ "1142983825": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+  "segmentos": []
+ },
+ "1144520675": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+  "segmentos": []
+ },
+ "1147094660": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Your lightweight open-source personal agent.",
+  "segmentos": []
+ },
+ "114747226": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Deepfakes Software For All",
+  "segmentos": []
+ },
+ "1148753": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Spring Framework",
+  "segmentos": []
+ },
+ "1148788086": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Skills for Real Engineers. Straight from my .agents directory.",
+  "segmentos": []
+ },
+ "1153130349": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The best way to control Claude Code, Codex and more from any computer or phone",
+  "segmentos": []
+ },
+ "115478820": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+  "segmentos": []
+ },
+ "1157102282": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
+  "segmentos": []
+ },
+ "1158722119": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Production-grade engineering skills for AI coding agents.",
+  "segmentos": []
+ },
+ "1162099055": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+  "segmentos": []
+ },
+ "1165277268": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+  "segmentos": []
+ },
+ "1167300963": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+  "segmentos": []
+ },
+ "1170821064": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The open-source app everyone uses to manage agents at work",
+  "segmentos": []
+ },
+ "11730342": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+  "segmentos": []
+ },
+ "1174820787": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "AI agents running research on single-GPU nanochat training automatically",
+  "segmentos": []
+ },
+ "1175538883": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Fast, accurate & comprehensive text measurement & layout",
+  "segmentos": []
+ },
+ "1176011916": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+  "segmentos": []
+ },
+ "1177402105": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
+  "segmentos": []
+ },
+ "1179264259": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+  "segmentos": []
+ },
+ "1181927": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Bitcoin Core integration/staging tree",
+  "segmentos": []
+ },
+ "1182081931": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+  "segmentos": []
+ },
+ "1183325896": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Skills for Designers and Engineers.",
+  "segmentos": []
+ },
+ "1183888342": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
+  "segmentos": []
+ },
+ "1185389803": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+  "segmentos": []
+ },
+ "1185590488": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+  "segmentos": []
+ },
+ "1193909050": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "the runtime your coding agents live on",
+  "segmentos": []
+ },
+ "1195360525": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+  "segmentos": []
+ },
+ "1197021090": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+  "segmentos": []
+ },
+ "1197515131": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+  "segmentos": []
+ },
+ "1200597263": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+  "segmentos": []
+ },
+ "1201173969": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
+  "segmentos": []
+ },
+ "1201476594": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
+  "segmentos": []
+ },
+ "1201656210": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The best-benchmarked open-source AI memory system. And it's free.",
+  "segmentos": []
+ },
+ "120538304": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "The best way to write secure and reliable applications. Write nothing; deploy nowhere.",
+  "segmentos": []
+ },
+ "1206390571": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+  "segmentos": []
+ },
+ "1209966933": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+  "segmentos": []
+ },
+ "1211139949": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.",
+  "segmentos": []
+ },
+ "1212769188": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+  "segmentos": []
+ },
+ "121395510": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
+  "segmentos": []
+ },
+ "1217040185": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+  "segmentos": []
+ },
+ "121898717": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+  "segmentos": []
+ },
+ "1219596233": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "符合nature论文学术表达和科研绘图的Skill",
+  "segmentos": []
+ },
+ "1222917575": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+  "segmentos": []
+ },
+ "1223170290": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
+  "segmentos": []
+ },
+ "12256376": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
+  "segmentos": []
+ },
+ "123458551": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Python - 100天从新手到大师",
+  "segmentos": []
+ },
+ "1238120057": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+  "segmentos": []
+ },
+ "1241960226": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+  "segmentos": []
+ },
+ "1255180606": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Self-hosted AI workspace.",
+  "segmentos": []
+ },
+ "126577260": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+  "segmentos": []
+ },
+ "1266797999": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+  "segmentos": []
+ },
+ "1273427276": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+  "segmentos": []
+ },
+ "127407957": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)",
+  "segmentos": []
+ },
+ "1277471539": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "God's Eye View: a spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe. Official site: godseyeview.ai",
+  "segmentos": []
+ },
+ "127988011": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。",
+  "segmentos": []
+ },
+ "128398636": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 3 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "后端架构师技术图谱",
+  "segmentos": []
+ },
+ "1286080397": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+  "segmentos": []
+ },
+ "12888993": {
+  "categoria": "Apps prontos e self-hosted",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":house_with_garden: Open source home automation that puts local control and privacy first.",
+  "segmentos": []
+ },
+ "130464961": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A cat(1) clone with wings.",
+  "segmentos": []
+ },
+ "130688011": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+  "segmentos": []
+ },
+ "1322250666": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Tool for automatic PS5 executables porting to Linux and Windows",
+  "segmentos": []
+ },
+ "13233158": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "OBS Studio - Free and open source software for live streaming and screen recording",
+  "segmentos": []
+ },
+ "132464395": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+  "segmentos": []
+ },
+ "132750724": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Master programming by recreating your favorite technologies from scratch.",
+  "segmentos": []
+ },
+ "133251103": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A tool for exploring each layer in a docker image",
+  "segmentos": []
+ },
+ "1333065091": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "DeepSeek Harness: Everything is a Plugin.",
+  "segmentos": []
+ },
+ "1334369": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 4 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "Resumes generated using the GitHub informations",
+  "segmentos": []
+ },
+ "133442384": {
+  "categoria": "Linguagens e runtimes",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A modern runtime for JavaScript and TypeScript.",
+  "segmentos": []
+ },
+ "134017286": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "simple terminal UI for git commands",
+  "segmentos": []
+ },
+ "13491895": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":books: Freely available programming books",
+  "segmentos": []
+ },
+ "1359648985": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+  "segmentos": []
+ },
+ "1362490": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A simple, yet elegant, HTTP library.",
+  "segmentos": []
+ },
+ "137078487": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+  "segmentos": []
+ },
+ "13807606": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":cherry_blossom: A command-line fuzzy finder",
+  "segmentos": []
+ },
+ "138393139": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+  "segmentos": []
+ },
+ "138547797": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
+  "segmentos": []
+ },
+ "1385896447": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+  "segmentos": []
+ },
+ "138839979": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为18个章节，50余万字。由于水平有限，书中不妥之处恳请广大读者批评指正。   未完待续............ 如有意合作，联系scutjy2015@163.com                     版权所有，违权必究       Tan 2018.06",
+  "segmentos": []
+ },
+ "1398080271": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "PhotoCraft: An open-source photo editor written from scratch in pure Rust",
+  "segmentos": []
+ },
+ "139824423": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 3 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "100 Days of ML Coding",
+  "segmentos": []
+ },
+ "14098069": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
+  "segmentos": []
+ },
+ "1423101235": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+  "segmentos": []
+ },
+ "14440270": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A book series (2 published editions) on the JS language.",
+  "segmentos": []
+ },
+ "145553672": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 3 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱、清华大学人工智能技术系列报告、自然语言生成、NLU太难了系列、自动对联数据及机器人、用户名黑名单列表、罪名法务名词及分类模型、微信公众号语料、cs224n深度学习自然语言处理课程、中文手写汉字识别、中文自然语言处理 语料/数据集、变量命名神器、分词语料库+代码、任务型对话英文数据集、ASR 语音数据集 + 基于深度学习的中文语音识别系统、笑声检测器、Microsoft多语言数字/单位/如日期时间识别包、中华新华字典数据库及api(包括常用歇后语、成语、词语和汉字)、文档图谱自动生成、SpaCy 中文模型、Common Voice语音识别数据集新版、神经网络关系抽取、基于bert的命名实体识别、关键词(Keyphrase)抽取包pke、基于医疗领域知识图谱的问答系统、基于依存句法与语义角色标注的事件三元组抽取、依存句法分析4万句高质量标注数据、cnocr：用来做中文OCR的Python3包、中文人物关系知识图谱项目、中文nlp竞赛项目及代码汇总、中文字符数据、speech-aligner: 从“人声语音”及其“语言文本”产生音素级别时间对齐标注的工具、AmpliGraph: 知识图谱表示学习(Python)库：知识图谱概念链接预测、Scattertext 文本可视化(python)、语言/知识表示工具：BERT & ERNIE、中文对比英文自然语言处理NLP的区别综述、Synonyms中文近义词工具包、HarvestText领域自适应文本挖掘工具（新词发现-情感分析-实体链接等）、word2word：(Python)方便易用的多语言词-词对集：62种语言/3,564个多语言对、语音识别语料生成工具：从具有音频/字幕的在线视频创建自动语音识别(ASR)语料库、构建医疗实体识别的模型（包含词典和语料标注）、单文档非监督的关键词抽取、Kashgari中使用gpt-2语言模型、开源的金融投资数据提取工具、文本自动摘要库TextTeaser: 仅支持英文、人民日报语料处理工具集、一些关于自然语言的基本模型、基于14W歌曲知识库的问答尝试--功能包括歌词接龙and已知歌词找歌曲以及歌曲歌手歌词三角关系的问答、基于Siamese bilstm模型的相似句子判定模型并提供训练数据集和测试数据集、用Transformer编解码模型实现的根据Hacker News文章标题自动生成评论、用BERT进行序列标记和文本分类的模板代码、LitBank：NLP数据集——支持自然语言处理和计算人文学科任务的100部带标记英文小说语料、百度开源的基准信息抽取系统、虚假新闻数据集、Facebook: LAMA语言模型分析，提供Transformer-XL/BERT/ELMo/GPT预训练语言模型的统一访问接口、CommonsenseQA：面向常识的英文QA挑战、中文知识图谱资料、数据及工具、各大公司内部里大牛分享的技术文档 PDF 或者 PPT、自然语言生成SQL语句（英文）、中文NLP数据增强（EDA）工具、英文NLP数据增强工具 、基于医药知识图谱的智能问答系统、京东商品知识图谱、基于mongodb存储的军事领域知识图谱问答项目、基于远监督的中文关系抽取、语音情感分析、中文ULMFiT-情感分析-文本分类-语料及模型、一个拍照做题程序、世界各国大规模人名库、一个利用有趣中文语料库 qingyun 训练出来的中文聊天机器人、中文聊天机器人seqGAN、省市区镇行政区划数据带拼音标注、教育行业新闻语料库包含自动文摘功能、开放了对话机器人-知识图谱-语义理解-自然语言处理工具及数据、中文知识图谱：基于百度百科中文页面-抽取三元组信息-构建中文知识图谱、masr: 中文语音识别-提供预训练模型-高识别率、Python音频数据增广库、中文全词覆盖BERT及两份阅读理解数据、ConvLab：开源多域端到端对话系统平台、中文自然语言处理数据集、基于最新版本rasa搭建的对话系统、基于TensorFlow和BERT的管道式实体及关系抽取、一个小型的证券知识图谱/知识库、复盘所有NLP比赛的TOP方案、OpenCLaP：多领域开源中文预训练语言模型仓库、UER：基于不同语料+编码器+目标任务的中文预训练模型仓库、中文自然语言处理向量合集、基于金融-司法领域(兼有闲聊性质)的聊天机器人、g2pC：基于上下文的汉语读音自动标记模块、Zincbase 知识图谱构建工具包、诗歌质量评价/细粒度情感诗歌语料库、快速转化「中文数字」和「阿拉伯数字」、百度知道问答语料库、基于知识图谱的问答系统、jieba_fast 加速版的jieba、正则表达式教程、中文阅读理解数据集、基于BERT等最新语言模型的抽取式摘要提取、Python利用深度学习进行文本摘要的综合指南、知识图谱深度学习相关资料整理、维基大规模平行文本语料、StanfordNLP 0.2.0：纯Python版自然语言处理包、NeuralNLP-NeuralClassifier：腾讯开源深度学习文本分类工具、端到端的封闭域对话系统、中文命名实体识别：NeuroNER vs. BertNER、新闻事件线索抽取、2019年百度的三元组抽取比赛：“科学空间队”源码、基于依存句法的开放域文本知识三元组抽取和知识库构建、中文的GPT2训练代码、ML-NLP - 机器学习(Machine Learning)NLP面试中常考到的知识点和代码实现、nlp4han:中文自然语言处理工具集(断句/分词/词性标注/组块/句法分析/语义分析/NER/N元语法/HMM/代词消解/情感分析/拼写检查、XLM：Facebook的跨语言预训练语言模型、用基于BERT的微调和特征提取方法来进行知识图谱百度百科人物词条属性抽取、中文自然语言处理相关的开放任务-数据集-当前最佳结果、CoupletAI - 基于CNN+Bi-LSTM+Attention 的自动对对联系统、抽象知识图谱、MiningZhiDaoQACorpus - 580万百度知道问答数据挖掘项目、brat rapid annotation tool: 序列标注工具、大规模中文知识图谱数据：1.4亿实体、数据增强在机器翻译及其他nlp任务中的应用及效果、allennlp阅读理解:支持多种数据和模型、PDF表格数据提取工具 、 Graphbrain：AI开源软件库和科研工具，目的是促进自动意义提取和文本理解以及知识的探索和推断、简历自动筛选系统、基于命名实体识别的简历自动摘要、中文语言理解测评基准，包括代表性的数据集&基准模型&语料库&排行榜、树洞 OCR 文字识别 、从包含表格的扫描图片中识别表格和文字、语声迁移、Python口语自然语言处理工具集(英文)、 similarity：相似度计算工具包，java编写、海量中文预训练ALBERT模型 、Transformers 2.0 、基于大规模音频数据集Audioset的音频增强 、Poplar：网页版自然语言标注工具、图片文字去除，可用于漫画翻译 、186种语言的数字叫法库、Amazon发布基于知识的人-人开放领域对话数据集 、中文文本纠错模块代码、繁简体转换 、 Python实现的多种文本可读性评价指标、类似于人名/地名/组织机构名的命名体识别数据集 、东南大学《知识图谱》研究生课程(资料)、. 英文拼写检查库 、 wwsearch是企业微信后台自研的全文检索引擎、CHAMELEON：深度学习新闻推荐系统元架构 、 8篇论文梳理BERT相关模型进展与反思、DocSearch：免费文档搜索引擎、 LIDA：轻量交互式对话标注工具 、aili - the fastest in-memory index in the East 东半球最快并发索引 、知识图谱车音工作项目、自然语言生成资源大全 、中日韩分词库mecab的Python接口库、中文文本摘要/关键词提取、汉字字符特征提取器 (featurizer)，提取汉字的特征（发音特征、字形特征）用做深度学习的特征、中文生成任务基准测评 、中文缩写数据集、中文任务基准测评 - 代表性的数据集-基准(预训练)模型-语料库-baseline-工具包-排行榜、PySS3：面向可解释AI的SS3文本分类器机器可视化工具 、中文NLP数据集列表、COPE - 格律诗编辑程序、doccano：基于网页的开源协同多语言文本标注工具 、PreNLP：自然语言预处理库、简单的简历解析器，用来从简历中提取关键信息、用于中文闲聊的GPT2模型：GPT2-chitchat、基于检索聊天机器人多轮响应选择相关资源列表(Leaderboards、Datasets、Papers)、(Colab)抽象文本摘要实现集锦(教程 、词语拼音数据、高效模糊搜索工具、NLP数据增广资源集、微软对话机器人框架 、 GitHub Typo Corpus：大规模GitHub多语言拼写错误/语法错误数据集、TextCluster：短文本聚类预处理模块 Short text cluster、面向语音识别的中文文本规范化、BLINK：最先进的实体链接库、BertPunc：基于BERT的最先进标点修复模型、Tokenizer：快速、可定制的文本词条化库、中文语言理解测评基准，包括代表性的数据集、基准(预训练)模型、语料库、排行榜、spaCy 医学文本挖掘与信息提取 、 NLP任务示例项目代码集、 python拼写检查库、chatbot-list - 行业内关于智能客服、聊天机器人的应用和架构、算法分享和介绍、语音质量评价指标(MOSNet, BSSEval, STOI, PESQ, SRMR)、 用138GB语料训练的法文RoBERTa预训练语言模型 、BERT-NER-Pytorch：三种不同模式的BERT中文NER实验、无道词典 - 有道词典的命令行版本，支持英汉互查和在线查询、2019年NLP亮点回顾、 Chinese medical dialogue data 中文医疗对话数据集 、最好的汉字数字(中文数字)-阿拉伯数字转换工具、 基于百科知识库的中文词语多词义/义项获取与特定句子词语语义消歧、awesome-nlp-sentiment-analysis - 情感分析、情绪原因识别、评价对象和评价词抽取、LineFlow：面向所有深度学习框架的NLP数据高效加载器、中文医学NLP公开资源整理 、MedQuAD：(英文)医学问答数据集、将自然语言数字串解析转换为整数和浮点数、Transfer Learning in Natural Language Processing (NLP) 、面向语音识别的中文/英文发音辞典、Tokenizers：注重性能与多功能性的最先进分词器、CLUENER 细粒度命名实体识别 Fine Grained Named Entity Recognition、 基于BERT的中文命名实体识别、中文谣言数据库、NLP数据集/基准任务大列表、nlp相关的一些论文及代码, 包括主题模型、词向量(Word Embedding)、命名实体识别(NER)、文本分类(Text Classificatin)、文本生成(Text Generation)、文本相似性(Text Similarity)计算等，涉及到各种与nlp相关的算法，基于keras和tensorflow 、Python文本挖掘/NLP实战示例、 Blackstone：面向非结构化法律文本的spaCy pipeline和NLP模型通过同义词替换实现文本“变脸” 、中文 预训练 ELECTREA 模型: 基于对抗学习 pretrain Chinese Model 、albert-chinese-ner - 用预训练语言模型ALBERT做中文NER 、基于GPT2的特定主题文本生成/文本增广、开源预训练语言模型合集、多语言句向量包、编码、标记和实现：一种可控高效的文本生成方法、 英文脏话大列表 、attnvis：GPT2、BERT等transformer语言模型注意力交互可视化、CoVoST：Facebook发布的多语种语音-文本翻译语料库，包括11种语言(法语、德语、荷兰语、俄语、西班牙语、意大利语、土耳其语、波斯语、瑞典语、蒙古语和中文)的语音、文字转录及英文译文、Jiagu自然语言处理工具 - 以BiLSTM等模型为基础，提供知识图谱关系抽取 中文分词 词性标注 命名实体识别 情感分析 新词发现 关键词 文本摘要 文本聚类等功能、用unet实现对文档表格的自动检测，表格重建、NLP事件提取文献资源列表 、 金融领域自然语言处理研究资源大列表、CLUEDatasetSearch - 中英文NLP数据集：搜索所有中文NLP数据集，附常用英文NLP数据集 、medical_NER - 中文医学知识图谱命名实体识别 、(哈佛)讲因果推理的免费书、知识图谱相关学习资料/数据集/工具资源大列表、Forte：灵活强大的自然语言处理pipeline工具集 、Python字符串相似性算法库、PyLaia：面向手写文档分析的深度学习工具包、TextFooler：针对文本分类/推理的对抗文本生成模块、Haystack：灵活、强大的可扩展问答(QA)框架、中文关键短语抽取工具",
+  "segmentos": []
+ },
+ "14712850": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open Source Continuous File Synchronization",
+  "segmentos": []
+ },
+ "147350463": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "📜 33 JavaScript concepts every developer should know.",
+  "segmentos": []
+ },
+ "14747598": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
+  "segmentos": []
+ },
+ "15019962": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Collaborative cheatsheets for console commands 📚.",
+  "segmentos": []
+ },
+ "15111821": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
+  "segmentos": []
+ },
+ "151834062": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识",
+  "segmentos": []
+ },
+ "15204860": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Papers from the computer science community to read and discuss.",
+  "segmentos": []
+ },
+ "152870372": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "科技爱好者周刊，每周五发布",
+  "segmentos": []
+ },
+ "15452919": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Go implementation of the Ethereum protocol",
+  "segmentos": []
+ },
+ "155220641": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+  "segmentos": []
+ },
+ "156018": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+  "segmentos": []
+ },
+ "156157055": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Learn how to develop, deploy and iterate on production-grade ML applications.",
+  "segmentos": []
+ },
+ "15634981": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Godot Engine – Multi-platform 2D and 3D game engine",
+  "segmentos": []
+ },
+ "157616880": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Collection of publicly available IPTV channels from all over the world",
+  "segmentos": []
+ },
+ "160640094": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路,完整单步/回看/变速/语音讲解在 algomooc.com）",
+  "segmentos": []
+ },
+ "160919119": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+  "segmentos": []
+ },
+ "161012019": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Free Software Media System - Server Backend & API",
+  "segmentos": []
+ },
+ "1614410": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+  "segmentos": []
+ },
+ "162279822": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A full-featured download manager.",
+  "segmentos": []
+ },
+ "162998479": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Hunt down social media accounts by username across social networks",
+  "segmentos": []
+ },
+ "163883279": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Run your GitHub Actions locally 🚀",
+  "segmentos": []
+ },
+ "16408992": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Vim-fork focused on extensibility and usability",
+  "segmentos": []
+ },
+ "1663468": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "PDF Reader in JavaScript",
+  "segmentos": []
+ },
+ "167174": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "jQuery JavaScript Library",
+  "segmentos": []
+ },
+ "1700621": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "A modern alternative to CSS resets",
+  "segmentos": []
+ },
+ "172378503": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A Zsh theme",
+  "segmentos": []
+ },
+ "172562475": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A Collection of application ideas which can be used to improve your coding skills.",
+  "segmentos": []
+ },
+ "172953845": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "VS Code in the browser",
+  "segmentos": []
+ },
+ "173228436": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Ghidra is a software reverse engineering (SRE) framework",
+  "segmentos": []
+ },
+ "17728164": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+  "segmentos": []
+ },
+ "177736533": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
+  "segmentos": []
+ },
+ "17803236": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+  "segmentos": []
+ },
+ "178991158": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+  "segmentos": []
+ },
+ "180190854": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+  "segmentos": []
+ },
+ "180328715": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🐻 Bear necessities for state management in React",
+  "segmentos": []
+ },
+ "18408635": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+  "segmentos": []
+ },
+ "184456251": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+  "segmentos": []
+ },
+ "1861458": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The HTML Presentation Framework",
+  "segmentos": []
+ },
+ "1863329": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.",
+  "segmentos": []
+ },
+ "186733095": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A V2Ray client for Android, support Xray core and v2fly core",
+  "segmentos": []
+ },
+ "18708860": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 3 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "A list of cool features of Git and GitHub.",
+  "segmentos": []
+ },
+ "187335810": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The lazier way to manage everything docker",
+  "segmentos": []
+ },
+ "188660663": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+  "segmentos": []
+ },
+ "191529732": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "A long list of (advanced) JavaScript questions, and their explanations :sparkles:",
+  "segmentos": []
+ },
+ "193215554": {
+  "categoria": "Apps prontos e self-hosted",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+  "segmentos": []
+ },
+ "19415064": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🎓 Path to a free self-taught education in Computer Science!",
+  "segmentos": []
+ },
+ "196701619": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+  "segmentos": []
+ },
+ "19745004": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Odoo. Open Source Apps To Grow Your Business.",
+  "segmentos": []
+ },
+ "19872456": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Declarative routing for React",
+  "segmentos": []
+ },
+ "199570071": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+  "segmentos": []
+ },
+ "202367615": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "一个基于 Electron 的音乐软件",
+  "segmentos": []
+ },
+ "20300177": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Google core libraries for Java",
+  "segmentos": []
+ },
+ "203587744": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+  "segmentos": []
+ },
+ "20580498": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Production-Grade Container Scheduling and Management",
+  "segmentos": []
+ },
+ "20619036": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A black hole for Internet advertisements",
+  "segmentos": []
+ },
+ "207645083": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+  "segmentos": []
+ },
+ "20904437": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+  "segmentos": []
+ },
+ "20929025": {
+  "categoria": "Linguagens e runtimes",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+  "segmentos": []
+ },
+ "210702427": {
+  "categoria": "Linguagens e runtimes",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A markup-based typesetting system that is powerful and easy to learn.",
+  "segmentos": []
+ },
+ "2126244": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+  "segmentos": []
+ },
+ "212639071": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+  "segmentos": []
+ },
+ "21289110": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+  "segmentos": []
+ },
+ "214587193": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+  "segmentos": []
+ },
+ "21540759": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A curated list of awesome Go frameworks, libraries and software",
+  "segmentos": []
+ },
+ "21700699": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects",
+  "segmentos": []
+ },
+ "21737266": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED TEMPORARILY]",
+  "segmentos": []
+ },
+ "21737465": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
+  "segmentos": []
+ },
+ "21872392": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A curated list of awesome Machine Learning frameworks, libraries and software.",
+  "segmentos": []
+ },
+ "21935031": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+  "segmentos": []
+ },
+ "21938243": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A curated list of Rust code and resources.",
+  "segmentos": []
+ },
+ "22067521": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+  "segmentos": []
+ },
+ "220809393": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Rich is a Python library for rich text and beautiful formatting in the terminal.",
+  "segmentos": []
+ },
+ "221981891": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+  "segmentos": []
+ },
+ "222751131": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw",
+  "segmentos": []
+ },
+ "22670857": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A collection of awesome things regarding React ecosystem",
+  "segmentos": []
+ },
+ "22790488": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Design patterns implemented in Java",
+  "segmentos": []
+ },
+ "228016443": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫！🔥🔥 来看看，你会发现相见恨晚！🚀",
+  "segmentos": []
+ },
+ "22887094": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Tesseract Open Source OCR Engine (main repository)",
+  "segmentos": []
+ },
+ "23083156": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+  "segmentos": []
+ },
+ "23088740": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Promise based HTTP client for the browser and node.js",
+  "segmentos": []
+ },
+ "23096959": {
+  "categoria": "Linguagens e runtimes",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Go programming language",
+  "segmentos": []
+ },
+ "231283452": {
+  "categoria": "Apps prontos e self-hosted",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Virtual whiteboard for sketching hand-drawn like diagrams",
+  "segmentos": []
+ },
+ "231865705": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "所有小初高、大学PDF教材。",
+  "segmentos": []
+ },
+ "2325298": {
+  "categoria": "Sistemas operacionais e infraestrutura",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Linux kernel source tree",
+  "segmentos": []
+ },
+ "233472199": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+  "segmentos": []
+ },
+ "23357588": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Protocol Buffers - Google's data interchange format",
+  "segmentos": []
+ },
+ "234798675": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A refreshingly simple data-driven game engine built in Rust",
+  "segmentos": []
+ },
+ "237159": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Fast, unopinionated, minimalist web framework for node.",
+  "segmentos": []
+ },
+ "241576270": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Crack LeetCode, not only how, but also why.",
+  "segmentos": []
+ },
+ "24195339": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Deliver web apps with confidence 🚀",
+  "segmentos": []
+ },
+ "243950408": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Programmer's guide about how to cook at home.",
+  "segmentos": []
+ },
+ "246335987": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A new bootable USB solution.",
+  "segmentos": []
+ },
+ "24953448": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Material Design icons by Google (Material Symbols)",
+  "segmentos": []
+ },
+ "254832799": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "ALL IN ONE Hacking Tool For Hackers",
+  "segmentos": []
+ },
+ "2561582": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.",
+  "segmentos": []
+ },
+ "257485422": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Next generation frontend tooling. It's fast!",
+  "segmentos": []
+ },
+ "26066727": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
+  "segmentos": []
+ },
+ "261787758": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more",
+  "segmentos": []
+ },
+ "262296122": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+  "segmentos": []
+ },
+ "264818686": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.",
+  "segmentos": []
+ },
+ "26500787": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Free monospaced font with programming ligatures",
+  "segmentos": []
+ },
+ "26689598": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 4 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": ":books: List of awesome university courses for learning Computer Science!",
+  "segmentos": []
+ },
+ "26898879": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A topic-centric list of HQ open datasets.",
+  "segmentos": []
+ },
+ "269336148": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.",
+  "segmentos": []
+ },
+ "27193779": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Node.js JavaScript runtime ✨🐢🚀✨",
+  "segmentos": []
+ },
+ "274495425": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🎥      Make videos programmatically with React",
+  "segmentos": []
+ },
+ "27574418": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more",
+  "segmentos": []
+ },
+ "278335273": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":zap: Dynamically generated stats for your github readmes",
+  "segmentos": []
+ },
+ "28428729": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A curated list of awesome Android UI/UX libraries",
+  "segmentos": []
+ },
+ "28457823": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+  "segmentos": []
+ },
+ "28699471": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
+  "segmentos": []
+ },
+ "287463830": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+  "segmentos": []
+ },
+ "290091948": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠",
+  "segmentos": []
+ },
+ "29028775": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A framework for building native applications using React",
+  "segmentos": []
+ },
+ "290882787": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Rust full node implementation of the Fuel v2 protocol.",
+  "segmentos": []
+ },
+ "291137": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+  "segmentos": []
+ },
+ "29207621": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+  "segmentos": []
+ },
+ "29219243": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "翻墙-科学上网",
+  "segmentos": []
+ },
+ "29887499": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":iphone: Collaborative List of Open-Source iOS Apps",
+  "segmentos": []
+ },
+ "299354207": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+  "segmentos": []
+ },
+ "30203935": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+  "segmentos": []
+ },
+ "307260205": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A feature-rich command-line audio/video downloader",
+  "segmentos": []
+ },
+ "307843105": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+  "segmentos": []
+ },
+ "311525798": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+  "segmentos": []
+ },
+ "311683390": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+  "segmentos": []
+ },
+ "31629751": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Fast, easy and reliable testing for anything that runs in a browser.",
+  "segmentos": []
+ },
+ "31792824": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+  "segmentos": []
+ },
+ "323048702": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open Data Platform for analysts, quants and AI agents.",
+  "segmentos": []
+ },
+ "323965659": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。",
+  "segmentos": []
+ },
+ "32484381": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+  "segmentos": []
+ },
+ "32689863": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Animation engine for explanatory math videos",
+  "segmentos": []
+ },
+ "33015583": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Deep Learning for humans",
+  "segmentos": []
+ },
+ "331107018": {
+  "categoria": "Linguagens e runtimes",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🌴 Empowering everyone to build reliable and efficient smart contracts.",
+  "segmentos": []
+ },
+ "33263118": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+  "segmentos": []
+ },
+ "332880689": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+  "segmentos": []
+ },
+ "33614304": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "Magnificent app which corrects your previous console command.",
+  "segmentos": []
+ },
+ "33791743": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
+  "segmentos": []
+ },
+ "338719962": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🎧 Open source music streaming app! Available for both desktop & mobile!",
+  "segmentos": []
+ },
+ "3402537": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
+  "segmentos": []
+ },
+ "340547520": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+  "segmentos": []
+ },
+ "3432266": {
+  "categoria": "Linguagens e runtimes",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Kotlin Programming Language.",
+  "segmentos": []
+ },
+ "343965132": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+  "segmentos": []
+ },
+ "344190478": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "12 Weeks, 24 Lessons, AI for All!",
+  "segmentos": []
+ },
+ "34526884": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An enterprise-class UI design language and React UI library",
+  "segmentos": []
+ },
+ "3470471": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The iconic SVG, font, and CSS toolkit",
+  "segmentos": []
+ },
+ "348060227": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The web framework for content-driven websites.",
+  "segmentos": []
+ },
+ "3482588": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.",
+  "segmentos": []
+ },
+ "350360184": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Scheduling infrastructure for absolutely everyone.",
+  "segmentos": []
+ },
+ "357728969": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+  "segmentos": []
+ },
+ "35955666": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "Master the command line, in one page",
+  "segmentos": []
+ },
+ "36040894": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "React-based framework with performance, scalability, and security built in.",
+  "segmentos": []
+ },
+ "3638964": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+  "segmentos": []
+ },
+ "36502": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
+  "segmentos": []
+ },
+ "36535156": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A JS library for predictable global state management",
+  "segmentos": []
+ },
+ "365739812": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
+  "segmentos": []
+ },
+ "36633370": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A list of Free Software network services and web applications which can be hosted on your own servers",
+  "segmentos": []
+ },
+ "3678731": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+  "segmentos": []
+ },
+ "36836475": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "tmux source code",
+  "segmentos": []
+ },
+ "377496562": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+  "segmentos": []
+ },
+ "382496361": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A fancy self-hosted monitoring tool",
+  "segmentos": []
+ },
+ "384219990": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Warp is an agentic development environment, born out of the terminal.",
+  "segmentos": []
+ },
+ "39464018": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Apache Superset is a Data Visualization and Data Exploration Platform",
+  "segmentos": []
+ },
+ "3955647": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A modern JavaScript utility library delivering modularity, performance, & extras.",
+  "segmentos": []
+ },
+ "4164482": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Web framework for perfectionists with deadlines.",
+  "segmentos": []
+ },
+ "41881900": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Visual Studio Code",
+  "segmentos": []
+ },
+ "419347358": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "计算机自学指南",
+  "segmentos": []
+ },
+ "42408804": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Cloud Native Application Proxy",
+  "segmentos": []
+ },
+ "42489829": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":crab: Small exercises to get you used to reading and writing Rust code!",
+  "segmentos": []
+ },
+ "4311796": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
+  "segmentos": []
+ },
+ "43441403": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+  "segmentos": []
+ },
+ "436297812": {
+  "categoria": "Apps prontos e self-hosted",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.",
+  "segmentos": []
+ },
+ "44571718": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🎉 A curated list of awesome things related to Vue.js",
+  "segmentos": []
+ },
+ "44662669": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Free universal database tool and SQL client",
+  "segmentos": []
+ },
+ "44804216": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+  "segmentos": []
+ },
+ "44838949": {
+  "categoria": "Linguagens e runtimes",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Swift Programming Language",
+  "segmentos": []
+ },
+ "44882201": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A list of awesome beginners-friendly projects.",
+  "segmentos": []
+ },
+ "455229168": {
+  "categoria": "Apps prontos e self-hosted",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "High performance self-hosted photo and video management solution.",
+  "segmentos": []
+ },
+ "45717250": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An Open Source Machine Learning Framework for Everyone",
+  "segmentos": []
+ },
+ "45723377": {
+  "categoria": "Linguagens e runtimes",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A collection of learning resources for curious software engineers",
+  "segmentos": []
+ },
+ "468576060": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Examples and guides for using the OpenAI API",
+  "segmentos": []
+ },
+ "475553026": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+  "segmentos": []
+ },
+ "48378947": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+  "segmentos": []
+ },
+ "486418532": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates",
+  "segmentos": []
+ },
+ "486550": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
+  "segmentos": []
+ },
+ "48769241": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+  "segmentos": []
+ },
+ "49609581": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "PowerShell for every system!",
+  "segmentos": []
+ },
+ "50264296": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Modern CSS framework based on Flexbox",
+  "segmentos": []
+ },
+ "507775": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Free and Open Source, Distributed, RESTful Search Engine",
+  "segmentos": []
+ },
+ "5108051": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open Source Computer Vision Library",
+  "segmentos": []
+ },
+ "51117837": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Models and examples built with TensorFlow",
+  "segmentos": []
+ },
+ "519577891": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+  "segmentos": []
+ },
+ "51980455": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A cross-platform, OpenGL terminal emulator.",
+  "segmentos": []
+ },
+ "519859998": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+  "segmentos": []
+ },
+ "52281283": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Your self-hosted, globally interconnected microblogging community",
+  "segmentos": []
+ },
+ "523043277": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An extremely fast Python linter and code formatter, written in Rust.",
+  "segmentos": []
+ },
+ "523379232": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "A latent text-to-image diffusion model",
+  "segmentos": []
+ },
+ "52631841": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "\"The mother of all demo apps\" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",
+  "segmentos": []
+ },
+ "527591471": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Stable Diffusion web UI",
+  "segmentos": []
+ },
+ "529502": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Scrapy, a fast high-level web crawling & scraping framework for Python.",
+  "segmentos": []
+ },
+ "53238813": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🍺 The Package Manager for Everywhere",
+  "segmentos": []
+ },
+ "535360445": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
+  "segmentos": []
+ },
+ "53631945": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+  "segmentos": []
+ },
+ "537603333": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "segmentos": []
+ },
+ "53809090": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "JavaScript animation engine",
+  "segmentos": []
+ },
+ "541269386": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Port of OpenAI's Whisper model in C/C++",
+  "segmentos": []
+ },
+ "54173593": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
+  "segmentos": []
+ },
+ "54346799": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A collective list of free APIs",
+  "segmentos": []
+ },
+ "5483330": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":arrow_double_down: Dumb downloader that scrapes the web",
+  "segmentos": []
+ },
+ "55076063": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A collection of various awesome lists for hackers, pentesters and security researchers",
+  "segmentos": []
+ },
+ "551376520": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.",
+  "segmentos": []
+ },
+ "552661142": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The agent engineering platform.",
+  "segmentos": []
+ },
+ "557980": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Bidirectional and low-latency communication for every platform",
+  "segmentos": []
+ },
+ "560704231": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "LlamaIndex is the document processing platform for AI",
+  "segmentos": []
+ },
+ "561730219": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+  "segmentos": []
+ },
+ "568098118": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+  "segmentos": []
+ },
+ "56969116": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Updated list of public BitTorrent trackers",
+  "segmentos": []
+ },
+ "571186647": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+  "segmentos": []
+ },
+ "571613891": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "We write your reusable computer vision tools. 💜",
+  "segmentos": []
+ },
+ "572984571": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The open alternative to Salesforce, designed for AI.",
+  "segmentos": []
+ },
+ "574523116": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+  "segmentos": []
+ },
+ "575340621": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
+  "segmentos": []
+ },
+ "576201": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "JavaScript 3D Library.",
+  "segmentos": []
+ },
+ "578822531": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An open-source cross-platform alternative to AirDrop",
+  "segmentos": []
+ },
+ "579082810": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+  "segmentos": []
+ },
+ "58028038": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+  "segmentos": []
+ },
+ "582822129": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+  "segmentos": []
+ },
+ "585146387": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+  "segmentos": []
+ },
+ "589831718": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+  "segmentos": []
+ },
+ "594155488": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+  "segmentos": []
+ },
+ "596892": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Python micro framework for building web applications.",
+  "segmentos": []
+ },
+ "599320067": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+  "segmentos": []
+ },
+ "599547518": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+  "segmentos": []
+ },
+ "599735720": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+  "segmentos": []
+ },
+ "601538369": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Inference code for Llama models",
+  "segmentos": []
+ },
+ "60246359": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "ClickHouse® is a real-time analytics database management system",
+  "segmentos": []
+ },
+ "60493101": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A complete computer science study plan to become a software engineer.",
+  "segmentos": []
+ },
+ "6093316": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The repository for high quality TypeScript type definitions.",
+  "segmentos": []
+ },
+ "612230": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+  "segmentos": []
+ },
+ "612344730": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.",
+  "segmentos": []
+ },
+ "612354784": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "LLM inference in C/C++",
+  "segmentos": []
+ },
+ "614765452": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+  "segmentos": []
+ },
+ "615869301": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+  "segmentos": []
+ },
+ "616372661": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。",
+  "segmentos": []
+ },
+ "618058471": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+  "segmentos": []
+ },
+ "619859161": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Source code for the X Recommendation Algorithm",
+  "segmentos": []
+ },
+ "619959033": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
+  "segmentos": []
+ },
+ "620936652": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3",
+  "segmentos": []
+ },
+ "62607227": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Curated coding interview preparation materials for busy software engineers",
+  "segmentos": []
+ },
+ "626805178": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "segmentos": []
+ },
+ "62812261": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Bootstrap Kubernetes the hard way. No scripts.",
+  "segmentos": []
+ },
+ "6296790": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
+  "segmentos": []
+ },
+ "63476337": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "All Algorithms implemented in Python",
+  "segmentos": []
+ },
+ "63477660": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "All Algorithms implemented in Java",
+  "segmentos": []
+ },
+ "635240594": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
+  "segmentos": []
+ },
+ "63537249": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Set up a modern web app by running one command.",
+  "segmentos": []
+ },
+ "63539055": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+  "segmentos": []
+ },
+ "638629097": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "aider is AI pair programming in your terminal",
+  "segmentos": []
+ },
+ "641656392": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
+  "segmentos": []
+ },
+ "643445235": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+  "segmentos": []
+ },
+ "646410686": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+  "segmentos": []
+ },
+ "649170660": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience",
+  "segmentos": []
+ },
+ "6498492": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "JavaScript Style Guide",
+  "segmentos": []
+ },
+ "651517185": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
+  "segmentos": []
+ },
+ "65252": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby",
+  "segmentos": []
+ },
+ "65388917": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "Python Data Science Handbook: full text in Jupyter Notebooks",
+  "segmentos": []
+ },
+ "655099582": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+  "segmentos": []
+ },
+ "655806940": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "21 Lessons, Get Started Building with Generative AI",
+  "segmentos": []
+ },
+ "65600975": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "segmentos": []
+ },
+ "656099147": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+  "segmentos": []
+ },
+ "65750241": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+  "segmentos": []
+ },
+ "658928958": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "segmentos": []
+ },
+ "660551251": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+  "segmentos": []
+ },
+ "666299222": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A coding agent for open models like Kimi K3.1 and GLM 5.3",
+  "segmentos": []
+ },
+ "668195240": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway.",
+  "segmentos": []
+ },
+ "669879380": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+  "segmentos": []
+ },
+ "671269505": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+  "segmentos": []
+ },
+ "67186968": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。",
+  "segmentos": []
+ },
+ "67274736": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "A Vue.js 2.0 UI Toolkit for Web",
+  "segmentos": []
+ },
+ "676676006": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Focus on prompting and generating",
+  "segmentos": []
+ },
+ "67702184": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Magic Mask for Android",
+  "segmentos": []
+ },
+ "678716433": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
+  "segmentos": []
+ },
+ "678973052": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+  "segmentos": []
+ },
+ "6838921": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Prometheus monitoring system and time series database.",
+  "segmentos": []
+ },
+ "68720867": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🚀✨ Help beginners to contribute to open source projects",
+  "segmentos": []
+ },
+ "68957920": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":traffic_light:小程序雷达：AI 驱动的小程序技术选型、趋势追踪和迁移诊断工具",
+  "segmentos": []
+ },
+ "693342566": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+  "segmentos": []
+ },
+ "695864515": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "real time face swap and one-click video deepfake with only a single image",
+  "segmentos": []
+ },
+ "699532645": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An extremely fast Python package and project manager, written in Rust.",
+  "segmentos": []
+ },
+ "70107786": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The React Framework",
+  "segmentos": []
+ },
+ "701547123": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+  "segmentos": []
+ },
+ "710601088": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+  "segmentos": []
+ },
+ "71220757": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+  "segmentos": []
+ },
+ "71583602": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "List of Computer Science courses with video lectures.",
+  "segmentos": []
+ },
+ "717197250": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
+  "segmentos": []
+ },
+ "718741813": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+  "segmentos": []
+ },
+ "71995937": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The full-stack Vue framework.",
+  "segmentos": []
+ },
+ "721767116": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+  "segmentos": []
+ },
+ "724712": {
+  "categoria": "Linguagens e runtimes",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Empowering everyone to build reliable and efficient software.",
+  "segmentos": []
+ },
+ "72495579": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+  "segmentos": []
+ },
+ "725205304": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+  "segmentos": []
+ },
+ "730534580": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
+  "segmentos": []
+ },
+ "74293321": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "web development for the rest of us",
+  "segmentos": []
+ },
+ "743140652": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Windows inside a Docker container.",
+  "segmentos": []
+ },
+ "743230067": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+  "segmentos": []
+ },
+ "74627617": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+  "segmentos": []
+ },
+ "74791366": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "Clean Code concepts adapted for JavaScript",
+  "segmentos": []
+ },
+ "75104123": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Prettier is an opinionated code formatter.",
+  "segmentos": []
+ },
+ "7600409": {
+  "categoria": "Segurança",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A C# port of shadowsocks",
+  "segmentos": []
+ },
+ "765083837": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+  "segmentos": []
+ },
+ "7691631": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+  "segmentos": []
+ },
+ "770153867": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+  "segmentos": []
+ },
+ "771302083": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🙌 OpenHands: AI-Driven Development",
+  "segmentos": []
+ },
+ "77213120": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A terminal for a more modern age",
+  "segmentos": []
+ },
+ "773286980": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": "Grok open release",
+  "segmentos": []
+ },
+ "783730789": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "《动手学大模型Dive into LLMs》系列编程实践教程",
+  "segmentos": []
+ },
+ "787076358": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+  "segmentos": []
+ },
+ "79162682": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+  "segmentos": []
+ },
+ "793375104": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+  "segmentos": []
+ },
+ "798201435": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.",
+  "segmentos": []
+ },
+ "805155266": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Your AI workspace for models, agents, and productivity.",
+  "segmentos": []
+ },
+ "808045485": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Truly independent web browser",
+  "segmentos": []
+ },
+ "808144141": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Free domain registration and practical DNS learning resources for everyone.",
+  "segmentos": []
+ },
+ "80945428": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A progressive TypeScript framework for Node.js backends: from a small API in one file to efficient, scalable, enterprise-grade systems 🚀",
+  "segmentos": []
+ },
+ "81598961": {
+  "categoria": "Linguagens e runtimes",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The Python programming language",
+  "segmentos": []
+ },
+ "81975372": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Everything you need to know to get the job.",
+  "segmentos": []
+ },
+ "824874689": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+  "segmentos": []
+ },
+ "826168160": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Get your documents ready for gen AI",
+  "segmentos": []
+ },
+ "83222441": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+  "segmentos": []
+ },
+ "834369920": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+  "segmentos": []
+ },
+ "83844720": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The world's simplest facial recognition api for Python and the command line",
+  "segmentos": []
+ },
+ "838695230": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.",
+  "segmentos": []
+ },
+ "843222": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "scikit-learn: machine learning in Python",
+  "segmentos": []
+ },
+ "846698999": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+  "segmentos": []
+ },
+ "85031442": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "⭐️  Companies that don't have a broken hiring process",
+  "segmentos": []
+ },
+ "85077558": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+  "segmentos": []
+ },
+ "8514": {
+  "categoria": "Backend e APIs",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Ruby on Rails",
+  "segmentos": []
+ },
+ "858127": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more",
+  "segmentos": []
+ },
+ "8681349": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
+  "segmentos": []
+ },
+ "872119017": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+  "segmentos": []
+ },
+ "88011908": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Curated list of project-based tutorials",
+  "segmentos": []
+ },
+ "881458615": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+  "segmentos": []
+ },
+ "8843683": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Simple HTML5 Charts using the <canvas> tag",
+  "segmentos": []
+ },
+ "88464704": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
+  "por_que_importa": "",
+  "resumo": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin",
+  "segmentos": []
+ },
+ "8859474": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Dex to Java decompiler",
+  "segmentos": []
+ },
+ "888092115": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Python tool for converting files and office documents to Markdown.",
+  "segmentos": []
+ },
+ "890668799": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Model Context Protocol Reference Servers",
+  "segmentos": []
+ },
+ "895508656": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "18 Lessons to Get Started Building AI Agents",
+  "segmentos": []
+ },
+ "896144595": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An AI Hedge Fund Team",
+  "segmentos": []
+ },
+ "896335270": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A collection of MCP servers.",
+  "segmentos": []
+ },
+ "896924279": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+  "segmentos": []
+ },
+ "90528830": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.",
+  "segmentos": []
+ },
+ "90796663": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "JavaScript API for Chrome and Firefox",
+  "segmentos": []
+ },
+ "908531752": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Sem descrição no GitHub.",
+  "segmentos": []
+ },
+ "909213664": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "TradingAgents: Towards Agentic Finance Research",
+  "segmentos": []
+ },
+ "91629816": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Free, open source crypto trading bot",
+  "segmentos": []
+ },
+ "9185792": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+  "segmentos": []
+ },
+ "919443098": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Sem descrição no GitHub.",
+  "segmentos": []
+ },
+ "92443980": {
+  "categoria": "Mobile e Desktop",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Official electron build of draw.io",
+  "segmentos": []
+ },
+ "92807616": {
+  "categoria": "Aprendizado e listas de recursos",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "人生进阶指南 韩先凯的人生进阶指南 AI时代中英双语终身学习指南：学习 、创业、财富、爱情、人生与AI",
+  "segmentos": []
+ },
+ "9309093": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Semantic is a UI component framework based around useful principles from natural language.",
+  "segmentos": []
+ },
+ "937253475": {
+  "categoria": "Ferramentas de desenvolvimento",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+  "segmentos": []
+ },
+ "9384267": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+  "segmentos": []
+ },
+ "942867788": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐",
+  "segmentos": []
+ },
+ "943149": {
+  "categoria": "Dados e Bancos de dados",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+  "segmentos": []
+ },
+ "943398999": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+  "segmentos": []
+ },
+ "943934999": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "No fortress, purely open ground.  OpenManus is Coming.",
+  "segmentos": []
+ },
+ "94911145": {
+  "categoria": "Frontend e UI",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Easy to maintain open source documentation websites.",
+  "segmentos": []
+ },
+ "955620917": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Context7 Platform -- Up-to-date docs for AI agents",
+  "segmentos": []
+ },
+ "965415649": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Lightweight coding agent that runs in your terminal",
+  "segmentos": []
+ },
+ "965615190": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Breakthrough Method for Agile Ai Driven Development",
+  "segmentos": []
+ },
+ "968197216": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+  "segmentos": []
+ },
+ "969302809": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+  "segmentos": []
+ },
+ "974186260": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, web search, MCP & smart alerts.🎯 告别信息过载，你的 AI     舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅 + 定时联网搜索，支持关键词与 AI 智能筛选。AI 翻译 + AI 分析简报直推手机，支持接入 MCP     架构，赋能 AI 自然语言对话分析、实时检索、情感洞察与趋势预测。支持 Docker，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/Bark/Slack     等渠道智能推送。",
+  "segmentos": []
+ },
+ "975734319": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "The open source coding agent.",
+  "segmentos": []
+ },
+ "976921297": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily.",
+  "segmentos": []
+ },
+ "979115477": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+  "segmentos": []
+ },
+ "983345476": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "all of the workflows of n8n i could find (also from the site itself)",
+  "segmentos": []
+ },
+ "9852918": {
+  "categoria": "Outros",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+  "segmentos": []
+ },
+ "993475914": {
+  "categoria": "DevOps e Cloud",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+  "segmentos": []
+ },
+ "995029641": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+  "segmentos": []
+ },
+ "997737944": {
+  "categoria": "IA e Machine Learning",
+  "gerado_em": "2026-11-26",
+  "gerado_por": "regras",
+  "maturidade": "",
+  "por_que_importa": "",
+  "resumo": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+  "segmentos": []
+ }
+}
