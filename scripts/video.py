@@ -987,19 +987,24 @@ def token_youtube():
     return json.loads(r)["access_token"]
 
 
+DIAS_SEMANA = {"seg": 0, "ter": 1, "qua": 2, "qui": 3, "sex": 4, "sab": 5, "sáb": 5, "dom": 6}
+
+
 def proximo_horario(cfg, prod):
-    """Próximo horário livre de publicação: um episódio por dia, no horário do config."""
+    """Próximo horário livre de publicação: um episódio por dia de postagem, no horário do config."""
     tz = ZoneInfo("America/Sao_Paulo")
-    h, m = (int(x) for x in str((cfg.get("postagem") or {}).get("horario", "18:00")).split(":"))
+    post = cfg.get("postagem") or {}
+    h, m = (int(x) for x in str(post.get("horario", "18:00")).split(":"))
+    dias = {DIAS_SEMANA[str(d).lower()[:3]] for d in post.get("dias", ["seg", "qua", "sex"])} or set(range(7))
     agora = dt.datetime.now(tz)
+    ocupados = {dt.datetime.fromisoformat(p["agendado_para"]).astimezone(tz).date()
+                for p in prod.values() if p.get("agendado_para")}
+    ultimo = max(ocupados) if ocupados else None
     alvo = agora.replace(hour=h, minute=m, second=0, microsecond=0)
     if alvo < agora + dt.timedelta(minutes=20):
         alvo += dt.timedelta(days=1)
-    for p in prod.values():
-        if p.get("agendado_para"):
-            ultimo = dt.datetime.fromisoformat(p["agendado_para"]).astimezone(tz)
-            if ultimo.date() >= alvo.date():
-                alvo = ultimo.replace(hour=h, minute=m) + dt.timedelta(days=1)
+    while alvo.weekday() not in dias or (ultimo and alvo.date() <= ultimo):
+        alvo += dt.timedelta(days=1)
     return alvo
 
 

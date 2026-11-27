@@ -2,17 +2,17 @@
 
 Série do canal [IA para Pessoas](https://www.youtube.com/@iaparapessoas): um vídeo de 3 a 5 minutos para cada repositório do foco de IA do radar, **do mais estrelado para o menos**, em linguagem simples para devs e para quem usa Claude ou outras IAs no dia a dia.
 
-## Como funciona (todo dia, sem custo)
+## Como funciona (segunda, quarta e sexta, sem custo)
 
-1. **08:41 — roteiro (tarefa agendada do Claude):** pega o próximo repositório da fila, lê o README oficial, os dados do radar e vídeos do YouTube sobre o projeto (só como pesquisa), escreve o roteiro em `roteiros/NNN-nome.json` e dispara a renderização.
+1. **08:41 de seg, qua e sex — roteiro (tarefa agendada do Claude):** pega o próximo repositório da fila, lê o README oficial, os dados do radar e vídeos do YouTube sobre o projeto (só como pesquisa), escreve o roteiro em `roteiros/NNN-nome.json` e dispara a renderização.
 2. **~08:50 — vídeo (GitHub Actions, `video-render.yml`):** gera a narração com voz sintética grátis (edge-tts), desenha as telas, monta o vídeo 1920×1080 com legenda na tela e a capa.
-3. **Postagem:** cada episódio vira um release `video-NNN` (vídeo, capa, legendas, descrição), uma issue **🎬 Vídeo #N pronto** e, com a postagem automática configurada, sobe sozinho para o YouTube agendado para as 18:00.
+3. **Postagem:** cada episódio vira um release `video-NNN` (vídeo, capa, legendas, descrição), uma issue **🎬 Vídeo #N pronto** e, com a postagem automática configurada, sobe sozinho para o YouTube agendado para as 18:00 do mesmo dia.
 
 `produzidos.json` guarda o que já saiu: episódio, status (`roteiro` → `pronto`), release e issue.
 
 ## Postagem automática
 
-Depois de renderizar, o workflow envia o vídeo pela API oficial do YouTube **agendado para o horário de `postagem.horario`** (18:00 por padrão, um episódio por dia): até lá ele fica privado, e você pode segurar pelo Studio se não gostar. A issue do episódio recebe o link e fecha sozinha.
+Depois de renderizar, o workflow envia o vídeo pela API oficial do YouTube **agendado para o horário de `postagem.horario`** (18:00) nos dias de `postagem.dias` (seg, qua e sex): até lá ele fica privado, e você pode segurar pelo Studio se não gostar. A issue do episódio recebe o link e fecha sozinha.
 
 Configuração única (custo zero), com a conta Google dona do canal:
 
