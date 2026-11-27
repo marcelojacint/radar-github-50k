@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   coleta:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # versão fixa: o ubuntu-latest muda sem aviso
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
