@@ -3,7 +3,7 @@
   "episodio": 1,
   "repo": "morluto/rea",
   "arquivo": "videos/roteiros/001-rea.json",
-  "status": "agendado",
+  "status": "publicado",
   "data": "2026-11-27",
   "titulo": "Essa IA descobre como QUALQUER app funciona por dentro | REA, a nº 1 do GitHub",
   "abertura": "Descobrir como um app funciona, sem ver o código",
@@ -14,6 +14,7 @@
   "youtube_id": "x2PVJt51-Y0",
   "youtube": "https://youtu.be/x2PVJt51-Y0",
   "agendado_para": "2026-11-27T18:00:00-03:00",
-  "postado_em": "2026-11-27"
+  "postado_em": "2026-11-27",
+  "publicado_em": "2026-11-27T13:10:00-03:00"
  }
 }
