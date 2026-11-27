@@ -1,6 +1,6 @@
 # Radar de IA para entregar software — repositórios com 50 mil+ estrelas
 
-Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ estrelas) · com explicação completa: 137/137
+Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ estrelas) · com explicação completa: 137/137
 
 **Foco:** IA para construir e entregar software melhor: agentes, skills, agentes de código, MCP, LLMs, RAG e ferramentas de IA para arquitetura, engenharia, design, frontend, backend, banco de dados, segurança, testes e DevOps.
 
@@ -25,13 +25,13 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## Agentes de código
 
-**[anomalyco/opencode](https://github.com/anomalyco/opencode)** · ⭐ 229,4 mil · TypeScript · MIT
+**[anomalyco/opencode](https://github.com/anomalyco/opencode)** · ⭐ 229,5 mil · TypeScript · MIT
 
 - **O que é:** Agente de programação open source.
 - **Por que importa:** Agente de código open source que funciona com vários provedores de modelo; evita ficar preso a um fornecedor.
 - **Áreas:** **Engenharia e produtividade** (alta) — Usar o mesmo fluxo de agente de código trocando entre modelos pagos e locais
 
-**[anthropics/claude-code](https://github.com/anthropics/claude-code)** · ⭐ 157,2 mil · TypeScript
+**[anthropics/claude-code](https://github.com/anthropics/claude-code)** · ⭐ 157,3 mil · TypeScript
 
 - **O que é:** Claude Code: ferramenta de programação com agente que roda no terminal, entende seu código e executa tarefas, explica código e cuida do Git em linguagem natural.
 - **Por que importa:** Agente de código no terminal que lê o projeto inteiro, edita arquivos, roda testes e cuida do Git; acelera features, refatorações e correções com supervisão humana.
@@ -73,7 +73,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Terminal moderno com agentes integrados; reúne comandos, IA e fluxos de trabalho do time num só lugar.
 - **Áreas:** **Engenharia e produtividade** (média) — Executar e explicar comandos com ajuda de IA no dia a dia; **DevOps e infraestrutura** (média) — Padronizar fluxos de comandos de deploy e diagnóstico para o time
 
-**[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** · ⭐ 56,7 mil · Go · Apache-2.0
+**[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** · ⭐ 56,8 mil · Go · Apache-2.0
 
 - **O que é:** Ferramenta de revisão de código do Alibaba que combina regras determinísticas e agente LLM, com comentários por linha.
 - **Por que importa:** Revisão de código do Alibaba que combina regras determinísticas e agente LLM, com comentários por linha (NPE, XSS, SQL injection, concorrência).
@@ -88,38 +88,38 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## Skills e configurações para agentes
 
-**[mattpocock/skills](https://github.com/mattpocock/skills)** · ⭐ 333,6 mil · Shell · MIT
+**[mattpocock/skills](https://github.com/mattpocock/skills)** · ⭐ 333,9 mil · Shell · MIT
 
 - **O que é:** Coleção de skills para agentes de IA voltadas a engenheiros, tiradas do diretório .agents do autor.
 - **Por que importa:** Skills práticas de um engenheiro experiente para agentes de código; bons exemplos de como ensinar o agente a seguir boas práticas.
 - **Áreas:** **Engenharia e produtividade** (alta) — Adotar skills prontas de engenharia e adaptá-las ao padrão do projeto; **Frontend** (média) — Melhorar o código TypeScript gerado pelo agente
 
-**[obra/superpowers](https://github.com/obra/superpowers)** · ⭐ 327,5 mil · Shell · MIT
+**[obra/superpowers](https://github.com/obra/superpowers)** · ⭐ 327,8 mil · Shell · MIT
 
 - **O que é:** Framework de skills para agentes de IA e metodologia de desenvolvimento de software.
 - **Por que importa:** Conjunto de skills e metodologia que faz o agente trabalhar com brainstorming, plano, TDD e revisão; melhora a qualidade das entregas com IA.
 - **Áreas:** **Engenharia e produtividade** (alta) — Dar ao agente um processo disciplinado: planejar, testar primeiro e revisar; **Testes e QA** (alta) — Forçar o agente a escrever testes antes do código (TDD)
 
-**[affaan-m/ECC](https://github.com/affaan-m/ECC)** · ⭐ 311,3 mil · JavaScript · MIT
+**[affaan-m/ECC](https://github.com/affaan-m/ECC)** · ⭐ 311,5 mil · JavaScript · MIT
 
 - **O que é:** Sistema para otimizar o desempenho de agentes de código (Claude Code, Codex, Cursor etc.) com skills, memória, segurança e desenvolvimento guiado por pesquisa.
 - **Por que importa:** Sistema completo de skills, memória, segurança e regras para agentes de código; acelera a configuração de um ambiente de agente robusto.
 - **Áreas:** **Engenharia e produtividade** (alta) — Montar rapidamente uma configuração madura de agente para o time; **Segurança e cibersegurança** (média) — Reaproveitar regras de segurança para limitar o que o agente pode fazer
 - ⚠️ Projeto recente e grande; adote por partes.
 
-**[multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)** · ⭐ 235,9 mil
+**[multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)** · ⭐ 236 mil
 
 - **O que é:** Arquivo CLAUDE.md único para melhorar o comportamento do Claude Code, baseado nas observações de Andrej Karpathy sobre erros comuns de LLMs ao programar.
 - **Por que importa:** Um único CLAUDE.md com regras contra os erros mais comuns de LLMs ao programar; ganho rápido de qualidade com custo zero.
 - **Áreas:** **Engenharia e produtividade** (alta) — Copiar e adaptar o CLAUDE.md para reduzir erros do agente no projeto
 
-**[anthropics/skills](https://github.com/anthropics/skills)** · ⭐ 201,1 mil · Python
+**[anthropics/skills](https://github.com/anthropics/skills)** · ⭐ 201,2 mil · Python
 
 - **O que é:** Repositório público de Agent Skills da Anthropic.
 - **Por que importa:** Repositório oficial de Agent Skills da Anthropic: exemplos e padrão de como empacotar instruções e scripts para agentes; base para criar as suas.
 - **Áreas:** **Engenharia e produtividade** (alta) — Usar como modelo para criar skills próprias do time (padrões de código, revisão, deploy); **Arquitetura de software** (média) — Documentar decisões e padrões de arquitetura como skills reutilizáveis pelo agente
 
-**[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** · ⭐ 199,4 mil · JavaScript · MIT
+**[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** · ⭐ 199,6 mil · JavaScript · MIT
 
 - **O que é:** Faz o agente de IA pensar como o dev sênior mais preguiçoso da sala: o melhor código é o que você não escreveu.
 - **Por que importa:** Skill que empurra o agente a escrever menos código e preferir soluções simples; combate excesso de complexidade gerada por IA.
@@ -137,50 +137,50 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Coleção de agentes especializados (frontend, backend, QA, produto etc.) com personalidade e processos definidos; pronto para montar um 'time' de IA.
 - **Áreas:** **Engenharia e produtividade** (média) — Usar papéis prontos (revisor, QA, arquiteto) como subagentes; **Testes e QA** (média) — Ter um agente revisor/testador dedicado para cada entrega
 
-**[github/spec-kit](https://github.com/github/spec-kit)** · ⭐ 151,7 mil · Python · MIT
+**[github/spec-kit](https://github.com/github/spec-kit)** · ⭐ 151,9 mil · Python · MIT
 
 - **O que é:** Kit para começar com desenvolvimento guiado por especificação (SDD) ou outro processo.
 - **Por que importa:** Kit do GitHub para desenvolvimento guiado por especificação: você escreve a spec, o agente planeja e implementa; reduz ambiguidade nas entregas com IA.
 - **Áreas:** **Arquitetura de software** (alta) — Transformar requisitos em especificação e plano técnico antes do código; **Engenharia e produtividade** (alta) — Padronizar como o time pede features aos agentes
 
-**[garrytan/gstack](https://github.com/garrytan/gstack)** · ⭐ 142,7 mil · TypeScript · MIT
+**[garrytan/gstack](https://github.com/garrytan/gstack)** · ⭐ 142,8 mil · TypeScript · MIT
 
 - **O que é:** Configuração do Claude Code usada por Garry Tan: 23 ferramentas que atuam como CEO, designer, gerente de engenharia, release, documentação e QA.
 - **Por que importa:** Configuração opinativa do Claude Code com ferramentas que fazem papel de designer, gerente de engenharia, QA e release; mostra como cobrir o ciclo todo com agentes.
 - **Áreas:** **Engenharia e produtividade** (média) — Inspirar um fluxo completo de entrega com papéis definidos para o agente; **Testes e QA** (média) — Adicionar uma etapa automática de QA antes do release
 
-**[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** · ⭐ 120,6 mil · JavaScript · MIT
+**[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** · ⭐ 120,7 mil · JavaScript · MIT
 
 - **O que é:** Skills de engenharia de nível produção para agentes de programação com IA.
 - **Por que importa:** Skills de engenharia em nível de produção para agentes de código (performance, acessibilidade, qualidade).
 - **Áreas:** **Engenharia e produtividade** (alta) — Aplicar boas práticas de produção no código gerado por agentes; **Frontend** (média) — Revisar performance e acessibilidade de páginas com ajuda do agente
 
-**[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** · ⭐ 75,8 mil · TypeScript · MIT
+**[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** · ⭐ 75,9 mil · TypeScript · MIT
 
 - **O que é:** Desenvolvimento guiado por especificação (SDD) para assistentes de código com IA.
 - **Por que importa:** Desenvolvimento guiado por especificação para assistentes de código; mantém specs e mudanças versionadas junto do código.
 - **Áreas:** **Arquitetura de software** (alta) — Registrar e evoluir especificações do sistema junto com o código; **Engenharia e produtividade** (média) — Revisar mudanças de comportamento antes de o agente implementar
 
-**[code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)** · ⭐ 71,1 mil · TypeScript · outra
+**[code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)** · ⭐ 71,2 mil · TypeScript · outra
 
 - **O que é:** Extensão para agentes de código que ativa fluxos avançados com uma palavra-chave no prompt.
 - **Por que importa:** Extensão para agentes de código com fluxos avançados acionados por palavra-chave; útil para quem quer orquestrar subagentes sem montar tudo do zero.
 - **Áreas:** **Engenharia e produtividade** (média) — Ativar fluxos de orquestração prontos no agente de código
 - ⚠️ Projeto recente; teste antes de padronizar no time.
 
-**[shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)** · ⭐ 69,4 mil · HTML · MIT
+**[shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)** · ⭐ 69,5 mil · HTML · MIT
 
 - **O que é:** Boas práticas para usar o Claude Code, do "vibe coding" à engenharia com agentes.
 - **Por que importa:** Boas práticas para sair do 'vibe coding' e usar o Claude Code de forma profissional e previsível.
 - **Áreas:** **Engenharia e produtividade** (alta) — Treinar o time em um uso disciplinado de agentes de código
 
-**[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)** · ⭐ 62,6 mil · Python · MIT
+**[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)** · ⭐ 62,7 mil · Python · MIT
 
 - **O que é:** Skill que impede o agente de código de esconder a resposta: saídas diretas e fáceis de ler.
 - **Por que importa:** Skill que obriga o agente a responder de forma direta, com a resposta primeiro; reduz tempo de leitura e retrabalho.
 - **Áreas:** **Engenharia e produtividade** (média) — Deixar as respostas do agente mais objetivas no dia a dia
 
-**[emilkowalski/skills](https://github.com/emilkowalski/skills)** · ⭐ 60,1 mil · Markdown · MIT
+**[emilkowalski/skills](https://github.com/emilkowalski/skills)** · ⭐ 60,2 mil · Markdown · MIT
 
 - **O que é:** Skills para designers e engenheiros.
 - **Por que importa:** Skills para designers e engenheiros, de um autor conhecido por componentes de UI bem acabados; melhora a qualidade visual do que o agente gera.
@@ -209,14 +209,14 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Áreas:** **Backend e APIs** (média) — Base para um assistente que integra mensagens e sistemas internos; **Segurança e cibersegurança** (média) — Exige revisão de permissões: o agente tem acesso amplo à máquina
 - ⚠️ Projeto recente e de evolução rápida; revise a segurança antes de usar com dados de clientes.
 
-**[deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)** · ⭐ 287,7 mil · TypeScript · MIT
+**[deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)** · ⭐ 287,8 mil · TypeScript · MIT
 
 - **O que é:** DeepSeek Harness: ambiente para agentes de IA em que tudo é plugin.
 - **Por que importa:** Ambiente de agente da DeepSeek baseado em plugins; alternativa aberta para rodar agentes com modelos DeepSeek.
 - **Áreas:** **Engenharia e produtividade** (média) — Rodar agentes de código com modelos DeepSeek e plugins próprios
 - ⚠️ Projeto muito recente.
 
-**[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** · ⭐ 266,4 mil · Python · MIT
+**[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** · ⭐ 266,5 mil · Python · MIT
 
 - **O que é:** Agente de IA que aprende e evolui com o uso.
 - **Por que importa:** Agente open source que aprende e acumula habilidades com o uso; interessante para assistentes de longo prazo.
@@ -229,13 +229,13 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Plataforma pioneira de agentes autônomos, hoje com construtor visual de agentes e fluxos.
 - **Áreas:** **Backend e APIs** (média) — Prototipar agentes que executam fluxos de negócio de ponta a ponta
 
-**[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** · ⭐ 150 mil · Python · MIT
+**[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** · ⭐ 150,1 mil · Python · MIT
 
 - **O que é:** Plataforma de engenharia de agentes de IA.
 - **Por que importa:** Plataforma de engenharia de agentes: integrações com modelos, ferramentas, memória e RAG; base de muitos produtos de IA.
 - **Áreas:** **Backend e APIs** (alta) — Construir funcionalidades com LLM (chat, RAG, agentes) no backend; **Arquitetura de software** (média) — Padronizar integrações com vários provedores de modelo
 
-**[earendil-works/pi](https://github.com/earendil-works/pi)** · ⭐ 124,1 mil · TypeScript · MIT
+**[earendil-works/pi](https://github.com/earendil-works/pi)** · ⭐ 124,2 mil · TypeScript · MIT
 
 - **O que é:** Kit para agentes de IA: API unificada de LLMs, loop de agente, interface de terminal e agente de código.
 - **Por que importa:** Kit para construir agentes: API unificada de LLMs, loop de agente e CLI de código; base enxuta para criar seu próprio agente.
@@ -272,7 +272,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Alternativa aberta ao agente Manus para tarefas gerais com ferramentas; bom para estudar e montar agentes próprios.
 - **Áreas:** **Backend e APIs** (média) — Criar um agente próprio que usa ferramentas e APIs do sistema
 
-**[aaif-goose/goose](https://github.com/aaif-goose/goose)** · ⭐ 57 mil · Rust · Apache-2.0
+**[aaif-goose/goose](https://github.com/aaif-goose/goose)** · ⭐ 57,1 mil · Rust · Apache-2.0
 
 - **O que é:** Agente de IA open source e extensível que instala, executa, edita e testa com qualquer LLM.
 - **Por que importa:** Agente open source extensível que vai além de sugerir código: instala, executa, edita e testa com qualquer LLM.
@@ -287,7 +287,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## Plataformas de IA e automação
 
-**[n8n-io/n8n](https://github.com/n8n-io/n8n)** · ⭐ 212,3 mil · TypeScript · outra
+**[n8n-io/n8n](https://github.com/n8n-io/n8n)** · ⭐ 212,4 mil · TypeScript · outra
 
 - **O que é:** Plataforma de automação de fluxos de trabalho com IA nativa: combina construção visual e código, roda na nuvem ou auto-hospedada, com mais de 400 integrações.
 - **Por que importa:** Automação de fluxos com IA nativa, mais de 400 integrações e opção auto-hospedada; resolve integrações e automações sem escrever um backend inteiro.
@@ -299,7 +299,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Plataforma para criar apps de IA, agentes e pipelines de RAG com interface visual e deploy auto-hospedado.
 - **Áreas:** **Backend e APIs** (alta) — Publicar rapidamente um chatbot ou agente com RAG sobre documentos da empresa; **Arquitetura de software** (média) — Separar a camada de IA do sistema principal via APIs da plataforma
 
-**[open-webui/open-webui](https://github.com/open-webui/open-webui)** · ⭐ 159,6 mil · Svelte · outra
+**[open-webui/open-webui](https://github.com/open-webui/open-webui)** · ⭐ 159,7 mil · Svelte · outra
 
 - **O que é:** Interface amigável para IA, compatível com Ollama, API da OpenAI e outros.
 - **Por que importa:** Interface web auto-hospedada para usar modelos locais ou via API, com RAG e controle de usuários; 'ChatGPT interno' da empresa.
@@ -332,7 +332,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## MCP, ferramentas e integrações
 
-**[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** · ⭐ 211 mil · TypeScript · AGPL-3.0
+**[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** · ⭐ 211,2 mil · TypeScript · AGPL-3.0
 
 - **O que é:** Infraestrutura de dados para agentes de IA: busca, raspagem e acesso a mais de 550 fontes de dados por uma única API.
 - **Por que importa:** Transforma sites em dados limpos (Markdown/JSON) para agentes e RAG, com busca e raspagem por uma API.
@@ -356,7 +356,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Crawler open source pensado para LLMs; extrai conteúdo pronto para RAG e pode ser auto-hospedado sem custo.
 - **Áreas:** **Backend e APIs** (alta) — Montar coleta de conteúdo para bases de conhecimento de IA; **Banco de dados e dados** (média) — Extrair dados estruturados de páginas para alimentar o banco
 
-**[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** · ⭐ 66,4 mil · Python · Apache-2.0
+**[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** · ⭐ 66,6 mil · Python · Apache-2.0
 
 - **O que é:** Torna qualquer software "nativo para agentes" por meio de interfaces de linha de comando.
 - **Por que importa:** Cria interfaces de linha de comando para softwares existentes, para que agentes consigam operá-los.
@@ -369,7 +369,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Entrega ao agente a documentação atualizada das bibliotecas; evita código baseado em APIs antigas.
 - **Áreas:** **Engenharia e produtividade** (alta) — Reduzir erros do agente com versões novas de frameworks; **Frontend** (média) — Gerar código com a API atual de bibliotecas de frontend; **Backend e APIs** (média) — Usar a documentação correta de frameworks de backend
 
-**[ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)** · ⭐ 59,5 mil · TypeScript · Apache-2.0
+**[ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)** · ⭐ 59,6 mil · TypeScript · Apache-2.0
 
 - **O que é:** Chrome DevTools para agentes de código (servidor MCP).
 - **Por que importa:** Dá ao agente de código acesso ao Chrome DevTools (console, rede, performance); o agente passa a enxergar e depurar a página de verdade.
@@ -384,13 +384,13 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## Memória, contexto e economia de tokens
 
-**[JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)** · ⭐ 123,1 mil · Go · Apache-2.0
+**[JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)** · ⭐ 123,2 mil · Go · Apache-2.0
 
 - **O que é:** Skill e proxy local para agentes de código que encurtam respostas e saídas de ferramentas, economizando tokens.
 - **Por que importa:** Skill e proxy que encurtam respostas e saídas de ferramentas dos agentes, economizando tokens sem perder informação.
 - **Áreas:** **Engenharia e produtividade** (média) — Deixar o agente mais econômico e direto
 
-**[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** · ⭐ 120 mil · TypeScript · Apache-2.0
+**[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** · ⭐ 120,1 mil · TypeScript · Apache-2.0
 
 - **O que é:** Memória persistente entre sessões para agentes de IA: registra, comprime e reaproveita o contexto em sessões futuras.
 - **Por que importa:** Memória persistente entre sessões para agentes de código: o agente lembra do que já fez no projeto.
@@ -414,7 +414,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Camada de memória para agentes e apps de IA: guarda preferências e contexto entre conversas, pronta para produção.
 - **Áreas:** **Backend e APIs** (alta) — Dar memória de longo prazo a um assistente do produto; **Banco de dados e dados** (média) — Persistir contexto de usuários de forma organizada
 
-**[vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)** · ⭐ 63,7 mil · Python · MIT
+**[vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)** · ⭐ 63,8 mil · Python · MIT
 
 - **O que é:** Memória para agentes de IA que aprende com o uso.
 - **Por que importa:** Memória para agentes que aprende com as interações; alternativa a soluções de memória mais simples.
@@ -431,19 +431,19 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## Conhecimento do código e diagramas
 
-**[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** · ⭐ 153,9 mil · Python · Apache-2.0
+**[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** · ⭐ 154 mil · Python · Apache-2.0
 
 - **O que é:** Transforma qualquer base de código (com docs, esquemas SQL, configs e PDFs) em um grafo de conhecimento consultável; skill para Claude Code, Cursor, Codex e Gemini CLI.
 - **Por que importa:** Transforma o código, docs, esquemas SQL e configs em um grafo de conhecimento consultável pelo agente; melhora respostas sobre sistemas grandes.
 - **Áreas:** **Arquitetura de software** (alta) — Mapear dependências e responsabilidades de um sistema legado; **Banco de dados e dados** (média) — Relacionar esquemas SQL com o código que os usa; **Engenharia e produtividade** (média) — Reduzir o tempo do agente procurando contexto em bases grandes
 
-**[tt-a1i/archify](https://github.com/tt-a1i/archify)** · ⭐ 100,6 mil · JavaScript · Apache-2.0
+**[tt-a1i/archify](https://github.com/tt-a1i/archify)** · ⭐ 100,7 mil · JavaScript · Apache-2.0
 
 - **O que é:** Transforma ideias, planos ou código em diagramas interativos ou respostas de uma página; skill para Claude Code, Codex, Cursor e outros.
 - **Por que importa:** Skill que transforma ideias, planos ou código em diagramas interativos e diagnóstico de arquitetura; ajuda a explicar e revisar sistemas.
 - **Áreas:** **Arquitetura de software** (alta) — Gerar diagnóstico e diagramas da arquitetura atual de um sistema; **Engenharia e produtividade** (média) — Explicar PRs e mudanças com diagramas para revisão
 
-**[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** · ⭐ 94,6 mil · TypeScript · MIT
+**[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** · ⭐ 94,7 mil · TypeScript · MIT
 
 - **O que é:** Transforma qualquer código em um grafo de conhecimento interativo para explorar, buscar e fazer perguntas.
 - **Por que importa:** Grafo de conhecimento interativo do código para explorar, buscar e perguntar; ótimo para onboarding em projetos desconhecidos.
@@ -455,7 +455,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Grafo do código pré-indexado e sincronizado para agentes; menos tokens e menos chamadas de ferramenta, tudo local.
 - **Áreas:** **Engenharia e produtividade** (alta) — Deixar o agente mais rápido e barato em repositórios grandes; **Arquitetura de software** (média) — Consultar dependências entre módulos durante refatorações
 
-**[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)** · ⭐ 73,9 mil · HTML · MIT
+**[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)** · ⭐ 74,1 mil · HTML · MIT
 
 - **O que é:** Skill de design de diagramas editoriais para agentes de código: 52 tipos, em HTML + SVG autocontido.
 - **Por que importa:** Skill que ensina o agente a gerar diagramas editoriais limpos (52 tipos) em HTML + SVG; melhor que diagramas genéricos em Mermaid.
@@ -464,7 +464,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## RAG e processamento de documentos
 
-**[microsoft/markitdown](https://github.com/microsoft/markitdown)** · ⭐ 198,6 mil · Python · MIT
+**[microsoft/markitdown](https://github.com/microsoft/markitdown)** · ⭐ 198,7 mil · Python · MIT
 
 - **O que é:** Ferramenta em Python para converter arquivos e documentos do Office em Markdown.
 - **Por que importa:** Converte PDF, Word, Excel, PowerPoint e outros em Markdown, o formato que LLMs entendem melhor; peça simples e muito útil em pipelines de IA.
@@ -476,7 +476,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Motor de RAG focado em entendimento profundo de documentos (tabelas, layouts); bom para bases de conhecimento complexas.
 - **Áreas:** **Backend e APIs** (alta) — Responder perguntas sobre contratos, manuais e PDFs com citações; **Banco de dados e dados** (média) — Estruturar documentos complexos para consulta
 
-**[PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** · ⭐ 93,3 mil · Python · Apache-2.0
+**[PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** · ⭐ 93,4 mil · Python · Apache-2.0
 
 - **O que é:** Kit de OCR que transforma PDFs e imagens em dados estruturados para IA, com suporte a mais de 100 idiomas.
 - **Por que importa:** Kit de OCR leve e preciso que transforma imagens e PDFs escaneados em dados estruturados, com mais de 100 idiomas.
@@ -540,7 +540,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## Modelos, inferência e gateways
 
-**[ollama/ollama](https://github.com/ollama/ollama)** · ⭐ 188,2 mil · Go · MIT
+**[ollama/ollama](https://github.com/ollama/ollama)** · ⭐ 188,3 mil · Go · MIT
 
 - **O que é:** Roda modelos de IA localmente (Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma e outros).
 - **Por que importa:** Forma mais simples de rodar LLMs abertos localmente com uma API; ideal para desenvolvimento, privacidade e reduzir custo.
@@ -552,7 +552,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Interface e backend em nós para modelos de difusão (imagem e vídeo); permite montar pipelines de geração reproduzíveis e expor como API.
 - **Áreas:** **Design e UI/UX** (média) — Gerar imagens e variações de assets com pipelines controlados; **Backend e APIs** (média) — Expor geração de imagens como serviço para o produto
 
-**[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)** · ⭐ 136,4 mil · C++ · MIT
+**[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)** · ⭐ 136,5 mil · C++ · MIT
 
 - **O que é:** Inferência de LLMs em C/C++.
 - **Por que importa:** Motor de inferência de LLMs em C/C++ que roda até em CPU; base do Ollama e de muitas ferramentas locais.
@@ -673,25 +673,25 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## Design e interfaces com IA
 
-**[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** · ⭐ 154,7 mil · Python · MIT
+**[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** · ⭐ 154,8 mil · Python · MIT
 
 - **O que é:** Skill de IA com conhecimento de design para criar UI/UX profissional em várias plataformas.
 - **Por que importa:** Skill com conhecimento de design (estilos, paletas, tipografia, padrões de UX) para o agente criar interfaces profissionais.
 - **Áreas:** **Design e UI/UX** (alta) — Dar ao agente referências de estilo e UX ao criar telas; **Frontend** (alta) — Gerar páginas e componentes com visual consistente
 
-**[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** · ⭐ 129,2 mil · MIT
+**[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** · ⭐ 129,3 mil · MIT
 
 - **O que é:** Coleção de arquivos DESIGN.md com análises de design systems de marcas famosas, para agentes de código gerarem interfaces no mesmo estilo.
 - **Por que importa:** Arquivos DESIGN.md baseados em design systems de marcas conhecidas; você coloca um no projeto e o agente gera UI coerente com aquele estilo.
 - **Áreas:** **Design e UI/UX** (alta) — Dar ao agente um design system de referência em um único arquivo; **Frontend** (alta) — Gerar interfaces consistentes com o estilo escolhido
 
-**[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)** · ⭐ 122 mil · JavaScript · MIT
+**[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)** · ⭐ 122,1 mil · JavaScript · MIT
 
 - **O que é:** Skills que dão "bom gosto" visual a agentes de código: direção de arte, imagens de referência e checagem no navegador.
 - **Por que importa:** Skills que dão direção de arte ao agente e conferem o resultado no navegador; evita páginas com cara de 'gerado por IA'.
 - **Áreas:** **Design e UI/UX** (alta) — Definir direção de arte e referências antes de o agente criar a interface; **Frontend** (média) — Checar visualmente no navegador o que foi gerado
 
-**[pbakaus/impeccable](https://github.com/pbakaus/impeccable)** · ⭐ 117,6 mil · Rust · Apache-2.0
+**[pbakaus/impeccable](https://github.com/pbakaus/impeccable)** · ⭐ 117,7 mil · Rust · Apache-2.0
 
 - **O que é:** Vocabulário de design para agentes de código: refinar, revisar, auditar e barrar interfaces genéricas de IA.
 - **Por que importa:** Vocabulário de design para agentes de código: comandos para refinar, revisar e auditar interfaces.
@@ -710,7 +710,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Transforma uma captura de tela ou mockup em código HTML/Tailwind/React/Vue; acelera a passagem do design para o front.
 - **Áreas:** **Frontend** (alta) — Gerar a primeira versão de uma tela a partir de um print ou layout; **Design e UI/UX** (média) — Validar rapidamente um layout transformando-o em protótipo navegável
 
-**[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** · ⭐ 61,7 mil · CSS · MIT
+**[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** · ⭐ 61,8 mil · CSS · MIT
 
 - **O que é:** Skill de design contra interfaces genéricas geradas por IA, para Claude Code, Cursor e Codex.
 - **Por que importa:** Skill de design contra interfaces genéricas de IA para Claude Code, Cursor e Codex.
@@ -719,20 +719,20 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## Segurança com IA
 
-**[morluto/rea](https://github.com/morluto/rea)** · ⭐ 479,9 mil · TypeScript · MIT
+**[morluto/rea](https://github.com/morluto/rea)** · ⭐ 480,3 mil · TypeScript · MIT
 
 - **O que é:** Ferramenta com agentes de IA para engenharia reversa, do comportamento de aplicativos até binários nativos, com integração a assistentes de código como o Claude Code.
 - **Por que importa:** Agentes de IA para engenharia reversa de apps e binários; pode acelerar auditorias de segurança e análise de integrações sem documentação.
 - **Áreas:** **Segurança e cibersegurança** (média) — Analisar binários e comportamento de apps em auditorias
 - ⚠️ Projeto muito recente com crescimento de estrelas fora do comum; avalie maturidade e implicações legais.
 
-**[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)** · ⭐ 78,9 mil · JavaScript · MIT
+**[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)** · ⭐ 79 mil · JavaScript · MIT
 
 - **O que é:** Skill para agentes de código fazerem auditorias de segurança em várias fases, com achados verificados.
 - **Por que importa:** Skill da Cloudflare para auditorias de segurança em várias fases com achados verificados; leva revisão de segurança para dentro do agente de código.
 - **Áreas:** **Segurança e cibersegurança** (alta) — Fazer auditoria de segurança do código com o próprio agente; **Testes e QA** (média) — Gerar relatório de achados verificados para correção
 
-**[usestrix/strix](https://github.com/usestrix/strix)** · ⭐ 77,8 mil · Python · Apache-2.0
+**[usestrix/strix](https://github.com/usestrix/strix)** · ⭐ 77,9 mil · Python · Apache-2.0
 
 - **O que é:** Ferramenta open source de pentest com IA para encontrar e corrigir vulnerabilidades da sua aplicação.
 - **Por que importa:** Pentest com IA open source: agentes que encontram e ajudam a corrigir vulnerabilidades da aplicação.
@@ -748,27 +748,27 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## Gestão de agentes e produtividade
 
-**[farion1231/cc-switch](https://github.com/farion1231/cc-switch)** · ⭐ 157,4 mil · Rust · MIT
+**[farion1231/cc-switch](https://github.com/farion1231/cc-switch)** · ⭐ 157,6 mil · Rust · MIT
 
 - **O que é:** Assistente de desktop multiplataforma para gerenciar Claude Code, Codex, OpenCode, DeepSeek Harness e outros.
 - **Por que importa:** Assistente desktop para alternar e configurar Claude Code, Codex, OpenCode e outros num só lugar.
 - **Áreas:** **Engenharia e produtividade** (média) — Gerenciar configurações e provedores de vários agentes de código
 
-**[stablyai/orca](https://github.com/stablyai/orca)** · ⭐ 140,6 mil · TypeScript · MIT
+**[stablyai/orca](https://github.com/stablyai/orca)** · ⭐ 141,4 mil · TypeScript · MIT
 
 - **O que é:** Roda uma frota de bots usando sua própria assinatura (Claude Code, Grok, Codex etc.), no desktop, no celular ou remoto.
 - **Por que importa:** Roda uma frota de agentes de código usando suas assinaturas, no desktop, celular ou remoto.
 - **Áreas:** **Engenharia e produtividade** (média) — Paralelizar tarefas entre vários agentes de código
 - ⚠️ Projeto recente.
 
-**[paperclipai/paperclip](https://github.com/paperclipai/paperclip)** · ⭐ 117,4 mil · TypeScript · MIT
+**[paperclipai/paperclip](https://github.com/paperclipai/paperclip)** · ⭐ 117,5 mil · TypeScript · MIT
 
 - **O que é:** App open source para gerenciar agentes de IA no trabalho.
 - **Por que importa:** App open source para gerenciar agentes de IA no trabalho: tarefas, papéis e acompanhamento.
 - **Áreas:** **Engenharia e produtividade** (média) — Organizar o trabalho de vários agentes como se fossem membros do time
 - ⚠️ Projeto recente.
 
-**[pingdotgg/t3code](https://github.com/pingdotgg/t3code)** · ⭐ 81 mil · TypeScript · MIT
+**[pingdotgg/t3code](https://github.com/pingdotgg/t3code)** · ⭐ 81,5 mil · TypeScript · MIT
 
 - **O que é:** Controle o Claude Code, o Codex e outros a partir de qualquer computador ou celular.
 - **Por que importa:** Controla Claude Code, Codex e outros a partir de qualquer computador ou celular.
@@ -809,7 +809,7 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Livro e código para implementar um LLM do zero em PyTorch; entendimento profundo de como os modelos funcionam.
 - **Áreas:** **Backend e APIs** (média) — Entender o funcionamento interno de LLMs para usá-los melhor
 
-**[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** · ⭐ 98,5 mil · MIT
+**[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** · ⭐ 98,6 mil · MIT
 
 - **O que é:** Coleção de servidores MCP.
 - **Por que importa:** Coleção de servidores MCP prontos; atalho para conectar agentes a bancos, APIs e serviços sem programar a integração.
@@ -840,18 +840,12 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Constrói do zero um agente de código mínimo para entender como ferramentas como o Claude Code funcionam por dentro.
 - **Áreas:** **Engenharia e produtividade** (média) — Entender o funcionamento de agentes para usá-los e customizá-los melhor; **Arquitetura de software** (média) — Estudar a arquitetura de um agente de código
 
-**[rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** · ⭐ 80,6 mil · Python · MIT
+**[rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** · ⭐ 80,7 mil · Python · MIT
 
 - **O que é:** Aprenda engenharia de IA do zero: estude, construa e publique.
 - **Por que importa:** Trilha prática de engenharia de IA: aprender, construir e publicar aplicações.
 - **Áreas:** **Backend e APIs** (média) — Aprender a levar funcionalidades de IA até produção
 - ⚠️ Projeto recente.
-
-**[dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)** · ⭐ 80,4 mil · MDX · MIT
-
-- **O que é:** Guias, artigos, aulas e notebooks sobre engenharia de prompt, engenharia de contexto, RAG e agentes de IA.
-- **Por que importa:** Guia completo de engenharia de prompt, contexto, RAG e agentes; referência para escrever prompts e skills melhores.
-- **Áreas:** **Engenharia e produtividade** (alta) — Melhorar prompts, skills e instruções para agentes; **Backend e APIs** (média) — Projetar prompts robustos para funcionalidades de IA
 
 **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** · ⭐ 80,4 mil · Python
 
@@ -859,6 +853,12 @@ Atualizado em 26/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Lista curada de Skills do Claude e ferramentas; atalho para encontrar skills prontas antes de criar as suas.
 - **Áreas:** **Engenharia e produtividade** (média) — Procurar skills prontas para tarefas recorrentes do time
 - ⚠️ É uma lista de links, não um software.
+
+**[dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)** · ⭐ 80,4 mil · MDX · MIT
+
+- **O que é:** Guias, artigos, aulas e notebooks sobre engenharia de prompt, engenharia de contexto, RAG e agentes de IA.
+- **Por que importa:** Guia completo de engenharia de prompt, contexto, RAG e agentes; referência para escrever prompts e skills melhores.
+- **Áreas:** **Engenharia e produtividade** (alta) — Melhorar prompts, skills e instruções para agentes; **Backend e APIs** (média) — Projetar prompts robustos para funcionalidades de IA
 
 **[openai/openai-cookbook](https://github.com/openai/openai-cookbook)** · ⭐ 77,5 mil · Jupyter Notebook · MIT
 
