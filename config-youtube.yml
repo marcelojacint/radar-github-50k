@@ -14,7 +14,8 @@ foco: >-
   Vídeos que ajudam a construir e entregar software melhor com IA: agentes de código
   (Claude Code, Codex, Cursor, Copilot), skills e subagentes, MCP, RAG, LLMs em produção,
   e IA aplicada a arquitetura, engenharia, design, frontend, backend, banco de dados,
-  segurança, testes e DevOps. Também entram conteúdos de .NET/C# e arquitetura com IA.
+  segurança, testes e DevOps. Também entram vídeos práticos de .NET/C# e de arquitetura
+  de software, mesmo sem IA.
   Ficam FORA: hype e notícia rasa, "fique rico com IA", geração de imagem/vídeo para conteúdo,
   trading, cursos vendidos sem conteúdo no vídeo, Shorts e lives de horas sem foco.
 
@@ -54,14 +55,12 @@ canais:
   - "@Playwrightdev"
   # Visão geral de dev
   - "@Fireship"
-  - "@t3dotgg"
   # Português
   - "@FilipeDeschamps"
   - "@CodigoFonteTV"
   - "@rocketseat"
   - "@Akitando"
   - "@LucasMontano"
-  - "@ErickWendelTraining"
 
 # Buscas fixas, todo dia. Além delas, o Claude cria buscas a partir dos repositórios
 # do foco do radar (ficam em data/youtube/consultas.json).

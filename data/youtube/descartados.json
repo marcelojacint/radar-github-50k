@@ -1,0 +1,302 @@
+{
+ "0vz5slHWAp8": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-27",
+  "motivo": "produto muito de nicho",
+  "titulo": "Jev Explained: How TypeSafe's System One Model Fits into Your Agents"
+ },
+ "15rZEB3OZnA": {
+  "canal_id": "UCs5Y5_7XK8HLDX0SLNwkd3w",
+  "data": "2026-11-27",
+  "motivo": "básico de editor, sem IA",
+  "titulo": "🐧 Get Started with WSL in VS Code!"
+ },
+ "1S4hx3wgvBE": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "tema repetido hoje (fábricas de software)",
+  "titulo": "Stop Building Software Factories — Justin McCarthy, Diffusion"
+ },
+ "2tGmslbWmsU": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-27",
+  "motivo": "nicho demais",
+  "titulo": "Shipping a VS Code extension backed by a .NET Tool based analyzer"
+ },
+ "3wTzHDxtpnw": {
+  "canal_id": "UCFuIUoyHB12qpYa8Jpxoxow",
+  "data": "2026-11-27",
+  "motivo": "mercado de trabalho, fora do foco",
+  "titulo": "O MERCADO DEV VOLTOU A CRESCER... MAS PRA QUEM?"
+ },
+ "4MVd6DYZGO0": {
+  "canal_id": "UC55ODQSvARtgSyc8ThfiepQ",
+  "data": "2026-11-27",
+  "motivo": "treino de modelo em hardware patrocinado",
+  "titulo": "Train Your Own AI - No Cloud Needed"
+ },
+ "4nnFw0TPDKM": {
+  "canal_id": "UC55ODQSvARtgSyc8ThfiepQ",
+  "data": "2026-11-27",
+  "motivo": "treino de modelo, longe da entrega de software",
+  "titulo": "Harness Adapters - Train Your Model to Your Harness"
+ },
+ "9UMpD5QMU-c": {
+  "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
+  "data": "2026-11-27",
+  "motivo": "anúncio de produto",
+  "titulo": "Stop manually picking AI models: how GitHub Copilot Fusion works"
+ },
+ "9mNnoPdT0q0": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-27",
+  "motivo": "produto muito de nicho",
+  "titulo": "How We Tested Jev as an Agent Eval Judge with LangSmith + Deep Agents"
+ },
+ "BQk3T1Ljrk4": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-27",
+  "motivo": ".NET sem IA e de nicho",
+  "titulo": "Build a .NET TUI in 30 Minutes"
+ },
+ "BuC4wthYlLU": {
+  "canal_id": "UCyHOBY6IDZF9zOKJPou2Rgg",
+  "data": "2026-11-27",
+  "motivo": "descrição só traz patrocínios; conteúdo incerto",
+  "titulo": "Harness vs. Modelo LLM"
+ },
+ "EnXFHNGtC_k": {
+  "canal_id": "UCyHOBY6IDZF9zOKJPou2Rgg",
+  "data": "2026-11-27",
+  "motivo": "opinião genérica sobre IA",
+  "titulo": "Verdades sobre AI que HOJE são mentiras"
+ },
+ "GKSQYbELDzw": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "hardware para IA local, fora do foco",
+  "titulo": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic"
+ },
+ "ID6SE3eY3PY": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-27",
+  "motivo": "agente de vendas, fora do foco",
+  "titulo": "Inside LangChain’s GTM agent: one agent, 47 use cases"
+ },
+ "IRZqAdKcNTE": {
+  "canal_id": "UC55ODQSvARtgSyc8ThfiepQ",
+  "data": "2026-11-27",
+  "motivo": "LLM para personagens de jogo, fora do foco",
+  "titulo": "RAON-1 Nano: The Tiny LLM for AI Game Characters"
+ },
+ "JDsFHmq9hlA": {
+  "canal_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+  "data": "2026-11-27",
+  "motivo": "vídeo institucional",
+  "titulo": "What we make of this moment, will make this moment."
+ },
+ "Jatwf_XOncE": {
+  "canal_id": "UCsBjURrPoezykLs9EqgamOA",
+  "data": "2026-11-27",
+  "motivo": "notícia/hype",
+  "titulo": "17 million lines of AI slop just cracked a 167-year-old math problem..."
+ },
+ "L9YOFAglB04": {
+  "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
+  "data": "2026-11-27",
+  "motivo": "podcast fora do foco",
+  "titulo": "From algoraves to quantum computing: creative coding with Char Stiles | S02E08 | The GitHub Podcast"
+ },
+ "MDI81OaZAD4": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "cultura de empresa, pouco prático",
+  "titulo": "How to build an agent that builds the culture — Zach Bruggeman, Ramp"
+ },
+ "OJl-hgGrQg8": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-27",
+  "motivo": ".NET de nicho",
+  "titulo": "Async Rx.NET"
+ },
+ "PY5d-_fycso": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-27",
+  "motivo": "tutorial em formato de jogo, raso",
+  "titulo": "Deep Agents Tutorial: Learn It by Playing an Escape Room"
+ },
+ "PuHDu3Kn8sQ": {
+  "canal_id": "UC_x36zCEGilGpB1m-V4gmjg",
+  "data": "2026-11-27",
+  "motivo": "tema repetido hoje (fábricas de software)",
+  "titulo": "The Meta Software Factory: Advanced Agentic Engineering"
+ },
+ "Qxor6jpfSiU": {
+  "canal_id": "UCsBjURrPoezykLs9EqgamOA",
+  "data": "2026-11-27",
+  "motivo": "notícia de framework sem IA",
+  "titulo": "The only software that didn’t break this week..."
+ },
+ "SRhXgeNluIk": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "tema repetido hoje (fábricas de software)",
+  "titulo": "Software Factories: Escape from Trash Mountain — Steve Yegge, Gas Town"
+ },
+ "T5ULj8VEJZo": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-27",
+  "motivo": "produto muito de nicho",
+  "titulo": "Don't Call It a Decision Model: Allie Laabs on Jev and System One"
+ },
+ "TYhsC-S-Fx0": {
+  "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
+  "data": "2026-11-27",
+  "motivo": "tema repetido hoje (fábricas de software)",
+  "titulo": "The factory mindset: Agentic workflows in production"
+ },
+ "U92J5mCDLMc": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "métricas de empresa, pouco prático",
+  "titulo": "40x More Merged PRs With 2.7x the Engineers — Walden Yan, CPO, Cognition"
+ },
+ "WYdILMLuFnE": {
+  "canal_id": "UCyHOBY6IDZF9zOKJPou2Rgg",
+  "data": "2026-11-27",
+  "motivo": "título caça-clique, sem conteúdo descrito",
+  "titulo": "ta ficando INSANO"
+ },
+ "WqJ_RNRVxvI": {
+  "canal_id": "UCR9j1jqqB5Rse69wjUnbYwA",
+  "data": "2026-11-27",
+  "motivo": "hype",
+  "titulo": "AI Is Just Getting Scary Now..."
+ },
+ "Xyb1Bn_L2U4": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "gestão de empresa, pouco prático",
+  "titulo": "How 21 People Built a $100M+ Agent Company — Quinn Slack, Amp"
+ },
+ "a90pZ1DSyls": {
+  "canal_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+  "data": "2026-11-27",
+  "motivo": "edição de vídeo, fora do foco",
+  "titulo": "This Skill Turns Claude Code Into an Expert Video Editor (I'm Giving It Away)"
+ },
+ "bFcob2p6u3A": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "palestra motivacional",
+  "titulo": "Execution Is Free. How Ambitious Are You? — Jason Liu, OpenAI"
+ },
+ "emId9_O2sU8": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-27",
+  "motivo": "geração de peças de marketing, fora do foco",
+  "titulo": "We Open Sourced Our Design Brain"
+ },
+ "ezB2o1sDcx0": {
+  "canal_id": "UCyHOBY6IDZF9zOKJPou2Rgg",
+  "data": "2026-11-27",
+  "motivo": "hardware, fora do foco",
+  "titulo": "Quanto de RAM basta — e quando VRAM/GPU entram"
+ },
+ "f1gAilgILeI": {
+  "canal_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+  "data": "2026-11-27",
+  "motivo": "patrocinado; segurança já coberta hoje",
+  "titulo": "The Best Defense Against This Wave of AI Attacks: Hack Yourself First (Try This Now)"
+ },
+ "fTHByDwTxGM": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "treino de modelo, longe da entrega",
+  "titulo": "Post-Training Gemini 4 for Real Engineering Work — Melvin Johnson, Google DeepMind"
+ },
+ "gEhhvQJKHfQ": {
+  "canal_id": "UCyHOBY6IDZF9zOKJPou2Rgg",
+  "data": "2026-11-27",
+  "motivo": "comentário sobre outro youtuber",
+  "titulo": "Theo entrou na era do churn. Hyrum's Law explica a conta"
+ },
+ "iVm3lsgxH64": {
+  "canal_id": "UC55ODQSvARtgSyc8ThfiepQ",
+  "data": "2026-11-27",
+  "motivo": "resumo de anúncios da Microsoft",
+  "titulo": "Microsoft Just Showed Why Harnesses Matter More Than Models"
+ },
+ "iWGrbJeIWr8": {
+  "canal_id": "UCFuIUoyHB12qpYa8Jpxoxow",
+  "data": "2026-11-27",
+  "motivo": "carreira, fora do foco",
+  "titulo": "O que faz um FDE (Forward Deployed Engineer)?"
+ },
+ "jP9yjEDlc4k": {
+  "canal_id": "UCsBjURrPoezykLs9EqgamOA",
+  "data": "2026-11-27",
+  "motivo": "notícia de modelo",
+  "titulo": "Opus just lost to the last company you'd expect..."
+ },
+ "k87Iqft91j8": {
+  "canal_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+  "data": "2026-11-27",
+  "motivo": "segurança de agentes já coberta hoje",
+  "titulo": "The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)"
+ },
+ "mbaFDIuEAXA": {
+  "canal_id": "UCC_dVe-RI-vgCZfls06mDZQ",
+  "data": "2026-11-27",
+  "motivo": "continuação; o vídeo principal do tema entrou hoje",
+  "titulo": "Union Types Broke My Build (And That's the Point)"
+ },
+ "oxC876G42f8": {
+  "canal_id": "UCrkPsvLGln62OMZRO6K-llg",
+  "data": "2026-11-27",
+  "motivo": "recurso de C# sem impacto prático imediato",
+  "titulo": "Extensions Are Finally Complete in C# 15"
+ },
+ "pZWPq_ZAmM4": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "história de produto, pouco prático",
+  "titulo": "What it takes to set intelligence free — Fabian Hedin, CTO, Lovable"
+ },
+ "qquIt--ANqI": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-27",
+  "motivo": "produto muito de nicho",
+  "titulo": "Building Agent Harnesses with Jev: Where Decision Models Fit"
+ },
+ "rMaMe32qQkA": {
+  "canal_id": "UCsBjURrPoezykLs9EqgamOA",
+  "data": "2026-11-27",
+  "motivo": "notícia de segurança, pouco prático",
+  "titulo": "If you’ve deployed anything since 2015, I have bad news..."
+ },
+ "sof3vW4mHTs": {
+  "canal_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+  "data": "2026-11-27",
+  "motivo": "vídeo institucional",
+  "titulo": "The making of Anthropic"
+ },
+ "wfc5iETZFnQ": {
+  "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
+  "data": "2026-11-27",
+  "motivo": "debate; segurança de agentes já coberta hoje",
+  "titulo": "Is AI creating a cybersecurity crisis or giving defenders the edge?"
+ },
+ "wrfbI5eyLAI": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "caso de matemática; orquestração já coberta hoje",
+  "titulo": "1,000 Claude Agents Formalized Fermat's Last Theorem — Lance Martin, Anthropic"
+ },
+ "xRJMiaUoD_8": {
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "data": "2026-11-27",
+  "motivo": "reflexão, pouco prático",
+  "titulo": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent"
+ }
+}

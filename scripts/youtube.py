@@ -772,7 +772,7 @@ def ordem(v):
 
 def bloco_video(v, link_area=False):
     meta = " · ".join(x for x in [
-        f"**{v.get('canal')}**" if v.get("canal") else "", fmt_data(v.get("publicado") or v.get("entrada")),
+        f"**{v.get('canal')}**" if v.get("canal") else "", fmt_data(v["publicado"]) if v.get("publicado") else "",
         fmt_duracao(v.get("duracao_s")), IDIOMAS.get(v.get("idioma"), v.get("idioma") or ""),
         v.get("nivel"), fmt_views(v.get("views"))] if x)
     linhas = [f"### [{titulo_md(v['titulo_pt'])}]({v['url']})", meta, "",

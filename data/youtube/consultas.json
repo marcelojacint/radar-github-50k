@@ -1,0 +1,60 @@
+{
+ "repos": {
+  "NousResearch/hermes-agent": {
+   "busca": "hermes agent nous research",
+   "desde": "2026-11-27"
+  },
+  "affaan-m/ECC": {
+   "busca": "everything claude code",
+   "desde": "2026-11-27"
+  },
+  "anomalyco/opencode": {
+   "busca": "opencode ai",
+   "desde": "2026-11-27"
+  },
+  "anthropics/skills": {
+   "busca": "anthropic agent skills",
+   "desde": "2026-11-27"
+  },
+  "deepseek-ai/deepseek-harness": {
+   "busca": "deepseek harness",
+   "desde": "2026-11-27"
+  },
+  "firecrawl/firecrawl": {
+   "busca": "firecrawl",
+   "desde": "2026-11-27"
+  },
+  "mattpocock/skills": {
+   "busca": "matt pocock skills",
+   "desde": "2026-11-27"
+  },
+  "microsoft/markitdown": {
+   "busca": "markitdown",
+   "desde": "2026-11-27"
+  },
+  "morluto/rea": {
+   "busca": "ai agent reverse engineering",
+   "desde": "2026-11-27"
+  },
+  "multica-ai/andrej-karpathy-skills": {
+   "busca": "karpathy claude.md",
+   "desde": "2026-11-27"
+  },
+  "n8n-io/n8n": {
+   "busca": "n8n ai agent",
+   "desde": "2026-11-27"
+  },
+  "obra/superpowers": {
+   "busca": "superpowers claude code",
+   "desde": "2026-11-27"
+  },
+  "openclaw/openclaw": {
+   "busca": "openclaw",
+   "desde": "2026-11-27"
+  }
+ },
+ "sem_busca": [
+  "tensorflow/tensorflow",
+  "DietrichGebert/ponytail"
+ ]
+}

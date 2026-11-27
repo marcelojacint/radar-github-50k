@@ -1,0 +1,218 @@
+{
+ "-NFMsM2y0Vk": {
+  "area": "Engenharia e produtividade",
+  "canal": "AI Engineer",
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "duracao_s": null,
+  "entrada": "2026-11-27",
+  "fontes": [
+   "canal @aiDotEngineer"
+  ],
+  "id": "-NFMsM2y0Vk",
+  "idioma": "en",
+  "nivel": "intermediário",
+  "por_que_assistir": "Dá critérios concretos para usar agentes em código que vai durar, não só em protótipos.",
+  "publicado": "2026-11-23",
+  "repo": "",
+  "resumo": "A partir de um benchmark que mede como agentes evoluem uma base de código ao longo do tempo (o melhor modelo acerta cerca de 16%), Dex Horthy defende que \"fábricas de software\" com IA são boa engenharia com outro nome e lista 12 regras práticas.",
+  "titulo": "12 Rules for a Software Factory That Doesn't Ship Slop — Dex Horthy, Factory",
+  "titulo_pt": "12 regras para uma fábrica de software que não entrega lixo — Dex Horthy",
+  "url": "https://youtu.be/-NFMsM2y0Vk",
+  "views": 258237
+ },
+ "0LeT996Hz3E": {
+  "area": "DevOps e infraestrutura",
+  "canal": "AI Engineer",
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "duracao_s": null,
+  "entrada": "2026-11-27",
+  "fontes": [
+   "canal @aiDotEngineer"
+  ],
+  "id": "0LeT996Hz3E",
+  "idioma": "en",
+  "nivel": "intermediário",
+  "por_que_assistir": "Bom ponto de partida para levar agentes de código para um time ou empresa, com controle de custo e acesso.",
+  "publicado": "2026-11-20",
+  "repo": "warpdotdev/warp",
+  "resumo": "O CEO da Warp mostra por que rodar agentes só no notebook, um prompt por vez, limita a vazão e dificulta controlar custo, segurança e governança, e como tirar os agentes para uma infraestrutura própria.",
+  "titulo": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
+  "titulo_pt": "Trate seus agentes de código como qualquer outro sistema — Zach Lloyd (Warp)",
+  "url": "https://youtu.be/0LeT996Hz3E",
+  "views": 68490
+ },
+ "0q0UbO4oqgQ": {
+  "area": "Segurança e cibersegurança",
+  "canal": "Cole Medin",
+  "canal_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+  "duracao_s": null,
+  "entrada": "2026-11-27",
+  "fontes": [
+   "canal @ColeMedin",
+   "busca \"ai coding agent\""
+  ],
+  "id": "0q0UbO4oqgQ",
+  "idioma": "en",
+  "nivel": "iniciante",
+  "por_que_assistir": "Quem usa Claude Code, Codex ou Cursor com acesso a terminal e credenciais precisa conhecer esses vetores de ataque.",
+  "publicado": "2026-11-23",
+  "repo": "",
+  "resumo": "Cole Medin passa por ataques reais das últimas semanas que entram pelos agentes de código e mostra o básico para travar o ambiente do agente.",
+  "titulo": "Hackers Are Coming for Your AI Coding Agent (Lock It Down Now)",
+  "titulo_pt": "Hackers estão mirando seu agente de código: como proteger",
+  "url": "https://youtu.be/0q0UbO4oqgQ",
+  "views": 20849
+ },
+ "1G38wJ0KWSY": {
+  "area": "Arquitetura de software",
+  "canal": "CodeOpinion",
+  "canal_id": "UC3RKA4vunFAfrfxiJhPEplw",
+  "duracao_s": null,
+  "entrada": "2026-11-27",
+  "fontes": [
+   "canal @CodeOpinion"
+  ],
+  "id": "1G38wJ0KWSY",
+  "idioma": "en",
+  "nivel": "intermediário",
+  "por_que_assistir": "Evita um erro comum ao desenhar sistemas com mensageria.",
+  "publicado": "2026-11-25",
+  "repo": "",
+  "resumo": "Derek Comartin mostra que trocar chamadas de API por eventos e um broker não elimina o acoplamento entre microsserviços, só o esconde, e como identificar isso.",
+  "titulo": "Your Event-Driven Architecture Is STILL Tightly Coupled",
+  "titulo_pt": "Sua arquitetura orientada a eventos ainda está acoplada",
+  "url": "https://youtu.be/1G38wJ0KWSY",
+  "views": 5864
+ },
+ "AekKS44xBhI": {
+  "area": "Arquitetura de software",
+  "canal": "LangChain",
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "duracao_s": null,
+  "entrada": "2026-11-27",
+  "fontes": [
+   "canal @LangChain"
+  ],
+  "id": "AekKS44xBhI",
+  "idioma": "en",
+  "nivel": "iniciante",
+  "por_que_assistir": "Conceito central para usar subagentes no Claude Code e em outros agentes sem estourar o contexto.",
+  "publicado": "2026-11-26",
+  "repo": "langchain-ai/deepagents",
+  "resumo": "A LangChain explica subagentes nos Deep Agents: o agente principal passa uma tarefa para um subagente, que faz o trabalho pesado num contexto limpo e devolve só o resultado.",
+  "titulo": "What Are Subagents? Explained in 4 Minutes",
+  "titulo_pt": "O que são subagentes? Explicado em 4 minutos",
+  "url": "https://youtu.be/AekKS44xBhI",
+  "views": 6207
+ },
+ "JNexz3Tbiu8": {
+  "area": "Engenharia e produtividade",
+  "canal": "AI Engineer",
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "duracao_s": null,
+  "entrada": "2026-11-27",
+  "fontes": [
+   "canal @aiDotEngineer",
+   "busca \"ai software architecture\""
+  ],
+  "id": "JNexz3Tbiu8",
+  "idioma": "en",
+  "nivel": "intermediário",
+  "por_que_assistir": "Ajuda a decidir onde investir: em vez de montar uma \"fábrica\" de agentes complexa, deixar o ambiente de trabalho do agente simples e bem preparado.",
+  "publicado": "2026-11-22",
+  "repo": "",
+  "resumo": "Armin Ronacher mostra dados das próprias sessões com o agente de código Pi: as ferramentas continuam as mesmas de um ano atrás, mas o agente faz muito mais porque os modelos melhoraram, com menos correções e tarefas mais longas rodando sozinhas.",
+  "titulo": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
+  "titulo_pt": "Monte a oficina antes da fábrica de software — Armin Ronacher (Earendil)",
+  "url": "https://youtu.be/JNexz3Tbiu8",
+  "views": 268093
+ },
+ "TvsF67C2F54": {
+  "area": "Engenharia e produtividade",
+  "canal": "AI Engineer",
+  "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "duracao_s": null,
+  "entrada": "2026-11-27",
+  "fontes": [
+   "canal @aiDotEngineer"
+  ],
+  "id": "TvsF67C2F54",
+  "idioma": "en",
+  "nivel": "avançado",
+  "por_que_assistir": "Caso real de código gerado por agentes em escala num projeto sério: como revisar, testar e confiar no resultado.",
+  "publicado": "2026-11-24",
+  "repo": "oven-sh/bun",
+  "resumo": "O criador do Bun conta como um PR de vários milhões de linhas, escrito com agentes, adicionou um compilador antecipado (AOT) ao Bun, passando por cinco reescritas em cerca de um mês.",
+  "titulo": "How to Ship Millions of Lines of Agent-Written Code — Jarred Sumner, Anthropic",
+  "titulo_pt": "Como entregar milhões de linhas escritas por agentes — Jarred Sumner (Bun/Anthropic)",
+  "url": "https://youtu.be/TvsF67C2F54",
+  "views": 48577
+ },
+ "Wg9l-ObI90w": {
+  "area": "DevOps e infraestrutura",
+  "canal": "Milan Jovanović",
+  "canal_id": "UCC_dVe-RI-vgCZfls06mDZQ",
+  "duracao_s": null,
+  "entrada": "2026-11-27",
+  "fontes": [
+   "canal @MilanJovanovicTech"
+  ],
+  "id": "Wg9l-ObI90w",
+  "idioma": "en",
+  "nivel": "iniciante",
+  "por_que_assistir": "Isolar o agente reduz o risco de ele apagar ou vazar algo. O vídeo é patrocinado por uma hospedagem, mas a ideia vale para qualquer VPS ou container.",
+  "publicado": "2026-11-24",
+  "repo": "anthropics/claude-code",
+  "resumo": "Milan Jovanović mostra como colocar o Claude Code numa VPS isolada, para o agente trabalhar sem acesso direto à sua máquina e aos seus arquivos.",
+  "titulo": "Stop Running Claude Code on Your Laptop",
+  "titulo_pt": "Pare de rodar o Claude Code no seu notebook",
+  "url": "https://youtu.be/Wg9l-ObI90w",
+  "views": 16754
+ },
+ "h4tHDFCPmQE": {
+  "area": "Engenharia e produtividade",
+  "canal": "IBM Technology",
+  "canal_id": "UCKWaEZ-_VweaEx1j62do_vQ",
+  "duracao_s": 517,
+  "entrada": "2026-11-27",
+  "fontes": [
+   "busca \"agentic coding workflow\"",
+   "busca \"ai coding agent\"",
+   "busca \"ai code review\"",
+   "busca \"ai software architecture\"",
+   "busca \"ai agents in production\""
+  ],
+  "id": "h4tHDFCPmQE",
+  "idioma": "en",
+  "nivel": "iniciante",
+  "por_que_assistir": "Em 9 minutos organiza os conceitos, útil para explicar a diferença para o time ou para clientes.",
+  "publicado": null,
+  "repo": "",
+  "resumo": "Explicação curta da IBM sobre a diferença entre programar \"no feeling\" com IA (vibe coding) e trabalhar com agentes de código em fluxo estruturado, e quando cada um faz sentido.",
+  "titulo": "Vibe Coding vs. Agentic Coding: Which Should You Use?",
+  "titulo_pt": "Vibe coding ou agentic coding: qual usar?",
+  "url": "https://youtu.be/h4tHDFCPmQE",
+  "views": 543065
+ },
+ "n_jqdTLrMFA": {
+  "area": "Backend e APIs",
+  "canal": "Milan Jovanović",
+  "canal_id": "UCC_dVe-RI-vgCZfls06mDZQ",
+  "duracao_s": null,
+  "entrada": "2026-11-27",
+  "fontes": [
+   "canal @MilanJovanovicTech"
+  ],
+  "id": "n_jqdTLrMFA",
+  "idioma": "en",
+  "nivel": "intermediário",
+  "por_que_assistir": "Afeta direto o padrão Result/Notification usado em APIs .NET com Clean Architecture.",
+  "publicado": "2026-11-20",
+  "repo": "",
+  "resumo": "Com os union types nativos do C# 15, Milan Jovanović substitui a classe Result que usava há anos para representar sucesso ou erro por uma única linha.",
+  "titulo": "I Replaced My Result Class With One Line of C# 15",
+  "titulo_pt": "Troquei minha classe Result por uma linha de C# 15",
+  "url": "https://youtu.be/n_jqdTLrMFA",
+  "views": 55654
+ }
+}
