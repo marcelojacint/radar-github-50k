@@ -1,6 +1,8 @@
-# Backend e APIs — IA aplicada (repositórios 50 mil+ estrelas)
+# Backend e APIs — IA aplicada (repositórios 20 mil+ estrelas)
 
 Atualizado em 27/11/2026 · 28 de relevância alta · 45 de relevância média · [voltar ao catálogo](../CATALOGO.md)
+
+> 228 repositórios do foco ainda aguardam análise completa e entram aqui nas próximas execuções.
 
 ## Relevância alta
 

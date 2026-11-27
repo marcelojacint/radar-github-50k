@@ -34,6 +34,7 @@ ARQ_REPOS = DADOS / "repos.json"
 ARQ_EXPL = DADOS / "explicacoes.json"
 DIR_REL = RAIZ / "relatorios"
 DIR_SEG = RAIZ / "areas"
+DIR_GERAL = RAIZ / "geral"
 VERSAO_EXPL = 2  # explicações anteriores ao foco em IA são refeitas
 DIR_TMP = RAIZ / ".radar"
 
@@ -73,6 +74,53 @@ CATEGORIAS = {
     "Aprendizado de IA": ["course", "tutorial", "learn", "education", "beginners", "awesome", "awesome-list",
                           "guide", "cookbook", "roadmap", "lessons"],
     "Outros": [],
+}
+
+
+# Categorias para os repositórios fora do foco de IA (páginas em geral/).
+CATEGORIAS_GERAIS = {
+    "Frontend e UI": ["react", "vue", "angular", "svelte", "frontend", "css", "ui", "components", "web-components",
+                      "tailwindcss", "design-system", "nextjs", "html", "css-framework", "ui-components", "animation",
+                      "javascript-framework", "icons"],
+    "Backend e APIs": ["backend", "api", "web-framework", "server", "http", "rest", "graphql", "django", "flask",
+                       "spring", "spring-boot", "express", "fastapi", "laravel", "rails", "microservices", "orm",
+                       "framework", "rpc", "grpc"],
+    "Mobile e Desktop": ["android", "ios", "flutter", "react-native", "mobile", "electron", "desktop", "tauri",
+                         "cross-platform", "windows", "macos", "swift", "kotlin"],
+    "DevOps e Cloud": ["devops", "kubernetes", "docker", "containers", "ci", "cd", "cloud", "terraform",
+                       "infrastructure", "monitoring", "deployment", "serverless", "ansible", "observability", "k8s",
+                       "proxy", "networking"],
+    "Dados e Bancos de dados": ["database", "sql", "data", "analytics", "big-data", "etl", "redis", "postgres",
+                                "postgresql", "data-visualization", "visualization", "spreadsheet", "search-engine",
+                                "mysql", "mongodb", "storage"],
+    "Segurança": ["security", "hacking", "pentest", "penetration-testing", "privacy", "encryption", "vpn",
+                  "authentication", "cybersecurity", "infosec", "password"],
+    "Ferramentas de desenvolvimento": ["editor", "ide", "vscode", "cli", "terminal", "developer-tools", "devtools",
+                                       "git", "shell", "linter", "testing", "build-tool", "bundler", "code-editor",
+                                       "zsh", "vim"],
+    "Linguagens e runtimes": ["programming-language", "compiler", "runtime", "interpreter", "language"],
+    "Sistemas operacionais e infraestrutura": ["operating-system", "linux", "kernel", "os", "embedded", "firmware"],
+    "Aprendizado e listas de recursos": ["awesome", "awesome-list", "list", "roadmap", "interview", "tutorial",
+                                         "course", "learn", "books", "cheatsheet", "guide", "education",
+                                         "algorithms", "resources", "free", "interview-questions"],
+    "Apps prontos e self-hosted": ["self-hosted", "selfhosted", "alternative", "home-automation", "no-code",
+                                   "low-code", "workflow-automation", "automation", "productivity", "notes",
+                                   "media", "music", "video", "game", "games", "downloader"],
+    "Outros": [],
+}
+
+
+LINGUAGEM_PARA_CATEGORIA = {
+    "": "Aprendizado e listas de recursos", "Jupyter Notebook": "Aprendizado e listas de recursos",
+    "Markdown": "Aprendizado e listas de recursos", "TeX": "Aprendizado e listas de recursos",
+    "Swift": "Mobile e Desktop", "Kotlin": "Mobile e Desktop", "Objective-C": "Mobile e Desktop",
+    "Dart": "Mobile e Desktop", "C#": "Mobile e Desktop",
+    "CSS": "Frontend e UI", "SCSS": "Frontend e UI", "HTML": "Frontend e UI", "Vue": "Frontend e UI",
+    "Svelte": "Frontend e UI", "Less": "Frontend e UI",
+    "Java": "Backend e APIs", "PHP": "Backend e APIs", "Ruby": "Backend e APIs", "Elixir": "Backend e APIs",
+    "Shell": "Ferramentas de desenvolvimento", "Vim Script": "Ferramentas de desenvolvimento",
+    "Lua": "Ferramentas de desenvolvimento", "PowerShell": "Ferramentas de desenvolvimento",
+    "HCL": "DevOps e Cloud", "Dockerfile": "DevOps e Cloud",
 }
 
 
@@ -331,6 +379,31 @@ def classificar(r):
         if p > pontos:
             melhor, pontos = cat, p
     return melhor
+
+
+def classificar_geral(r):
+    topicos = set(r.get("topicos") or [])
+    palavras = set(re.findall(r"[a-z0-9\-]+", f"{r['nome']} {r.get('descricao') or ''}".lower()))
+    melhor, pontos = "Outros", 0
+    for cat, chaves in CATEGORIAS_GERAIS.items():
+        p = 2 * len(topicos.intersection(chaves)) + len(palavras.intersection(chaves))
+        if p > pontos:
+            melhor, pontos = cat, p
+    if melhor == "Outros":  # sem pista nos tópicos/descrição: usa a linguagem como palpite
+        melhor = LINGUAGEM_PARA_CATEGORIA.get(r.get("linguagem") or "", "Outros")
+    return melhor
+
+
+def categoria_geral(r, e):
+    if e and e.get("categoria_geral") in CATEGORIAS_GERAIS:
+        return e["categoria_geral"]
+    if e and e.get("categoria") in CATEGORIAS_GERAIS and e["categoria"] != "Outros":
+        return e["categoria"]
+    return classificar_geral(r)
+
+
+def tem_resumo_pt(e):
+    return bool(e) and (e.get("gerado_por") != "regras" or e.get("traduzido"))
 
 
 def areas(cfg):
@@ -638,7 +711,47 @@ def gerar_catalogo(base, expl, cfg):
             continue
         out += ["", f"## {c}", ""]
         out += [bloco_repo(r, expl[str(r["id"])]) for r in rs]
-    (RAIZ / "CATALOGO.md").write_text("\n".join(out), encoding="utf-8")
+
+    ids_foco = {str(r["id"]) for r in foco}
+    demais = [r for r in base["repos"].values() if r.get("ativo") and str(r["id"]) not in ids_foco]
+    contagem = {}
+    for r in demais:
+        c = categoria_geral(r, expl.get(str(r["id"])))
+        contagem[c] = contagem.get(c, 0) + 1
+    out += ["", f"## Demais repositórios com {fmt_estrelas(int(cfg['busca']['min_estrelas']))}+ estrelas", "",
+            f"Os outros {len(demais)} repositórios, fora do foco de IA, ficam em páginas por categoria técnica:", ""]
+    out += [f"- [{c}](geral/{slug(c)}.md) ({contagem[c]})" for c in CATEGORIAS_GERAIS if contagem.get(c)]
+    (RAIZ / "CATALOGO.md").write_text("\n".join(out) + "\n", encoding="utf-8")
+    gerar_geral(base, expl, cfg, demais)
+
+
+def gerar_geral(base, expl, cfg, demais):
+    """Uma página por categoria técnica com os repositórios fora do foco de IA (tabela compacta)."""
+    DIR_GERAL.mkdir(exist_ok=True)
+    grupos = {}
+    for r in sorted(demais, key=lambda r: -r["estrelas"]):
+        grupos.setdefault(categoria_geral(r, expl.get(str(r["id"]))), []).append(r)
+    esperados = set()
+    corte = fmt_estrelas(int(cfg["busca"]["min_estrelas"]))
+    for cat, rs in grupos.items():
+        pend = sum(1 for r in rs if not tem_resumo_pt(expl.get(str(r["id"]))))
+        out = [f"# {cat} — repositórios com {corte}+ estrelas", "",
+               f"Atualizado em {fmt_data(HOJE)} · {len(rs)} repositórios · [voltar ao catálogo](../CATALOGO.md)"]
+        if pend:
+            out += ["", f"> {pend} ainda sem resumo em português; a tarefa diária traduz os que faltam."]
+        out += ["", "| Repositório | ⭐ | Linguagem | O que é |", "|---|---|---|---|"]
+        for r in rs:
+            e = expl.get(str(r["id"]))
+            resumo = e["resumo"] if tem_resumo_pt(e) else "_tradução pendente_"
+            alerta = " ⚠️" if e and e.get("maturidade") else ""
+            out.append(f"| [{r['nome']}]({r['url']}) | {fmt_estrelas(r['estrelas'])} | {celula(r.get('linguagem'))} | "
+                       f"{celula(resumo)}{alerta} |")
+        nome = f"{slug(cat)}.md"
+        esperados.add(nome)
+        (DIR_GERAL / nome).write_text("\n".join(out) + "\n", encoding="utf-8")
+    for velho in DIR_GERAL.glob("*.md"):
+        if velho.name not in esperados:
+            velho.unlink()
 
 
 def gerar_segmentos(base, expl, cfg):
@@ -780,18 +893,27 @@ def importar(arq, cfg):
     expl = ler_json(ARQ_EXPL, {})
     dados = json.loads(Path(arq).read_text(encoding="utf-8"))
     itens = dados.get("repos", []) if isinstance(dados, dict) else dados
-    feitos = fora = 0
+    feitos = fora = triados = 0
     for item in itens:
         rid = str(item.get("id"))
         r = base.get("repos", {}).get(rid)
         if not r:
             log(f"id {rid} não está na base — ignorado")
             continue
+        if item.get("triagem"):  # no foco, mas só com resumo: a explicação completa vem numa próxima execução
+            e = expl.setdefault(rid, explicacao_por_regras(r))
+            e.update(foco=True)
+            if item.get("resumo"):
+                e.update(resumo=str(item["resumo"]).strip(), traduzido=True)
+            triados += 1
+            continue
         if item.get("foco") is False:  # fora do foco: só registra a decisão, sem explicação completa
             e = expl.setdefault(rid, explicacao_por_regras(r))
             e["foco"] = False
             if item.get("resumo"):
                 e.update(resumo=str(item["resumo"]).strip(), traduzido=True)
+            if item.get("categoria") in CATEGORIAS_GERAIS:
+                e["categoria_geral"] = item["categoria"]
             fora += 1
         else:
             expl[rid] = validar(item, r, cfg, "claude (tarefa agendada)")
@@ -806,21 +928,46 @@ def importar(arq, cfg):
     gerar_segmentos(base, expl, cfg)
     texto = gerar_relatorio(base, expl, cfg, mud, (mud["feitos"], ""))
     publicar_saidas(texto, mud, cfg)
-    log(f"{feitos} explicações importadas; {fora} marcados como fora do foco.")
+    log(f"{feitos} explicações importadas; {triados} triados no foco; {fora} marcados como fora do foco.")
+
+
+def exportar_traducoes(base, expl, cfg, n):
+    """Grava .radar/traducoes_pendentes.json com até N repositórios fora do foco ainda sem resumo em português."""
+    pend = [r for r in base["repos"].values() if r.get("ativo")
+            and not em_foco(r, expl.get(str(r["id"])), cfg) and not tem_resumo_pt(expl.get(str(r["id"])))]
+    pend.sort(key=lambda r: -r["estrelas"])
+    saida = {
+        "data": HOJE,
+        "total_sem_traducao": len(pend),
+        "categorias_gerais": list(CATEGORIAS_GERAIS),
+        "repos": [{"id": str(r["id"]), "nome": r["nome"], "descricao": r.get("descricao") or "",
+                   "linguagem": r.get("linguagem") or "", "topicos": (r.get("topicos") or [])[:8]} for r in pend[:n]],
+    }
+    salvar_json(DIR_TMP / "traducoes_pendentes.json", saida)
+    log(f"{len(saida['repos'])} repositórios exportados para tradução ({len(pend)} sem resumo em português)")
 
 
 def importar_traducoes(arq, cfg):
-    """Aplica resumos em português (TSV: id<TAB>texto) aos repositórios que ainda não têm explicação completa."""
+    """Aplica resumos em português aos repositórios sem explicação completa.
+    Aceita TSV (id<TAB>texto) ou JSON {"repos": [{"id", "resumo", "categoria"}]} — categoria da lista geral."""
     base = ler_json(ARQ_REPOS, {})
     expl = ler_json(ARQ_EXPL, {})
+    texto_arq = Path(arq).read_text(encoding="utf-8")
+    if texto_arq.lstrip().startswith("{"):
+        itens = [(str(i.get("id")), str(i.get("resumo") or "").strip(), i.get("categoria"))
+                 for i in json.loads(texto_arq).get("repos", [])]
+    else:
+        itens = [tuple(x.strip() for x in l.split("\t", 1)) + (None,) for l in texto_arq.splitlines() if "\t" in l]
     n = 0
-    for linha in Path(arq).read_text(encoding="utf-8").splitlines():
-        if "\t" not in linha:
+    for rid, texto, cat in itens:
+        r = base.get("repos", {}).get(rid)
+        if not r or not texto:
             continue
-        rid, texto = (x.strip() for x in linha.split("\t", 1))
-        e = expl.get(rid)
-        if e and e.get("gerado_por") == "regras" and texto:
+        e = expl.setdefault(rid, explicacao_por_regras(r))
+        if e.get("gerado_por") == "regras":
             e.update(resumo=texto, traduzido=True)
+            if cat in CATEGORIAS_GERAIS:
+                e["categoria_geral"] = cat
             n += 1
     salvar_json(ARQ_EXPL, expl)
     gerar_catalogo(base, expl, cfg)
@@ -851,7 +998,9 @@ def main():
                     help="grava .radar/pendentes.json com os novos + até N repositórios sem explicação")
     ap.add_argument("--importar", metavar="ARQ", help="importa explicações (JSON) e regenera os arquivos, sem nova busca")
     ap.add_argument("--abrir-issue", metavar="DONO/REPO", help="abre a issue do dia via API, se houver novidades")
-    ap.add_argument("--importar-traducoes", metavar="ARQ.tsv", help="aplica resumos em português (id<TAB>texto)")
+    ap.add_argument("--importar-traducoes", metavar="ARQ", help="aplica resumos em português (TSV id<TAB>texto ou JSON)")
+    ap.add_argument("--exportar-traducoes", type=int, metavar="N",
+                    help="grava .radar/traducoes_pendentes.json com até N repositórios fora do foco sem resumo em português")
     args = ap.parse_args()
     if args.data:
         HOJE = args.data
@@ -887,6 +1036,8 @@ def main():
     salvar_json(DIR_TMP / "mudancas.json", {"data": HOJE, **mud, "feitos": ia_info[0]})
     if args.exportar_pendentes is not None:
         exportar_pendentes(base, expl, cfg, mud, args.exportar_pendentes)
+    if args.exportar_traducoes is not None:
+        exportar_traducoes(base, expl, cfg, args.exportar_traducoes)
     log("Concluído.")
 
 

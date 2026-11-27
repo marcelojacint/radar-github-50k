@@ -1,6 +1,8 @@
-# Segurança e cibersegurança — IA aplicada (repositórios 50 mil+ estrelas)
+# Segurança e cibersegurança — IA aplicada (repositórios 20 mil+ estrelas)
 
 Atualizado em 27/11/2026 · 4 de relevância alta · 7 de relevância média · [voltar ao catálogo](../CATALOGO.md)
+
+> 228 repositórios do foco ainda aguardam análise completa e entram aqui nas próximas execuções.
 
 ## Relevância alta
 
@@ -15,7 +17,7 @@ Atualizado em 27/11/2026 · 4 de relevância alta · 7 de relevância média · 
 
 | Repositório | ⭐ | Categoria | Como usar nesta área |
 |---|---|---|---|
-| [morluto/rea](https://github.com/morluto/rea) | 480,3 mil | Segurança com IA | Analisar binários e comportamento de apps em auditorias |
+| [morluto/rea](https://github.com/morluto/rea) | 480,4 mil | Segurança com IA | Analisar binários e comportamento de apps em auditorias |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 395,3 mil | Frameworks de agentes e orquestração | Exige revisão de permissões: o agente tem acesso amplo à máquina |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 311,5 mil | Skills e configurações para agentes | Reaproveitar regras de segurança para limitar o que o agente pode fazer |
 | [ollama/ollama](https://github.com/ollama/ollama) | 188,3 mil | Modelos, inferência e gateways | Processar dados sensíveis sem enviá-los a provedores externos |

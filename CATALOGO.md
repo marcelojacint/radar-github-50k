@@ -1,6 +1,6 @@
-# Radar de IA para entregar software — repositórios com 50 mil+ estrelas
+# Radar de IA para entregar software — repositórios com 20 mil+ estrelas
 
-Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ estrelas) · com explicação completa: 137/137
+Atualizado em 27/11/2026 · **365** repositórios no foco (de 2286 com 20 mil+ estrelas) · com explicação completa: 137/365
 
 **Foco:** IA para construir e entregar software melhor: agentes, skills, agentes de código, MCP, LLMs, RAG e ferramentas de IA para arquitetura, engenharia, design, frontend, backend, banco de dados, segurança, testes e DevOps.
 
@@ -8,20 +8,21 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 
 ## Categorias
 
-- [Agentes de código](#agentes-de-código) (10)
-- [Skills e configurações para agentes](#skills-e-configurações-para-agentes) (18)
-- [Frameworks de agentes e orquestração](#frameworks-de-agentes-e-orquestração) (13)
-- [Plataformas de IA e automação](#plataformas-de-ia-e-automação) (7)
-- [MCP, ferramentas e integrações](#mcp-ferramentas-e-integrações) (8)
-- [Memória, contexto e economia de tokens](#memória-contexto-e-economia-de-tokens) (7)
+- [Agentes de código](#agentes-de-código) (37)
+- [Skills e configurações para agentes](#skills-e-configurações-para-agentes) (34)
+- [Frameworks de agentes e orquestração](#frameworks-de-agentes-e-orquestração) (69)
+- [Plataformas de IA e automação](#plataformas-de-ia-e-automação) (18)
+- [MCP, ferramentas e integrações](#mcp-ferramentas-e-integrações) (25)
+- [Memória, contexto e economia de tokens](#memória-contexto-e-economia-de-tokens) (11)
 - [Conhecimento do código e diagramas](#conhecimento-do-código-e-diagramas) (5)
-- [RAG e processamento de documentos](#rag-e-processamento-de-documentos) (12)
-- [Modelos, inferência e gateways](#modelos-inferência-e-gateways) (12)
-- [Treino e frameworks de ML](#treino-e-frameworks-de-ml) (9)
-- [Design e interfaces com IA](#design-e-interfaces-com-ia) (7)
-- [Segurança com IA](#segurança-com-ia) (4)
-- [Gestão de agentes e produtividade](#gestão-de-agentes-e-produtividade) (6)
-- [Aprendizado de IA](#aprendizado-de-ia) (19)
+- [RAG e processamento de documentos](#rag-e-processamento-de-documentos) (28)
+- [Modelos, inferência e gateways](#modelos-inferência-e-gateways) (50)
+- [Treino e frameworks de ML](#treino-e-frameworks-de-ml) (30)
+- [Design e interfaces com IA](#design-e-interfaces-com-ia) (9)
+- [Segurança com IA](#segurança-com-ia) (7)
+- [Gestão de agentes e produtividade](#gestão-de-agentes-e-produtividade) (7)
+- [Aprendizado de IA](#aprendizado-de-ia) (23)
+- [Outros](#outros) (12)
 
 ## Agentes de código
 
@@ -84,6 +85,114 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **O que é:** aider: programação em par com IA no terminal.
 - **Por que importa:** Programação em par com IA no terminal, integrada ao Git (cada mudança vira commit); muito bom para mudanças incrementais e rastreáveis.
 - **Áreas:** **Engenharia e produtividade** (alta) — Fazer mudanças pequenas e rastreáveis com commits automáticos por alteração
+
+**[DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)** · ⭐ 49,2 mil · C · MIT
+
+- **O que é:** Inteligência de código local para devs e agentes: conecta código, documentação e infraestrutura em um grafo persistente.
+
+**[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** · ⭐ 48,4 mil · Python · Apache-2.0
+
+- **O que é:** Diretório oficial da Anthropic com plugins de alta qualidade para o Claude Code.
+
+**[zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)** · ⭐ 45,3 mil · PowerShell · MIT
+
+- **O que é:** Pacote de skills de engenharia reversa e pentest autorizado com roteamento por IA.
+
+**[wshobson/agents](https://github.com/wshobson/agents)** · ⭐ 43 mil · Python · MIT
+
+- **O que é:** Plugins, agentes, skills e comandos para Claude Code, Codex, Cursor, OpenCode, Copilot e outros.
+
+**[Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** · ⭐ 41,1 mil · TypeScript · MIT
+
+- **O que é:** Orquestração multiagente para o Claude Code pensada para times.
+
+**[VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)** · ⭐ 37,6 mil · MIT
+
+- **O que é:** Coleção curada de mais de 1.000 skills de agentes de times oficiais e da comunidade.
+
+**[openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)** · ⭐ 35,5 mil · JavaScript · Apache-2.0
+
+- **O que é:** Usa o Codex de dentro do Claude Code para revisar código ou delegar tarefas.
+
+**[iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** · ⭐ 34,5 mil · TypeScript · Apache-2.0
+
+- **O que é:** App de trabalho contínuo para agentes de terminal (Claude Code, Codex, OpenCode e outros), com interface própria.
+
+**[mksglu/context-mode](https://github.com/mksglu/context-mode)** · ⭐ 34,5 mil · JavaScript · outra
+
+- **O que é:** Plugin local que tira as saídas de ferramentas da janela de contexto do agente, com busca em SQLite.
+
+**[Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)** · ⭐ 33,9 mil · TypeScript · MIT
+
+- **O que é:** Extensões para o Codex: hooks, times de agentes e painéis.
+
+**[cursor/cursor](https://github.com/cursor/cursor)** · ⭐ 33,4 mil
+
+- **O que é:** Repositório público do Cursor, editor de código com IA (issues e feedback).
+
+**[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)** · ⭐ 33 mil · Python · MIT
+
+- **O que é:** Grafo local do código para MCP e CLI, para que ferramentas de IA leiam só o que precisam.
+
+**[oraios/serena](https://github.com/oraios/serena)** · ⭐ 31,7 mil · Python · outra
+
+- **O que é:** Serena: kit MCP de programação com busca e edição semântica do código, a "IDE do agente".
+
+**[alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)** · ⭐ 31,1 mil · HTML · MIT
+
+- **O que é:** Skill de design para agentes: gera protótipos de sites e apps, apresentações e infográficos a partir de uma frase.
+
+**[QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)** · ⭐ 31 mil · TypeScript · Apache-2.0
+
+- **O que é:** Qwen Code: agente de código open source no terminal.
+
+**[rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** · ⭐ 30,6 mil · TypeScript · Apache-2.0
+
+- **O que é:** Memória persistente para agentes de código.
+
+**[jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud)** · ⭐ 29,3 mil · JavaScript · MIT
+
+- **O que é:** Plugin do Claude Code que mostra uso de contexto, ferramentas e agentes ativos.
+
+**[openai/skills](https://github.com/openai/skills)** · ⭐ 29,2 mil · Python
+
+- **O que é:** Catálogo oficial de skills para o Codex (OpenAI).
+
+**[manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)** · ⭐ 29 mil · Swift · outra
+
+- **O que é:** Terminal para macOS com abas verticais e notificações pensado para agentes de código.
+
+**[eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master)** · ⭐ 28,6 mil · JavaScript · outra
+
+- **O que é:** Sistema de gestão de tarefas com IA para usar no Cursor, Windsurf e outros agentes.
+
+**[OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** · ⭐ 28,3 mil · Shell · MIT
+
+- **O que é:** Planejamento persistente em arquivos Markdown para agentes de código e tarefas longas.
+
+**[Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode)** · ⭐ 28,1 mil · TypeScript · MIT
+
+- **O que é:** Kilo: plataforma de engenharia com agentes de código open source.
+
+**[EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)** · ⭐ 26,2 mil · TypeScript · MIT
+
+- **O que é:** Plugin de "compound engineering" para Claude Code, Codex e Cursor: cada tarefa deixa a próxima mais fácil.
+
+**[getpaseo/paseo](https://github.com/getpaseo/paseo)** · ⭐ 25,9 mil · TypeScript · outra
+
+- **O que é:** Orquestra vários agentes de código pelo desktop e pelo celular.
+
+**[nocobase/nocobase](https://github.com/nocobase/nocobase)** · ⭐ 25 mil · TypeScript · outra
+
+- **O que é:** NocoBase: plataforma para construir e evoluir sistemas de negócio com IA e agentes.
+
+**[slopus/happy](https://github.com/slopus/happy)** · ⭐ 24,9 mil · Swift · MIT
+
+- **O que é:** Orquestra Claude, Codex e Grok em um app, reaproveitando as assinaturas que você já paga.
+
+**[winfunc/opcode](https://github.com/winfunc/opcode)** · ⭐ 22,5 mil · TypeScript · AGPL-3.0
+
+- **O que é:** Opcode: app gráfico e toolkit para o Claude Code, com agentes personalizados e sessões interativas.
 
 
 ## Skills e configurações para agentes
@@ -199,6 +308,70 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Áreas:** **Engenharia e produtividade** (média) — Buscar e instalar skills prontas por tipo de tarefa
 - ⚠️ Qualidade varia entre as skills; revise antes de usar.
 
+**[danielmiessler/Fabric](https://github.com/danielmiessler/Fabric)** · ⭐ 44,8 mil · Go · MIT
+
+- **O que é:** Fabric: framework open source com padrões de prompt reutilizáveis para resolver tarefas com IA.
+
+**[linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)** · ⭐ 42,6 mil · TypeScript · outra
+
+- **O que é:** Otimizador de prompts para obter resultados melhores da IA.
+
+**[github/awesome-copilot](https://github.com/github/awesome-copilot)** · ⭐ 41,6 mil · JavaScript · MIT
+
+- **O que é:** Instruções, agentes, skills e configurações da comunidade para o GitHub Copilot.
+
+**[vercel-labs/skills](https://github.com/vercel-labs/skills)** · ⭐ 41,1 mil · TypeScript · MIT
+
+- **O que é:** Ferramenta aberta para instalar e gerenciar skills de agentes (npx skills).
+
+**[anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)** · ⭐ 39,9 mil · Jupyter Notebook
+
+- **O que é:** Tutorial interativo de engenharia de prompt da Anthropic.
+
+**[virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)** · ⭐ 39,1 mil · Python · MIT
+
+- **O que é:** Transforma um livro técnico em PDF em uma skill do Claude Code para estudar e consultar enquanto trabalha.
+
+**[vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)** · ⭐ 35 mil · JavaScript
+
+- **O que é:** Coleção oficial de skills de agentes da Vercel.
+
+**[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)** · ⭐ 30,6 mil · Python · MIT
+
+- **O que é:** Mais de 400 skills, agentes e plugins para o Claude Code.
+
+**[NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)** · ⭐ 27,9 mil · Python · Apache-2.0
+
+- **O que é:** SkillSpector (NVIDIA): scanner de segurança para skills de agentes, detecta vulnerabilidades, injeção de prompt e vazamento de dados.
+
+**[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)** · ⭐ 27,7 mil · TypeScript · MIT
+
+- **O que é:** Promptfoo: testa prompts, agentes e RAG, com red teaming e varredura de vulnerabilidades de IA.
+
+**[agentskills/agentskills](https://github.com/agentskills/agentskills)** · ⭐ 27,7 mil · Python · Apache-2.0
+
+- **O que é:** Especificação e documentação do padrão aberto Agent Skills.
+
+**[humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents)** · ⭐ 27,4 mil · TypeScript · outra
+
+- **O que é:** 12-Factor Agents: princípios para construir software com LLM bom o bastante para produção.
+
+**[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** · ⭐ 25,2 mil · Python · MIT
+
+- **O que é:** Pacote de skills do Claude Code para caça a bugs e red team externo.
+
+**[google/skills](https://github.com/google/skills)** · ⭐ 24,7 mil · Python · Apache-2.0
+
+- **O que é:** Skills oficiais para agentes sobre produtos e tecnologias do Google.
+
+**[google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model)** · ⭐ 23,3 mil · Python · Apache-2.0
+
+- **O que é:** Plugin open source do Google para projetar e revisar software com agentes.
+
+**[heydamir/unslop](https://github.com/heydamir/unslop)** · ⭐ 22,4 mil · JavaScript · CC-BY-4.0
+
+- **O que é:** Skill do Claude que transforma interfaces com cara de "vibe coding" em interfaces bem desenhadas.
+
 
 ## Frameworks de agentes e orquestração
 
@@ -209,7 +382,7 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Áreas:** **Backend e APIs** (média) — Base para um assistente que integra mensagens e sistemas internos; **Segurança e cibersegurança** (média) — Exige revisão de permissões: o agente tem acesso amplo à máquina
 - ⚠️ Projeto recente e de evolução rápida; revise a segurança antes de usar com dados de clientes.
 
-**[deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)** · ⭐ 287,8 mil · TypeScript · MIT
+**[deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)** · ⭐ 287,9 mil · TypeScript · MIT
 
 - **O que é:** DeepSeek Harness: ambiente para agentes de IA em que tudo é plugin.
 - **Por que importa:** Ambiente de agente da DeepSeek baseado em plugins; alternativa aberta para rodar agentes com modelos DeepSeek.
@@ -284,6 +457,230 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Agente pessoal leve e open source; bom ponto de partida para entender e montar agentes simples.
 - **Áreas:** **Backend e APIs** (média) — Prototipar um agente leve com ferramentas próprias
 
+**[zhayujie/CowAgent](https://github.com/zhayujie/CowAgent)** · ⭐ 48,1 mil · Python · MIT
+
+- **O que é:** Assistente pessoal e harness de agentes open source: planeja tarefas, usa ferramentas e skills e evolui com memória.
+
+**[ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)** · ⭐ 47,5 mil · Python · Apache-2.0
+
+- **O que é:** Auditoria independente de agentes de IA, executada por pessoas ou pelo próprio agente.
+
+**[streamlit/streamlit](https://github.com/streamlit/streamlit)** · ⭐ 46,5 mil · Python · Apache-2.0
+
+- **O que é:** Streamlit: framework Python para criar apps de dados e dashboards rapidamente, preparado para agentes.
+
+**[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** · ⭐ 45,5 mil · Python · MIT
+
+- **O que é:** LangGraph: framework para construir agentes resilientes e com estado.
+
+**[agno-agi/agno](https://github.com/agno-agi/agno)** · ⭐ 43,3 mil · Python · Apache-2.0
+
+- **O que é:** Agno: plataforma para construir e operar agentes.
+
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** · ⭐ 42,9 mil · Rust · GPL-3.0
+
+- **O que é:** Harness de agentes open source focado em eficiência: muitos agentes rodando em um servidor barato.
+
+**[patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)** · ⭐ 42,2 mil · Jupyter Notebook · MIT
+
+- **O que é:** Tutoriais aprofundados de LLMs, RAG e agentes de IA aplicados a casos reais.
+
+**[PostHog/posthog](https://github.com/PostHog/posthog)** · ⭐ 41,2 mil · Python · outra
+
+- **O que é:** PostHog: plataforma de produto com analytics, observabilidade de IA, feature flags e experimentos.
+
+**[ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)** · ⭐ 40,8 mil · Python · MIT
+
+- **O que é:** Coleção de 500 casos de uso de agentes de IA em vários setores, com exemplos.
+
+**[pingcap/tidb](https://github.com/pingcap/tidb)** · ⭐ 40,8 mil · Go · Apache-2.0
+
+- **O que é:** TiDB: banco de dados SQL distribuído com transações ACID e suporte a cargas de agentes e busca vetorial.
+
+**[CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)** · ⭐ 39 mil · TypeScript · MIT
+
+- **O que é:** CopilotKit: stack de frontend para agentes e UI generativa (React, Angular, mobile e mais).
+
+**[musistudio/claude-code-router](https://github.com/musistudio/claude-code-router)** · ⭐ 38,4 mil · TypeScript · MIT
+
+- **O que é:** Roteia o Claude Code e outros agentes entre vários modelos e provedores a partir de um painel local.
+
+**[agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)** · ⭐ 36,8 mil · Python · Apache-2.0
+
+- **O que é:** AgentScope: framework para construir e rodar agentes observáveis e confiáveis.
+
+**[continuedev/continue](https://github.com/continuedev/continue)** · ⭐ 36,6 mil · TypeScript · Apache-2.0
+
+- **O que é:** Continue: agente de código open source para IDE e terminal.
+
+**[huggingface/agents-course](https://github.com/huggingface/agents-course)** · ⭐ 35,5 mil · MDX · Apache-2.0
+
+- **O que é:** Curso de agentes de IA da Hugging Face.
+
+**[vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)** · ⭐ 35,1 mil · Go · MIT
+
+- **O que é:** Sistema de agentes de IA autônomos para testes de invasão complexos.
+
+**[OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)** · ⭐ 34,9 mil · Python · Apache-2.0
+
+- **O que é:** ChatDev: desenvolvimento de software com colaboração de vários agentes de LLM.
+
+**[topoteretes/cognee](https://github.com/topoteretes/cognee)** · ⭐ 33,7 mil · Python · Apache-2.0
+
+- **O que é:** Cognee: plataforma open source de memória de longo prazo para agentes de IA.
+
+**[meta/astryx](https://github.com/meta/astryx)** · ⭐ 33,4 mil · TypeScript · MIT
+
+- **O que é:** Astryx: design system open source da Meta, personalizável e pronto para agentes.
+
+**[getzep/graphiti](https://github.com/getzep/graphiti)** · ⭐ 33,1 mil · Python · Apache-2.0
+
+- **O que é:** Graphiti: grafos de conhecimento em tempo real para agentes de IA.
+
+**[trycua/cua](https://github.com/trycua/cua)** · ⭐ 33,1 mil · Rust · MIT
+
+- **O que é:** Infraestrutura open source para agentes que usam o computador: drivers, sandboxes e benchmarks.
+
+**[langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)** · ⭐ 31,6 mil · Python · MIT
+
+- **O que é:** Deep Agents: harness de agentes "com tudo incluído" da LangChain.
+
+**[ComposioHQ/composio](https://github.com/ComposioHQ/composio)** · ⭐ 31,3 mil · TypeScript · MIT
+
+- **O que é:** Composio: mais de 1.000 integrações, busca de ferramentas, autenticação e sandbox para agentes.
+
+**[e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** · ⭐ 31,1 mil · outra
+
+- **O que é:** Lista de agentes autônomos de IA.
+
+**[openai/openai-agents-python](https://github.com/openai/openai-agents-python)** · ⭐ 30,9 mil · Python · MIT
+
+- **O que é:** Framework leve da OpenAI para fluxos multiagente.
+
+**[huggingface/smolagents](https://github.com/huggingface/smolagents)** · ⭐ 30,6 mil · Python · Apache-2.0
+
+- **O que é:** smolagents: biblioteca enxuta da Hugging Face para agentes que pensam em código.
+
+**[mastra-ai/mastra](https://github.com/mastra-ai/mastra)** · ⭐ 29,9 mil · TypeScript · outra
+
+- **O que é:** Mastra: framework TypeScript para aplicações e agentes com IA.
+
+**[chroma-core/chroma](https://github.com/chroma-core/chroma)** · ⭐ 29,8 mil · Rust · Apache-2.0
+
+- **O que é:** Chroma: infraestrutura de busca e banco vetorial para IA.
+
+**[alibaba/page-agent](https://github.com/alibaba/page-agent)** · ⭐ 29,8 mil · TypeScript · MIT
+
+- **O que é:** Agente de interface em JavaScript que controla páginas web por linguagem natural.
+
+**[google-labs-code/design.md](https://github.com/google-labs-code/design.md)** · ⭐ 29,2 mil · TypeScript · Apache-2.0
+
+- **O que é:** DESIGN.md: especificação do Google para descrever a identidade visual de um projeto para agentes de código.
+
+**[gastownhall/beads](https://github.com/gastownhall/beads)** · ⭐ 29,1 mil · Go · MIT
+
+- **O que é:** Beads: memória e rastreamento de tarefas para agentes de código.
+
+**[mlflow/mlflow](https://github.com/mlflow/mlflow)** · ⭐ 29 mil · Python · Apache-2.0
+
+- **O que é:** MLflow: plataforma open source de engenharia de IA para agentes, LLMs e modelos de ML (rastreamento, avaliação e deploy).
+
+**[BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban)** · ⭐ 28,8 mil · Rust · Apache-2.0
+
+- **O que é:** Quadro kanban para orquestrar Claude Code, Codex e outros agentes de código.
+
+**[openai/symphony](https://github.com/openai/symphony)** · ⭐ 28,2 mil · Elixir · Apache-2.0
+
+- **O que é:** Symphony (OpenAI): transforma trabalho de projeto em execuções autônomas e isoladas de implementação.
+
+**[xai-org/grok-build](https://github.com/xai-org/grok-build)** · ⭐ 27,9 mil · Rust · Apache-2.0
+
+- **O que é:** Harness e interface de terminal do agente de código da xAI.
+
+**[deepset-ai/haystack](https://github.com/deepset-ai/haystack)** · ⭐ 27,1 mil · Python · Apache-2.0
+
+- **O que é:** Haystack: framework de orquestração de IA para apps com LLM prontos para produção.
+
+**[GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance)** · ⭐ 26,9 mil · Apache-2.0
+
+- **O que é:** Mantém o agente de código atualizado com as boas práticas mais recentes da web (Google Chrome).
+
+**[a2aproject/A2A](https://github.com/a2aproject/A2A)** · ⭐ 26,7 mil · Shell · Apache-2.0
+
+- **O que é:** A2A: protocolo aberto para comunicação e interoperabilidade entre agentes.
+
+**[walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering)** · ⭐ 26,2 mil · TypeScript · MIT
+
+- **O que é:** Tutorial de engenharia de harness para agentes, do zero.
+
+**[browserbase/stagehand](https://github.com/browserbase/stagehand)** · ⭐ 26,2 mil · TypeScript · MIT
+
+- **O que é:** Stagehand: SDK para extrair dados e interagir com qualquer site usando IA.
+
+**[agentsmd/agents.md](https://github.com/agentsmd/agents.md)** · ⭐ 25,7 mil · TypeScript · MIT
+
+- **O que é:** AGENTS.md: formato aberto e simples para orientar agentes de código.
+
+**[microsoft/OmniParser](https://github.com/microsoft/OmniParser)** · ⭐ 25,6 mil · Jupyter Notebook · CC-BY-4.0
+
+- **O que é:** OmniParser (Microsoft): analisa telas para agentes de interface baseados em visão.
+
+**[letta-ai/letta](https://github.com/letta-ai/letta)** · ⭐ 25,6 mil · Apache-2.0
+
+- **O que é:** Letta: plataforma de agentes com estado e memória avançada.
+
+**[NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)** · ⭐ 25,1 mil · Jupyter Notebook · outra
+
+- **O que é:** Mais de 50 tutoriais e implementações de técnicas de agentes de IA generativa.
+
+**[1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB)** · ⭐ 23,2 mil · Python · GPL-3.0
+
+- **O que é:** MaxKB: plataforma open source para construir agentes empresariais.
+
+**[NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw)** · ⭐ 23,1 mil · TypeScript · Apache-2.0
+
+- **O que é:** Roda agentes como OpenClaw, Hermes e LangChain Deep Agents com mais segurança dentro do NVIDIA OpenShell.
+
+**[PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)** · ⭐ 22,9 mil · Rust · outra
+
+- **O que é:** Agente de código que se aprimora sozinho, para fluxos de programação e tarefas longas.
+
+**[google/adk-python](https://github.com/google/adk-python)** · ⭐ 22,4 mil · Python · Apache-2.0
+
+- **O que é:** ADK: kit open source do Google para construir, avaliar e publicar agentes de IA.
+
+**[snarktank/ralph](https://github.com/snarktank/ralph)** · ⭐ 22,4 mil · TypeScript · MIT
+
+- **O que é:** Ralph: loop de agente autônomo que roda até concluir todos os itens do PRD.
+
+**[ai-openshell/openshell](https://github.com/ai-openshell/openshell)** · ⭐ 22 mil · Rust · Apache-2.0
+
+- **O que é:** OpenShell: runtime seguro e privado para agentes de IA autônomos.
+
+**[NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production)** · ⭐ 22 mil · Jupyter Notebook · outra
+
+- **O que é:** Tutoriais com código para levar agentes de IA do protótipo à produção.
+
+**[ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)** · ⭐ 21,9 mil · TypeScript · MIT
+
+- **O que é:** AG-UI: protocolo de interação entre agentes e usuários para levar agentes ao frontend.
+
+**[pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)** · ⭐ 21,4 mil · Python · MIT
+
+- **O que é:** Pydantic AI: framework Python tipado para agentes e apps com IA.
+
+**[cube-js/cube](https://github.com/cube-js/cube)** · ⭐ 21,3 mil · Rust · outra
+
+- **O que é:** Cube: camada semântica open source para IA, BI e analytics embarcado.
+
+**[camel-ai/owl](https://github.com/camel-ai/owl)** · ⭐ 20,2 mil · Python
+
+- **O que é:** OWL: agentes colaborativos para automação de tarefas do mundo real.
+
+**[agent0ai/agent-zero](https://github.com/agent0ai/agent-zero)** · ⭐ 20 mil · Python · outra
+
+- **O que é:** Agent Zero: framework de agentes de IA.
+
 
 ## Plataformas de IA e automação
 
@@ -328,6 +725,50 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **O que é:** Appwrite: nuvem open source com autenticação, bancos de dados, storage, funções, mensagens e hospedagem.
 - **Por que importa:** Nuvem open source com autenticação, bancos, storage, funções e mensagens, voltada também a agentes.
 - **Áreas:** **Backend e APIs** (alta) — Ter backend pronto (auth, banco, storage, funções) auto-hospedado; **Banco de dados e dados** (média) — Gerenciar coleções de dados com permissões prontas
+
+**[ToolJet/ToolJet](https://github.com/ToolJet/ToolJet)** · ⭐ 41,3 mil · HTML · AGPL-3.0
+
+- **O que é:** ToolJet: plataforma open source com IA para gerar ferramentas internas, dashboards e apps de negócio.
+
+**[conductor-oss/conductor](https://github.com/conductor-oss/conductor)** · ⭐ 32,5 mil · Java · Apache-2.0
+
+- **O que é:** Conductor: motor de workflows orientado a eventos, com execução durável para aplicações e agentes.
+
+**[simstudioai/sim](https://github.com/simstudioai/sim)** · ⭐ 30,2 mil · TypeScript · Apache-2.0
+
+- **O que é:** Sim: workspace colaborativo para criar, publicar e monitorar agentes e fluxos de IA.
+
+**[Budibase/budibase](https://github.com/Budibase/budibase)** · ⭐ 28,5 mil · TypeScript · outra
+
+- **O que é:** Budibase: agentes, automações e apps internos com IA, independente do modelo.
+
+**[activepieces/activepieces](https://github.com/activepieces/activepieces)** · ⭐ 25,8 mil · TypeScript · outra
+
+- **O que é:** Activepieces: automação de fluxos com IA e agentes, com cerca de 400 servidores MCP.
+
+**[coleam00/Archon](https://github.com/coleam00/Archon)** · ⭐ 24 mil · TypeScript · MIT
+
+- **O que é:** Archon: construtor de harness para programação com IA, deixando o resultado determinístico e repetível.
+
+**[Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern)** · ⭐ 23,6 mil · Python · AGPL-3.0
+
+- **O que é:** Skyvern: automatiza fluxos no navegador com IA.
+
+**[airbytehq/airbyte](https://github.com/airbytehq/airbyte)** · ⭐ 22,5 mil · Python · outra
+
+- **O que é:** Airbyte: movimentação de dados open source (ELT) de APIs, bancos e arquivos para warehouses e aplicações de IA.
+
+**[coze-dev/coze-studio](https://github.com/coze-dev/coze-studio)** · ⭐ 21,8 mil · TypeScript · Apache-2.0
+
+- **O que é:** Coze Studio: plataforma de desenvolvimento de agentes com ferramentas visuais completas.
+
+**[RasaHQ/rasa](https://github.com/RasaHQ/rasa)** · ⭐ 21,4 mil · Python · Apache-2.0
+
+- **O que é:** Rasa: framework open source para automatizar conversas por texto e voz.
+
+**[vercel/chatbot](https://github.com/vercel/chatbot)** · ⭐ 21,1 mil · TypeScript · outra
+
+- **O que é:** Chatbot de IA completo e customizável em Next.js, da Vercel.
 
 
 ## MCP, ferramentas e integrações
@@ -381,6 +822,74 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** CLI de automação de navegador feita para agentes de IA; leve e fácil de integrar a fluxos de teste e verificação.
 - **Áreas:** **Testes e QA** (alta) — Deixar o agente navegar e validar fluxos da aplicação; **Frontend** (média) — Conferir telas no navegador durante o desenvolvimento
 
+**[jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot)** · ⭐ 48,6 mil · Java · Apache-2.0
+
+- **O que é:** Plataforma low-code com IA para sistemas de negócio: gera tabelas, código de front e back e permissões a partir de uma descrição.
+
+**[lightpanda-io/browser](https://github.com/lightpanda-io/browser)** · ⭐ 42,6 mil · Zig · AGPL-3.0
+
+- **O que é:** Lightpanda: navegador headless feito para IA e automação.
+
+**[microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)** · ⭐ 40,2 mil · TypeScript · Apache-2.0
+
+- **O que é:** Servidor MCP do Playwright: agentes controlam o navegador para testar e automatizar aplicações.
+
+**[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi)** · ⭐ 40 mil · TypeScript · MIT
+
+- **O que é:** Agente de código com a IDE integrada.
+
+**[h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura)** · ⭐ 37,6 mil · Rust · Apache-2.0
+
+- **O que é:** Navegador headless para agentes de IA e web scraping.
+
+**[DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)** · ⭐ 37,2 mil · TypeScript · Apache-2.0
+
+- **O que é:** Cria e edita diagramas do draw.io conversando com IA; também funciona como servidor MCP.
+
+**[github/github-mcp-server](https://github.com/github/github-mcp-server)** · ⭐ 34,8 mil · Go · MIT
+
+- **O que é:** Servidor MCP oficial do GitHub.
+
+**[davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)** · ⭐ 34,2 mil · Python · MIT
+
+- **O que é:** Registro e CLI de componentes para o Claude Code: agentes, comandos, skills, hooks e MCPs.
+
+**[ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** · ⭐ 33 mil · Python · MIT
+
+- **O que é:** Scraper em Python baseado em IA.
+
+**[jackwener/OpenCLI](https://github.com/jackwener/OpenCLI)** · ⭐ 31,3 mil · JavaScript · Apache-2.0
+
+- **O que é:** Transforma sites em CLI e deixa o agente usar o seu navegador já logado.
+
+**[PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp)** · ⭐ 28,8 mil · Python · Apache-2.0
+
+- **O que é:** FastMCP: forma rápida e pythônica de criar servidores e clientes MCP.
+
+**[OtterMind/Chat2DB](https://github.com/OtterMind/Chat2DB)** · ⭐ 28,4 mil · Java · outra
+
+- **O que é:** Chat2DB: cliente de banco de dados e workspace SQL com IA, local e multiplataforma.
+
+**[vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)** · ⭐ 27 mil · Rust · Apache-2.0
+
+- **O que é:** CLI de uso do computador para agentes de IA (Vercel).
+
+**[modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk)** · ⭐ 25 mil · Python · MIT
+
+- **O que é:** SDK oficial em Python do Model Context Protocol (MCP) para servidores e clientes.
+
+**[czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp)** · ⭐ 23,3 mil · TypeScript · MIT
+
+- **O que é:** Servidor MCP que permite a assistentes de IA operar o n8n: depurar, editar, validar e criar fluxos.
+
+**[1jehuang/jcode](https://github.com/1jehuang/jcode)** · ⭐ 22,1 mil · Rust · MIT
+
+- **O que é:** Harness de agente de código em Rust, feito para fluxos pesados com vários agentes.
+
+**[xerj-org/xerj](https://github.com/xerj-org/xerj)** · ⭐ 21,7 mil · Rust · Apache-2.0
+
+- **O que é:** Motor de busca para agentes e servidor MCP que indexa código, documentação, logs e PDFs.
+
 
 ## Memória, contexto e economia de tokens
 
@@ -428,6 +937,22 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Áreas:** **Backend e APIs** (média) — Testar memória de longo prazo para agentes sem custo de licença
 - ⚠️ Projeto recente.
 
+**[volcengine/OpenViking](https://github.com/volcengine/OpenViking)** · ⭐ 42,9 mil · Python · AGPL-3.0
+
+- **O que é:** Banco de contexto para agentes de IA que unifica memória, RAG e skills.
+
+**[supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)** · ⭐ 31,9 mil · TypeScript · MIT
+
+- **O que é:** Supermemory: motor de memória e contexto para apps de IA, rápido e executável localmente.
+
+**[TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)** · ⭐ 31,2 mil · TypeScript · outra
+
+- **O que é:** Central de memória para times de agentes: transforma conversas, documentos e código em memória reutilizável.
+
+**[deepseek-ai/DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR)** · ⭐ 24,2 mil · Python · MIT
+
+- **O que é:** DeepSeek-OCR: modelo de OCR da DeepSeek que comprime o contexto visual.
+
 
 ## Conhecimento do código e diagramas
 
@@ -437,7 +962,7 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Transforma o código, docs, esquemas SQL e configs em um grafo de conhecimento consultável pelo agente; melhora respostas sobre sistemas grandes.
 - **Áreas:** **Arquitetura de software** (alta) — Mapear dependências e responsabilidades de um sistema legado; **Banco de dados e dados** (média) — Relacionar esquemas SQL com o código que os usa; **Engenharia e produtividade** (média) — Reduzir o tempo do agente procurando contexto em bases grandes
 
-**[tt-a1i/archify](https://github.com/tt-a1i/archify)** · ⭐ 100,7 mil · JavaScript · Apache-2.0
+**[tt-a1i/archify](https://github.com/tt-a1i/archify)** · ⭐ 100,8 mil · JavaScript · Apache-2.0
 
 - **O que é:** Transforma ideias, planos ou código em diagramas interativos ou respostas de uma página; skill para Claude Code, Codex, Cursor e outros.
 - **Por que importa:** Skill que transforma ideias, planos ou código em diagramas interativos e diagnóstico de arquitetura; ajuda a explicar e revisar sistemas.
@@ -455,7 +980,7 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Grafo do código pré-indexado e sincronizado para agentes; menos tokens e menos chamadas de ferramenta, tudo local.
 - **Áreas:** **Engenharia e produtividade** (alta) — Deixar o agente mais rápido e barato em repositórios grandes; **Arquitetura de software** (média) — Consultar dependências entre módulos durante refatorações
 
-**[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)** · ⭐ 74,1 mil · HTML · MIT
+**[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)** · ⭐ 74,2 mil · HTML · MIT
 
 - **O que é:** Skill de design de diagramas editoriais para agentes de código: 52 tipos, em HTML + SVG autocontido.
 - **Por que importa:** Skill que ensina o agente a gerar diagramas editoriais limpos (52 tipos) em HTML + SVG; melhor que diagramas genéricos em Mermaid.
@@ -537,6 +1062,70 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Framework para conectar dados próprios a LLMs: ingestão, indexação e consulta de documentos.
 - **Áreas:** **Backend e APIs** (alta) — Implementar RAG sobre documentos e bancos da empresa; **Banco de dados e dados** (média) — Indexar fontes de dados variadas para consulta por IA
 
+**[milvus-io/milvus](https://github.com/milvus-io/milvus)** · ⭐ 46,8 mil · Go · Apache-2.0
+
+- **O que é:** Milvus: banco de dados vetorial de alto desempenho e cloud native para busca por similaridade.
+
+**[datalab-to/marker](https://github.com/datalab-to/marker)** · ⭐ 41,1 mil · Python · Apache-2.0
+
+- **O que é:** Marker: converte PDF em Markdown e JSON com rapidez e alta precisão.
+
+**[HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)** · ⭐ 40,9 mil · Python · MIT
+
+- **O que é:** LightRAG: RAG simples e rápido baseado em grafos de conhecimento.
+
+**[VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)** · ⭐ 40,8 mil · Python · MIT
+
+- **O que é:** PageIndex: índice de documentos para RAG sem vetores, baseado em raciocínio.
+
+**[naptha/tesseract.js](https://github.com/naptha/tesseract.js)** · ⭐ 38,9 mil · JavaScript · Apache-2.0
+
+- **O que é:** Tesseract.js: OCR em JavaScript puro para mais de 100 idiomas.
+
+**[Tencent/WeKnora](https://github.com/Tencent/WeKnora)** · ⭐ 38,3 mil · Go · outra
+
+- **O que é:** WeKnora: plataforma de conhecimento com LLM que transforma documentos em RAG consultável e agentes.
+
+**[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)** · ⭐ 35,4 mil · Python · MPL-2.0
+
+- **O que é:** Adiciona uma camada de texto OCR a PDFs escaneados, tornando-os pesquisáveis.
+
+**[baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR)** · ⭐ 32,9 mil · Python · MIT
+
+- **O que é:** Modelo de OCR da Baidu para ler documentos longos de uma vez.
+
+**[NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)** · ⭐ 30,6 mil · Jupyter Notebook · outra
+
+- **O que é:** Técnicas avançadas de RAG com explicações e código.
+
+**[opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)** · ⭐ 30,4 mil · Java · Apache-2.0
+
+- **O que é:** Parser de PDF que gera dados prontos para IA.
+
+**[typesense/typesense](https://github.com/typesense/typesense)** · ⭐ 27,2 mil · C++ · GPL-3.0
+
+- **O que é:** Typesense: busca rápida e tolerante a erros com busca vetorial, alternativa open source ao Algolia e ao Pinecone.
+
+**[Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon)** · ⭐ 25,9 mil · Python · Apache-2.0
+
+- **O que é:** Kotaemon: ferramenta open source baseada em RAG para conversar com documentos.
+
+**[HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything)** · ⭐ 24,9 mil · Python · MIT
+
+- **O que é:** RAG-Anything: framework de RAG completo para documentos multimodais.
+
+**[PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT)** · ⭐ 22,2 mil · Python · MIT
+
+- **O que é:** LocalGPT: converse com seus documentos localmente, sem que os dados saiam do dispositivo.
+
+**[datalab-to/surya](https://github.com/datalab-to/surya)** · ⭐ 21,6 mil · Python · Apache-2.0
+
+- **O que é:** Surya: OCR, análise de layout, ordem de leitura e reconhecimento de tabelas em mais de 90 idiomas.
+
+**[firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector)** · ⭐ 20,1 mil · Rust · MIT
+
+- **O que é:** Biblioteca Rust rápida para inspecionar PDFs e extrair texto, detectando os escaneados.
+
 
 ## Modelos, inferência e gateways
 
@@ -612,6 +1201,158 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Motor de IA open source compatível com a API da OpenAI para texto, imagem, voz e vídeo, sem exigir GPU.
 - **Áreas:** **Backend e APIs** (alta) — Trocar a API da OpenAI por uma local sem mudar o código; **DevOps e infraestrutura** (média) — Rodar IA em servidores próprios sem GPU
 
+**[oobabooga/textgen](https://github.com/oobabooga/textgen)** · ⭐ 47,8 mil · Python · AGPL-3.0
+
+- **O que é:** App desktop open source para LLMs locais com API compatível com OpenAI e Anthropic, 100% privado.
+
+**[AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot)** · ⭐ 47,6 mil · Python · AGPL-3.0
+
+- **O que é:** Framework de agentes de IA integrado a plataformas de mensagens, com plugins e vários provedores de LLM.
+
+**[LibreChat-AI/LibreChat](https://github.com/LibreChat-AI/LibreChat)** · ⭐ 47,6 mil · TypeScript · MIT
+
+- **O que é:** Clone avançado do ChatGPT, auto-hospedável, com agentes, MCP, skills e vários provedores de modelo.
+
+**[Kong/kong](https://github.com/Kong/kong)** · ⭐ 44,4 mil · Lua · Apache-2.0
+
+- **O que é:** Kong: gateway de APIs e de IA.
+
+**[lyogavin/airllm](https://github.com/lyogavin/airllm)** · ⭐ 43,5 mil · Jupyter Notebook · Apache-2.0
+
+- **O que é:** Inferência de LLMs muito grandes em uma GPU de 4 GB.
+
+**[microsoft/BitNet](https://github.com/microsoft/BitNet)** · ⭐ 42,5 mil · C++ · MIT
+
+- **O que é:** BitNet: framework oficial da Microsoft para inferência de LLMs de 1 bit.
+
+**[hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI)** · ⭐ 41,4 mil · Python · Apache-2.0
+
+- **O que é:** ColossalAI: torna o treino e a inferência de grandes modelos mais baratos e rápidos.
+
+**[codewhale-hq/Codewhale](https://github.com/codewhale-hq/Codewhale)** · ⭐ 41,2 mil · Rust · MIT
+
+- **O que é:** Agente de código open source em Rust para terminal, web e desktop, com qualquer modelo, MCP e sandbox.
+
+**[The-Vibe-Company/quivr](https://github.com/The-Vibe-Company/quivr)** · ⭐ 39,7 mil · Go · MIT
+
+- **O que é:** Motor open source que transforma fluxos de conteúdo em busca híbrida e monitoramento (base para RAG).
+
+**[AlexsJones/llmfit](https://github.com/AlexsJones/llmfit)** · ⭐ 39,4 mil · Rust · MIT
+
+- **O que é:** Descobre com um comando quais modelos e provedores rodam no seu hardware.
+
+**[google/langextract](https://github.com/google/langextract)** · ⭐ 39,4 mil · Python · Apache-2.0
+
+- **O que é:** LangExtract: biblioteca Python do Google para extrair dados estruturados de textos com LLMs, com referência à fonte.
+
+**[sgl-project/sglang](https://github.com/sgl-project/sglang)** · ⭐ 39,1 mil · Python · Apache-2.0
+
+- **O que é:** SGLang: framework de alto desempenho para servir LLMs e modelos multimodais.
+
+**[langfuse/langfuse](https://github.com/langfuse/langfuse)** · ⭐ 37,9 mil · TypeScript · outra
+
+- **O que é:** Langfuse: plataforma de engenharia de IA com observabilidade de agentes, avaliações e gestão de prompts.
+
+**[songquanpeng/one-api](https://github.com/songquanpeng/one-api)** · ⭐ 37,5 mil · JavaScript · MIT
+
+- **O que é:** Sistema de gestão e distribuição de APIs de LLM compatível com vários provedores.
+
+**[microsoft/graphrag](https://github.com/microsoft/graphrag)** · ⭐ 36,8 mil · Python · MIT
+
+- **O que é:** GraphRAG: sistema modular de RAG baseado em grafos (Microsoft).
+
+**[huggingface/diffusers](https://github.com/huggingface/diffusers)** · ⭐ 35 mil · Python · Apache-2.0
+
+- **O que é:** Diffusers: biblioteca de modelos de difusão para gerar imagem, vídeo e áudio em PyTorch.
+
+**[TabbyML/tabby](https://github.com/TabbyML/tabby)** · ⭐ 34 mil · Rust · outra
+
+- **O que é:** Tabby: assistente de código com IA auto-hospedado.
+
+**[onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx)** · ⭐ 33,6 mil · Python · outra
+
+- **O que é:** Onyx: plataforma open source de IA com chat e busca nos documentos da empresa, compatível com qualquer LLM.
+
+**[openai/openai-python](https://github.com/openai/openai-python)** · ⭐ 32,3 mil · Python · Apache-2.0
+
+- **O que é:** Biblioteca Python oficial da API da OpenAI.
+
+**[HandsOnLLM/Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)** · ⭐ 30,4 mil · Jupyter Notebook · Apache-2.0
+
+- **O que é:** Código oficial do livro "Hands-On Large Language Models" (O'Reilly).
+
+**[labring/FastGPT](https://github.com/labring/FastGPT)** · ⭐ 30,1 mil · TypeScript · outra
+
+- **O que é:** FastGPT: plataforma de conhecimento com LLMs, com RAG, fluxos visuais e agentes prontos.
+
+**[yamadashy/repomix](https://github.com/yamadashy/repomix)** · ⭐ 29,5 mil · TypeScript · MIT
+
+- **O que é:** Repomix: empacota o repositório inteiro em um único arquivo pronto para IA.
+
+**[charmbracelet/crush](https://github.com/charmbracelet/crush)** · ⭐ 29,2 mil · Go · outra
+
+- **O que é:** Crush: agente de código no terminal, da Charm.
+
+**[microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)** · ⭐ 28,8 mil · C# · MIT
+
+- **O que é:** Semantic Kernel: SDK da Microsoft para integrar LLMs em aplicações C#, Python e Java.
+
+**[vercel/ai](https://github.com/vercel/ai)** · ⭐ 28,2 mil · TypeScript · outra
+
+- **O que é:** AI SDK: biblioteca TypeScript da Vercel para construir apps e agentes com IA.
+
+**[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper)** · ⭐ 27,1 mil · Python · MIT
+
+- **O que é:** Transcrição com Whisper mais rápida usando CTranslate2.
+
+**[mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile)** · ⭐ 26,7 mil · C++ · outra
+
+- **O que é:** llamafile: distribui e roda LLMs com um único arquivo executável.
+
+**[deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer)** · ⭐ 26,4 mil · Python · Apache-2.0
+
+- **O que é:** DeepInfer: framework de inferência em larga escala para modelos DeepSeek.
+
+**[m-bain/whisperX](https://github.com/m-bain/whisperX)** · ⭐ 25,7 mil · Python · BSD-2-Clause
+
+- **O que é:** WhisperX: reconhecimento de fala com marcação de tempo por palavra e separação de falantes.
+
+**[toon-format/toon](https://github.com/toon-format/toon)** · ⭐ 25,7 mil · TypeScript · MIT
+
+- **O que é:** TOON: formato compacto para enviar dados JSON em prompts, economizando tokens.
+
+**[antirez/ds4](https://github.com/antirez/ds4)** · ⭐ 24,5 mil · C · MIT
+
+- **O que é:** Motor de inferência local dos modelos DeepSeek 4 para Metal, CUDA e ROCm.
+
+**[sinaptik-ai/pandas-ai](https://github.com/sinaptik-ai/pandas-ai)** · ⭐ 24 mil · Python · outra
+
+- **O que é:** PandasAI: converse com seu banco de dados ou data lake (SQL, CSV, parquet) usando LLMs.
+
+**[comet-ml/opik](https://github.com/comet-ml/opik)** · ⭐ 23,5 mil · Java · Apache-2.0
+
+- **O que é:** Opik: depura, avalia e monitora apps com LLM, RAG e agentes.
+
+**[mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm)** · ⭐ 23,5 mil · Python · Apache-2.0
+
+- **O que é:** MLC LLM: motor universal de deploy de LLMs com compilação de ML.
+
+**[dyad-sh/dyad](https://github.com/dyad-sh/dyad)** · ⭐ 22,5 mil · TypeScript · outra
+
+- **O que é:** Dyad: construtor local e open source de apps com IA, alternativa a v0, Lovable e Bolt.
+
+**[guidance-ai/guidance](https://github.com/guidance-ai/guidance)** · ⭐ 21,8 mil · Jupyter Notebook · MIT
+
+- **O que é:** Guidance: linguagem para controlar e estruturar a saída de LLMs.
+
+**[openai/gpt-oss](https://github.com/openai/gpt-oss)** · ⭐ 20,6 mil · Python · Apache-2.0
+
+- **O que é:** gpt-oss: modelos de pesos abertos da OpenAI (120b e 20b).
+
+**[eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT)** · ⭐ 20,3 mil · Python · MIT
+
+- **O que é:** DB-GPT: agentes de dados controlados para consultas e análises em bancos de dados.
+
 
 ## Treino e frameworks de ML
 
@@ -670,6 +1411,90 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Áreas:** **Backend e APIs** (média) — Detectar objetos em imagens ou câmeras dentro do produto
 - ⚠️ Licença AGPL: verifique antes de uso comercial fechado.
 
+**[ray-project/ray](https://github.com/ray-project/ray)** · ⭐ 44,4 mil · Python · Apache-2.0
+
+- **O que é:** Ray: motor de computação distribuída para IA e ML, de treino a serving.
+
+**[gradio-app/gradio](https://github.com/gradio-app/gradio)** · ⭐ 44,2 mil · Python · Apache-2.0
+
+- **O que é:** Gradio: crie e compartilhe interfaces web para apps de machine learning em Python.
+
+**[deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** · ⭐ 43,4 mil · Python · Apache-2.0
+
+- **O que é:** DeepSpeed: otimização de treino e inferência distribuídos de deep learning.
+
+**[google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe)** · ⭐ 37,9 mil · C++ · Apache-2.0
+
+- **O que é:** MediaPipe: soluções de ML multiplataforma para mídia ao vivo (visão, mãos, rosto, pose).
+
+**[huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models)** · ⭐ 37,3 mil · Python · Apache-2.0
+
+- **O que é:** timm: maior coleção de modelos de visão em PyTorch, com scripts de treino e inferência.
+
+**[qdrant/qdrant](https://github.com/qdrant/qdrant)** · ⭐ 35,7 mil · Rust · Apache-2.0
+
+- **O que é:** Qdrant: banco de dados vetorial e motor de busca vetorial de alto desempenho para IA.
+
+**[explosion/spaCy](https://github.com/explosion/spaCy)** · ⭐ 34,1 mil · Python · MIT
+
+- **O que é:** spaCy: processamento de linguagem natural em Python para uso industrial.
+
+**[lutzroeder/netron](https://github.com/lutzroeder/netron)** · ⭐ 33,7 mil · JavaScript · MIT
+
+- **O que é:** Netron: visualizador de modelos de redes neurais e machine learning.
+
+**[Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning)** · ⭐ 31,5 mil · Python · Apache-2.0
+
+- **O que é:** PyTorch Lightning: treine e ajuste modelos de IA de qualquer tamanho, em uma ou milhares de GPUs, sem mudar o código.
+
+**[modular/modular](https://github.com/modular/modular)** · ⭐ 30,2 mil · Mojo · outra
+
+- **O que é:** Plataforma Modular (MAX e Mojo) para inferência de IA de alto desempenho.
+
+**[JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR)** · ⭐ 30,2 mil · Python · Apache-2.0
+
+- **O que é:** EasyOCR: OCR pronto para uso com mais de 80 idiomas.
+
+**[dmlc/xgboost](https://github.com/dmlc/xgboost)** · ⭐ 29 mil · C++ · Apache-2.0
+
+- **O que é:** XGBoost: biblioteca de gradient boosting escalável para modelos de previsão.
+
+**[HumanSignal/label-studio](https://github.com/HumanSignal/label-studio)** · ⭐ 28,8 mil · TypeScript · Apache-2.0
+
+- **O que é:** Label Studio: ferramenta de rotulagem e anotação de dados para treinar modelos.
+
+**[fastai/fastai](https://github.com/fastai/fastai)** · ⭐ 28,3 mil · Jupyter Notebook · Apache-2.0
+
+- **O que é:** fastai: biblioteca de deep learning de alto nível.
+
+**[shap/shap](https://github.com/shap/shap)** · ⭐ 25,9 mil · Jupyter Notebook · MIT
+
+- **O que é:** SHAP: explica as saídas de qualquer modelo de machine learning.
+
+**[lukasmasuch/best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python)** · ⭐ 23,9 mil · CC-BY-SA-4.0
+
+- **O que é:** Lista ranqueada das melhores bibliotecas Python de machine learning, atualizada toda semana.
+
+**[dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering)** · ⭐ 22,6 mil · MIT
+
+- **O que é:** Coleção de recursos de engenharia de IA: LLMs, RAG, agentes, MCP e mais.
+
+**[huggingface/datasets](https://github.com/huggingface/datasets)** · ⭐ 22,2 mil · Python · Apache-2.0
+
+- **O que é:** Datasets da Hugging Face: maior hub de datasets prontos para IA, com ferramentas de manipulação.
+
+**[recommenders-team/recommenders](https://github.com/recommenders-team/recommenders)** · ⭐ 22 mil · Python · MIT
+
+- **O que é:** Boas práticas e código de sistemas de recomendação (Microsoft).
+
+**[huggingface/peft](https://github.com/huggingface/peft)** · ⭐ 21,9 mil · Python · Apache-2.0
+
+- **O que é:** PEFT: ajuste fino eficiente em parâmetros (LoRA e outros) da Hugging Face.
+
+**[onnx/onnx](https://github.com/onnx/onnx)** · ⭐ 21,8 mil · Python · Apache-2.0
+
+- **O que é:** ONNX: padrão aberto para interoperabilidade de modelos de ML.
+
 
 ## Design e interfaces com IA
 
@@ -691,7 +1516,7 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Skills que dão direção de arte ao agente e conferem o resultado no navegador; evita páginas com cara de 'gerado por IA'.
 - **Áreas:** **Design e UI/UX** (alta) — Definir direção de arte e referências antes de o agente criar a interface; **Frontend** (média) — Checar visualmente no navegador o que foi gerado
 
-**[pbakaus/impeccable](https://github.com/pbakaus/impeccable)** · ⭐ 117,7 mil · Rust · Apache-2.0
+**[pbakaus/impeccable](https://github.com/pbakaus/impeccable)** · ⭐ 117,8 mil · Rust · Apache-2.0
 
 - **O que é:** Vocabulário de design para agentes de código: refinar, revisar, auditar e barrar interfaces genéricas de IA.
 - **Por que importa:** Vocabulário de design para agentes de código: comandos para refinar, revisar e auditar interfaces.
@@ -716,10 +1541,18 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Skill de design contra interfaces genéricas de IA para Claude Code, Cursor e Codex.
 - **Áreas:** **Design e UI/UX** (alta) — Evitar layouts genéricos em landing pages e telas geradas por IA; **Frontend** (média) — Melhorar o acabamento de páginas feitas com agentes
 
+**[onlook-dev/onlook](https://github.com/onlook-dev/onlook)** · ⭐ 28 mil · TypeScript · Apache-2.0
+
+- **O que é:** Onlook: ferramenta de design com IA para editar visualmente o código de apps React.
+
+**[wandb/openui](https://github.com/wandb/openui)** · ⭐ 22,8 mil · TypeScript · Apache-2.0
+
+- **O que é:** OpenUI: descreva uma interface e veja ela renderizada ao vivo.
+
 
 ## Segurança com IA
 
-**[morluto/rea](https://github.com/morluto/rea)** · ⭐ 480,3 mil · TypeScript · MIT
+**[morluto/rea](https://github.com/morluto/rea)** · ⭐ 480,4 mil · TypeScript · MIT
 
 - **O que é:** Ferramenta com agentes de IA para engenharia reversa, do comportamento de aplicativos até binários nativos, com integração a assistentes de código como o Claude Code.
 - **Por que importa:** Agentes de IA para engenharia reversa de apps e binários; pode acelerar auditorias de segurança e análise de integrações sem documentação.
@@ -745,6 +1578,18 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Áreas:** **Segurança e cibersegurança** (alta) — Validar vulnerabilidades reais em APIs antes da produção; **Backend e APIs** (média) — Auditar endpoints e autenticação do backend
 - ⚠️ Use só em sistemas próprios ou com autorização.
 
+**[mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** · ⭐ 36,8 mil · Python · Apache-2.0
+
+- **O que é:** Mais de 800 skills de cibersegurança para agentes, mapeadas para MITRE ATT&CK, NIST CSF e outros frameworks.
+
+**[BaaRai/ARTEX](https://github.com/BaaRai/ARTEX)** · ⭐ 22,8 mil · Go · AGPL-3.0
+
+- **O que é:** Sistema autônomo de pentest com IA, auto-hospedado e independente de modelo.
+
+**[SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)** · ⭐ 20,9 mil · Python · MIT
+
+- **O que é:** SWE-agent: recebe uma issue do GitHub e tenta corrigi-la automaticamente.
+
 
 ## Gestão de agentes e produtividade
 
@@ -754,7 +1599,7 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Assistente desktop para alternar e configurar Claude Code, Codex, OpenCode e outros num só lugar.
 - **Áreas:** **Engenharia e produtividade** (média) — Gerenciar configurações e provedores de vários agentes de código
 
-**[stablyai/orca](https://github.com/stablyai/orca)** · ⭐ 141,4 mil · TypeScript · MIT
+**[stablyai/orca](https://github.com/stablyai/orca)** · ⭐ 141,5 mil · TypeScript · MIT
 
 - **O que é:** Roda uma frota de bots usando sua própria assinatura (Claude Code, Grok, Codex etc.), no desktop, no celular ou remoto.
 - **Por que importa:** Roda uma frota de agentes de código usando suas assinaturas, no desktop, celular ou remoto.
@@ -774,7 +1619,7 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Controla Claude Code, Codex e outros a partir de qualquer computador ou celular.
 - **Áreas:** **Engenharia e produtividade** (média) — Acompanhar e comandar agentes de código remotamente
 
-**[multica-ai/multica](https://github.com/multica-ai/multica)** · ⭐ 58,1 mil · Go · outra
+**[multica-ai/multica](https://github.com/multica-ai/multica)** · ⭐ 58,2 mil · Go · outra
 
 - **O que é:** Quadro de tarefas compartilhado em que pessoas e agentes de código trabalham como colegas de time; auto-hospedável.
 - **Por que importa:** Quadro de tarefas compartilhado em que pessoas e agentes de código trabalham juntos; auto-hospedável.
@@ -787,6 +1632,10 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **Por que importa:** Runtime para hospedar e gerenciar agentes de código em execução.
 - **Áreas:** **Engenharia e produtividade** (média) — Manter agentes de código rodando e organizados em sessões; **DevOps e infraestrutura** (média) — Padronizar onde e como os agentes rodam
 - ⚠️ Projeto recente.
+
+**[wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)** · ⭐ 22,8 mil · Go · Apache-2.0
+
+- **O que é:** Terminal open source multiplataforma com IA integrada.
 
 
 ## Aprendizado de IA
@@ -910,3 +1759,89 @@ Atualizado em 27/11/2026 · **137** repositórios no foco (de 532 com 50 mil+ es
 - **O que é:** Aprenda a desenvolver, publicar e iterar aplicações de ML em produção.
 - **Por que importa:** Ensina a desenvolver, publicar e iterar aplicações de ML em produção (MLOps).
 - **Áreas:** **DevOps e infraestrutura** (média) — Aprender práticas de MLOps: versionamento, deploy e monitoramento de modelos; **Testes e QA** (média) — Testar dados e modelos de ML
+
+**[luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)** · ⭐ 47,6 mil · Python · MIT
+
+- **O que é:** Guia visual e com exemplos do Claude Code, do básico a agentes avançados, com modelos prontos para copiar.
+
+**[PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules)** · ⭐ 41,2 mil · JavaScript · CC0-1.0
+
+- **O que é:** Arquivos de regras para o Cursor seguir os padrões do projeto.
+
+**[VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)** · ⭐ 26,8 mil · Shell · MIT
+
+- **O que é:** Mais de 100 subagentes especializados para o Claude Code.
+
+**[EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning)** · ⭐ 21,1 mil · MIT
+
+- **O que é:** Lista de bibliotecas open source para publicar, monitorar e escalar ML em produção.
+
+
+## Outros
+
+**[exo-explore/exo](https://github.com/exo-explore/exo)** · ⭐ 48,6 mil · Python · Apache-2.0
+
+- **O que é:** Roda modelos de IA de ponta localmente, distribuindo o processamento entre vários dispositivos.
+
+**[Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)** · ⭐ 33,6 mil · Python · outra
+
+- **O que é:** GPT Pilot: agente que desenvolve aplicações passo a passo junto com o desenvolvedor.
+
+**[QwenLM/Qwen3](https://github.com/QwenLM/Qwen3)** · ⭐ 27,8 mil · Python
+
+- **O que é:** Qwen3: série de modelos de linguagem da Alibaba.
+
+**[Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)** · ⭐ 27,5 mil · CC0-1.0
+
+- **O que é:** Lista curada de recursos sobre grandes modelos de linguagem.
+
+**[karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero)** · ⭐ 26 mil · Jupyter Notebook · MIT
+
+- **O que é:** Curso "Neural Networks: Zero to Hero", de Andrej Karpathy.
+- ⚠️ Sem commits há 2 anos — verifique se ainda é mantido.
+
+**[SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework)** · ⭐ 24 mil · Python · MIT
+
+- **O que é:** SuperClaude: framework de configuração que amplia o Claude Code com comandos especializados, personas e metodologias de desenvolvimento.
+
+**[pgvector/pgvector](https://github.com/pgvector/pgvector)** · ⭐ 23,8 mil · C · outra
+
+- **O que é:** pgvector: busca vetorial por similaridade dentro do Postgres.
+
+**[livekit/livekit](https://github.com/livekit/livekit)** · ⭐ 22,4 mil · Go · Apache-2.0
+
+- **O que é:** LiveKit: stack de tempo real para conectar pessoas e IA por voz e vídeo.
+
+**[BuilderIO/gpt-crawler](https://github.com/BuilderIO/gpt-crawler)** · ⭐ 22,4 mil · TypeScript · ISC
+
+- **O que é:** Rastreia um site e gera arquivos de conhecimento para alimentar um GPT ou um RAG.
+
+**[anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)** · ⭐ 21,4 mil · Python · MIT
+
+- **O que é:** Projetos para começar rápido a construir aplicações com a API do Claude.
+
+**[QwenLM/Qwen3-VL](https://github.com/QwenLM/Qwen3-VL)** · ⭐ 20,3 mil · Jupyter Notebook · Apache-2.0
+
+- **O que é:** Qwen3-VL: modelos multimodais (texto e imagem) da Alibaba.
+
+**[keploy/keploy](https://github.com/keploy/keploy)** · ⭐ 20 mil · Go · Apache-2.0
+
+- **O que é:** Keploy: gera testes de API e integração a partir do tráfego real, com ambientes isolados.
+
+
+## Demais repositórios com 20 mil+ estrelas
+
+Os outros 1921 repositórios, fora do foco de IA, ficam em páginas por categoria técnica:
+
+- [Frontend e UI](geral/frontend-e-ui.md) (250)
+- [Backend e APIs](geral/backend-e-apis.md) (199)
+- [Mobile e Desktop](geral/mobile-e-desktop.md) (253)
+- [DevOps e Cloud](geral/devops-e-cloud.md) (119)
+- [Dados e Bancos de dados](geral/dados-e-bancos-de-dados.md) (118)
+- [Segurança](geral/seguranca.md) (60)
+- [Ferramentas de desenvolvimento](geral/ferramentas-de-desenvolvimento.md) (159)
+- [Linguagens e runtimes](geral/linguagens-e-runtimes.md) (48)
+- [Sistemas operacionais e infraestrutura](geral/sistemas-operacionais-e-infraestrutura.md) (18)
+- [Aprendizado e listas de recursos](geral/aprendizado-e-listas-de-recursos.md) (256)
+- [Apps prontos e self-hosted](geral/apps-prontos-e-self-hosted.md) (96)
+- [Outros](geral/outros.md) (345)

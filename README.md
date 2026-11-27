@@ -1,9 +1,9 @@
-# Radar GitHub 50k — IA para entregar software
+# Radar de IA do GitHub — repositórios com 20 mil+ estrelas
 
 Todo dia, às 06:17 (horário de Brasília), uma **tarefa agendada do Claude**:
 
-1. busca **todos os repositórios open source com 50 mil+ estrelas** (hoje são ~530, sem contar os arquivados);
-2. filtra o **foco**: IA para construir e entregar software, como agentes, skills, agentes de código, MCP, LLMs e RAG, além de IA aplicada a design, segurança e dados (hoje são ~140);
+1. busca **todos os repositórios open source com 20 mil estrelas ou mais** (hoje são ~2.290, sem contar os arquivados);
+2. separa o **foco**: IA para construir e entregar software, como agentes, skills, agentes de código, MCP, LLMs e RAG, além de IA aplicada a design, segurança e dados (hoje são ~365). Os demais ficam no catálogo geral, por categoria técnica;
 3. compara com o dia anterior e marca os **novos**, os que **saíram** e os que **mais cresceram**;
 4. explica cada repositório do foco: **o que é**, **por que importa** e **em quais áreas de entrega** ajuda (arquitetura, engenharia, design, frontend, backend, banco de dados, segurança, testes e DevOps), com relevância e um uso concreto;
 5. salva tudo neste próprio repositório e abre uma **issue** quando aparece novidade no foco (o GitHub te avisa por e-mail ou no app).
@@ -17,6 +17,7 @@ O repositório serve só para guardar e versionar os resultados. Quem faz o trab
 | `data/repos.json` | Base completa: estrelas, linguagem, licença, tópicos, data em que entrou | É a "memória" entre execuções; sem ela não dá para saber o que é novo |
 | `data/explicacoes.json` | Cache das explicações da IA | Cada repositório é explicado uma vez só; economiza cota da IA |
 | `CATALOGO.md` | Todos os repositórios ativos, por categoria técnica | Consulta geral |
+| `geral/*.md` | Os repositórios fora do foco de IA, uma página por categoria técnica (Frontend, Backend, DevOps…), em tabela com resumo em português | Visão completa de tudo com 20 mil+ estrelas |
 | `areas/*.md` | Um arquivo por área de entrega (Arquitetura, Backend, Segurança, Testes…) com os repositórios relevantes | Para escolher ferramentas de IA para uma parte específica do projeto |
 | `relatorios/AAAA-MM-DD.md` | O que mudou no dia | Histórico diário; também vira o texto da issue |
 
@@ -25,9 +26,10 @@ Como tudo é commitado, o próprio histórico do Git mostra a evolução de cada
 ## Como a tarefa agendada roda
 
 ```bash
-python scripts/radar.py --sem-ia --exportar-pendentes 80   # busca, compara com ontem e lista o que falta explicar
+python scripts/radar.py --sem-ia --exportar-pendentes 80 --exportar-traducoes 500   # busca, compara com ontem e lista o que falta explicar e traduzir
 # o Claude lê .radar/pendentes.json e escreve .radar/explicacoes_novas.json
 python scripts/radar.py --importar .radar/explicacoes_novas.json   # grava as explicações e regenera tudo
+python scripts/radar.py --importar-traducoes .radar/traducoes_novas.json   # resumos em português dos repositórios fora do foco
 python scripts/radar.py --abrir-issue marcelojacint/radar-github-50k   # issue só se houver novos
 git commit + push
 ```
@@ -53,7 +55,7 @@ Sem o secret configurado, o radar continua rodando todo dia (busca, novidades, c
 - **`busca.foco.descricao`**: o foco em uma frase. Aparece no topo do catálogo e orienta o Claude.
 - **`areas`**: áreas de entrega usadas para dizer onde cada repositório ajuda. O Claude só usa nomes desta lista.
 - **`busca.filtro_extra`**: restringe a busca com a sintaxe do GitHub. Exemplos: `topic:agent-skills` (só skills para agentes de IA), `language:csharp`, `topic:llm`.
-- **`busca.min_estrelas`**: o corte (50000 por padrão).
+- **`busca.min_estrelas`**: o corte (20000 hoje). A busca usa "maior ou igual".
 - **`relatorio.abrir_issue`**: `sempre`, `quando_houver_novos` ou `nunca`.
 
 Se você mudar o filtro, a próxima execução cria uma nova base de referência e não marca tudo como "novo".
@@ -70,7 +72,7 @@ python scripts/radar.py             # com IA
 
 ## Detalhes que evitam alarme falso
 
-- **Oscilação no corte:** um repositório que sai da busca é consultado direto na API antes de ser marcado como "saiu". Assim, quem ficou fora só por um problema de paginação continua ativo. Quem cai abaixo de 50 mil e volta depois aparece em "Voltaram", não em "Novos".
+- **Oscilação no corte:** um repositório que sai da busca é consultado direto na API antes de ser marcado como "saiu". Assim, quem ficou fora só por um problema de paginação continua ativo. Quem cai abaixo do corte e volta depois aparece em "Voltaram", não em "Novos".
 - **Limite de 1000 resultados da busca do GitHub:** se o total passar disso, o script divide a faixa de estrelas automaticamente.
 - **Projeto parado:** repositórios sem commit há 2 anos ou mais recebem um ⚠️ no catálogo.
 

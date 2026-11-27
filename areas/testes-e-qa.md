@@ -1,6 +1,8 @@
-# Testes e QA — IA aplicada (repositórios 50 mil+ estrelas)
+# Testes e QA — IA aplicada (repositórios 20 mil+ estrelas)
 
 Atualizado em 27/11/2026 · 4 de relevância alta · 8 de relevância média · [voltar ao catálogo](../CATALOGO.md)
+
+> 228 repositórios do foco ainda aguardam análise completa e entram aqui nas próximas execuções.
 
 ## Relevância alta
 

@@ -1,6 +1,8 @@
-# Engenharia e produtividade — IA aplicada (repositórios 50 mil+ estrelas)
+# Engenharia e produtividade — IA aplicada (repositórios 20 mil+ estrelas)
 
 Atualizado em 27/11/2026 · 25 de relevância alta · 30 de relevância média · [voltar ao catálogo](../CATALOGO.md)
+
+> 228 repositórios do foco ainda aguardam análise completa e entram aqui nas próximas execuções.
 
 ## Relevância alta
 
@@ -36,18 +38,18 @@ Atualizado em 27/11/2026 · 25 de relevância alta · 30 de relevância média �
 
 | Repositório | ⭐ | Categoria | Como usar nesta área |
 |---|---|---|---|
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 287,8 mil | Frameworks de agentes e orquestração | Rodar agentes de código com modelos DeepSeek e plugins próprios |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 287,9 mil | Frameworks de agentes e orquestração | Rodar agentes de código com modelos DeepSeek e plugins próprios |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 266,5 mil | Frameworks de agentes e orquestração | Experimentar agentes que evoluem com o uso em tarefas recorrentes |
 | [f/prompts.chat](https://github.com/f/prompts.chat) | 178,6 mil | Skills e configurações para agentes | Montar uma biblioteca interna de prompts reutilizáveis |
 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 170,5 mil | Skills e configurações para agentes | Usar papéis prontos (revisor, QA, arquiteto) como subagentes |
 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 157,6 mil | Gestão de agentes e produtividade | Gerenciar configurações e provedores de vários agentes de código |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 154 mil | Conhecimento do código e diagramas | Reduzir o tempo do agente procurando contexto em bases grandes |
 | [garrytan/gstack](https://github.com/garrytan/gstack) | 142,8 mil | Skills e configurações para agentes | Inspirar um fluxo completo de entrega com papéis definidos para o agente |
-| [stablyai/orca](https://github.com/stablyai/orca) | 141,4 mil | Gestão de agentes e produtividade | Paralelizar tarefas entre vários agentes de código |
+| [stablyai/orca](https://github.com/stablyai/orca) | 141,5 mil | Gestão de agentes e produtividade | Paralelizar tarefas entre vários agentes de código |
 | [earendil-works/pi](https://github.com/earendil-works/pi) | 124,2 mil | Frameworks de agentes e orquestração | Montar um agente de código customizado para o time |
 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 123,2 mil | Memória, contexto e economia de tokens | Deixar o agente mais econômico e direto |
 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 117,5 mil | Gestão de agentes e produtividade | Organizar o trabalho de vários agentes como se fossem membros do time |
-| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 100,7 mil | Conhecimento do código e diagramas | Explicar PRs e mudanças com diagramas para revisão |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 100,8 mil | Conhecimento do código e diagramas | Explicar PRs e mudanças com diagramas para revisão |
 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 94,7 mil | Conhecimento do código e diagramas | Acelerar o onboarding de devs em sistemas grandes |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 82,5 mil | Frameworks de agentes e orquestração | Coordenar vários agentes de código em tarefas paralelas |
 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | 81,5 mil | Gestão de agentes e produtividade | Acompanhar e comandar agentes de código remotamente |
@@ -61,7 +63,7 @@ Atualizado em 27/11/2026 · 25 de relevância alta · 30 de relevância média �
 | [warpdotdev/warp](https://github.com/warpdotdev/warp) | 66,2 mil | Agentes de código | Executar e explicar comandos com ajuda de IA no dia a dia |
 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 62,7 mil | Skills e configurações para agentes | Deixar as respostas do agente mais objetivas no dia a dia |
 | [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 58,9 mil | Aprendizado de IA | Descobrir hooks, comandos e plugins para melhorar o fluxo com o Claude Code |
-| [multica-ai/multica](https://github.com/multica-ai/multica) | 58,1 mil | Gestão de agentes e produtividade | Distribuir tarefas entre devs e agentes no mesmo quadro |
+| [multica-ai/multica](https://github.com/multica-ai/multica) | 58,2 mil | Gestão de agentes e produtividade | Distribuir tarefas entre devs e agentes no mesmo quadro |
 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 55,3 mil | Aprendizado de IA | Aprender técnicas de uso de ferramentas e contexto |
 | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 54 mil | Aprendizado de IA | Encontrar exemplos de skills para automações com agentes |
 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | 53,1 mil | Gestão de agentes e produtividade | Manter agentes de código rodando e organizados em sessões |

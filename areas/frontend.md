@@ -1,6 +1,8 @@
-# Frontend — IA aplicada (repositórios 50 mil+ estrelas)
+# Frontend — IA aplicada (repositórios 20 mil+ estrelas)
 
 Atualizado em 27/11/2026 · 5 de relevância alta · 9 de relevância média · [voltar ao catálogo](../CATALOGO.md)
+
+> 228 repositórios do foco ainda aguardam análise completa e entram aqui nas próximas execuções.
 
 ## Relevância alta
 
@@ -19,7 +21,7 @@ Atualizado em 27/11/2026 · 5 de relevância alta · 9 de relevância média · 
 | [mattpocock/skills](https://github.com/mattpocock/skills) | 333,9 mil | Skills e configurações para agentes | Melhorar o código TypeScript gerado pelo agente |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 122,1 mil | Design e interfaces com IA | Checar visualmente no navegador o que foi gerado |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 120,7 mil | Skills e configurações para agentes | Revisar performance e acessibilidade de páginas com ajuda do agente |
-| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 117,7 mil | Design e interfaces com IA | Ajustar hierarquia visual e espaçamentos com o agente |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 117,8 mil | Design e interfaces com IA | Ajustar hierarquia visual e espaçamentos com o agente |
 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 109,7 mil | Design e interfaces com IA | Transformar protótipos em páginas e componentes |
 | [cline/cline](https://github.com/cline/cline) | 71,9 mil | Agentes de código | Criar e ajustar componentes de interface direto no editor |
 | [upstash/context7](https://github.com/upstash/context7) | 65,5 mil | MCP, ferramentas e integrações | Gerar código com a API atual de bibliotecas de frontend |

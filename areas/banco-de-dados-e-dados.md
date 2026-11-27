@@ -1,6 +1,8 @@
-# Banco de dados e dados — IA aplicada (repositórios 50 mil+ estrelas)
+# Banco de dados e dados — IA aplicada (repositórios 20 mil+ estrelas)
 
 Atualizado em 27/11/2026 · 4 de relevância alta · 21 de relevância média · [voltar ao catálogo](../CATALOGO.md)
+
+> 228 repositórios do foco ainda aguardam análise completa e entram aqui nas próximas execuções.
 
 ## Relevância alta
 

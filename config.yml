@@ -4,7 +4,7 @@
 # ─────────────────────────────────────────────────────────────
 
 busca:
-  min_estrelas: 50000
+  min_estrelas: 20000
   # Filtro extra na sintaxe de busca do GitHub (deixe "" para tudo).
   # Exemplos:
   #   "topic:agent-skills"   -> só repositórios de skills para agentes

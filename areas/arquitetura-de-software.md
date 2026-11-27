@@ -1,6 +1,8 @@
-# Arquitetura de software — IA aplicada (repositórios 50 mil+ estrelas)
+# Arquitetura de software — IA aplicada (repositórios 20 mil+ estrelas)
 
 Atualizado em 27/11/2026 · 8 de relevância alta · 13 de relevância média · [voltar ao catálogo](../CATALOGO.md)
+
+> 228 repositórios do foco ainda aguardam análise completa e entram aqui nas próximas execuções.
 
 ## Relevância alta
 
@@ -8,10 +10,10 @@ Atualizado em 27/11/2026 · 8 de relevância alta · 13 de relevância média ·
 |---|---|---|---|
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 154 mil | Conhecimento do código e diagramas | Mapear dependências e responsabilidades de um sistema legado |
 | [github/spec-kit](https://github.com/github/spec-kit) | 151,9 mil | Skills e configurações para agentes | Transformar requisitos em especificação e plano técnico antes do código |
-| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 100,7 mil | Conhecimento do código e diagramas | Gerar diagnóstico e diagramas da arquitetura atual de um sistema |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 100,8 mil | Conhecimento do código e diagramas | Gerar diagnóstico e diagramas da arquitetura atual de um sistema |
 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 94,7 mil | Conhecimento do código e diagramas | Entender a estrutura de um projeto novo antes de mexer nele |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 75,9 mil | Skills e configurações para agentes | Registrar e evoluir especificações do sistema junto com o código |
-| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 74,1 mil | Conhecimento do código e diagramas | Gerar diagramas de arquitetura e fluxos com visual profissional |
+| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 74,2 mil | Conhecimento do código e diagramas | Gerar diagramas de arquitetura e fluxos com visual profissional |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | 64 mil | Modelos, inferência e gateways | Desacoplar o produto de um fornecedor de modelo específico |
 | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | 55,8 mil | Skills e configurações para agentes | Gerar PRD e documento de arquitetura antes de o agente codar |
 
