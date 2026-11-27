@@ -8,7 +8,7 @@ Saídas (todas commitadas no próprio repositório):
   data/repos.json          base completa (estado entre execuções)
   data/explicacoes.json    cache das explicações (não reprocessa o que já foi feito)
   CATALOGO.md              todos os repositórios ativos, por categoria técnica
-  segmentos/<slug>.md      visão por segmento de negócio
+  areas/<slug>.md          visão por área de entrega (arquitetura, backend, segurança...)
   relatorios/AAAA-MM-DD.md o que mudou no dia (novos, saíram, crescimento)
 """
 
@@ -33,7 +33,8 @@ DADOS = RAIZ / "data"
 ARQ_REPOS = DADOS / "repos.json"
 ARQ_EXPL = DADOS / "explicacoes.json"
 DIR_REL = RAIZ / "relatorios"
-DIR_SEG = RAIZ / "segmentos"
+DIR_SEG = RAIZ / "areas"
+VERSAO_EXPL = 2  # explicações anteriores ao foco em IA são refeitas
 DIR_TMP = RAIZ / ".radar"
 
 API = "https://api.github.com"
@@ -43,31 +44,34 @@ BRT = dt.timezone(dt.timedelta(hours=-3))
 HOJE = dt.datetime.now(BRT).date().isoformat()
 
 CATEGORIAS = {
-    "IA e Machine Learning": ["machine-learning", "deep-learning", "llm", "llms", "ai", "artificial-intelligence",
-                              "neural-network", "pytorch", "tensorflow", "gpt", "chatgpt", "transformers", "agent",
-                              "agents", "ai-agents", "rag", "diffusion", "stable-diffusion", "nlp", "computer-vision",
-                              "openai", "ollama", "langchain", "generative-ai", "mcp", "claude", "gemini"],
-    "Frontend e UI": ["react", "vue", "angular", "svelte", "frontend", "css", "ui", "components", "web-components",
-                      "tailwindcss", "design-system", "nextjs", "html", "css-framework", "ui-components", "animation"],
-    "Backend e APIs": ["backend", "api", "web-framework", "server", "http", "rest", "graphql", "django", "flask",
-                       "spring", "spring-boot", "express", "fastapi", "laravel", "rails", "microservices", "orm"],
-    "Mobile e Desktop": ["android", "ios", "flutter", "react-native", "mobile", "electron", "desktop", "tauri",
-                         "cross-platform", "windows", "macos"],
-    "DevOps e Cloud": ["devops", "kubernetes", "docker", "containers", "ci", "cd", "cloud", "terraform",
-                       "infrastructure", "monitoring", "deployment", "serverless", "ansible", "observability", "k8s"],
-    "Dados e Bancos de dados": ["database", "sql", "data", "analytics", "big-data", "etl", "redis", "postgres",
-                                "postgresql", "data-visualization", "visualization", "spreadsheet", "search-engine"],
-    "Segurança": ["security", "hacking", "pentest", "penetration-testing", "privacy", "encryption", "vpn", "proxy",
-                  "authentication", "cybersecurity", "infosec"],
-    "Ferramentas de desenvolvimento": ["editor", "ide", "vscode", "cli", "terminal", "developer-tools", "devtools",
-                                       "git", "shell", "linter", "testing", "build-tool", "bundler", "code-editor"],
-    "Linguagens e runtimes": ["programming-language", "compiler", "runtime", "interpreter", "language"],
-    "Sistemas operacionais e infraestrutura": ["operating-system", "linux", "kernel", "os", "embedded"],
-    "Aprendizado e listas de recursos": ["awesome", "awesome-list", "list", "roadmap", "interview", "tutorial",
-                                         "course", "learn", "books", "cheatsheet", "guide", "education",
-                                         "algorithms", "resources", "free", "interview-questions"],
-    "Apps prontos e self-hosted": ["self-hosted", "selfhosted", "alternative", "home-automation", "no-code",
-                                   "low-code", "workflow-automation", "automation", "productivity", "notes"],
+    "Agentes de código": ["coding-agent", "claude-code", "codex", "cursor", "copilot", "aider", "cline", "opencode",
+                          "ai-coding", "code-generation", "pair-programming", "vibe-coding"],
+    "Skills e configurações para agentes": ["skills", "skill", "agent-skills", "claude-skills", "claude-md",
+                                            "prompts", "prompt", "prompt-engineering", "best-practices"],
+    "Frameworks de agentes e orquestração": ["agents", "agent", "multi-agent", "ai-agents", "agentic", "autonomous-agents",
+                                             "langchain", "crewai", "agent-framework", "swarm", "harness"],
+    "Plataformas de IA e automação": ["workflow-automation", "automation", "low-code", "no-code", "chatbot",
+                                      "ai-platform", "webui", "self-hosted", "workflow"],
+    "MCP, ferramentas e integrações": ["mcp", "model-context-protocol", "mcp-server", "browser-automation",
+                                       "web-scraping", "crawler", "scraping", "devtools", "cli"],
+    "Memória, contexto e economia de tokens": ["memory", "context", "tokens", "token", "context-engineering",
+                                               "long-term-memory", "compression"],
+    "Conhecimento do código e diagramas": ["knowledge-graph", "code-graph", "diagram", "diagrams", "architecture",
+                                           "codebase", "documentation"],
+    "RAG e processamento de documentos": ["rag", "retrieval-augmented-generation", "ocr", "pdf", "document",
+                                          "documents", "markdown", "embeddings", "vector-database", "semantic-search"],
+    "Modelos, inferência e gateways": ["llm", "llms", "inference", "ollama", "llama", "gguf", "local-llm", "gateway",
+                                       "llm-gateway", "openai", "deepseek", "whisper", "speech-recognition",
+                                       "stable-diffusion", "diffusion", "models"],
+    "Treino e frameworks de ML": ["machine-learning", "deep-learning", "pytorch", "tensorflow", "keras",
+                                  "fine-tuning", "transformers", "computer-vision", "neural-network", "yolo"],
+    "Design e interfaces com IA": ["design", "ui", "ux", "design-system", "frontend", "figma", "ui-design"],
+    "Segurança com IA": ["security", "pentest", "penetration-testing", "vulnerability", "cybersecurity",
+                         "reverse-engineering", "security-audit", "appsec"],
+    "Gestão de agentes e produtividade": ["agent-management", "orchestration", "task-board", "terminal", "remote",
+                                          "productivity", "kanban"],
+    "Aprendizado de IA": ["course", "tutorial", "learn", "education", "beginners", "awesome", "awesome-list",
+                          "guide", "cookbook", "roadmap", "lessons"],
     "Outros": [],
 }
 
@@ -329,6 +333,29 @@ def classificar(r):
     return melhor
 
 
+def areas(cfg):
+    return cfg.get("areas") or cfg.get("segmentos") or []
+
+
+def foco_por_regras(r, cfg):
+    """Pré-filtro por palavras-chave (config busca.foco.palavras_chave). A decisão final é da explicação ("foco")."""
+    termos = ((cfg["busca"].get("foco") or {}).get("palavras_chave")) or []
+    if not termos:
+        return True
+    txt = f"{r['nome']} {r.get('descricao') or ''} {' '.join(r.get('topicos') or [])}".lower()
+    return any(re.search(rf"(?<![a-z0-9]){re.escape(str(t).lower())}(?![a-z0-9])", txt) for t in termos)
+
+
+def em_foco(r, e, cfg):
+    if e and "foco" in e:
+        return bool(e["foco"])
+    return foco_por_regras(r, cfg)
+
+
+def precisa_explicar(e):
+    return e is None or e.get("gerado_por") == "regras" or int(e.get("versao", 1)) < VERSAO_EXPL
+
+
 def alerta_maturidade(r):
     try:
         ultimo = dt.date.fromisoformat(r.get("ultimo_push") or "")
@@ -351,9 +378,9 @@ def explicacao_por_regras(r):
 
 
 SISTEMA = (
-    "Você é um arquiteto de software sênior que explica repositórios open source para desenvolvedores "
-    "brasileiros que constroem sistemas para clientes de vários segmentos. Seja concreto e honesto: só "
-    "relacione um repositório a um segmento quando houver uso real. Responda APENAS com JSON válido."
+    "Você é um arquiteto de software sênior que avalia repositórios open source de IA (agentes, skills, LLMs) "
+    "para desenvolvedores brasileiros que querem entregar software melhor. Seja concreto e honesto: só relacione "
+    "um repositório a uma área de entrega quando houver uso real. Responda APENAS com JSON válido."
 )
 
 
@@ -367,16 +394,17 @@ def montar_prompt(lote, cfg):
             "readme_inicio": r.get("_readme", ""),
         })
     cats = " | ".join(CATEGORIAS)
-    segs = " | ".join(cfg["segmentos"])
+    segs = " | ".join(areas(cfg))
     return f"""Analise cada repositório abaixo e devolva, em português do Brasil:
 - "id": o mesmo id recebido
+- "foco": true se for IA útil para construir ou entregar software (agentes, skills, LLMs, RAG, MCP, ML, IA aplicada a design, segurança, dados etc.); false caso contrário
 - "resumo": o que é, em 1 ou 2 frases
 - "categoria": exatamente uma destas: {cats}
 - "por_que_importa": 1 ou 2 frases sobre o valor prático num projeto real (que problema resolve, o que economiza, quando escolher)
-- "segmentos": de 0 a 3 itens, só onde a relação for real; cada item com
-    "segmento": exatamente um nome desta lista: {segs}
+- "areas": de 0 a 3 itens, só onde a relação for real; cada item com
+    "area": exatamente um nome desta lista: {segs}
     "relevancia": "alta" ou "média"
-    "como_usar": 1 frase com um uso concreto nesse segmento
+    "como_usar": 1 frase com um uso concreto nessa área
 - "maturidade": 1 frase curta de alerta se houver (projeto parado, é lista de links e não biblioteca, licença restritiva para uso comercial); "" se não houver
 
 Formato da resposta: {{"repos": [{{...}}, ...]}}
@@ -459,23 +487,25 @@ def extrair_json(texto):
 
 
 def validar(item, r, cfg, modelo):
-    segs_validos = {s.lower(): s for s in cfg["segmentos"]}
+    validas = {s.lower(): s for s in areas(cfg)}
     cat = item.get("categoria", "")
     if cat not in CATEGORIAS:
         cat = classificar(r)
-    segmentos = []
-    for s in (item.get("segmentos") or [])[:3]:
-        nome = segs_validos.get(str(s.get("segmento", "")).strip().lower())
+    lista = []
+    for s in (item.get("areas") or item.get("segmentos") or [])[:3]:
+        nome = validas.get(str(s.get("area") or s.get("segmento") or "").strip().lower())
         rel = str(s.get("relevancia", "")).strip().lower().replace("media", "média")
         if nome and rel in ("alta", "média"):
-            segmentos.append({"segmento": nome, "relevancia": rel, "como_usar": str(s.get("como_usar", "")).strip()})
+            lista.append({"segmento": nome, "relevancia": rel, "como_usar": str(s.get("como_usar", "")).strip()})
     maturidade = str(item.get("maturidade") or "").strip() or alerta_maturidade(r)
     return {
         "resumo": str(item.get("resumo") or r.get("descricao") or "").strip(),
         "categoria": cat,
         "por_que_importa": str(item.get("por_que_importa") or "").strip(),
-        "segmentos": segmentos,
+        "segmentos": lista,
         "maturidade": maturidade,
+        "foco": bool(item.get("foco", True)),
+        "versao": VERSAO_EXPL,
         "gerado_por": modelo,
         "gerado_em": HOJE,
     }
@@ -501,7 +531,8 @@ def explicar(base, expl, cfg, novos, limite):
         return 0, f"configure o secret {segredo} em Settings → Secrets and variables → Actions"
 
     novos = set(novos)
-    pend = [r for r in ativos if expl[str(r["id"])].get("gerado_por") == "regras"]
+    pend = [r for r in ativos if precisa_explicar(expl[str(r["id"])])
+            and (str(r["id"]) in novos or em_foco(r, expl[str(r["id"])], cfg))]
     pend.sort(key=lambda r: (str(r["id"]) not in novos, -r["estrelas"]))  # novos primeiro, depois os maiores
     pend = pend[:limite]
     tam = max(1, int(cfg["ia"].get("lote", 6)))
@@ -566,34 +597,41 @@ def bloco_repo(r, e):
         linhas.append(f"- **Por que importa:** {e['por_que_importa']}")
     if e.get("segmentos"):
         segs = "; ".join(f"**{s['segmento']}** ({s['relevancia']}) — {s['como_usar'].rstrip('.')}" for s in e["segmentos"])
-        linhas.append(f"- **Segmentos:** {segs}")
+        linhas.append(f"- **Áreas:** {segs}")
     if e.get("maturidade"):
         linhas.append(f"- ⚠️ {e['maturidade']}")
     return "\n".join(linhas) + "\n"
 
 
 def contagem_ia(ativos, expl):
-    return sum(1 for r in ativos if expl.get(str(r["id"]), {}).get("gerado_por") != "regras")
+    return sum(1 for r in ativos if not precisa_explicar(expl.get(str(r["id"]))))
+
+
+def ativos_em_foco(base, expl, cfg):
+    return sorted((r for r in base["repos"].values() if r.get("ativo") and em_foco(r, expl.get(str(r["id"])), cfg)),
+                  key=lambda r: -r["estrelas"])
 
 
 def gerar_catalogo(base, expl, cfg):
-    ativos = sorted((r for r in base["repos"].values() if r.get("ativo")), key=lambda r: -r["estrelas"])
+    total = sum(1 for r in base["repos"].values() if r.get("ativo"))
+    foco = ativos_em_foco(base, expl, cfg)
     por_cat = {c: [] for c in CATEGORIAS}
-    for r in ativos:
+    for r in foco:
         por_cat.setdefault(expl[str(r["id"])]["categoria"], []).append(r)
 
-    links_seg = " · ".join(f"[{s}](segmentos/{slug(s)}.md)" for s in cfg["segmentos"])
+    descricao = ((cfg["busca"].get("foco") or {}).get("descricao") or "").strip()
+    links = " · ".join(f"[{a}](areas/{slug(a)}.md)" for a in areas(cfg))
     out = [
-        f"# Catálogo — repositórios com {fmt_estrelas(int(cfg['busca']['min_estrelas']))}+ estrelas",
+        f"# Radar de IA para entregar software — repositórios com {fmt_estrelas(int(cfg['busca']['min_estrelas']))}+ estrelas",
         "",
-        f"Atualizado em {fmt_data(HOJE)} · **{len(ativos)}** repositórios ativos · "
-        f"explicados por IA: {contagem_ia(ativos, expl)}/{len(ativos)}",
-        "",
-        f"**Por segmento:** {links_seg}",
-        "",
-        "## Categorias",
+        f"Atualizado em {fmt_data(HOJE)} · **{len(foco)}** repositórios no foco (de {total} com "
+        f"{fmt_estrelas(int(cfg['busca']['min_estrelas']))}+ estrelas) · com explicação completa: "
+        f"{contagem_ia(foco, expl)}/{len(foco)}",
         "",
     ]
+    if descricao:
+        out += [f"**Foco:** {descricao}", ""]
+    out += [f"**Por área:** {links}", "", "## Categorias", ""]
     out += [f"- [{c}](#{ancora(c)}) ({len(rs)})" for c, rs in por_cat.items() if rs]
     for c, rs in por_cat.items():
         if not rs:
@@ -604,56 +642,69 @@ def gerar_catalogo(base, expl, cfg):
 
 
 def gerar_segmentos(base, expl, cfg):
+    """Uma página por área de entrega (arquitetura, backend, segurança...)."""
     DIR_SEG.mkdir(exist_ok=True)
-    ativos = sorted((r for r in base["repos"].values() if r.get("ativo")), key=lambda r: -r["estrelas"])
-    pendentes = len(ativos) - contagem_ia(ativos, expl)
-    for seg in cfg["segmentos"]:
+    foco = ativos_em_foco(base, expl, cfg)
+    pendentes = len(foco) - contagem_ia(foco, expl)
+    esperados = set()
+    for area in areas(cfg):
         grupos = {"alta": [], "média": []}
-        for r in ativos:
+        for r in foco:
             for s in expl[str(r["id"])].get("segmentos", []):
-                if s["segmento"] == seg:
+                if s["segmento"] == area:
                     grupos[s["relevancia"]].append((r, s))
         out = [
-            f"# {seg} — repositórios 50 mil+ estrelas que fazem sentido",
+            f"# {area} — IA aplicada (repositórios {fmt_estrelas(int(cfg['busca']['min_estrelas']))}+ estrelas)",
             "",
             f"Atualizado em {fmt_data(HOJE)} · {len(grupos['alta'])} de relevância alta · "
             f"{len(grupos['média'])} de relevância média · [voltar ao catálogo](../CATALOGO.md)",
         ]
         if pendentes:
-            out += ["", f"> {pendentes} repositórios ainda aguardam análise da IA e entram aqui nas próximas execuções."]
+            out += ["", f"> {pendentes} repositórios do foco ainda aguardam análise completa e entram aqui nas próximas execuções."]
         for rel in ("alta", "média"):
             if not grupos[rel]:
                 continue
-            out += ["", f"## Relevância {rel}", "", "| Repositório | ⭐ | Categoria | Como usar neste segmento |",
+            out += ["", f"## Relevância {rel}", "", "| Repositório | ⭐ | Categoria | Como usar nesta área |",
                     "|---|---|---|---|"]
             for r, s in grupos[rel]:
                 cat = expl[str(r["id"])]["categoria"]
                 out.append(f"| [{r['nome']}]({r['url']}) | {fmt_estrelas(r['estrelas'])} | {celula(cat)} | "
                            f"{celula(s['como_usar'])} |")
-        (DIR_SEG / f"{slug(seg)}.md").write_text("\n".join(out) + "\n", encoding="utf-8")
+        nome = f"{slug(area)}.md"
+        esperados.add(nome)
+        (DIR_SEG / nome).write_text("\n".join(out) + "\n", encoding="utf-8")
+    for velho in DIR_SEG.glob("*.md"):  # remove páginas de áreas que saíram do config
+        if velho.name not in esperados:
+            velho.unlink()
 
 
 def gerar_relatorio(base, expl, cfg, mud, ia_info):
     repos = base["repos"]
-    ativos = [r for r in repos.values() if r.get("ativo")]
+    foco = ativos_em_foco(base, expl, cfg)
+    ids_foco = {str(r["id"]) for r in foco}
     feitos, motivo_ia = ia_info
-    out = [f"# Radar 50k — {fmt_data(HOJE)}", ""]
-    out.append(f"**{len(ativos)}** repositórios ativos · **{len(mud['novos'])}** novos · "
-               f"**{len(mud['sairam'])}** saíram · explicados por IA: {contagem_ia(ativos, expl)}/{len(ativos)}"
-               f" (+{feitos} hoje)")
+    novos_foco = [i for i in mud["novos"] if i in ids_foco]
+    novos_fora = [i for i in mud["novos"] if i not in ids_foco and i in repos]
+    sairam = [i for i in mud["sairam"] if em_foco(repos[i], expl.get(i), cfg)]
+    mud["novos_foco"] = novos_foco
+    out = [f"# Radar de IA — {fmt_data(HOJE)}", ""]
+    out.append(f"**{len(foco)}** repositórios no foco · **{len(novos_foco)}** novos no foco · "
+               f"**{len(sairam)}** saíram · explicação completa: {contagem_ia(foco, expl)}/{len(foco)} (+{feitos} hoje)")
     if motivo_ia and motivo_ia != "IA desativada":
         out += ["", f"> IA pausada nesta execução: {motivo_ia}"]
-
     if mud["nova_base"]:
-        out += ["", f"Base de referência criada com {len(ativos)} repositórios. A partir da próxima execução, "
-                    "este relatório mostra só o que mudou. Veja tudo no [catálogo](../CATALOGO.md)."]
-    if mud["novos"]:
-        out += ["", "## 🆕 Novos no clube", ""]
-        for rid in sorted(mud["novos"], key=lambda i: -repos[i]["estrelas"]):
+        out += ["", "Base de referência criada. A partir da próxima execução, este relatório mostra só o que mudou. "
+                    "Veja tudo no [catálogo](../CATALOGO.md)."]
+    if novos_foco:
+        out += ["", "## 🆕 Novos no foco", ""]
+        for rid in sorted(novos_foco, key=lambda i: -repos[i]["estrelas"]):
             r = repos[rid]
             out.append(bloco_repo(r, expl[rid]) + f"- Criado em {fmt_data(r.get('criado_em', ''))}\n")
+    if novos_fora:
+        nomes = ", ".join(f"[{repos[i]['nome']}]({repos[i]['url']})" for i in novos_fora)
+        out += ["", f"Também passaram de {fmt_estrelas(int(cfg['busca']['min_estrelas']))} estrelas, fora do foco: {nomes}."]
 
-    cresc = [r for r in ativos if r.get("estrelas_ontem") is not None]
+    cresc = [r for r in foco if r.get("estrelas_ontem") is not None]
     cresc.sort(key=lambda r: r["estrelas"] - r["estrelas_ontem"], reverse=True)
     top = [r for r in cresc[: int(cfg["relatorio"].get("top_crescimento", 10))] if r["estrelas"] > r["estrelas_ontem"]]
     if top:
@@ -664,13 +715,13 @@ def gerar_relatorio(base, expl, cfg, mud, ia_info):
             ganho = f"{r['estrelas'] - r['estrelas_ontem']:,}".replace(",", ".")
             out.append(f"| {i} | [{r['nome']}]({r['url']}) | {celula(cat)} | {fmt_estrelas(r['estrelas'])} | "
                        f"+{ganho} |")
-    if mud["sairam"]:
+    if sairam:
         out += ["", "## 👋 Saíram do radar", ""]
-        out += [f"- [{repos[i]['nome']}]({repos[i]['url']}) — {repos[i].get('motivo_saida', '')}" for i in mud["sairam"]]
-    if mud["voltaram"]:
+        out += [f"- [{repos[i]['nome']}]({repos[i]['url']}) — {repos[i].get('motivo_saida', '')}" for i in sairam]
+    voltaram = [i for i in mud["voltaram"] if i in ids_foco]
+    if voltaram:
         out += ["", "## ↩️ Voltaram", ""]
-        out += [f"- [{repos[i]['nome']}]({repos[i]['url']}) — ⭐ {fmt_estrelas(repos[i]['estrelas'])}"
-                for i in mud["voltaram"]]
+        out += [f"- [{repos[i]['nome']}]({repos[i]['url']}) — ⭐ {fmt_estrelas(repos[i]['estrelas'])}" for i in voltaram]
     texto = "\n".join(out) + "\n"
     DIR_REL.mkdir(exist_ok=True)
     (DIR_REL / f"{HOJE}.md").write_text(texto, encoding="utf-8")
@@ -678,12 +729,12 @@ def gerar_relatorio(base, expl, cfg, mud, ia_info):
 
 
 def publicar_saidas(texto, mud, cfg):
-    """Prepara o corpo da issue e avisa o workflow se deve abri-la."""
+    """Prepara o corpo da issue e avisa o workflow se deve abri-la (só para novidades no foco)."""
     DIR_TMP.mkdir(exist_ok=True)
     modo = cfg["relatorio"].get("abrir_issue", "quando_houver_novos")
-    n = len(mud["novos"])
+    n = len(mud.get("novos_foco", mud["novos"]))
     abrir = modo == "sempre" or (modo == "quando_houver_novos" and n > 0)
-    titulo = f"Radar 50k — {fmt_data(HOJE)}: " + (f"{n} novo(s) repositório(s)" if n else "sem novidades")
+    titulo = f"Radar de IA — {fmt_data(HOJE)}: " + (f"{n} novo(s) repositório(s) no foco" if n else "sem novidades")
     corpo = texto if len(texto) < 60000 else texto[:60000] + f"\n\n…relatório completo em relatorios/{HOJE}.md\n"
     (DIR_TMP / "issue.md").write_text(corpo, encoding="utf-8")
     (DIR_TMP / "titulo.txt").write_text(titulo, encoding="utf-8")
@@ -696,7 +747,6 @@ def publicar_saidas(texto, mud, cfg):
             f.write(texto)
 
 
-
 # ──────────────── fluxo da tarefa agendada do Claude ────────────────
 
 CAMPOS_EXPORT = ("id", "nome", "url", "descricao", "linguagem", "topicos", "estrelas", "licenca",
@@ -704,39 +754,48 @@ CAMPOS_EXPORT = ("id", "nome", "url", "descricao", "linguagem", "topicos", "estr
 
 
 def exportar_pendentes(base, expl, cfg, mud, n):
-    """Grava .radar/pendentes.json: todos os novos do dia + até N repositórios ainda sem explicação."""
+    """Grava .radar/pendentes.json: todos os novos do dia + até N repositórios do foco ainda sem explicação completa."""
     ativos = [r for r in base["repos"].values() if r.get("ativo")]
     novos = set(mud["novos"])
-    pend = [r for r in ativos if expl[str(r["id"])].get("gerado_por") == "regras"]
+    pend = [r for r in ativos if precisa_explicar(expl.get(str(r["id"])))
+            and (str(r["id"]) in novos or em_foco(r, expl.get(str(r["id"])), cfg))]
     pend.sort(key=lambda r: -r["estrelas"])
     lista = [r for r in pend if str(r["id"]) in novos] + [r for r in pend if str(r["id"]) not in novos][:n]
     saida = {
         "data": HOJE,
-        "total_sem_explicacao": len(pend),
+        "total_pendentes_no_foco": len([r for r in pend if str(r["id"]) not in novos]),
+        "foco": (cfg["busca"].get("foco") or {}).get("descricao", ""),
         "categorias": list(CATEGORIAS),
-        "segmentos": cfg["segmentos"],
+        "areas": areas(cfg),
         "repos": [{**{k: r.get(k) for k in CAMPOS_EXPORT}, "id": str(r["id"]), "novo": str(r["id"]) in novos}
                   for r in lista],
     }
     salvar_json(DIR_TMP / "pendentes.json", saida)
-    log(f"{len(lista)} repositórios exportados para explicação ({len(pend)} sem explicação no total)")
+    log(f"{len(lista)} repositórios exportados para explicação ({saida['total_pendentes_no_foco']} pendentes no foco)")
 
 
 def importar(arq, cfg):
-    """Importa explicações escritas fora do script e regenera catálogo, segmentos e relatório do dia."""
+    """Importa explicações escritas fora do script e regenera catálogo, áreas e relatório do dia."""
     base = ler_json(ARQ_REPOS, {})
     expl = ler_json(ARQ_EXPL, {})
     dados = json.loads(Path(arq).read_text(encoding="utf-8"))
     itens = dados.get("repos", []) if isinstance(dados, dict) else dados
-    feitos = 0
+    feitos = fora = 0
     for item in itens:
         rid = str(item.get("id"))
         r = base.get("repos", {}).get(rid)
         if not r:
             log(f"id {rid} não está na base — ignorado")
             continue
-        expl[rid] = validar(item, r, cfg, "claude (tarefa agendada)")
-        feitos += 1
+        if item.get("foco") is False:  # fora do foco: só registra a decisão, sem explicação completa
+            e = expl.setdefault(rid, explicacao_por_regras(r))
+            e["foco"] = False
+            if item.get("resumo"):
+                e.update(resumo=str(item["resumo"]).strip(), traduzido=True)
+            fora += 1
+        else:
+            expl[rid] = validar(item, r, cfg, "claude (tarefa agendada)")
+            feitos += 1
     mud = ler_json(DIR_TMP / "mudancas.json", {})
     if mud.get("data") != HOJE:
         mud = {"data": HOJE, "novos": [], "sairam": [], "voltaram": [], "nova_base": False, "feitos": 0}
@@ -747,7 +806,7 @@ def importar(arq, cfg):
     gerar_segmentos(base, expl, cfg)
     texto = gerar_relatorio(base, expl, cfg, mud, (mud["feitos"], ""))
     publicar_saidas(texto, mud, cfg)
-    log(f"{feitos} explicações importadas.")
+    log(f"{feitos} explicações importadas; {fora} marcados como fora do foco.")
 
 
 def importar_traducoes(arq, cfg):

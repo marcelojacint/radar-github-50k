@@ -20,17 +20,30 @@
   "traduzido": true
  },
  "1010681419": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Constrói do zero um agente de código mínimo para entender como ferramentas como o Claude Code funcionam por dentro.",
   "resumo": "Constrói do zero um \"agente de código\" mínimo parecido com o Claude Code, usando basicamente Bash.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Entender o funcionamento de agentes para usá-los e customizá-los melhor",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Estudar a arquitetura de um agente de código",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "101138315": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
@@ -41,6 +54,7 @@
  },
  "1012087571": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -60,14 +74,21 @@
   "traduzido": true
  },
  "1024554267": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente.",
+  "por_que_importa": "Agente open source que aprende e acumula habilidades com o uso; interessante para assistentes de longo prazo.",
   "resumo": "Agente de IA que aprende e evolui com o uso.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Experimentar agentes que evoluem com o uso em tarefas recorrentes",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "10270250": {
   "categoria": "Frontend e UI",
@@ -90,44 +111,87 @@
   "traduzido": true
  },
  "1031912724": {
-  "categoria": "Mobile e Desktop",
+  "categoria": "Gestão de agentes e produtividade",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Assistente desktop para alternar e configurar Claude Code, Codex, OpenCode e outros num só lugar.",
   "resumo": "Assistente de desktop multiplataforma para gerenciar Claude Code, Codex, OpenCode, DeepSeek Harness e outros.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Gerenciar configurações e provedores de vários agentes de código",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1032459340": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Desenvolvimento guiado por especificação para assistentes de código; mantém specs e mudanças versionadas junto do código.",
   "resumo": "Desenvolvimento guiado por especificação (SDD) para assistentes de código com IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Registrar e evoluir especificações do sistema junto com o código",
+    "relevancia": "alta",
+    "segmento": "Arquitetura de software"
+   },
+   {
+    "como_usar": "Revisar mudanças de comportamento antes de o agente implementar",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1032808806": {
-  "categoria": "Segurança",
+  "categoria": "Segurança com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Pentest com IA open source: agentes que encontram e ajudam a corrigir vulnerabilidades da aplicação.",
   "resumo": "Ferramenta open source de pentest com IA para encontrar e corrigir vulnerabilidades da sua aplicação.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Rodar testes de invasão automatizados antes de publicar",
+    "relevancia": "alta",
+    "segmento": "Segurança e cibersegurança"
+   },
+   {
+    "como_usar": "Incluir verificação de segurança no ciclo de testes",
+    "relevancia": "média",
+    "segmento": "Testes e QA"
+   }
+  ],
+  "versao": 2
  },
  "1035029907": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Kit para construir agentes: API unificada de LLMs, loop de agente e CLI de código; base enxuta para criar seu próprio agente.",
   "resumo": "Kit para agentes de IA: API unificada de LLMs, loop de agente, interface de terminal e agente de código.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Criar um agente próprio com loop e ferramentas sob controle",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Montar um agente de código customizado para o time",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "103633984": {
   "categoria": "Backend e APIs",
@@ -150,14 +214,26 @@
   "traduzido": true
  },
  "1042367133": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Kit do GitHub para desenvolvimento guiado por especificação: você escreve a spec, o agente planeja e implementa; reduz ambiguidade nas entregas com IA.",
   "resumo": "Kit para começar com desenvolvimento guiado por especificação (SDD) ou outro processo.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Transformar requisitos em especificação e plano técnico antes do código",
+    "relevancia": "alta",
+    "segmento": "Arquitetura de software"
+   },
+   {
+    "como_usar": "Padronizar como o time pede features aos agentes",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "104337773": {
   "categoria": "Outros",
@@ -171,6 +247,7 @@
  },
  "1044296738": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -180,17 +257,25 @@
   "traduzido": true
  },
  "1048065319": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Memória, contexto e economia de tokens",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Memória persistente entre sessões para agentes de código: o agente lembra do que já fez no projeto.",
   "resumo": "Memória persistente entre sessões para agentes de IA: registra, comprime e reaproveita o contexto em sessões futuras.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Evitar que o agente esqueça decisões e contexto entre sessões",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1052050442": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -201,6 +286,7 @@
  },
  "1053118194": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -210,14 +296,26 @@
   "traduzido": true
  },
  "1054793726": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "MCP, ferramentas e integrações",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Dá ao agente de código acesso ao Chrome DevTools (console, rede, performance); o agente passa a enxergar e depurar a página de verdade.",
   "resumo": "Chrome DevTools para agentes de código (servidor MCP).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Deixar o agente depurar erros de console e rede da aplicação web",
+    "relevancia": "alta",
+    "segmento": "Frontend"
+   },
+   {
+    "como_usar": "Verificar no navegador se a tela funciona depois da mudança",
+    "relevancia": "alta",
+    "segmento": "Testes e QA"
+   }
+  ],
+  "versao": 2
  },
  "106017343": {
   "categoria": "Frontend e UI",
@@ -230,17 +328,30 @@
   "traduzido": true
  },
  "1061953414": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Repositório oficial de Agent Skills da Anthropic: exemplos e padrão de como empacotar instruções e scripts para agentes; base para criar as suas.",
   "resumo": "Repositório público de Agent Skills da Anthropic.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Usar como modelo para criar skills próprias do time (padrões de código, revisão, deploy)",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Documentar decisões e padrões de arquitetura como skills reutilizáveis pelo agente",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "1062356571": {
   "categoria": "Mobile e Desktop",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -260,17 +371,30 @@
   "traduzido": true
  },
  "1065059442": {
-  "categoria": "Segurança",
+  "categoria": "Segurança com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Use só em sistemas próprios ou com autorização.",
+  "por_que_importa": "Pentester com IA para aplicações web e APIs: lê o código, identifica vetores de ataque e executa explorações reais para provar falhas.",
   "resumo": "Pentester com IA para aplicações web e APIs: analisa o código e executa ataques reais para provar vulnerabilidades.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Validar vulnerabilidades reais em APIs antes da produção",
+    "relevancia": "alta",
+    "segmento": "Segurança e cibersegurança"
+   },
+   {
+    "como_usar": "Auditar endpoints e autenticação do backend",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "107111421": {
   "categoria": "Frontend e UI",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -280,17 +404,30 @@
   "traduzido": true
  },
  "1073224795": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Conjunto de skills e metodologia que faz o agente trabalhar com brainstorming, plano, TDD e revisão; melhora a qualidade das entregas com IA.",
   "resumo": "Framework de skills para agentes de IA e metodologia de desenvolvimento de software.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Dar ao agente um processo disciplinado: planejar, testar primeiro e revisar",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Forçar o agente a escrever testes antes do código (TDD)",
+    "relevancia": "alta",
+    "segmento": "Testes e QA"
+   }
+  ],
+  "versao": 2
  },
  "10744183": {
   "categoria": "DevOps e Cloud",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -300,37 +437,64 @@
   "traduzido": true
  },
  "1075372545": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Coleção de agentes especializados (frontend, backend, QA, produto etc.) com personalidade e processos definidos; pronto para montar um 'time' de IA.",
   "resumo": "Agência de IA completa: agentes especializados (frontend, comunidade, revisão etc.) com personalidade, processos e entregas definidos.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Usar papéis prontos (revisor, QA, arquiteto) como subagentes",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Ter um agente revisor/testador dedicado para cada entrega",
+    "relevancia": "média",
+    "segmento": "Testes e QA"
+   }
+  ],
+  "versao": 2
  },
  "1075431749": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Implementação completa e enxuta de um ChatGPT (treino, ajuste e interface) para estudo.",
   "resumo": "O melhor ChatGPT que 100 dólares conseguem treinar: LLM completo de ponta a ponta.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Entender o ciclo completo de um LLM de ponta a ponta",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "1078079172": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "É uma lista de links, não um software.",
+  "por_que_importa": "Lista curada de Skills do Claude e ferramentas; atalho para encontrar skills prontas antes de criar as suas.",
   "resumo": "Lista curada de Skills do Claude, recursos e ferramentas para personalizar fluxos de trabalho.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Procurar skills prontas para tarefas recorrentes do time",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1079456184": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -340,24 +504,38 @@
   "traduzido": true
  },
  "1086419061": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Memória, contexto e economia de tokens",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente.",
+  "por_que_importa": "Memória para agentes que aprende com as interações; alternativa a soluções de memória mais simples.",
   "resumo": "Memória para agentes de IA que aprende com o uso.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Adicionar memória que evolui a agentes do produto",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "1087192965": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Boas práticas para sair do 'vibe coding' e usar o Claude Code de forma profissional e previsível.",
   "resumo": "Boas práticas para usar o Claude Code, do \"vibe coding\" à engenharia com agentes.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Treinar o time em um uso disciplinado de agentes de código",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "108761645": {
   "categoria": "Apps prontos e self-hosted",
@@ -380,37 +558,52 @@
   "traduzido": true
  },
  "1097346685": {
-  "categoria": "IA e Machine Learning",
-  "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
-  "resumo": "Vocabulário de design para agentes de código: refinar, revisar, auditar e barrar interfaces genéricas de IA.",
-  "segmentos": [],
-  "traduzido": true
- },
- "1103012935": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Design e interfaces com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
   "gerado_por": "claude (tarefa agendada)",
-  "maturidade": "Projeto recente e de evolução rápida; o agente tem acesso amplo à máquina, então revise a segurança antes de usar com dados de clientes.",
-  "por_que_importa": "Mostra como montar um agente de IA auto-hospedado que age em sistemas e canais de mensagem; útil como base ou referência para assistentes de atendimento e automação.",
+  "maturidade": "",
+  "por_que_importa": "Vocabulário de design para agentes de código: comandos para refinar, revisar e auditar interfaces.",
+  "resumo": "Vocabulário de design para agentes de código: refinar, revisar, auditar e barrar interfaces genéricas de IA.",
+  "segmentos": [
+   {
+    "como_usar": "Revisar e polir interfaces geradas com comandos de crítica e auditoria",
+    "relevancia": "alta",
+    "segmento": "Design e UI/UX"
+   },
+   {
+    "como_usar": "Ajustar hierarquia visual e espaçamentos com o agente",
+    "relevancia": "média",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
+ },
+ "1103012935": {
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
+  "gerado_em": "2026-11-26",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente e de evolução rápida; revise a segurança antes de usar com dados de clientes.",
+  "por_que_importa": "Plataforma de agente pessoal auto-hospedado que executa tarefas reais e conversa por WhatsApp/Telegram; referência para automações com agentes.",
   "resumo": "Assistente pessoal de IA que roda na sua própria máquina e executa tarefas de verdade (mensagens, arquivos, automações), conversando por apps como WhatsApp e Telegram.",
   "segmentos": [
    {
-    "como_usar": "Base para um assistente que responde clientes no WhatsApp e cuida de lembretes e remarcações.",
+    "como_usar": "Base para um assistente que integra mensagens e sistemas internos",
     "relevancia": "média",
-    "segmento": "Serviços e agendamento"
+    "segmento": "Backend e APIs"
    },
    {
-    "como_usar": "Referência para um assistente de recepção que confirma consultas por mensagem; exige cuidado com dados sensíveis.",
+    "como_usar": "Exige revisão de permissões: o agente tem acesso amplo à máquina",
     "relevancia": "média",
-    "segmento": "Saúde e clínicas"
+    "segmento": "Segurança e cibersegurança"
    }
-  ]
+  ],
+  "versao": 2
  },
  "1104332987": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -430,27 +623,47 @@
   "traduzido": true
  },
  "1106996539": {
-  "categoria": "Frontend e UI",
+  "categoria": "Design e interfaces com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skill com conhecimento de design (estilos, paletas, tipografia, padrões de UX) para o agente criar interfaces profissionais.",
   "resumo": "Skill de IA com conhecimento de design para criar UI/UX profissional em várias plataformas.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Dar ao agente referências de estilo e UX ao criar telas",
+    "relevancia": "alta",
+    "segmento": "Design e UI/UX"
+   },
+   {
+    "como_usar": "Gerar páginas e componentes com visual consistente",
+    "relevancia": "alta",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
  },
  "1108837393": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente; teste antes de padronizar no time.",
+  "por_que_importa": "Extensão para agentes de código com fluxos avançados acionados por palavra-chave; útil para quem quer orquestrar subagentes sem montar tudo do zero.",
   "resumo": "Extensão para agentes de código que ativa fluxos avançados com uma palavra-chave no prompt.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Ativar fluxos de orquestração prontos no agente de código",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1113573066": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -501,6 +714,7 @@
  },
  "1124219907": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -511,6 +725,7 @@
  },
  "112507086": {
   "categoria": "Frontend e UI",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -521,6 +736,7 @@
  },
  "1126947080": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -530,17 +746,30 @@
   "traduzido": true
  },
  "1129940957": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Memória, contexto e economia de tokens",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Comprime saídas de ferramentas, logs e trechos de RAG antes do LLM; reduz custo e mantém as respostas.",
   "resumo": "Comprime saídas de ferramentas, logs e trechos de RAG antes de enviar ao LLM, reduzindo tokens sem mudar as respostas.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Reduzir tokens gastos por agentes de código",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Baixar o custo de chamadas de IA no produto",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "1130564872": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -551,6 +780,7 @@
  },
  "1131513930": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -560,37 +790,64 @@
   "traduzido": true
  },
  "1132001614": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "MCP, ferramentas e integrações",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "CLI de automação de navegador feita para agentes de IA; leve e fácil de integrar a fluxos de teste e verificação.",
   "resumo": "CLI de automação de navegador para agentes de IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Deixar o agente navegar e validar fluxos da aplicação",
+    "relevancia": "alta",
+    "segmento": "Testes e QA"
+   },
+   {
+    "como_usar": "Conferir telas no navegador durante o desenvolvimento",
+    "relevancia": "média",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
  },
  "1133707766": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Gestão de agentes e produtividade",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Licença source-available; confira os termos.",
+  "por_que_importa": "Quadro de tarefas compartilhado em que pessoas e agentes de código trabalham juntos; auto-hospedável.",
   "resumo": "Quadro de tarefas compartilhado em que pessoas e agentes de código trabalham como colegas de time; auto-hospedável.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Distribuir tarefas entre devs e agentes no mesmo quadro",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1134426800": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Qualidade varia entre as skills; revise antes de usar.",
+  "por_que_importa": "Milhares de skills reutilizáveis com catálogo local, CLI e MCP; útil para encontrar e instalar skills por tarefa.",
   "resumo": "Mais de 3.000 skills reutilizáveis para agentes de IA, com catálogo local, CLI, MCP e plugins.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Buscar e instalar skills prontas por tipo de tarefa",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1135212071": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -600,17 +857,30 @@
   "traduzido": true
  },
  "1136590548": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente e grande; adote por partes.",
+  "por_que_importa": "Sistema completo de skills, memória, segurança e regras para agentes de código; acelera a configuração de um ambiente de agente robusto.",
   "resumo": "Sistema para otimizar o desempenho de agentes de código (Claude Code, Codex, Cursor etc.) com skills, memória, segurança e desenvolvimento guiado por pesquisa.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Montar rapidamente uma configuração madura de agente para o time",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Reaproveitar regras de segurança para limitar o que o agente pode fazer",
+    "relevancia": "média",
+    "segmento": "Segurança e cibersegurança"
+   }
+  ],
+  "versao": 2
  },
  "1136666433": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -620,27 +890,47 @@
   "traduzido": true
  },
  "1137078255": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Conhecimento do código e diagramas",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Grafo do código pré-indexado e sincronizado para agentes; menos tokens e menos chamadas de ferramenta, tudo local.",
   "resumo": "Grafo de conhecimento do código pré-indexado e sincronizado, para agentes gastarem menos tokens; roda 100% local.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Deixar o agente mais rápido e barato em repositórios grandes",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Consultar dependências entre módulos durante refatorações",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "1139971460": {
-  "categoria": "Ferramentas de desenvolvimento",
+  "categoria": "Memória, contexto e economia de tokens",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Proxy de linha de comando que reduz de 60% a 90% os tokens em comandos comuns de desenvolvimento.",
   "resumo": "Proxy de linha de comando que reduz em 60–90% o consumo de tokens de LLMs em comandos comuns de desenvolvimento.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Economizar tokens e limite de uso dos agentes de código",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1140843380": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -650,17 +940,25 @@
   "traduzido": true
  },
  "1141704318": {
-  "categoria": "Aprendizado e listas de recursos",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Lista de links; qualidade varia.",
+  "por_que_importa": "Coleção organizada de skills do OpenClaw; referência de ideias de automação com agentes.",
   "resumo": "Coleção de mais de 5.400 skills do OpenClaw filtradas e organizadas por categoria.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Encontrar exemplos de skills para automações com agentes",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1141782198": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -670,17 +968,25 @@
   "traduzido": true
  },
  "1142983825": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Um único CLAUDE.md com regras contra os erros mais comuns de LLMs ao programar; ganho rápido de qualidade com custo zero.",
   "resumo": "Arquivo CLAUDE.md único para melhorar o comportamento do Claude Code, baseado nas observações de Andrej Karpathy sobre erros comuns de LLMs ao programar.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Copiar e adaptar o CLAUDE.md para reduzir erros do agente no projeto",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1144520675": {
   "categoria": "Ferramentas de desenvolvimento",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -690,17 +996,25 @@
   "traduzido": true
  },
  "1147094660": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Agente pessoal leve e open source; bom ponto de partida para entender e montar agentes simples.",
   "resumo": "Agente pessoal open source e leve.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Prototipar um agente leve com ferramentas próprias",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "114747226": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -720,27 +1034,47 @@
   "traduzido": true
  },
  "1148788086": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skills práticas de um engenheiro experiente para agentes de código; bons exemplos de como ensinar o agente a seguir boas práticas.",
   "resumo": "Coleção de skills para agentes de IA voltadas a engenheiros, tiradas do diretório .agents do autor.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Adotar skills prontas de engenharia e adaptá-las ao padrão do projeto",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Melhorar o código TypeScript gerado pelo agente",
+    "relevancia": "média",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
  },
  "1153130349": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Gestão de agentes e produtividade",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Controla Claude Code, Codex e outros a partir de qualquer computador ou celular.",
   "resumo": "Controle o Claude Code, o Codex e outros a partir de qualquer computador ou celular.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Acompanhar e comandar agentes de código remotamente",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "115478820": {
   "categoria": "Aprendizado e listas de recursos",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -751,6 +1085,7 @@
  },
  "1157102282": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -760,27 +1095,52 @@
   "traduzido": true
  },
  "1158722119": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skills de engenharia em nível de produção para agentes de código (performance, acessibilidade, qualidade).",
   "resumo": "Skills de engenharia de nível produção para agentes de programação com IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Aplicar boas práticas de produção no código gerado por agentes",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Revisar performance e acessibilidade de páginas com ajuda do agente",
+    "relevancia": "média",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
  },
  "1162099055": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Design e interfaces com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skills que dão direção de arte ao agente e conferem o resultado no navegador; evita páginas com cara de 'gerado por IA'.",
   "resumo": "Skills que dão \"bom gosto\" visual a agentes de código: direção de arte, imagens de referência e checagem no navegador.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Definir direção de arte e referências antes de o agente criar a interface",
+    "relevancia": "alta",
+    "segmento": "Design e UI/UX"
+   },
+   {
+    "como_usar": "Checar visualmente no navegador o que foi gerado",
+    "relevancia": "média",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
  },
  "1165277268": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -791,6 +1151,7 @@
  },
  "1167300963": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -800,14 +1161,21 @@
   "traduzido": true
  },
  "1170821064": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Gestão de agentes e produtividade",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente.",
+  "por_que_importa": "App open source para gerenciar agentes de IA no trabalho: tarefas, papéis e acompanhamento.",
   "resumo": "App open source para gerenciar agentes de IA no trabalho.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Organizar o trabalho de vários agentes como se fossem membros do time",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "11730342": {
   "categoria": "Frontend e UI",
@@ -821,6 +1189,7 @@
  },
  "1174820787": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -840,17 +1209,25 @@
   "traduzido": true
  },
  "1176011916": {
-  "categoria": "Outros",
+  "categoria": "MCP, ferramentas e integrações",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente.",
+  "por_que_importa": "Cria interfaces de linha de comando para softwares existentes, para que agentes consigam operá-los.",
   "resumo": "Torna qualquer software \"nativo para agentes\" por meio de interfaces de linha de comando.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Expor operações de um sistema interno como CLI utilizável por agentes",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "1177402105": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -860,14 +1237,26 @@
   "traduzido": true
  },
  "1179264259": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Configuração opinativa do Claude Code com ferramentas que fazem papel de designer, gerente de engenharia, QA e release; mostra como cobrir o ciclo todo com agentes.",
   "resumo": "Configuração do Claude Code usada por Garry Tan: 23 ferramentas que atuam como CEO, designer, gerente de engenharia, release, documentação e QA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Inspirar um fluxo completo de entrega com papéis definidos para o agente",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Adicionar uma etapa automática de QA antes do release",
+    "relevancia": "média",
+    "segmento": "Testes e QA"
+   }
+  ],
+  "versao": 2
  },
  "1181927": {
   "categoria": "Outros",
@@ -880,37 +1269,69 @@
   "traduzido": true
  },
  "1182081931": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Conhecimento do código e diagramas",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Grafo de conhecimento interativo do código para explorar, buscar e perguntar; ótimo para onboarding em projetos desconhecidos.",
   "resumo": "Transforma qualquer código em um grafo de conhecimento interativo para explorar, buscar e fazer perguntas.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Entender a estrutura de um projeto novo antes de mexer nele",
+    "relevancia": "alta",
+    "segmento": "Arquitetura de software"
+   },
+   {
+    "como_usar": "Acelerar o onboarding de devs em sistemas grandes",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1183325896": {
-  "categoria": "Frontend e UI",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skills para designers e engenheiros, de um autor conhecido por componentes de UI bem acabados; melhora a qualidade visual do que o agente gera.",
   "resumo": "Skills para designers e engenheiros.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Ensinar o agente a seguir detalhes de interação e acabamento visual",
+    "relevancia": "alta",
+    "segmento": "Design e UI/UX"
+   },
+   {
+    "como_usar": "Gerar componentes com animações e microinterações de qualidade",
+    "relevancia": "alta",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
  },
  "1183888342": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Gestão de agentes e produtividade",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente.",
+  "por_que_importa": "Roda uma frota de agentes de código usando suas assinaturas, no desktop, celular ou remoto.",
   "resumo": "Roda uma frota de bots usando sua própria assinatura (Claude Code, Grok, Codex etc.), no desktop, no celular ou remoto.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Paralelizar tarefas entre vários agentes de código",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1185389803": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -920,27 +1341,47 @@
   "traduzido": true
  },
  "1185590488": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente.",
+  "por_que_importa": "Trilha prática de engenharia de IA: aprender, construir e publicar aplicações.",
   "resumo": "Aprenda engenharia de IA do zero: estude, construa e publique.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Aprender a levar funcionalidades de IA até produção",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "1193909050": {
-  "categoria": "Ferramentas de desenvolvimento",
+  "categoria": "Gestão de agentes e produtividade",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente.",
+  "por_que_importa": "Runtime para hospedar e gerenciar agentes de código em execução.",
   "resumo": "Runtime onde seus agentes de código rodam.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Manter agentes de código rodando e organizados em sessões",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Padronizar onde e como os agentes rodam",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   }
+  ],
+  "versao": 2
  },
  "1195360525": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -951,6 +1392,7 @@
  },
  "1197021090": {
   "categoria": "Outros",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -960,37 +1402,74 @@
   "traduzido": true
  },
  "1197515131": {
-  "categoria": "Frontend e UI",
+  "categoria": "Design e interfaces com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Arquivos DESIGN.md baseados em design systems de marcas conhecidas; você coloca um no projeto e o agente gera UI coerente com aquele estilo.",
   "resumo": "Coleção de arquivos DESIGN.md com análises de design systems de marcas famosas, para agentes de código gerarem interfaces no mesmo estilo.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Dar ao agente um design system de referência em um único arquivo",
+    "relevancia": "alta",
+    "segmento": "Design e UI/UX"
+   },
+   {
+    "como_usar": "Gerar interfaces consistentes com o estilo escolhido",
+    "relevancia": "alta",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
  },
  "1200597263": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Conhecimento do código e diagramas",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Transforma o código, docs, esquemas SQL e configs em um grafo de conhecimento consultável pelo agente; melhora respostas sobre sistemas grandes.",
   "resumo": "Transforma qualquer base de código (com docs, esquemas SQL, configs e PDFs) em um grafo de conhecimento consultável; skill para Claude Code, Cursor, Codex e Gemini CLI.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Mapear dependências e responsabilidades de um sistema legado",
+    "relevancia": "alta",
+    "segmento": "Arquitetura de software"
+   },
+   {
+    "como_usar": "Relacionar esquemas SQL com o código que os usa",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   },
+   {
+    "como_usar": "Reduzir o tempo do agente procurando contexto em bases grandes",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1201173969": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Memória, contexto e economia de tokens",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skill e proxy que encurtam respostas e saídas de ferramentas dos agentes, economizando tokens sem perder informação.",
   "resumo": "Skill e proxy local para agentes de código que encurtam respostas e saídas de ferramentas, economizando tokens.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Deixar o agente mais econômico e direto",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1201476594": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1000,14 +1479,21 @@
   "traduzido": true
  },
  "1201656210": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Memória, contexto e economia de tokens",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente.",
+  "por_que_importa": "Sistema de memória para IA open source e gratuito, com bons resultados em benchmarks.",
   "resumo": "Sistema de memória para IA open source e gratuito, com bons resultados em benchmarks.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Testar memória de longo prazo para agentes sem custo de licença",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "120538304": {
   "categoria": "Outros",
@@ -1021,6 +1507,7 @@
  },
  "1206390571": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1030,33 +1517,65 @@
   "traduzido": true
  },
  "1209966933": {
-  "categoria": "Segurança",
+  "categoria": "Segurança com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
   "gerado_por": "claude (tarefa agendada)",
-  "maturidade": "Projeto muito recente com crescimento de estrelas fora do comum; avalie maturidade, licença e implicações legais antes de usar.",
-  "por_que_importa": "Pode acelerar análise de apps e binários de terceiros, por exemplo para entender integrações sem documentação ou auditar segurança.",
+  "maturidade": "Projeto muito recente com crescimento de estrelas fora do comum; avalie maturidade e implicações legais.",
+  "por_que_importa": "Agentes de IA para engenharia reversa de apps e binários; pode acelerar auditorias de segurança e análise de integrações sem documentação.",
   "resumo": "Ferramenta com agentes de IA para engenharia reversa, do comportamento de aplicativos até binários nativos, com integração a assistentes de código como o Claude Code.",
-  "segmentos": []
+  "segmentos": [
+   {
+    "como_usar": "Analisar binários e comportamento de apps em auditorias",
+    "relevancia": "média",
+    "segmento": "Segurança e cibersegurança"
+   }
+  ],
+  "versao": 2
  },
  "1211139949": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Conhecimento do código e diagramas",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skill que transforma ideias, planos ou código em diagramas interativos e diagnóstico de arquitetura; ajuda a explicar e revisar sistemas.",
   "resumo": "Transforma ideias, planos ou código em diagramas interativos ou respostas de uma página; skill para Claude Code, Codex, Cursor e outros.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Gerar diagnóstico e diagramas da arquitetura atual de um sistema",
+    "relevancia": "alta",
+    "segmento": "Arquitetura de software"
+   },
+   {
+    "como_usar": "Explicar PRs e mudanças com diagramas para revisão",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1212769188": {
-  "categoria": "Dados e Bancos de dados",
+  "categoria": "Conhecimento do código e diagramas",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skill que ensina o agente a gerar diagramas editoriais limpos (52 tipos) em HTML + SVG; melhor que diagramas genéricos em Mermaid.",
   "resumo": "Skill de design de diagramas editoriais para agentes de código: 52 tipos, em HTML + SVG autocontido.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Gerar diagramas de arquitetura e fluxos com visual profissional",
+    "relevancia": "alta",
+    "segmento": "Arquitetura de software"
+   },
+   {
+    "como_usar": "Produzir diagramas para documentação e apresentações",
+    "relevancia": "média",
+    "segmento": "Design e UI/UX"
+   }
+  ],
+  "versao": 2
  },
  "121395510": {
   "categoria": "Aprendizado e listas de recursos",
@@ -1070,6 +1589,7 @@
  },
  "1217040185": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1090,6 +1610,7 @@
  },
  "1219596233": {
   "categoria": "Outros",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1099,24 +1620,48 @@
   "traduzido": true
  },
  "1222917575": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Design e interfaces com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skill de design contra interfaces genéricas de IA para Claude Code, Cursor e Codex.",
   "resumo": "Skill de design contra interfaces genéricas geradas por IA, para Claude Code, Cursor e Codex.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Evitar layouts genéricos em landing pages e telas geradas por IA",
+    "relevancia": "alta",
+    "segmento": "Design e UI/UX"
+   },
+   {
+    "como_usar": "Melhorar o acabamento de páginas feitas com agentes",
+    "relevancia": "média",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
  },
  "1223170290": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Design e interfaces com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente; avalie estabilidade.",
+  "por_que_importa": "Workspace colaborativo de design com agentes de IA para protótipos, sites, apps e dashboards; local e open source.",
   "resumo": "Workspace colaborativo de design com agentes de IA, local e open source: protótipos, sites, apps, dashboards, apresentações, imagens e vídeos.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Prototipar telas e fluxos com IA junto com o time",
+    "relevancia": "alta",
+    "segmento": "Design e UI/UX"
+   },
+   {
+    "como_usar": "Transformar protótipos em páginas e componentes",
+    "relevancia": "média",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
  },
  "12256376": {
   "categoria": "Frontend e UI",
@@ -1139,27 +1684,52 @@
   "traduzido": true
  },
  "1238120057": {
-  "categoria": "Ferramentas de desenvolvimento",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skill que obriga o agente a responder de forma direta, com a resposta primeiro; reduz tempo de leitura e retrabalho.",
   "resumo": "Skill que impede o agente de código de esconder a resposta: saídas diretas e fáceis de ler.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Deixar as respostas do agente mais objetivas no dia a dia",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1241960226": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Agentes de código",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Revisão de código do Alibaba que combina regras determinísticas e agente LLM, com comentários por linha (NPE, XSS, SQL injection, concorrência).",
   "resumo": "Ferramenta de revisão de código do Alibaba que combina regras determinísticas e agente LLM, com comentários por linha.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Automatizar revisão de PRs com comentários por linha",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Detectar XSS, SQL injection e falhas comuns antes do merge",
+    "relevancia": "alta",
+    "segmento": "Segurança e cibersegurança"
+   },
+   {
+    "como_usar": "Reduzir bugs que chegam ao QA",
+    "relevancia": "média",
+    "segmento": "Testes e QA"
+   }
+  ],
+  "versao": 2
  },
  "1255180606": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1179,24 +1749,48 @@
   "traduzido": true
  },
  "1266797999": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skill que empurra o agente a escrever menos código e preferir soluções simples; combate excesso de complexidade gerada por IA.",
   "resumo": "Faz o agente de IA pensar como o dev sênior mais preguiçoso da sala: o melhor código é o que você não escreveu.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Evitar que o agente crie abstrações e código desnecessários",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Manter a arquitetura enxuta em projetos feitos com IA",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "1273427276": {
-  "categoria": "Segurança",
+  "categoria": "Segurança com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Skill da Cloudflare para auditorias de segurança em várias fases com achados verificados; leva revisão de segurança para dentro do agente de código.",
   "resumo": "Skill para agentes de código fazerem auditorias de segurança em várias fases, com achados verificados.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Fazer auditoria de segurança do código com o próprio agente",
+    "relevancia": "alta",
+    "segmento": "Segurança e cibersegurança"
+   },
+   {
+    "como_usar": "Gerar relatório de achados verificados para correção",
+    "relevancia": "média",
+    "segmento": "Testes e QA"
+   }
+  ],
+  "versao": 2
  },
  "127407957": {
   "categoria": "Aprendizado e listas de recursos",
@@ -1210,6 +1804,7 @@
  },
  "1277471539": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1240,6 +1835,7 @@
  },
  "1286080397": {
   "categoria": "Outros",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1269,14 +1865,26 @@
   "traduzido": true
  },
  "130688011": {
-  "categoria": "Dados e Bancos de dados",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Motor de busca muito rápido com busca híbrida (texto + vetores); simples de operar comparado a soluções maiores.",
   "resumo": "Meilisearch: API de busca muito rápida, com busca híbrida por IA, para sites e aplicações.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Adicionar busca instantânea e semântica ao produto",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Indexar catálogos e documentos para busca com relevância",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "1322250666": {
   "categoria": "Mobile e Desktop",
@@ -1300,6 +1908,7 @@
  },
  "132464395": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1334,14 +1943,21 @@
   "traduzido": true
  },
  "1333065091": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto muito recente.",
+  "por_que_importa": "Ambiente de agente da DeepSeek baseado em plugins; alternativa aberta para rodar agentes com modelos DeepSeek.",
   "resumo": "DeepSeek Harness: ambiente para agentes de IA em que tudo é plugin.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Rodar agentes de código com modelos DeepSeek e plugins próprios",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "1334369": {
   "categoria": "Outros",
@@ -1450,6 +2066,7 @@
  },
  "1385896447": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1480,6 +2097,7 @@
  },
  "139824423": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "Sem commits há 3 anos — verifique se ainda é mantido.",
@@ -1500,6 +2118,7 @@
  },
  "1423101235": {
   "categoria": "Segurança",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1520,6 +2139,7 @@
  },
  "145553672": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "Sem commits há 3 anos — verifique se ainda é mantido.",
@@ -1619,34 +2239,75 @@
   "traduzido": true
  },
  "155220641": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Treino e frameworks de ML",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Biblioteca padrão para usar e ajustar modelos de texto, visão e áudio do Hugging Face.",
   "resumo": "Transformers: framework de definição de modelos de ML de ponta para texto, visão, áudio e multimodal, em inferência e treino.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Usar modelos prontos de classificação, extração e embeddings no backend",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Gerar embeddings para busca semântica",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "156018": {
-  "categoria": "Dados e Bancos de dados",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Cache e banco em memória com estruturas de dados e busca vetorial; peça comum em sistemas com IA para cache, filas e memória semântica.",
   "resumo": "Redis: cache e banco em memória para aplicações em tempo real, com estruturas de dados, documentos e busca vetorial.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Usar busca vetorial e cache de respostas de LLM",
+    "relevancia": "alta",
+    "segmento": "Banco de dados e dados"
+   },
+   {
+    "como_usar": "Cache, filas e sessões para APIs de alto desempenho",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Reduzir latência com uma camada de cache bem desenhada",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "156157055": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Ensina a desenvolver, publicar e iterar aplicações de ML em produção (MLOps).",
   "resumo": "Aprenda a desenvolver, publicar e iterar aplicações de ML em produção.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Aprender práticas de MLOps: versionamento, deploy e monitoramento de modelos",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   },
+   {
+    "como_usar": "Testar dados e modelos de ML",
+    "relevancia": "média",
+    "segmento": "Testes e QA"
+   }
+  ],
+  "versao": 2
  },
  "15634981": {
   "categoria": "Outros",
@@ -1790,6 +2451,7 @@
  },
  "172562475": {
   "categoria": "Frontend e UI",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1850,6 +2512,7 @@
  },
  "178991158": {
   "categoria": "Ferramentas de desenvolvimento",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1859,14 +2522,26 @@
   "traduzido": true
  },
  "180190854": {
-  "categoria": "Mobile e Desktop",
+  "categoria": "Plataformas de IA e automação",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Nuvem open source com autenticação, bancos, storage, funções e mensagens, voltada também a agentes.",
   "resumo": "Appwrite: nuvem open source com autenticação, bancos de dados, storage, funções, mensagens e hospedagem.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Ter backend pronto (auth, banco, storage, funções) auto-hospedado",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Gerenciar coleções de dados com permissões prontas",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "180328715": {
   "categoria": "Frontend e UI",
@@ -1950,6 +2625,7 @@
  },
  "188660663": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -1969,14 +2645,31 @@
   "traduzido": true
  },
  "193215554": {
-  "categoria": "Apps prontos e self-hosted",
+  "categoria": "Plataformas de IA e automação",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Automação de fluxos com IA nativa, mais de 400 integrações e opção auto-hospedada; resolve integrações e automações sem escrever um backend inteiro.",
   "resumo": "Plataforma de automação de fluxos de trabalho com IA nativa: combina construção visual e código, roda na nuvem ou auto-hospedada, com mais de 400 integrações.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Orquestrar integrações entre sistemas (CRM, WhatsApp, e-mail, ERP) com etapas de IA",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Automatizar rotinas operacionais e alertas",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   },
+   {
+    "como_usar": "Sincronizar e transformar dados entre bancos e planilhas",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "19415064": {
   "categoria": "Aprendizado e listas de recursos",
@@ -2149,14 +2842,31 @@
   "traduzido": true
  },
  "214587193": {
-  "categoria": "Dados e Bancos de dados",
+  "categoria": "Plataformas de IA e automação",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Plataforma sobre Postgres com autenticação, storage, APIs automáticas e vetores (pgvector); backend completo pronto para apps com IA.",
   "resumo": "Supabase: plataforma de desenvolvimento sobre Postgres para apps web, mobile e de IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Usar Postgres gerenciado com pgvector para busca semântica",
+    "relevancia": "alta",
+    "segmento": "Banco de dados e dados"
+   },
+   {
+    "como_usar": "Ganhar autenticação, storage e APIs sem escrever um backend do zero",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Controlar acesso aos dados com políticas por linha (RLS)",
+    "relevancia": "média",
+    "segmento": "Segurança e cibersegurança"
+   }
+  ],
+  "versao": 2
  },
  "21540759": {
   "categoria": "Aprendizado e listas de recursos",
@@ -2198,14 +2908,21 @@
   "segmentos": []
  },
  "21872392": {
-  "categoria": "Aprendizado e listas de recursos",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "É uma lista de links, não um software.",
+  "por_que_importa": "Lista curada de frameworks e bibliotecas de ML por linguagem; ajuda a achar a ferramenta certa.",
   "resumo": "Lista curada de frameworks, bibliotecas e softwares de Machine Learning.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Encontrar bibliotecas de ML para a linguagem do projeto",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "21935031": {
   "categoria": "Aprendizado e listas de recursos",
@@ -2298,14 +3015,21 @@
   "traduzido": true
  },
  "22887094": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Motor de OCR open source clássico e estável; base de muitas soluções de leitura de documentos.",
   "resumo": "Tesseract: motor de OCR open source.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Adicionar OCR simples a um fluxo de documentos",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "23083156": {
   "categoria": "Frontend e UI",
@@ -2459,6 +3183,7 @@
  },
  "254832799": {
   "categoria": "Segurança",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -2508,17 +3233,30 @@
   "traduzido": true
  },
  "262296122": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Kit de OCR leve e preciso que transforma imagens e PDFs escaneados em dados estruturados, com mais de 100 idiomas.",
   "resumo": "Kit de OCR que transforma PDFs e imagens em dados estruturados para IA, com suporte a mais de 100 idiomas.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Ler documentos escaneados (notas, formulários) e extrair campos",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Digitalizar documentos em papel para o banco de dados",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "264818686": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -2644,6 +3382,7 @@
  },
  "287463830": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -2654,6 +3393,7 @@
  },
  "290091948": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -2804,6 +3544,7 @@
  },
  "323048702": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -2843,14 +3584,21 @@
   "traduzido": true
  },
  "33015583": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Treino e frameworks de ML",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "API de alto nível para deep learning, simples de aprender; boa porta de entrada para treinar modelos.",
   "resumo": "Keras: deep learning para humanos.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Prototipar modelos de ML com pouco código",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "331107018": {
   "categoria": "Linguagens e runtimes",
@@ -2943,24 +3691,38 @@
   "traduzido": true
  },
  "343965132": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Curso de 12 semanas da Microsoft sobre machine learning clássico.",
   "resumo": "Curso de Machine Learning clássico em 12 semanas e 26 aulas (Microsoft).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Aprender a criar modelos simples com dados do negócio",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "344190478": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Curso de 12 semanas da Microsoft com os fundamentos de IA.",
   "resumo": "Curso de IA em 12 semanas e 24 aulas (Microsoft).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Formar base em IA para o time",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "34526884": {
   "categoria": "Frontend e UI",
@@ -3044,6 +3806,7 @@
  },
  "3638964": {
   "categoria": "DevOps e Cloud",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3074,6 +3837,7 @@
  },
  "365739812": {
   "categoria": "Frontend e UI",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3114,6 +3878,7 @@
  },
  "377496562": {
   "categoria": "Mobile e Desktop",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3133,14 +3898,26 @@
   "traduzido": true
  },
  "384219990": {
-  "categoria": "Ferramentas de desenvolvimento",
+  "categoria": "Agentes de código",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Terminal moderno com agentes integrados; reúne comandos, IA e fluxos de trabalho do time num só lugar.",
   "resumo": "Warp: ambiente de desenvolvimento com agentes, nascido do terminal.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Executar e explicar comandos com ajuda de IA no dia a dia",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Padronizar fluxos de comandos de deploy e diagnóstico para o time",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   }
+  ],
+  "versao": 2
  },
  "39464018": {
   "categoria": "Dados e Bancos de dados",
@@ -3254,6 +4031,7 @@
  },
  "44662669": {
   "categoria": "Dados e Bancos de dados",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3303,14 +4081,21 @@
   "traduzido": true
  },
  "45717250": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Treino e frameworks de ML",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Framework de machine learning do Google, forte em produção e em dispositivos (TensorFlow Lite).",
   "resumo": "Framework open source de Machine Learning.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Servir modelos de ML em produção ou em dispositivos móveis",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "45723377": {
   "categoria": "Linguagens e runtimes",
@@ -3323,14 +4108,21 @@
   "traduzido": true
  },
  "468576060": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Exemplos e guias oficiais de uso da API da OpenAI (RAG, embeddings, ferramentas, avaliação).",
   "resumo": "Exemplos e guias de uso da API da OpenAI.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Copiar padrões testados de integração com LLMs",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "475553026": {
   "categoria": "Frontend e UI",
@@ -3413,14 +4205,21 @@
   "traduzido": true
  },
  "5108051": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Treino e frameworks de ML",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Biblioteca de visão computacional mais usada; base para processamento de imagens e vídeo.",
   "resumo": "OpenCV: biblioteca open source de visão computacional.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Processar imagens (recorte, detecção, leitura) no backend",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "51117837": {
   "categoria": "IA e Machine Learning",
@@ -3434,6 +4233,7 @@
  },
  "519577891": {
   "categoria": "Mobile e Desktop",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3504,6 +4304,7 @@
  },
  "527591471": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3533,14 +4334,21 @@
   "traduzido": true
  },
  "535360445": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Treino e frameworks de ML",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Licença AGPL: verifique antes de uso comercial fechado.",
+  "por_que_importa": "YOLO moderno para detecção, segmentação e rastreamento de objetos, fácil de treinar e exportar.",
   "resumo": "Ultralytics YOLO: detecção de objetos, segmentação, classificação, pose e rastreamento.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Detectar objetos em imagens ou câmeras dentro do produto",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "53631945": {
   "categoria": "Ferramentas de desenvolvimento",
@@ -3553,14 +4361,21 @@
   "traduzido": true
  },
  "537603333": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Modelo de reconhecimento de fala robusto e multilíngue (inclui português); base para transcrição em produtos.",
   "resumo": "Whisper: reconhecimento de fala robusto da OpenAI.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Transcrever áudios e reuniões dentro do sistema",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "53809090": {
   "categoria": "Frontend e UI",
@@ -3573,14 +4388,21 @@
   "traduzido": true
  },
  "541269386": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Versão eficiente do Whisper em C/C++ que roda localmente até em CPU e dispositivos menores.",
   "resumo": "Versão em C/C++ do modelo Whisper da OpenAI (transcrição de fala).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Transcrição local e rápida sem depender de API",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "54173593": {
   "categoria": "Frontend e UI",
@@ -3639,6 +4461,7 @@
  },
  "551376520": {
   "categoria": "Mobile e Desktop",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3648,14 +4471,26 @@
   "traduzido": true
  },
  "552661142": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Plataforma de engenharia de agentes: integrações com modelos, ferramentas, memória e RAG; base de muitos produtos de IA.",
   "resumo": "Plataforma de engenharia de agentes de IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Construir funcionalidades com LLM (chat, RAG, agentes) no backend",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Padronizar integrações com vários provedores de modelo",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "557980": {
   "categoria": "Outros",
@@ -3668,14 +4503,26 @@
   "traduzido": true
  },
  "560704231": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Framework para conectar dados próprios a LLMs: ingestão, indexação e consulta de documentos.",
   "resumo": "LlamaIndex: plataforma de processamento de documentos para IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Implementar RAG sobre documentos e bancos da empresa",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Indexar fontes de dados variadas para consulta por IA",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "561730219": {
   "categoria": "Aprendizado e listas de recursos",
@@ -3708,17 +4555,30 @@
   "traduzido": true
  },
  "571186647": {
-  "categoria": "Dados e Bancos de dados",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Framework Python de ETL em streaming com pipelines de LLM e RAG que se atualizam em tempo real.",
   "resumo": "Framework Python de ETL para processamento em streaming, analytics em tempo real, pipelines de LLM e RAG.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Manter índices de RAG sincronizados com dados que mudam o tempo todo",
+    "relevancia": "alta",
+    "segmento": "Banco de dados e dados"
+   },
+   {
+    "como_usar": "Processar eventos em tempo real com etapas de IA",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "571613891": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3729,6 +4589,7 @@
  },
  "572984571": {
   "categoria": "Frontend e UI",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3738,17 +4599,25 @@
   "traduzido": true
  },
  "574523116": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Coleção comunitária de prompts (antigo Awesome ChatGPT Prompts), auto-hospedável para o time.",
   "resumo": "Antigo Awesome ChatGPT Prompts: compartilhe, descubra e organize prompts da comunidade; pode ser auto-hospedado.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Montar uma biblioteca interna de prompts reutilizáveis",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "575340621": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
@@ -3778,14 +4647,26 @@
   "traduzido": true
  },
  "579082810": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Guia completo de engenharia de prompt, contexto, RAG e agentes; referência para escrever prompts e skills melhores.",
   "resumo": "Guias, artigos, aulas e notebooks sobre engenharia de prompt, engenharia de contexto, RAG e agentes de IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Melhorar prompts, skills e instruções para agentes",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Projetar prompts robustos para funcionalidades de IA",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "58028038": {
   "categoria": "Aprendizado e listas de recursos",
@@ -3809,6 +4690,7 @@
  },
  "585146387": {
   "categoria": "Frontend e UI",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3818,17 +4700,30 @@
   "traduzido": true
  },
  "589831718": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Interface e backend em nós para modelos de difusão (imagem e vídeo); permite montar pipelines de geração reproduzíveis e expor como API.",
   "resumo": "Interface, API e backend modulares para modelos de difusão (imagens com IA) em formato de grafo de nós.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Gerar imagens e variações de assets com pipelines controlados",
+    "relevancia": "média",
+    "segmento": "Design e UI/UX"
+   },
+   {
+    "como_usar": "Expor geração de imagens como serviço para o produto",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "594155488": {
   "categoria": "DevOps e Cloud",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3848,24 +4743,43 @@
   "traduzido": true
  },
  "599320067": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Plataformas de IA e automação",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Construtor visual de agentes e fluxos de IA, com exportação para API; acelera protótipos de funcionalidades com LLM.",
   "resumo": "Langflow: ferramenta para criar e publicar agentes e fluxos com IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Prototipar e expor fluxos de IA como API para o sistema",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "599547518": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Servidor de inferência de LLMs com alta vazão e uso eficiente de GPU; padrão para servir modelos abertos em produção.",
   "resumo": "Motor de inferência e serving de LLMs com alta vazão e uso eficiente de memória.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Servir modelos abertos em produção com bom desempenho por GPU",
+    "relevancia": "alta",
+    "segmento": "DevOps e infraestrutura"
+   },
+   {
+    "como_usar": "Oferecer API compatível com OpenAI para os serviços internos",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "599735720": {
   "categoria": "Backend e APIs",
@@ -3879,6 +4793,7 @@
  },
  "601538369": {
   "categoria": "Outros",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3889,6 +4804,7 @@
  },
  "60246359": {
   "categoria": "Dados e Bancos de dados",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3934,6 +4850,7 @@
  },
  "612344730": {
   "categoria": "Mobile e Desktop",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3943,37 +4860,69 @@
   "traduzido": true
  },
  "612354784": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Motor de inferência de LLMs em C/C++ que roda até em CPU; base do Ollama e de muitas ferramentas locais.",
   "resumo": "Inferência de LLMs em C/C++.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Embutir inferência local eficiente em aplicações",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Rodar modelos em hardware modesto ou na borda",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   }
+  ],
+  "versao": 2
  },
  "614765452": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Plataforma pioneira de agentes autônomos, hoje com construtor visual de agentes e fluxos.",
   "resumo": "AutoGPT: plataforma para criar e usar agentes de IA de forma acessível.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Prototipar agentes que executam fluxos de negócio de ponta a ponta",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "615869301": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Motor de IA open source compatível com a API da OpenAI para texto, imagem, voz e vídeo, sem exigir GPU.",
   "resumo": "LocalAI: motor de IA open source para rodar LLMs, visão, voz, imagem e vídeo em qualquer hardware, sem GPU.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Trocar a API da OpenAI por uma local sem mudar o código",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Rodar IA em servidores próprios sem GPU",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   }
+  ],
+  "versao": 2
  },
  "616372661": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -3984,6 +4933,7 @@
  },
  "618058471": {
   "categoria": "Outros",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "Sem commits há 2 anos — verifique se ainda é mantido.",
@@ -4003,17 +4953,25 @@
   "traduzido": true
  },
  "619959033": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Roda LLMs localmente em qualquer computador, com app desktop e SDK; liberado para uso comercial.",
   "resumo": "GPT4All: roda LLMs localmente em qualquer dispositivo; open source e liberado para uso comercial.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Adicionar IA local a aplicações desktop ou internas",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "620936652": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4033,14 +4991,26 @@
   "traduzido": true
  },
  "626805178": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Plataformas de IA e automação",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Plataforma para criar apps de IA, agentes e pipelines de RAG com interface visual e deploy auto-hospedado.",
   "resumo": "Plataforma para criar fluxos com agentes, pipelines de RAG e ferramentas de IA, na nuvem ou auto-hospedada.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Publicar rapidamente um chatbot ou agente com RAG sobre documentos da empresa",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Separar a camada de IA do sistema principal via APIs da plataforma",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "62812261": {
   "categoria": "DevOps e Cloud",
@@ -4083,14 +5053,31 @@
   "traduzido": true
  },
  "635240594": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Camada de API completa para IA privada com modelos locais: RAG, ferramentas, MCP e texto para SQL.",
   "resumo": "Camada de API completa para aplicações de IA privadas com modelos locais: RAG, ferramentas, MCP e texto para SQL.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Expor IA privada para o sistema sem enviar dados a terceiros",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Consultar o banco em linguagem natural (texto para SQL)",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   },
+   {
+    "como_usar": "Atender requisitos de privacidade mantendo modelos e dados locais",
+    "relevancia": "média",
+    "segmento": "Segurança e cibersegurança"
+   }
+  ],
+  "versao": 2
  },
  "63537249": {
   "categoria": "Frontend e UI",
@@ -4113,14 +5100,21 @@
   "traduzido": true
  },
  "638629097": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Agentes de código",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Programação em par com IA no terminal, integrada ao Git (cada mudança vira commit); muito bom para mudanças incrementais e rastreáveis.",
   "resumo": "aider: programação em par com IA no terminal.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Fazer mudanças pequenas e rastreáveis com commits automáticos por alteração",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "641656392": {
   "categoria": "Frontend e UI",
@@ -4134,6 +5128,7 @@
  },
  "643445235": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4143,24 +5138,43 @@
   "traduzido": true
  },
  "646410686": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Treino e frameworks de ML",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Ajuste fino unificado de mais de 100 LLMs e modelos de visão, com interface web.",
   "resumo": "Fine-tuning eficiente e unificado de mais de 100 LLMs e modelos de visão e linguagem.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Fazer fine-tuning de modelos abertos sem montar o pipeline do zero",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "649170660": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Plataformas de IA e automação",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "App local para conversar com documentos e rodar agentes, com controle total dos dados.",
   "resumo": "AnythingLLM: plataforma local para agentes e chat com seus documentos.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Montar uma base de conhecimento interna consultável por IA",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Indexar documentos e manuais para busca em linguagem natural",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "6498492": {
   "categoria": "Aprendizado e listas de recursos",
@@ -4203,44 +5217,77 @@
   "traduzido": true
  },
  "655099582": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Curso com roteiros e notebooks sobre LLMs: fundamentos, ajuste fino e engenharia de aplicações.",
   "resumo": "Curso para aprender LLMs, com roteiros e notebooks no Colab.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Estudar desde fundamentos até deploy de aplicações com LLM",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "655806940": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Curso gratuito da Microsoft em 21 aulas para construir aplicações com IA generativa.",
   "resumo": "21 aulas para começar a construir com IA generativa (Microsoft).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Aprender a integrar LLMs em aplicações reais",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "65600975": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Treino e frameworks de ML",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Framework de deep learning mais usado em pesquisa e produção; base de boa parte dos modelos atuais.",
   "resumo": "PyTorch: tensores e redes neurais dinâmicas em Python com aceleração por GPU.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Treinar ou servir modelos próprios quando APIs prontas não atendem",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "656099147": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Memória, contexto e economia de tokens",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Camada de memória para agentes e apps de IA: guarda preferências e contexto entre conversas, pronta para produção.",
   "resumo": "Camada de memória para agentes e apps de IA: contexto persistente, pronto para produção.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Dar memória de longo prazo a um assistente do produto",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Persistir contexto de usuários de forma organizada",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "65750241": {
   "categoria": "Mobile e Desktop",
@@ -4253,64 +5300,141 @@
   "traduzido": true
  },
  "658928958": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Forma mais simples de rodar LLMs abertos localmente com uma API; ideal para desenvolvimento, privacidade e reduzir custo.",
   "resumo": "Roda modelos de IA localmente (Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma e outros).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Integrar o sistema a um LLM local via API compatível",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Processar dados sensíveis sem enviá-los a provedores externos",
+    "relevancia": "média",
+    "segmento": "Segurança e cibersegurança"
+   },
+   {
+    "como_usar": "Servir modelos internos em servidores próprios",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   }
+  ],
+  "versao": 2
  },
  "660551251": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Framework multiagente que simula uma empresa de software (PM, arquiteto, dev, QA); mostra como dividir uma entrega entre agentes.",
   "resumo": "MetaGPT: framework multiagente que simula uma empresa de software feita de IAs.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Gerar requisitos e desenho técnico com agentes em papéis definidos",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   },
+   {
+    "como_usar": "Estudar orquestração de vários agentes em um fluxo de desenvolvimento",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "666299222": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Agentes de código",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Agente de código para modelos abertos que executa código localmente; útil para automações e análises sem depender de API paga.",
   "resumo": "Agente de código para modelos abertos.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Automatizar tarefas locais e scripts com modelos abertos",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Explorar e transformar arquivos de dados localmente conversando com o agente",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "668195240": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto recente.",
+  "por_que_importa": "Servidor de RAG sem código que mantém as respostas sincronizadas com seus documentos e funciona com vários bancos vetoriais.",
   "resumo": "Servidor de RAG sem código que mantém as respostas sincronizadas com seus documentos.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Subir um serviço de perguntas e respostas sobre documentos rapidamente",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Testar diferentes bancos vetoriais sem reescrever código",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "669879380": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Livro e código para implementar um LLM do zero em PyTorch; entendimento profundo de como os modelos funcionam.",
   "resumo": "Implemente um LLM no estilo ChatGPT em PyTorch do zero, passo a passo.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Entender o funcionamento interno de LLMs para usá-los melhor",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "671269505": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Gateway que chama mais de 100 APIs de LLM no mesmo formato, com controle de custos, limites, fallback e logs.",
   "resumo": "Gateway de IA: chame mais de 100 APIs de LLM no formato da OpenAI, com controle de custo, guardrails, balanceamento e logs.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Centralizar chamadas de IA do sistema com troca fácil de provedor",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Desacoplar o produto de um fornecedor de modelo específico",
+    "relevancia": "alta",
+    "segmento": "Arquitetura de software"
+   },
+   {
+    "como_usar": "Monitorar custo e uso de IA por time ou cliente",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   }
+  ],
+  "versao": 2
  },
  "67186968": {
   "categoria": "DevOps e Cloud",
@@ -4363,14 +5487,26 @@
   "traduzido": true
  },
  "678973052": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Notebooks oficiais com receitas de uso do Claude: ferramentas, RAG, agentes e boas práticas.",
   "resumo": "Coleção de notebooks e receitas com formas eficazes de usar o Claude.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Implementar integrações com o Claude seguindo exemplos oficiais",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Aprender técnicas de uso de ferramentas e contexto",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "6838921": {
   "categoria": "DevOps e Cloud",
@@ -4394,6 +5530,7 @@
  },
  "68957920": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4414,6 +5551,7 @@
  },
  "695864515": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4443,24 +5581,48 @@
   "traduzido": true
  },
  "701547123": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Plataformas de IA e automação",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Interface web auto-hospedada para usar modelos locais ou via API, com RAG e controle de usuários; 'ChatGPT interno' da empresa.",
   "resumo": "Interface amigável para IA, compatível com Ollama, API da OpenAI e outros.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Oferecer chat com IA interno, com modelos locais e documentos da empresa",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Manter dados sensíveis dentro da infraestrutura própria",
+    "relevancia": "média",
+    "segmento": "Segurança e cibersegurança"
+   }
+  ],
+  "versao": 2
  },
  "710601088": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Framework Python para orquestrar agentes com papéis e tarefas; um dos mais usados para fluxos multiagente em produção.",
   "resumo": "CrewAI: framework para orquestrar agentes de IA autônomos que colaboram em tarefas complexas.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Implementar fluxos multiagente (pesquisa, análise, redação) dentro de um backend",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Desenhar a divisão de responsabilidades entre agentes",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "71220757": {
   "categoria": "Segurança",
@@ -4474,6 +5636,7 @@
  },
  "71583602": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4483,24 +5646,48 @@
   "traduzido": true
  },
  "717197250": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Gateway de IA auto-hospedado com APIs compatíveis com OpenAI, Claude e Gemini, controle de acesso e contabilidade de custos.",
   "resumo": "Gateway de IA auto-hospedado com APIs compatíveis com OpenAI, Claude e Gemini, controle de acesso e contabilidade de custos.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Distribuir acesso a modelos para vários sistemas com cotas e chaves próprias",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Controlar gastos com IA por projeto",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   }
+  ],
+  "versao": 2
  },
  "718741813": {
-  "categoria": "Frontend e UI",
+  "categoria": "Design e interfaces com IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Transforma uma captura de tela ou mockup em código HTML/Tailwind/React/Vue; acelera a passagem do design para o front.",
   "resumo": "Converte uma captura de tela em código limpo (HTML/Tailwind/React/Vue).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Gerar a primeira versão de uma tela a partir de um print ou layout",
+    "relevancia": "alta",
+    "segmento": "Frontend"
+   },
+   {
+    "como_usar": "Validar rapidamente um layout transformando-o em protótipo navegável",
+    "relevancia": "média",
+    "segmento": "Design e UI/UX"
+   }
+  ],
+  "versao": 2
  },
  "71995937": {
   "categoria": "Frontend e UI",
@@ -4543,24 +5730,43 @@
   "traduzido": true
  },
  "725205304": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Treino e frameworks de ML",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Ajuste fino (fine-tuning) de LLMs mais rápido e com menos memória, com interface local.",
   "resumo": "Interface local para rodar e treinar LLMs e modelos de difusão, com suporte a vários formatos e modelos.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Especializar um modelo aberto no vocabulário e nas tarefas do cliente",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "730534580": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Motor de RAG focado em entendimento profundo de documentos (tabelas, layouts); bom para bases de conhecimento complexas.",
   "resumo": "Motor de RAG (geração aumentada por recuperação) que virou infraestrutura de contexto para agentes.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Responder perguntas sobre contratos, manuais e PDFs com citações",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Estruturar documentos complexos para consulta",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "74293321": {
   "categoria": "Frontend e UI",
@@ -4584,6 +5790,7 @@
  },
  "743230067": {
   "categoria": "Dados e Bancos de dados",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4633,14 +5840,26 @@
   "traduzido": true
  },
  "765083837": {
-  "categoria": "Outros",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Converte PDFs e documentos complexos em Markdown/JSON prontos para LLMs, preservando fórmulas e tabelas.",
   "resumo": "Converte documentos complexos (PDF, Office) em Markdown/JSON prontos para LLMs.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Processar PDFs de fornecedores ou contratos antes da análise por IA",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Extrair tabelas de documentos para o banco",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "7691631": {
   "categoria": "DevOps e Cloud",
@@ -4654,6 +5873,7 @@
  },
  "770153867": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4663,14 +5883,26 @@
   "traduzido": true
  },
  "771302083": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Agentes de código",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Plataforma open source de desenvolvimento com agentes que executam tarefas completas em sandbox; referência para automatizar issues e PRs.",
   "resumo": "OpenHands: desenvolvimento de software com agentes de IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Atribuir issues simples a um agente que abre o PR em ambiente isolado",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Rodar agentes de manutenção em sandbox dentro da sua infraestrutura",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   }
+  ],
+  "versao": 2
  },
  "77213120": {
   "categoria": "Ferramentas de desenvolvimento",
@@ -4694,6 +5926,7 @@
  },
  "783730789": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4703,14 +5936,26 @@
   "traduzido": true
  },
  "787076358": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "MCP, ferramentas e integrações",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Transforma sites em dados limpos (Markdown/JSON) para agentes e RAG, com busca e raspagem por uma API.",
   "resumo": "Infraestrutura de dados para agentes de IA: busca, raspagem e acesso a mais de 550 fontes de dados por uma única API.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Alimentar um sistema de IA com conteúdo de sites de forma estruturada",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Coletar e normalizar dados da web para análises",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "79162682": {
   "categoria": "Mobile e Desktop",
@@ -4723,27 +5968,52 @@
   "traduzido": true
  },
  "793375104": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Mais de 100 exemplos de agentes, skills e apps de RAG com código; ótimo catálogo de ideias e referências de implementação.",
   "resumo": "Mais de 100 agentes de IA, skills e apps de RAG gratuitos e open source.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Copiar padrões de implementação de agentes e RAG",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Comparar arquiteturas de apps com LLM antes de escolher a sua",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "798201435": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "MCP, ferramentas e integrações",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Crawler open source pensado para LLMs; extrai conteúdo pronto para RAG e pode ser auto-hospedado sem custo.",
   "resumo": "Crawler open source para coletar, extrair e buscar dados na web para agentes de IA, com versão em nuvem opcional.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Montar coleta de conteúdo para bases de conhecimento de IA",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Extrair dados estruturados de páginas para alimentar o banco",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "805155266": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4803,24 +6073,48 @@
   "traduzido": true
  },
  "824874689": {
-  "categoria": "Ferramentas de desenvolvimento",
+  "categoria": "Agentes de código",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Agente autônomo dentro do VS Code (também SDK e CLI) que planeja, edita e executa comandos com aprovação passo a passo.",
   "resumo": "Agente de código autônomo, disponível como SDK, extensão de IDE ou CLI.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Programar com um agente dentro da IDE aprovando cada edição e comando",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Criar e ajustar componentes de interface direto no editor",
+    "relevancia": "média",
+    "segmento": "Frontend"
+   }
+  ],
+  "versao": 2
  },
  "826168160": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Extrai a estrutura de documentos (tabelas, títulos, layout) e prepara para IA generativa.",
   "resumo": "Prepara seus documentos para IA generativa (conversão e extração estruturada).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Extrair tabelas e textos de PDFs com precisão para processamento por IA",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Transformar documentos em dados estruturados",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "83222441": {
   "categoria": "Aprendizado e listas de recursos",
@@ -4839,6 +6133,7 @@
  },
  "834369920": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4849,6 +6144,7 @@
  },
  "83844720": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4859,6 +6155,7 @@
  },
  "838695230": {
   "categoria": "Frontend e UI",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4868,24 +6165,48 @@
   "traduzido": true
  },
  "843222": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Treino e frameworks de ML",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Biblioteca clássica de ML em Python (classificação, regressão, clustering); resolve muitos problemas sem LLM.",
   "resumo": "scikit-learn: Machine Learning em Python.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Criar modelos de previsão e segmentação com os dados do negócio",
+    "relevancia": "alta",
+    "segmento": "Banco de dados e dados"
+   },
+   {
+    "como_usar": "Embutir modelos simples e baratos em APIs",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "846698999": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Agente open source extensível que vai além de sugerir código: instala, executa, edita e testa com qualquer LLM.",
   "resumo": "Agente de IA open source e extensível que instala, executa, edita e testa com qualquer LLM.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Automatizar tarefas de desenvolvimento ponta a ponta com qualquer modelo",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Automatizar rotinas de ambiente e configuração",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   }
+  ],
+  "versao": 2
  },
  "85031442": {
   "categoria": "Aprendizado e listas de recursos",
@@ -4934,6 +6255,7 @@
  },
  "8681349": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4944,6 +6266,7 @@
  },
  "872119017": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -4963,14 +6286,26 @@
   "traduzido": true
  },
  "881458615": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "MCP, ferramentas e integrações",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Biblioteca Python para agentes que navegam e interagem com sites; base para automações e testes guiados por IA.",
   "resumo": "Biblioteca Python open source para agentes de IA que navegam na web, com serviço de nuvem opcional.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Criar testes exploratórios em que o agente percorre a aplicação",
+    "relevancia": "alta",
+    "segmento": "Testes e QA"
+   },
+   {
+    "como_usar": "Automatizar tarefas em sistemas web sem API",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "8843683": {
   "categoria": "Outros",
@@ -5003,37 +6338,79 @@
   "traduzido": true
  },
  "888092115": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "RAG e processamento de documentos",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Converte PDF, Word, Excel, PowerPoint e outros em Markdown, o formato que LLMs entendem melhor; peça simples e muito útil em pipelines de IA.",
   "resumo": "Ferramenta em Python para converter arquivos e documentos do Office em Markdown.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Converter documentos enviados por usuários antes de mandar para a IA",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Padronizar documentos para indexação em RAG",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "890668799": {
-  "categoria": "Outros",
+  "categoria": "MCP, ferramentas e integrações",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Servidores de referência do MCP (Git, sistema de arquivos, busca, bancos etc.); ponto de partida para conectar agentes às suas ferramentas.",
   "resumo": "Servidores de referência do Model Context Protocol (MCP).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Usar como modelo para criar um servidor MCP que expõe a API do seu sistema ao agente",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Dar ao agente acesso controlado a um banco de dados via MCP",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   },
+   {
+    "como_usar": "Integrar agentes a ferramentas internas de forma padronizada",
+    "relevancia": "média",
+    "segmento": "DevOps e infraestrutura"
+   }
+  ],
+  "versao": 2
  },
  "895508656": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Curso gratuito da Microsoft em 18 aulas sobre como construir agentes de IA.",
   "resumo": "18 aulas para começar a construir agentes de IA (Microsoft).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Aprender padrões de agentes (ferramentas, planejamento, memória)",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Conhecer padrões de design de sistemas com agentes",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "896144595": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -5043,17 +6420,30 @@
   "traduzido": true
  },
  "896335270": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Lista de links; verifique segurança de cada servidor.",
+  "por_que_importa": "Coleção de servidores MCP prontos; atalho para conectar agentes a bancos, APIs e serviços sem programar a integração.",
   "resumo": "Coleção de servidores MCP.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Encontrar servidores MCP prontos para os serviços que o projeto usa",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Achar MCPs de bancos de dados para consultas assistidas",
+    "relevancia": "média",
+    "segmento": "Banco de dados e dados"
+   }
+  ],
+  "versao": 2
  },
  "896924279": {
   "categoria": "Mobile e Desktop",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -5083,17 +6473,25 @@
   "traduzido": true
  },
  "908531752": {
-  "categoria": "Outros",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Modelo de linguagem aberto de alto desempenho; opção para rodar ou contratar IA com custo menor.",
   "resumo": "Modelo de linguagem DeepSeek-V3.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Usar um modelo aberto forte em funcionalidades de texto e código",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "909213664": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -5123,14 +6521,21 @@
   "traduzido": true
  },
  "919443098": {
-  "categoria": "Outros",
+  "categoria": "Modelos, inferência e gateways",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Modelo aberto de raciocínio; útil para tarefas que exigem passo a passo, como análise e planejamento.",
   "resumo": "Modelo de raciocínio DeepSeek-R1.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Aplicar raciocínio em tarefas complexas com modelo aberto",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "92443980": {
   "categoria": "Mobile e Desktop",
@@ -5144,6 +6549,7 @@
  },
  "92807616": {
   "categoria": "Aprendizado e listas de recursos",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -5163,14 +6569,31 @@
   "traduzido": true
  },
  "937253475": {
-  "categoria": "Ferramentas de desenvolvimento",
+  "categoria": "Agentes de código",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Agente de código no terminal que lê o projeto inteiro, edita arquivos, roda testes e cuida do Git; acelera features, refatorações e correções com supervisão humana.",
   "resumo": "Claude Code: ferramenta de programação com agente que roda no terminal, entende seu código e executa tarefas, explica código e cuida do Git em linguagem natural.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Implementar features e refatorações em vários arquivos de uma vez, com plano e revisão",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Criar endpoints, migrations e testes a partir de uma descrição da regra de negócio",
+    "relevancia": "alta",
+    "segmento": "Backend e APIs"
+   },
+   {
+    "como_usar": "Gerar e rodar testes automatizados e corrigir os que falham",
+    "relevancia": "média",
+    "segmento": "Testes e QA"
+   }
+  ],
+  "versao": 2
  },
  "9384267": {
   "categoria": "Frontend e UI",
@@ -5184,6 +6607,7 @@
  },
  "942867788": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -5204,6 +6628,7 @@
  },
  "943398999": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -5213,14 +6638,21 @@
   "traduzido": true
  },
  "943934999": {
-  "categoria": "Outros",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Alternativa aberta ao agente Manus para tarefas gerais com ferramentas; bom para estudar e montar agentes próprios.",
   "resumo": "OpenManus: alternativa aberta ao agente Manus.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Criar um agente próprio que usa ferramentas e APIs do sistema",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "94911145": {
   "categoria": "Frontend e UI",
@@ -5233,57 +6665,123 @@
   "traduzido": true
  },
  "955620917": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "MCP, ferramentas e integrações",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Entrega ao agente a documentação atualizada das bibliotecas; evita código baseado em APIs antigas.",
   "resumo": "Context7: documentação sempre atualizada para agentes de IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Reduzir erros do agente com versões novas de frameworks",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Gerar código com a API atual de bibliotecas de frontend",
+    "relevancia": "média",
+    "segmento": "Frontend"
+   },
+   {
+    "como_usar": "Usar a documentação correta de frameworks de backend",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "965415649": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Agentes de código",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Agente de código leve da OpenAI para o terminal; boa alternativa ou complemento ao Claude Code para tarefas de implementação e revisão.",
   "resumo": "Agente de programação leve que roda no terminal (OpenAI Codex).",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Delegar tarefas de código pelo terminal e revisar as mudanças propostas",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Gerar código de serviços e scripts com base no repositório existente",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "965615190": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Skills e configurações para agentes",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Método ágil guiado por agentes de IA, com papéis (analista, PM, arquiteto, dev, QA) e artefatos definidos; estrutura projetos inteiros feitos com IA.",
   "resumo": "Método BMAD: desenvolvimento ágil guiado por agentes de IA.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Gerar PRD e documento de arquitetura antes de o agente codar",
+    "relevancia": "alta",
+    "segmento": "Arquitetura de software"
+   },
+   {
+    "como_usar": "Organizar o desenvolvimento com IA em fases e papéis claros",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Incluir o papel de QA no fluxo dos agentes",
+    "relevancia": "média",
+    "segmento": "Testes e QA"
+   }
+  ],
+  "versao": 2
  },
  "968197216": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Agentes de código",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Agente open source do Gemini no terminal, com contexto grande; útil para analisar bases de código extensas e automatizar tarefas de desenvolvimento.",
   "resumo": "Agente de IA open source que leva o Gemini para o seu terminal.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Analisar um repositório grande e propor mudanças pelo terminal",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   },
+   {
+    "como_usar": "Ler a base inteira para mapear módulos e dependências antes de uma refatoração",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   }
+  ],
+  "versao": 2
  },
  "969302809": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Aprendizado de IA",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "É uma lista de links, não um software.",
+  "por_que_importa": "Coleção selecionada de skills, agentes, hooks e plugins para o Claude Code; boa vitrine do que a comunidade usa.",
   "resumo": "Coleção selecionada de recursos para o Claude Code: skills, agentes, status lines, ferramentas e plugins.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Descobrir hooks, comandos e plugins para melhorar o fluxo com o Claude Code",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "974186260": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -5293,17 +6791,25 @@
   "traduzido": true
  },
  "975734319": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Agentes de código",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Agente de código open source que funciona com vários provedores de modelo; evita ficar preso a um fornecedor.",
   "resumo": "Agente de programação open source.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Usar o mesmo fluxo de agente de código trocando entre modelos pagos e locais",
+    "relevancia": "alta",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "976921297": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",
@@ -5313,14 +6819,26 @@
   "traduzido": true
  },
  "979115477": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
+  "gerado_por": "claude (tarefa agendada)",
   "maturidade": "",
-  "por_que_importa": "",
+  "por_que_importa": "Superagente para tarefas longas de pesquisa e código com sandbox, memória e subagentes; referência de arquitetura de agentes complexos.",
   "resumo": "Ambiente open source de superagente para tarefas longas de pesquisa, código e criação, com sandboxes, memória, ferramentas e subagentes.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Estudar arquitetura de agentes com sandbox, memória e subagentes",
+    "relevancia": "média",
+    "segmento": "Arquitetura de software"
+   },
+   {
+    "como_usar": "Montar fluxos de pesquisa e geração de relatórios automatizados",
+    "relevancia": "média",
+    "segmento": "Backend e APIs"
+   }
+  ],
+  "versao": 2
  },
  "983345476": {
   "categoria": "Outros",
@@ -5353,17 +6871,25 @@
   "traduzido": true
  },
  "995029641": {
-  "categoria": "IA e Machine Learning",
+  "categoria": "Frameworks de agentes e orquestração",
+  "foco": true,
   "gerado_em": "2026-11-26",
-  "gerado_por": "regras",
-  "maturidade": "",
-  "por_que_importa": "",
+  "gerado_por": "claude (tarefa agendada)",
+  "maturidade": "Projeto com muitas promessas; valide em casos pequenos antes.",
+  "por_que_importa": "Ambiente para enxames de agentes e fluxos autônomos com memória e RAG, integrado a Claude Code e Codex.",
   "resumo": "Ambiente para agentes: enxames multiagente, fluxos autônomos e IA conversacional, com memória adaptativa e RAG.",
-  "segmentos": [],
-  "traduzido": true
+  "segmentos": [
+   {
+    "como_usar": "Coordenar vários agentes de código em tarefas paralelas",
+    "relevancia": "média",
+    "segmento": "Engenharia e produtividade"
+   }
+  ],
+  "versao": 2
  },
  "997737944": {
   "categoria": "IA e Machine Learning",
+  "foco": false,
   "gerado_em": "2026-11-26",
   "gerado_por": "regras",
   "maturidade": "",

@@ -13,6 +13,20 @@ busca:
   filtro_extra: ""
   incluir_arquivados: false   # repositórios arquivados não servem para projeto novo
 
+  # Foco do catálogo. A busca traz todos os 50 mil+; só entra no catálogo o que estiver no foco.
+  # As palavras-chave fazem o primeiro filtro (nome, descrição e tópicos); a decisão final de cada
+  # repositório é do Claude na tarefa diária (campo "foco" da explicação).
+  foco:
+    descricao: >-
+      IA para construir e entregar software melhor: agentes, skills, agentes de código, MCP, LLMs, RAG e
+      ferramentas de IA para arquitetura, engenharia, design, frontend, backend, banco de dados,
+      segurança, testes e DevOps.
+    palavras_chave: [ai, llm, llms, agent, agents, agentic, skill, skills, claude, claude-code, codex, cursor,
+                     copilot, gemini, gpt, chatgpt, openai, anthropic, deepseek, mcp, model-context-protocol,
+                     rag, prompt, prompts, langchain, ollama, machine-learning, deep-learning, generative-ai,
+                     genai, inference, embeddings, vector, whisper, llama, qwen, ocr, multi-agent,
+                     artificial-intelligence, neural]
+
 ia:
   # claude-agendado   -> [padrão] as explicações são escritas pela tarefa agendada do Claude,
   #                      que roda o script, explica os pendentes e envia as mudanças (sem chave, sem custo extra)
@@ -34,17 +48,18 @@ ia:
   max_por_execucao: 100    # explicações novas por dia (a base inicial completa em ~6 dias)
   ler_readme: true         # usa o começo do README para explicar melhor
 
-# Segmentos de negócio usados na análise de importância.
-# Troque à vontade: a IA só usa nomes desta lista.
-segmentos:
-  - Saúde e clínicas
-  - Indústria e ERP
-  - Varejo e e-commerce
-  - Finanças e fintech
-  - Educação
-  - Serviços e agendamento
-  - Agronegócio
-  - Setor público
+# Áreas de entrega usadas para dizer onde cada repositório ajuda.
+# Troque à vontade: o Claude só usa nomes desta lista.
+areas:
+  - Arquitetura de software
+  - Engenharia e produtividade
+  - Design e UI/UX
+  - Frontend
+  - Backend e APIs
+  - Banco de dados e dados
+  - Segurança e cibersegurança
+  - Testes e QA
+  - DevOps e infraestrutura
 
 relatorio:
   abrir_issue: quando_houver_novos   # sempre | quando_houver_novos | nunca
