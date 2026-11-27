@@ -1,6 +1,6 @@
 # 🎬 Vídeos do canal IA para Pessoas
 
-Série do canal [IA para Pessoas](https://www.youtube.com/@dotegamermobacomedy): um vídeo de 3 a 5 minutos para cada repositório do foco de IA do radar, **do mais estrelado para o menos**, em linguagem simples para devs e para quem usa Claude ou outras IAs no dia a dia.
+Série do canal [IA para Pessoas](https://www.youtube.com/@iaparapessoas): um vídeo de 3 a 5 minutos para cada repositório do foco de IA do radar, **do mais estrelado para o menos**, em linguagem simples para devs e para quem usa Claude ou outras IAs no dia a dia.
 
 ## Como funciona (todo dia, sem custo)
 
