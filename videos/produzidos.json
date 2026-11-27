@@ -3,13 +3,17 @@
   "episodio": 1,
   "repo": "morluto/rea",
   "arquivo": "videos/roteiros/001-rea.json",
-  "status": "pronto",
+  "status": "agendado",
   "data": "2026-11-27",
   "titulo": "Essa IA descobre como QUALQUER app funciona por dentro | REA, a nº 1 do GitHub",
   "abertura": "Descobrir como um app funciona, sem ver o código",
   "release": "https://github.com/marcelojacint/radar-github-50k/releases/tag/video-001",
   "issue": "https://github.com/marcelojacint/radar-github-50k/issues/2",
   "duracao": 254.1,
-  "renderizado_em": "2026-11-27"
+  "renderizado_em": "2026-11-27",
+  "youtube_id": "x2PVJt51-Y0",
+  "youtube": "https://youtu.be/x2PVJt51-Y0",
+  "agendado_para": "2026-11-27T18:00:00-03:00",
+  "postado_em": "2026-11-27"
  }
 }
