@@ -251,7 +251,10 @@ def ytdlp_json(url, n):
         raise RuntimeError(f"yt-dlp: {e}") from e
     if p.returncode != 0 and not p.stdout.strip():
         raise RuntimeError(limpar(p.stderr, 200) or f"yt-dlp saiu com código {p.returncode}")
-    return json.loads(p.stdout)
+    dados = json.loads(p.stdout or "null")
+    if not isinstance(dados, dict):
+        raise RuntimeError(limpar(p.stderr, 200) or "yt-dlp não retornou dados")
+    return dados
 
 
 def buscar_ytdlp(q, cfg):
@@ -328,8 +331,7 @@ def resolver_canal(handle):
                     cab={"Cookie": "CONSENT=YES+cb; SOCS=CAI", "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8"})
     if st == 200:
         m = (re.search(r'"externalId":"(UC[\w-]{22})"', pagina)
-             or re.search(r'<link rel="canonical" href="https://www\.youtube\.com/channel/(UC[\w-]{22})"', pagina)
-             or re.search(r'"channelId":"(UC[\w-]{22})"', pagina))
+             or re.search(r'<link rel="canonical" href="https://www\.youtube\.com/channel/(UC[\w-]{22})"', pagina))
         if m:
             nome = re.search(r'<meta property="og:title" content="([^"]*)"', pagina)
             return m.group(1), (html.unescape(nome.group(1)) if nome else h)
@@ -338,8 +340,8 @@ def resolver_canal(handle):
         cid = d.get("channel_id") or d.get("uploader_id") or ""
         if re.fullmatch(r"UC[\w-]{22}", cid):
             return cid, d.get("channel") or d.get("uploader") or h
-    except (RuntimeError, json.JSONDecodeError):
-        pass
+    except Exception as e:  # noqa: BLE001 — canal com problema não pode derrubar a coleta
+        log(f"Canal {h} não encontrado: {e}")
     return None, None
 
 
@@ -409,7 +411,11 @@ def coletar(cfg):
     nao_encontrados = []
     for handle in cfg.get("canais") or []:
         if handle not in ids:
-            cid, nome = resolver_canal(handle)
+            try:
+                cid, nome = resolver_canal(handle)
+            except Exception as e:  # noqa: BLE001
+                log(f"Canal {handle}: {e}")
+                cid, nome = None, None
             if cid:
                 ids[handle] = {"id": cid, "nome": nome}
                 log(f"Canal {handle} → {cid} ({nome})")
@@ -427,7 +433,7 @@ def coletar(cfg):
                 if idade is None or idade <= dias_canal:
                     adicionar(v, f"canal {rotulo}")
             stats["canais_ok"] += 1
-        except (RuntimeError, ET.ParseError) as e:
+        except Exception as e:  # noqa: BLE001
             erros.append(f"canal {rotulo}: {e}")
         time.sleep(0.5)
 
@@ -446,7 +452,7 @@ def coletar(cfg):
             falhas_seguidas = 0
             if repo:
                 estado["buscas"][q] = HOJE
-        except (RuntimeError, json.JSONDecodeError) as e:
+        except Exception as e:  # noqa: BLE001
             erros.append(f"busca \"{q}\": {e}")
             falhas_seguidas += 1
             if falhas_seguidas >= 5:
