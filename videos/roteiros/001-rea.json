@@ -1,0 +1,320 @@
+{
+ "repo": "morluto/rea",
+ "titulo_youtube": "REA: a IA que descobre como qualquer app funciona | #1 em estrelas no GitHub",
+ "descricao_youtube": "O REA é o repositório de IA com mais estrelas no GitHub hoje. Ele conecta o seu agente de IA (como o Claude Code) a ferramentas de engenharia reversa, para entender como um aplicativo funciona por dentro mesmo sem o código-fonte. Neste episódio: o que ele faz, como começar, para quem serve e os cuidados antes de usar.",
+ "tags": [
+  "REA",
+  "engenharia reversa",
+  "Claude Code",
+  "MCP",
+  "agentes de IA",
+  "inteligência artificial",
+  "GitHub",
+  "segurança",
+  "ferramentas de IA",
+  "programação"
+ ],
+ "capa": {
+  "linha1": "Desmonta qualquer app",
+  "linha2": "IA que faz engenharia reversa"
+ },
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": "Descobrir como um app funciona, sem ver o código",
+   "subtitulo": "O repositório de IA mais estrelado do GitHub hoje",
+   "falas": [
+    {
+     "texto": "Este é o REA, o repositório de inteligência artificial com mais estrelas no GitHub hoje: são mais de 480 mil.",
+     "falado": "",
+     "mostra": null
+    },
+    {
+     "texto": "A promessa dele é curiosa: você vê um recurso legal em algum aplicativo e pede para o seu agente de IA descobrir como aquilo funciona por dentro, mesmo sem ter o código-fonte.",
+     "falado": "",
+     "mostra": null
+    },
+    {
+     "texto": "Neste episódio eu explico, em linguagem simples, o que ele faz, para quem serve e quais cuidados ter antes de usar.",
+     "falado": "",
+     "mostra": null
+    }
+   ]
+  },
+  {
+   "tipo": "topicos",
+   "titulo": "O que é o REA",
+   "itens": [
+    "Nome completo: Reverse Engineer Anything",
+    "Liga o seu agente de IA a ferramentas de engenharia reversa",
+    "Funciona com o Claude Code e outros agentes, via MCP",
+    "A análise do app acontece no seu computador"
+   ],
+   "falas": [
+    {
+     "texto": "REA vem de Reverse Engineer Anything, algo como: faça engenharia reversa de qualquer coisa.",
+     "falado": "REA vem de Reverse Engineer Anything. Algo como: faça engenharia reversa de qualquer coisa.",
+     "mostra": 0
+    },
+    {
+     "texto": "Engenharia reversa é estudar um programa pronto para entender como ele foi feito, como abrir um relógio para ver as engrenagens.",
+     "falado": "",
+     "mostra": null
+    },
+    {
+     "texto": "O REA não é um aplicativo de clicar. Ele é uma ponte que liga o seu agente de IA a ferramentas especializadas nesse tipo de análise.",
+     "falado": "",
+     "mostra": 1
+    },
+    {
+     "texto": "Essa ligação usa o MCP, o padrão que agentes como o Claude Code usam para conversar com ferramentas externas.",
+     "falado": "Essa ligação usa o M C P, o padrão que agentes como o Cláude Code usam para conversar com ferramentas externas.",
+     "mostra": 2
+    },
+    {
+     "texto": "E, segundo o projeto, o aplicativo é analisado na sua máquina. Só os resultados vão para o seu agente, e aí vale a política de dados do modelo que você usa.",
+     "falado": "",
+     "mostra": 3
+    }
+   ]
+  },
+  {
+   "tipo": "destaque",
+   "titulo": "A ideia em uma frase",
+   "texto": "Viu um recurso num app? Peça ao agente para entender como ele funciona e criar algo parecido no seu projeto.",
+   "falas": [
+    {
+     "texto": "Resumindo a ideia: você aponta para um recurso que achou interessante, o agente investiga, mostra as evidências do que encontrou e pode construir uma versão parecida no seu projeto.",
+     "falado": "",
+     "mostra": null
+    },
+    {
+     "texto": "O exemplo da própria documentação é pedir para entender como a busca funciona no aplicativo de notas e montar algo semelhante.",
+     "falado": "",
+     "mostra": null
+    }
+   ]
+  },
+  {
+   "tipo": "topicos",
+   "titulo": "O que ele consegue analisar",
+   "itens": [
+    "Programas nativos, como os arquivos .exe",
+    "Apps em JavaScript e Electron, como o Notion",
+    "Sites, apps Android e projetos .NET",
+    "Tráfego de rede e comportamento gravado do app"
+   ],
+   "falas": [
+    {
+     "texto": "A lista do que dá para analisar é grande. Começa pelos programas nativos, aqueles instalados no computador.",
+     "falado": "",
+     "mostra": 0
+    },
+    {
+     "texto": "Passa pelos aplicativos feitos com JavaScript e Electron, a tecnologia por trás de apps como o Notion e o VS Code.",
+     "falado": "Passa pelos aplicativos feitos com JavaScript e Eléctron, a tecnologia por trás de apps como o Nóshon e o V S Code.",
+     "mostra": 1
+    },
+    {
+     "texto": "Inclui também sites, aplicativos Android e projetos em .NET.",
+     "falado": "Inclui também sites, aplicativos Android e projetos em dót net.",
+     "mostra": 2
+    },
+    {
+     "texto": "E até o tráfego de rede e o comportamento gravado enquanto o app roda. Para os programas nativos, ele usa ferramentas que já existem, como Ghidra, IDA ou Hopper.",
+     "falado": "E até o tráfego de rede e o comportamento gravado enquanto o app roda. Para os programas nativos, ele usa ferramentas que já existem, como Guídra, IDA ou Hópper.",
+     "mostra": 3
+    }
+   ]
+  },
+  {
+   "tipo": "terminal",
+   "titulo": "Como começar",
+   "linhas": [
+    "# Com o Node.js instalado, numa pasta confiável:",
+    "$ npx rea-agents setup",
+    "# Escolha o seu agente e aprove o plano",
+    "# Reinicie o agente e peça, por exemplo:",
+    "Entenda como a busca do app de notas",
+    "funciona e me mostre as evidências."
+   ],
+   "falas": [
+    {
+     "texto": "Para começar, você precisa do Node.js instalado no computador.",
+     "falado": "Para começar, você precisa do Node J S instalado no computador.",
+     "mostra": 0
+    },
+    {
+     "texto": "Depois roda um único comando, o npx rea-agents setup, de preferência numa pasta confiável, fora do projeto que você vai analisar.",
+     "falado": "Depois roda um único comando, o N P X REA agents setup, de preferência numa pasta confiável, fora do projeto que você vai analisar.",
+     "mostra": 1
+    },
+    {
+     "texto": "O instalador pergunta qual agente você usa, mostra o que vai mudar e só aplica depois da sua aprovação.",
+     "falado": "",
+     "mostra": 2
+    },
+    {
+     "texto": "Aí é reiniciar o agente e pedir com as suas palavras. Por exemplo: entenda como a busca do aplicativo de notas funciona e me mostre as evidências.",
+     "falado": "",
+     "mostra": 5
+    }
+   ]
+  },
+  {
+   "tipo": "topicos",
+   "titulo": "Para quem faz sentido",
+   "itens": [
+    "Devs integrando com um sistema sem documentação",
+    "Times de segurança fazendo auditoria de apps",
+    "Quem estuda como apps conhecidos funcionam por dentro"
+   ],
+   "falas": [
+    {
+     "texto": "Para quem isso faz sentido? Primeiro, para desenvolvedores que precisam integrar com um sistema que não tem documentação.",
+     "falado": "",
+     "mostra": 0
+    },
+    {
+     "texto": "Depois, para times de segurança que auditam aplicativos e querem acelerar a análise com ajuda da IA.",
+     "falado": "",
+     "mostra": 1
+    },
+    {
+     "texto": "E para quem gosta de estudar: entender como um app famoso resolve um problema ensina muito sobre programação.",
+     "falado": "",
+     "mostra": 2
+    }
+   ]
+  },
+  {
+   "tipo": "comparacao",
+   "titulo": "Cuidados antes de usar",
+   "esquerda": {
+    "titulo": "Atenção",
+    "itens": [
+     "Projeto de abril de 2026, ainda muito novo",
+     "Estrelas cresceram num ritmo fora do comum",
+     "Desmontar apps de terceiros tem limites legais"
+    ]
+   },
+   "direita": {
+    "titulo": "Boas práticas",
+    "itens": [
+     "Baixe só do repositório e do site oficiais",
+     "Use em apps seus ou com autorização",
+     "Revise tudo o que o agente gerar"
+    ]
+   },
+   "falas": [
+    {
+     "texto": "Agora, os cuidados. O projeto foi criado em abril de 2026 e as estrelas cresceram num ritmo fora do comum, então trate como algo novo, ainda amadurecendo.",
+     "falado": "",
+     "mostra": 1
+    },
+    {
+     "texto": "Engenharia reversa também tem limite legal: muitos termos de uso proíbem desmontar o aplicativo, e copiar um recurso pode esbarrar em direitos de outra empresa.",
+     "falado": "",
+     "mostra": 2
+    },
+    {
+     "texto": "O próprio projeto avisa para baixar só do repositório oficial, do site rea.tools ou do pacote no npm, porque existem cópias com nome parecido.",
+     "falado": "O próprio projeto avisa para baixar só do repositório oficial, do site rea ponto tools ou do pacote no N P M, porque existem cópias com nome parecido.",
+     "mostra": 3
+    },
+    {
+     "texto": "E o mais importante: use em aplicativos seus ou com autorização, e revise tudo o que o agente produzir antes de colocar em um projeto de verdade.",
+     "falado": "",
+     "mostra": 5
+    }
+   ]
+  },
+  {
+   "tipo": "ficha",
+   "titulo": "Ficha técnica",
+   "falas": [
+    {
+     "texto": "Em números: são cerca de 480 mil estrelas e mais de 116 mil forks. O projeto é escrito em TypeScript e usa a licença MIT, que permite até uso comercial.",
+     "falado": "",
+     "mostra": null
+    },
+    {
+     "texto": "E ele segue ativo: a última atualização foi agora em novembro de 2026.",
+     "falado": "",
+     "mostra": null
+    }
+   ]
+  },
+  {
+   "tipo": "encerramento",
+   "titulo": "Resumo",
+   "itens": [
+    "O REA liga o seu agente de IA a ferramentas de engenharia reversa",
+    "Analisa apps, sites e programas no seu próprio computador",
+    "Ótimo para estudar e auditar, com cuidado legal e de segurança"
+   ],
+   "falas": [
+    {
+     "texto": "Resumindo: o REA liga o seu agente de IA a ferramentas de engenharia reversa.",
+     "falado": "",
+     "mostra": null
+    },
+    {
+     "texto": "Ele analisa aplicativos, sites e programas no seu próprio computador.",
+     "falado": "",
+     "mostra": null
+    },
+    {
+     "texto": "E é ótimo para estudar e auditar, desde que você tome cuidado com a parte legal e de segurança.",
+     "falado": "",
+     "mostra": null
+    },
+    {
+     "texto": "No próximo episódio vem o OpenClaw, um assistente de IA que roda na sua máquina e conversa com você pelo WhatsApp e pelo Telegram. Até lá!",
+     "falado": "",
+     "mostra": null
+    }
+   ]
+  }
+ ],
+ "episodio": 1,
+ "rank": 1,
+ "total_fila": 365,
+ "dados": {
+  "nome": "morluto/rea",
+  "descricao": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+  "estrelas": 480379,
+  "forks": 116719,
+  "linguagem": "TypeScript",
+  "licenca": "MIT",
+  "topicos": [
+   "agent-skills",
+   "ai",
+   "android",
+   "claude-code",
+   "cli",
+   "cpp",
+   "dsh-plugin",
+   "html",
+   "java",
+   "javascript",
+   "linux",
+   "mcp",
+   "nodejs",
+   "python",
+   "rea",
+   "react",
+   "rust",
+   "security",
+   "touhou",
+   "typescript"
+  ],
+  "homepage": "https://rea.tools",
+  "criado_em": "2026-04-14",
+  "ultimo_push": "2026-11-27",
+  "url": "https://github.com/morluto/rea"
+ },
+ "proximo": "openclaw/openclaw",
+ "gerado_em": "2026-11-27",
+ "palavras": 654
+}

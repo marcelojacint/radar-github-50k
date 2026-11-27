@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────
+# Vídeos do Radar de IA — configuração
+# Um vídeo de 3 a 5 minutos por repositório, do mais estrelado para o menos.
+#
+#   08:41  a tarefa agendada do Claude escreve o roteiro do próximo da fila
+#          (videos/roteiros/NNN-nome.json) e dispara a renderização;
+#   ~08:50 o GitHub Actions gera a narração, monta o vídeo e abre uma issue
+#          "🎬 Vídeo #N pronto" com o vídeo, a capa, o título e a descrição para postar.
+# ─────────────────────────────────────────────────────────────
+
+canal:
+  nome: "Radar de IA"           # aparece na abertura, no encerramento e na capa
+  chamada_final: "Se inscreva para acompanhar o ranking inteiro, do mais estrelado para o menos."
+
+fila: foco                      # foco = os repositórios de IA do radar | todos = os 20 mil+ estrelas
+
+voz:
+  nome: pt-BR-AntonioNeural     # outras: pt-BR-FranciscaNeural, pt-BR-ThalitaMultilingualNeural
+  velocidade: "+4%"
+
+roteiro:
+  palavras_min: 430             # ~3 min de narração
+  palavras_max: 780             # ~5 min de narração
+
+cores:
+  fundo: "#0A0F1F"
+  fundo2: "#141C3A"
+  painel: "#161F3D"
+  borda: "#28335F"
+  texto: "#F4F6FF"
+  suave: "#9AA6CF"
+  destaque: "#7C9CFF"
+  destaque2: "#3DDC97"
+  alerta: "#FFB454"

@@ -23,15 +23,13 @@ O repositório serve só para guardar e versionar os resultados. Quem faz o trab
 
 Como tudo é commitado, o próprio histórico do Git mostra a evolução de cada repositório.
 
-## 🎬 Vídeos do YouTube ([youtube/](youtube/README.md))
+## 🎬 Série de vídeos ([videos/](videos/README.md))
 
-Mesmo foco, só que em vídeo: tutoriais, demos e palestras sobre agentes de código, skills, MCP, RAG e IA aplicada à entrega de software, em português e inglês.
+Um vídeo de 3 a 5 minutos por repositório do foco de IA, do mais estrelado para o menos, em linguagem simples. Todo dia a tarefa do Claude escreve o roteiro do próximo da fila e o GitHub Actions gera a narração e o vídeo. Cada episódio chega numa issue **🎬 Vídeo #N pronto**, com o vídeo, a capa, o título e a descrição para postar.
 
-1. **04:47 — coleta (GitHub Actions, `youtube-coleta.yml`):** pega os vídeos novos dos canais seguidos (RSS, sem Shorts), das buscas fixas e das buscas criadas a partir dos repositórios do foco do radar. Grava em `data/youtube/coleta/`.
-2. **07:13 — curadoria (tarefa agendada do Claude):** escolhe até 10 vídeos por dia, descarta hype e conteúdo raso, escreve resumo e "por que assistir" em português, liga o vídeo ao repositório do radar quando houver e atualiza `youtube/`.
-3. **Sua revisão:** abre uma issue **🎬 Revisão YouTube** com os vídeos do dia. Marque só o que não serve; o resto fica aprovado. Canais com 2 vídeos recusados deixam de aparecer, e canais com 2 aprovados passam a ser seguidos sozinhos.
+## 📺 Pesquisa no YouTube ([youtube/](youtube/README.md))
 
-Canais, buscas e limites ficam em [`config-youtube.yml`](config-youtube.yml). Sem chave nenhuma a coleta usa o `yt-dlp`. Se as buscas começarem a falhar, crie o secret `YOUTUBE_API_KEY` (chave grátis da YouTube Data API) e a coleta passa a usar a API oficial.
+Serve de pesquisa para os roteiros: todo dia o GitHub Actions (`youtube-coleta.yml`, 04:47) coleta vídeos novos dos canais seguidos, das buscas fixas e das buscas sobre os repositórios do radar. Às 07:13 a tarefa do Claude escolhe os melhores e os explica em `youtube/`. Canais, buscas e limites ficam em [`config-youtube.yml`](config-youtube.yml).
 
 ## Como a tarefa agendada roda
 

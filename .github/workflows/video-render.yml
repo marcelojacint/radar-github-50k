@@ -1,0 +1,59 @@
+name: Vídeos — renderizar
+
+# Gera a narração (voz grátis do edge-tts), monta o vídeo de cada roteiro pendente em
+# videos/roteiros/ e publica: release "video-NNN" com o mp4 + issue "🎬 Vídeo #N pronto".
+# A tarefa agendada do Claude dispara este workflow logo depois de escrever o roteiro;
+# o agendamento abaixo só pega o que tiver ficado para trás.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 12 * * *"   # 09:37 em Brasília
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: video-render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-inter fonts-dejavu-core > /dev/null
+          pip install -U pyyaml pillow edge-tts
+
+      - name: Renderizar
+        run: python scripts/video.py renderizar
+
+      - name: Publicar (release + issue)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/video.py publicar
+
+      - name: Salvar status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add videos/produzidos.json
+          if git diff --cached --quiet; then
+            echo "Nada novo."
+            exit 0
+          fi
+          git commit -m "vídeos: $(TZ=America/Sao_Paulo date +%F) — renderizado(s)"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 15
+          done
+          exit 1
