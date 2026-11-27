@@ -47,7 +47,7 @@ HOJE = dt.datetime.now(ZoneInfo("America/Sao_Paulo")).date().isoformat()
 
 W, H, FPS = 1920, 1080, 30
 SR = 24000                      # taxa de amostragem da narração
-PAUSA_FALA, ENTRADA_CENA, SAIDA_CENA = 0.32, 0.55, 0.45
+PAUSA_FALA, ENTRADA_CENA, SAIDA_CENA = 0.38, 0.5, 0.45
 TIPOS = ["abertura", "topicos", "terminal", "comparacao", "destaque", "ficha", "encerramento"]
 RE_EMOJI = re.compile("[\U0001F000-\U0001FFFF☀-➿️]")
 
@@ -349,7 +349,9 @@ def narrar(texto, destino, cfg):
         time.sleep(3 * (t + 1))
     else:
         raise RuntimeError("edge-tts não respondeu")
-    return rodar(["ffmpeg", "-v", "error", "-i", str(destino), "-f", "s16le", "-ac", "1", "-ar", str(SR), "-"])
+    corte = "silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.06"   # tira o silêncio das pontas
+    return rodar(["ffmpeg", "-v", "error", "-i", str(destino), "-af", f"{corte},areverse,{corte},areverse",
+                  "-f", "s16le", "-ac", "1", "-ar", str(SR), "-"])
 
 
 def silencio_estimado(texto):
@@ -930,8 +932,17 @@ def publicar():
                "--force")
         except RuntimeError:
             pass
-        url = gh("issue", "create", "--title", f"🎬 Vídeo #{ep} pronto — {meta['titulo']}",
-                 "--body-file", str(pasta / "issue.md"), "--label", "video-pronto")
+        titulo = f"🎬 Vídeo #{ep} pronto — {meta['titulo']}"
+        existentes = json.loads(gh("issue", "list", "--label", "video-pronto", "--state", "all", "--limit", "200",
+                                   "--json", "number,title,url") or "[]")
+        antiga = next((x for x in existentes if x["title"].startswith(f"🎬 Vídeo #{ep} pronto")), None)
+        if antiga:                                   # episódio refeito: atualiza a mesma issue
+            gh("issue", "edit", str(antiga["number"]), "--title", titulo, "--body-file", str(pasta / "issue.md"))
+            gh("issue", "reopen", str(antiga["number"]))
+            url = antiga["url"]
+        else:
+            url = gh("issue", "create", "--title", titulo, "--body-file", str(pasta / "issue.md"),
+                     "--label", "video-pronto")
         log(f"Episódio {ep}: release {tag} e issue {url}")
         if meta["repo"] in prod:
             prod[meta["repo"]].update({"status": "pronto", "release": f"https://github.com/{REPO}/releases/tag/{tag}",

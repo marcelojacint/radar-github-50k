@@ -815,9 +815,7 @@ def gerar_paginas(cfg):
            "[radar de repositórios](../CATALOGO.md): agentes de código, skills, MCP, RAG e IA aplicada a "
            "arquitetura, backend, frontend, banco de dados, segurança, testes e DevOps.", "",
            f"**{len(videos)} vídeos** no catálogo · atualizado em {fmt_data(HOJE)} · {seguidos} canais seguidos", "",
-           "**Revisão:** toda manhã abre uma issue "
-           f"[Revisão YouTube](https://github.com/{REPO}/issues?q=label%3A{ROTULO}) com os vídeos do dia. "
-           "Marque só o que não serve; o resto fica aprovado.", "",
+           "Este catálogo também serve de pesquisa para os roteiros da [série de vídeos](../videos/README.md).", "",
            "## Por área", ""]
     for area in areas:
         txt.append(f"- [{area}](areas/{slug(area)}.md) — {len(por_area.get(area, []))} vídeo(s)")

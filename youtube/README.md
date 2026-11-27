@@ -4,7 +4,7 @@ Vídeos do YouTube escolhidos e explicados em português todos os dias, com o me
 
 **10 vídeos** no catálogo · atualizado em 27/11/2026 · 21 canais seguidos
 
-**Revisão:** toda manhã abre uma issue [Revisão YouTube](https://github.com/marcelojacint/radar-github-50k/issues?q=label%3Ayoutube-revisao) com os vídeos do dia. Marque só o que não serve; o resto fica aprovado.
+Este catálogo também serve de pesquisa para os roteiros da [série de vídeos](../videos/README.md).
 
 ## Por área
 

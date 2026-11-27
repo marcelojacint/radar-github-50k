@@ -5,9 +5,8 @@
 # Como funciona:
 #   1. Todo dia às 04:47 (Brasília) o GitHub Actions coleta os vídeos novos
 #      dos canais abaixo, das buscas fixas e das buscas tiradas do radar de repositórios.
-#   2. Às 07:13 a tarefa agendada do Claude escolhe os melhores, explica em português,
-#      atualiza a pasta youtube/ e abre uma issue de revisão.
-#   3. Na issue você marca só o que NÃO serve. O resto fica aprovado.
+#   2. Às 07:13 a tarefa agendada do Claude escolhe os melhores, explica em português
+#      e atualiza a pasta youtube/, que serve de pesquisa para os roteiros da série de vídeos.
 # ─────────────────────────────────────────────────────────────
 
 foco: >-
