@@ -3,9 +3,13 @@
   "episodio": 1,
   "repo": "morluto/rea",
   "arquivo": "videos/roteiros/001-rea.json",
-  "status": "roteiro",
+  "status": "pronto",
   "data": "2026-11-27",
   "titulo": "REA: a IA que descobre como qualquer app funciona | #1 em estrelas no GitHub",
-  "abertura": "Descobrir como um app funciona, sem ver o código"
+  "abertura": "Descobrir como um app funciona, sem ver o código",
+  "release": "https://github.com/marcelojacint/radar-github-50k/releases/tag/video-001",
+  "issue": "https://github.com/marcelojacint/radar-github-50k/issues/2",
+  "duracao": 280.0,
+  "renderizado_em": "2026-11-27"
  }
 }
