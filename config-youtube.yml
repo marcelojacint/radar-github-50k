@@ -1,0 +1,96 @@
+# ─────────────────────────────────────────────────────────────
+# Radar de vídeos do YouTube — configuração
+# Edite este arquivo direto no GitHub; a próxima coleta já usa.
+#
+# Como funciona:
+#   1. Todo dia às 04:47 (Brasília) o GitHub Actions coleta os vídeos novos
+#      dos canais abaixo, das buscas fixas e das buscas tiradas do radar de repositórios.
+#   2. Às 07:13 a tarefa agendada do Claude escolhe os melhores, explica em português,
+#      atualiza a pasta youtube/ e abre uma issue de revisão.
+#   3. Na issue você marca só o que NÃO serve. O resto fica aprovado.
+# ─────────────────────────────────────────────────────────────
+
+foco: >-
+  Vídeos que ajudam a construir e entregar software melhor com IA: agentes de código
+  (Claude Code, Codex, Cursor, Copilot), skills e subagentes, MCP, RAG, LLMs em produção,
+  e IA aplicada a arquitetura, engenharia, design, frontend, backend, banco de dados,
+  segurança, testes e DevOps. Também entram conteúdos de .NET/C# e arquitetura com IA.
+  Ficam FORA: hype e notícia rasa, "fique rico com IA", geração de imagem/vídeo para conteúdo,
+  trading, cursos vendidos sem conteúdo no vídeo, Shorts e lives de horas sem foco.
+
+idiomas: [pt, en]          # o Claude descarta vídeos em outros idiomas
+max_por_dia: 10            # no máximo quantos vídeos entram no catálogo por dia
+
+coleta:
+  janela: semana           # buscas só trazem vídeos publicados na última "semana" ou no último "mes"
+  dias_canal: 10           # dos canais seguidos, só vídeos dos últimos N dias
+  resultados_por_busca: 8
+  max_buscas_radar: 15     # quantas buscas tiradas do radar de repositórios rodam por dia (em rodízio)
+  duracao_min_minutos: 4   # menos que isso costuma ser Short ou teaser
+  duracao_max_minutos: 180
+  validade_dias: 21        # candidato não avaliado depois disso é ignorado
+
+# Canais seguidos (o @ do canal). Se algum não for encontrado, o resumo diário avisa.
+# Canais com 2 ou mais vídeos aprovados passam a ser seguidos sozinhos
+# (ficam em data/youtube/canais_auto.json).
+canais:
+  # Agentes de código e engenharia com IA
+  - "@anthropic-ai"
+  - "@IndyDevDan"
+  - "@ColeMedin"
+  - "@aiDotEngineer"
+  - "@LangChain"
+  - "@samwitteveenai"
+  - "@AllAboutAI"
+  - "@GitHub"
+  - "@code"
+  # Arquitetura, .NET e backend
+  - "@dotnet"
+  - "@MilanJovanovicTech"
+  - "@NickChapsas"
+  - "@CodeOpinion"
+  - "@ByteByteGo"
+  # Testes
+  - "@Playwrightdev"
+  # Visão geral de dev
+  - "@Fireship"
+  - "@t3dotgg"
+  # Português
+  - "@FilipeDeschamps"
+  - "@CodigoFonteTV"
+  - "@rocketseat"
+  - "@Akitando"
+  - "@LucasMontano"
+  - "@ErickWendelTraining"
+
+# Buscas fixas, todo dia. Além delas, o Claude cria buscas a partir dos repositórios
+# do foco do radar (ficam em data/youtube/consultas.json).
+buscas:
+  - claude code
+  - claude code skills
+  - claude code subagents
+  - mcp server tutorial
+  - agentic coding workflow
+  - ai coding agent
+  - cursor ai workflow
+  - github copilot agent mode
+  - codex cli
+  - spec driven development ai
+  - ai code review
+  - ai software architecture
+  - rag tutorial
+  - ai agents in production
+  - llm security prompt injection
+  - ai test automation playwright
+  - semantic kernel .net
+  - microsoft agent framework
+  - ai sql database agent
+  - figma mcp design to code
+  - claude code português
+  - agentes de ia programação
+  - mcp servidor tutorial
+  - ia para programadores
+  - cursor ia tutorial
+  - engenharia de software com ia
+  - testes automatizados com ia
+  - rag na prática

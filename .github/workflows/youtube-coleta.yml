@@ -1,0 +1,52 @@
+name: YouTube — coleta diária
+
+# Coleta os vídeos novos (canais seguidos + buscas) e salva em data/youtube/coleta/.
+# A curadoria e as explicações em português ficam com a tarefa agendada do Claude, às 07:13.
+# Opcional: crie o secret YOUTUBE_API_KEY (chave grátis da YouTube Data API) para buscas mais estáveis.
+on:
+  schedule:
+    - cron: "47 7 * * *"   # 04:47 em Brasília (o GitHub usa UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-coleta
+  cancel-in-progress: false
+
+jobs:
+  coleta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        # yt-dlp sempre na versão mais nova: o YouTube muda com frequência
+        run: pip install -U pyyaml yt-dlp
+
+      - name: Coletar vídeos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/youtube.py coletar
+
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/youtube/coleta
+          if git diff --cached --quiet; then
+            echo "Nada novo."
+            exit 0
+          fi
+          git commit -m "youtube: coleta $(TZ=America/Sao_Paulo date +%F)"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 15
+          done
+          exit 1
