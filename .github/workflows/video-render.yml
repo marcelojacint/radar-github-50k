@@ -1,7 +1,8 @@
 name: Vídeos — renderizar
 
 # Gera a narração (voz grátis do edge-tts), monta o vídeo de cada roteiro pendente em
-# videos/roteiros/ e publica: release "video-NNN" com o mp4 + issue "🎬 Vídeo #N pronto".
+# videos/roteiros/, publica o release "video-NNN" + a issue "🎬 Vídeo #N pronto" e envia ao
+# YouTube agendado (com os secrets YT_CLIENT_ID, YT_CLIENT_SECRET e YT_REFRESH_TOKEN).
 # A tarefa agendada do Claude dispara este workflow logo depois de escrever o roteiro;
 # o agendamento abaixo só pega o que tiver ficado para trás.
 on:
@@ -42,6 +43,14 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/video.py publicar
+
+      - name: Postar no YouTube
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python scripts/video.py postar
 
       - name: Salvar status
         run: |

@@ -4,13 +4,17 @@
 #
 #   08:41  a tarefa agendada do Claude escreve o roteiro do próximo da fila
 #          (videos/roteiros/NNN-nome.json) e dispara a renderização;
-#   ~08:50 o GitHub Actions gera a narração, monta o vídeo e abre uma issue
-#          "🎬 Vídeo #N pronto" com o vídeo, a capa, o título e a descrição para postar.
+#   ~08:50 o GitHub Actions gera a narração, monta o vídeo, abre a issue "🎬 Vídeo #N pronto"
+#          e envia ao YouTube agendado para o horário de postagem abaixo.
 # ─────────────────────────────────────────────────────────────
 
 canal:
   nome: "IA para Pessoas"       # aparece na abertura, no encerramento e na capa
   chamada_final: "Se inscreva para acompanhar o ranking inteiro, do mais estrelado para o menos."
+
+postagem:
+  ativa: true                   # posta sozinho quando os secrets YT_* existem no GitHub (veja videos/README.md)
+  horario: "18:00"              # o vídeo sobe de manhã agendado e fica público neste horário (Brasília), 1 por dia
 
 fila: foco                      # foco = os repositórios de IA do radar | todos = os 20 mil+ estrelas
 

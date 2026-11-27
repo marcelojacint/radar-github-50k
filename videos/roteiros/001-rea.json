@@ -1,7 +1,7 @@
 {
  "repo": "morluto/rea",
- "titulo_youtube": "REA: a IA que descobre como qualquer app funciona | #1 em estrelas no GitHub",
- "descricao_youtube": "O REA é o repositório de IA com mais estrelas no GitHub hoje. Ele conecta o seu agente de IA (como o Claude Code) a ferramentas de engenharia reversa, para entender como um aplicativo funciona por dentro mesmo sem o código-fonte. Neste episódio: o que ele faz, como começar, para quem serve e os cuidados antes de usar.",
+ "titulo_youtube": "Essa IA descobre como QUALQUER app funciona por dentro | REA, a nº 1 do GitHub",
+ "descricao_youtube": "Viu um recurso incrível num aplicativo e ficou se perguntando como ele foi feito? O REA, o repositório de IA com mais estrelas do GitHub (mais de 480 mil), coloca o seu agente de IA para investigar por você. Em 4 minutos você entende o que ele faz, como começar e os cuidados que quase ninguém comenta antes de usar.",
  "tags": [
   "REA",
   "engenharia reversa",
@@ -16,7 +16,7 @@
  ],
  "capa": {
   "linha1": "Desmonta qualquer app",
-  "linha2": "IA que faz engenharia reversa"
+  "linha2": "A IA nº 1 do GitHub"
  },
  "cenas": [
   {

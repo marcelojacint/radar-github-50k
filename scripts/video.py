@@ -24,6 +24,7 @@ import subprocess
 import sys
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
 import wave
 from pathlib import Path
@@ -637,15 +638,25 @@ class Pintor:
         d.text((195, 135), f"#{r.get('rank')}", font=fonte("bold", 104), fill=p.cor("fundo"), anchor="mm")
         p.pilula(d, 360, 100, f"{fmt_estrelas((r.get('dados') or {}).get('estrelas'))} estrelas",
                  fonte("bold", 40), p.cor("texto"), p.cor("painel"), estrela=True)
+        p.estrela(d, 1110, 560, 230, p.cor("alerta", 38))          # estrela grande decorativa
+        p.estrela(d, 1110, 560, 120, p.cor("alerta", 70))
         capa = r.get("capa") or {}
-        y = 270
-        for ln in quebrar(d, capa.get("linha1", "").upper(), fonte("bold", 92), 1160)[:2]:
-            d.text((60, y), ln, font=fonte("bold", 92), fill=p.cor("destaque2"))
-            y += 104
-        for ln in quebrar(d, capa.get("linha2", ""), fonte("bold", 62), 1160)[:2]:
-            d.text((60, y + 6), ln, font=fonte("bold", 62), fill=p.cor("texto"))
-            y += 74
-        d.text((60, 660), r["repo"], font=fonte("semi", 36), fill=p.cor("suave"), anchor="lm")
+        tam = 118
+        while tam > 76:
+            l1 = quebrar(d, capa.get("linha1", "").upper(), fonte("bold", tam), 1120)
+            if len(l1) <= 2:
+                break
+            tam -= 6
+        y = 250
+        for ln in l1[:2]:
+            d.text((60, y), ln, font=fonte("bold", tam), fill=p.cor("destaque2"))
+            y += tam + 10
+        d.rectangle([62, y + 20, 262, y + 30], fill=p.cor("alerta"))
+        y += 54
+        for ln in quebrar(d, capa.get("linha2", ""), fonte("bold", 66), 1100)[:2]:
+            d.text((60, y), ln, font=fonte("bold", 66), fill=p.cor("texto"))
+            y += 78
+        d.text((60, 670), r["repo"], font=fonte("semi", 34), fill=p.cor("suave"), anchor="lm")
         return im
 
 
@@ -918,8 +929,9 @@ def publicar():
             f"Duração **{fmt_tempo(meta['duracao'])}** · {meta['tamanho_mb']} MB", "",
             f"**Baixar:** [vídeo (mp4)]({base}/video.mp4) · [capa]({base}/capa.jpg) · "
             f"[legendas .srt]({base}/legendas.srt) (opcional: o vídeo já tem legenda na tela)", "",
-            "**Para postar (uns 2 minutos, pelo app YouTube Studio):**",
-            "1. Baixe o vídeo no celular.",
+            "🤖 Com a postagem automática configurada, o episódio sobe sozinho para o YouTube e esta issue "
+            "fecha com o link. Sem ela, poste manualmente:",
+            "1. Baixe o vídeo.",
             "2. No YouTube Studio, toque em **+ → Enviar vídeo** e escolha o arquivo.",
             "3. Cole o título e a descrição abaixo. Em **Miniatura**, use a capa.",
             "4. Publique na hora ou agende. Depois feche esta issue.", "",
@@ -950,12 +962,132 @@ def publicar():
         salvar_json(ARQ_PROD, prod)
 
 
+# ───────────────────────────── postagem no YouTube (Actions) ─────────────────────────────
+# Precisa dos secrets YT_CLIENT_ID, YT_CLIENT_SECRET e YT_REFRESH_TOKEN (escopo youtube.upload).
+# Sem eles, nada é postado e a issue continua com o passo a passo manual.
+
+def _yt_req(url, metodo="GET", corpo=None, cab=None, timeout=60):
+    req = urllib.request.Request(url, data=corpo, method=metodo, headers=cab or {})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.status, dict(r.headers), r.read()
+
+
+def token_youtube():
+    cid, seg, ref = (os.environ.get(k, "").strip() for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
+    if not (cid and seg and ref):
+        return None
+    corpo = urllib.parse.urlencode({"client_id": cid, "client_secret": seg, "refresh_token": ref,
+                                    "grant_type": "refresh_token"}).encode()
+    try:
+        _, _, r = _yt_req("https://oauth2.googleapis.com/token", "POST", corpo,
+                          {"Content-Type": "application/x-www-form-urlencoded"}, 30)
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"o Google recusou o token ({e.code}: {e.read()[:200]!r}). Se for invalid_grant, "
+                           "gere um refresh token novo e atualize o secret YT_REFRESH_TOKEN.") from e
+    return json.loads(r)["access_token"]
+
+
+def proximo_horario(cfg, prod):
+    """Próximo horário livre de publicação: um episódio por dia, no horário do config."""
+    tz = ZoneInfo("America/Sao_Paulo")
+    h, m = (int(x) for x in str((cfg.get("postagem") or {}).get("horario", "18:00")).split(":"))
+    agora = dt.datetime.now(tz)
+    alvo = agora.replace(hour=h, minute=m, second=0, microsecond=0)
+    if alvo < agora + dt.timedelta(minutes=20):
+        alvo += dt.timedelta(days=1)
+    for p in prod.values():
+        if p.get("agendado_para"):
+            ultimo = dt.datetime.fromisoformat(p["agendado_para"]).astimezone(tz)
+            if ultimo.date() >= alvo.date():
+                alvo = ultimo.replace(hour=h, minute=m) + dt.timedelta(days=1)
+    return alvo
+
+
+def enviar_video(token, caminho, meta, publicar_em):
+    status = {"privacyStatus": "private", "publishAt": publicar_em.astimezone(dt.timezone.utc).strftime(
+        "%Y-%m-%dT%H:%M:%SZ"), "selfDeclaredMadeForKids": False} if publicar_em else \
+        {"privacyStatus": "public", "selfDeclaredMadeForKids": False}
+    corpo = {"snippet": {"title": meta["titulo"][:100], "description": meta["descricao"][:5000],
+                         "tags": meta.get("tags", []), "categoryId": "28", "defaultLanguage": "pt-BR",
+                         "defaultAudioLanguage": "pt-BR"},
+             "status": status}
+    tamanho = Path(caminho).stat().st_size
+    _, cab, _ = _yt_req("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
+                        "POST", json.dumps(corpo).encode(),
+                        {"Authorization": f"Bearer {token}", "Content-Type": "application/json; charset=UTF-8",
+                         "X-Upload-Content-Type": "video/mp4", "X-Upload-Content-Length": str(tamanho)})
+    destino = cab.get("Location") or cab.get("location")
+    _, _, r = _yt_req(destino, "PUT", Path(caminho).read_bytes(),
+                      {"Authorization": f"Bearer {token}", "Content-Type": "video/mp4"}, timeout=900)
+    return json.loads(r)["id"]
+
+
+def enviar_capa(token, video_id, capa):
+    try:
+        _yt_req(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}&uploadType=media",
+                "POST", Path(capa).read_bytes(), {"Authorization": f"Bearer {token}", "Content-Type": "image/jpeg"})
+        return True
+    except urllib.error.HTTPError as e:
+        log(f"Capa não enviada ({e.code}). Capa personalizada exige o canal verificado por telefone.")
+        return False
+
+
+def postar(cfg):
+    if not (cfg.get("postagem") or {}).get("ativa", False):
+        log("Postagem automática desligada no config-videos.yml.")
+        return
+    token = token_youtube()
+    if not token:
+        log("Sem os secrets YT_CLIENT_ID / YT_CLIENT_SECRET / YT_REFRESH_TOKEN: postagem fica manual.")
+        return
+    prod = ler_json(ARQ_PROD, {})
+    fila_post = sorted((p for p in prod.values() if p.get("status") == "pronto" and not p.get("youtube_id")),
+                       key=lambda p: p["episodio"])
+    if not fila_post:
+        log("Nada para postar.")
+        return
+    for p in fila_post:
+        pasta = DIR_SAIDA / Path(p["arquivo"]).stem
+        tag = f"video-{p['episodio']:03d}"
+        if not (pasta / "video.mp4").exists() or not (pasta / "meta.json").exists():
+            pasta.mkdir(parents=True, exist_ok=True)
+            gh("release", "download", tag, "-p", "video.mp4", "-p", "capa.jpg", "-D", str(pasta), "--clobber")
+        meta = ler_json(pasta / "meta.json") or {}
+        if not meta:                                      # episódio renderizado em outro dia: refaz o meta do release
+            rot = ler_json(RAIZ / p["arquivo"])
+            corpo_rel = json.loads(gh("release", "view", tag, "--json", "assets"))
+            if any(a["name"] == "descricao.txt" for a in corpo_rel.get("assets", [])):
+                gh("release", "download", tag, "-p", "descricao.txt", "-D", str(pasta), "--clobber")
+            meta = {"titulo": rot["titulo_youtube"], "tags": rot.get("tags", []),
+                    "descricao": (pasta / "descricao.txt").read_text(encoding="utf-8")
+                    if (pasta / "descricao.txt").exists() else rot["descricao_youtube"]}
+        quando = proximo_horario(cfg, prod)
+        vid = enviar_video(token, pasta / "video.mp4", meta, quando)
+        capa_ok = enviar_capa(token, vid, pasta / "capa.jpg") if (pasta / "capa.jpg").exists() else False
+        p.update({"status": "agendado", "youtube_id": vid, "youtube": f"https://youtu.be/{vid}",
+                  "agendado_para": quando.isoformat(), "postado_em": HOJE})
+        salvar_json(ARQ_PROD, prod)
+        quando_txt = quando.strftime("%d/%m às %H:%M")
+        log(f"Episódio {p['episodio']} enviado: https://youtu.be/{vid} — público em {quando_txt}")
+        if p.get("issue"):
+            num = p["issue"].rstrip("/").split("/")[-1]
+            aviso = (f"✅ **Postado automaticamente:** https://youtu.be/{vid}\n\n"
+                     f"Fica **público em {quando_txt}** (horário de Brasília). Até lá está agendado e só você vê no "
+                     f"YouTube Studio; se quiser segurar, troque para privado por lá."
+                     + ("" if capa_ok else "\n\n⚠️ A capa não foi aplicada: no YouTube, capa personalizada exige "
+                        "verificar o canal por telefone (youtube.com/verify). Depois disso, suba a capa do "
+                        "release pelo Studio."))
+            gh("issue", "comment", num, "--body", aviso)
+            gh("issue", "close", num)
+
+
 # ───────────────────────────── main ─────────────────────────────
 
 def main():
     global HOJE
     ap = argparse.ArgumentParser(description="Vídeos do Radar de IA")
-    ap.add_argument("comando", choices=["proximo", "salvar", "disparar", "renderizar", "publicar", "quadros"])
+    ap.add_argument("comando", choices=["proximo", "salvar", "disparar", "renderizar", "publicar", "postar",
+                                        "quadros"])
     ap.add_argument("args", nargs="*")
     ap.add_argument("--repo", help="proximo: força um repositório da fila")
     ap.add_argument("--sem-voz", action="store_true", help="renderizar sem narração (teste local)")
@@ -974,6 +1106,8 @@ def main():
         renderizar(a.args, cfg, a.sem_voz)
     elif a.comando == "publicar":
         publicar()
+    elif a.comando == "postar":
+        postar(cfg)
     elif a.comando == "quadros":                     # prévia: um quadro por estado de cada cena
         rot = ler_json(a.args[0])
         pasta = Path(a.args[1] if len(a.args) > 1 else DIR_TMP / "quadros")
