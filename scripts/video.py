@@ -1037,6 +1037,25 @@ def enviar_capa(token, video_id, capa):
         return False
 
 
+def reaplicar_capas(token, prod):
+    """Tenta de novo a capa dos vídeos já enviados sem ela (funciona quando o canal for verificado)."""
+    pendentes = [p for p in prod.values() if p.get("youtube_id") and not p.get("capa_ok")]
+    for p in sorted(pendentes, key=lambda p: p["episodio"]):
+        pasta = DIR_SAIDA / Path(p["arquivo"]).stem
+        if not (pasta / "capa.jpg").exists():
+            pasta.mkdir(parents=True, exist_ok=True)
+            try:
+                gh("release", "download", f"video-{p['episodio']:03d}", "-p", "capa.jpg", "-D", str(pasta), "--clobber")
+            except RuntimeError:
+                continue
+        if enviar_capa(token, p["youtube_id"], pasta / "capa.jpg"):
+            p["capa_ok"] = True
+            salvar_json(ARQ_PROD, prod)
+            log(f"Capa aplicada no episódio {p['episodio']}.")
+        else:
+            break                                       # canal ainda não verificado: tenta no próximo dia
+
+
 def postar(cfg):
     if not (cfg.get("postagem") or {}).get("ativa", False):
         log("Postagem automática desligada no config-videos.yml.")
@@ -1046,6 +1065,7 @@ def postar(cfg):
         log("Sem os secrets YT_CLIENT_ID / YT_CLIENT_SECRET / YT_REFRESH_TOKEN: postagem fica manual.")
         return
     prod = ler_json(ARQ_PROD, {})
+    reaplicar_capas(token, prod)
     fila_post = sorted((p for p in prod.values() if p.get("status") == "pronto" and not p.get("youtube_id")),
                        key=lambda p: p["episodio"])
     if not fila_post:
@@ -1070,7 +1090,7 @@ def postar(cfg):
         vid = enviar_video(token, pasta / "video.mp4", meta, quando)
         capa_ok = enviar_capa(token, vid, pasta / "capa.jpg") if (pasta / "capa.jpg").exists() else False
         p.update({"status": "agendado", "youtube_id": vid, "youtube": f"https://youtu.be/{vid}",
-                  "agendado_para": quando.isoformat(), "postado_em": HOJE})
+                  "agendado_para": quando.isoformat(), "postado_em": HOJE, "capa_ok": capa_ok})
         salvar_json(ARQ_PROD, prod)
         quando_txt = quando.strftime("%d/%m às %H:%M")
         log(f"Episódio {p['episodio']} enviado: https://youtu.be/{vid} — público em {quando_txt}")
