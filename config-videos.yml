@@ -1,5 +1,5 @@
 # ─────────────────────────────────────────────────────────────
-# Vídeos do Radar de IA — configuração
+# Vídeos do canal IA para Pessoas — configuração
 # Um vídeo de 3 a 5 minutos por repositório, do mais estrelado para o menos.
 #
 #   08:41  a tarefa agendada do Claude escreve o roteiro do próximo da fila
@@ -9,7 +9,7 @@
 # ─────────────────────────────────────────────────────────────
 
 canal:
-  nome: "Radar de IA"           # aparece na abertura, no encerramento e na capa
+  nome: "IA para Pessoas"       # aparece na abertura, no encerramento e na capa
   chamada_final: "Se inscreva para acompanhar o ranking inteiro, do mais estrelado para o menos."
 
 fila: foco                      # foco = os repositórios de IA do radar | todos = os 20 mil+ estrelas
