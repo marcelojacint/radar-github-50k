@@ -1,76 +1,60 @@
 # Dados e Bancos de dados — repositórios com 20 mil+ estrelas
 
-Atualizado em 27/11/2026 · 118 repositórios · [voltar ao catálogo](../CATALOGO.md)
+Atualizado em 28/11/2026 · 102 repositórios · [voltar ao catálogo](../CATALOGO.md)
 
-> 94 ainda sem resumo em português; a tarefa diária traduz os que faltam.
+> 61 ainda sem resumo em português; a tarefa diária traduz os que faltam.
 
 | Repositório | ⭐ | Linguagem | O que é |
 |---|---|---|---|
 | [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) | 159,7 mil | JavaScript | Guia de entrevistas de Java e backend: fundamentos, banco de dados, sistemas distribuídos, alta concorrência e IA (em chinês). |
 | [d3/d3](https://github.com/d3/d3) | 114 mil | Shell | D3: dá vida a dados com SVG, Canvas e HTML (visualização de dados). |
-| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 106,1 mil | Python | Framework de web scraping, de uma requisição simples a um crawl completo. |
+| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 106,6 mil | Python | Framework de web scraping, de uma requisição simples a um crawl completo. |
 | [fighting41love/funNLP](https://github.com/fighting41love/funNLP) | 84,8 mil | Python | Grande coleção de recursos de processamento de linguagem natural, principalmente para chinês (dicionários, dados, modelos e ferramentas). ⚠️ |
-| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 79,6 mil | Python | Desafio de 30 dias para aprender Python passo a passo. |
+| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 79,7 mil | Python | Desafio de 30 dias para aprender Python passo a passo. |
 | [doocs/advanced-java](https://github.com/doocs/advanced-java) | 79,2 mil | Java | Perguntas e respostas de entrevista para devs Java backend experientes: alta concorrência, sistemas distribuídos, microsserviços e mais. |
-| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 78,9 mil | Java | Elasticsearch: motor de busca distribuído e RESTful. |
+| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 78,7 mil | Java | Elasticsearch: motor de busca distribuído e RESTful. |
 | [grafana/grafana](https://github.com/grafana/grafana) | 78,2 mil | Go | Grafana: plataforma de observabilidade e visualização de métricas, logs e traces de várias fontes. |
 | [openbq-org/OpenBB](https://github.com/openbq-org/OpenBB) | 75,8 mil | Python | Plataforma aberta de dados financeiros para analistas, quants e agentes de IA. |
 | [apache/superset](https://github.com/apache/superset) | 75,7 mil | Python | Apache Superset: plataforma de visualização e exploração de dados. |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 75,1 mil | Python | Sistema de análise de ações com LLM: dados de mercado, notícias em tempo real, painel de decisão e alertas automáticos. |
 | [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) | 75 mil | PHP | Coleção de listas para testes de segurança: usuários, senhas, URLs, padrões de dados sensíveis, payloads de fuzzing e mais. |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 74,9 mil | Python | Sistema de análise de ações com LLM: dados de mercado, notícias em tempo real, painel de decisão e alertas automáticos. |
 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 72,2 mil | C++ | Protocol Buffers: formato de troca de dados do Google. |
 | [apache/echarts](https://github.com/apache/echarts) | 67,8 mil | TypeScript | Apache ECharts: biblioteca poderosa e interativa de gráficos e visualização de dados para navegador. |
-| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | 67,1 mil | JavaScript | Simulador de "satélite espião" no navegador com dados reais: inteligência espacial em um globo 3D. |
+| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | 67,2 mil | JavaScript | Simulador de "satélite espião" no navegador com dados reais: inteligência espacial em um globo 3D. |
 | [bilibili/GPT-SoVITS](https://github.com/bilibili/GPT-SoVITS) | 64,3 mil | Python | Clonagem de voz com poucos dados: 1 minuto de áudio já treina um bom modelo de texto para fala. |
 | [makeplane/plane](https://github.com/makeplane/plane) | 63,3 mil | TypeScript | Plane: alternativa open source a Jira, Linear e ClickUp para gerenciar tarefas, sprints e documentação. |
-| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 62,9 mil | JavaScript | Skills de marketing para Claude Code e agentes de IA: CRO, copywriting, SEO, analytics e growth. |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 63,1 mil | JavaScript | Skills de marketing para Claude Code e agentes de IA: CRO, copywriting, SEO, analytics e growth. |
 | [etcd-io/etcd](https://github.com/etcd-io/etcd) | 52,7 mil | Go | etcd: armazenamento chave-valor distribuído e confiável para dados críticos. |
 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 52,6 mil | Java | DBeaver: ferramenta universal e gratuita de banco de dados e cliente SQL. |
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 51,2 mil | C++ | ClickHouse: banco de dados para analytics em tempo real. |
-| [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 50,7 mil | Python | pandas: biblioteca Python flexível para análise e manipulação de dados. |
+| [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 50,6 mil | Python | pandas: biblioteca Python flexível para análise e manipulação de dados. |
 | [metabase/metabase](https://github.com/metabase/metabase) | 50,6 mil | Clojure | Metabase: ferramenta open source de Business Intelligence fácil de usar, com analytics embutido. |
 | [jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) | 50,5 mil | Jupyter Notebook | Livro Python Data Science Handbook completo em notebooks Jupyter. ⚠️ |
-| [pixijs/pixijs](https://github.com/pixijs/pixijs) | 48,9 mil | TypeScript | _tradução pendente_ |
-| [SimplifyJobs/Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) | 48,5 mil | Python | _tradução pendente_ |
-| [prisma/orm](https://github.com/prisma/orm) | 47,8 mil | TypeScript | _tradução pendente_ |
-| [minimaxir/big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) | 47,7 mil | Python | _tradução pendente_ ⚠️ |
-| [apache/airflow](https://github.com/apache/airflow) | 47,7 mil | Python | _tradução pendente_ |
-| [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook) | 45,3 mil | Jupyter Notebook | _tradução pendente_ |
-| [apache/spark](https://github.com/apache/spark) | 44,6 mil | Scala | _tradução pendente_ |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | 43,4 mil | C++ | _tradução pendente_ |
-| [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro) | 40,7 mil | Java | _tradução pendente_ |
-| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | 40,4 mil | JavaScript | _tradução pendente_ |
-| [umami-software/umami](https://github.com/umami-software/umami) | 40,4 mil | TypeScript | _tradução pendente_ |
-| [searxng/searxng](https://github.com/searxng/searxng) | 39,9 mil | Python | _tradução pendente_ |
-| [google/leveldb](https://github.com/google/leveldb) | 39,6 mil | C++ | _tradução pendente_ |
-| [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | 39,3 mil | Python | _tradução pendente_ |
-| [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) | 39,1 mil | Python | _tradução pendente_ |
-| [directus/directus](https://github.com/directus/directus) | 38,7 mil | TypeScript | _tradução pendente_ |
-| [ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane) | 38,3 mil | TypeScript | _tradução pendente_ |
-| [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) | 38,1 mil | Jupyter Notebook | _tradução pendente_ |
-| [0voice/interview_internal_reference](https://github.com/0voice/interview_internal_reference) | 37,2 mil | Python | _tradução pendente_ |
-| [AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily) | 37 mil |  | _tradução pendente_ |
-| [typeorm/typeorm](https://github.com/typeorm/typeorm) | 36,7 mil | TypeScript | _tradução pendente_ |
-| [rustfs/rustfs](https://github.com/rustfs/rustfs) | 36,6 mil | Rust | _tradução pendente_ |
-| [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) | 36,4 mil | TypeScript | _tradução pendente_ |
-| [qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) | 34,9 mil | JavaScript | _tradução pendente_ |
-| [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | 34,3 mil | C++ | _tradução pendente_ |
-| [pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching) | 34,3 mil | JavaScript | _tradução pendente_ |
-| [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 33,4 mil | Rust | _tradução pendente_ |
-| [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) | 33 mil | TypeScript | _tradução pendente_ |
-| [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | 32,7 mil | Python | _tradução pendente_ |
-| [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32,6 mil | Go | _tradução pendente_ |
-| [meta/rocksdb](https://github.com/meta/rocksdb) | 32,3 mil | C++ | _tradução pendente_ |
-| [hasura/graphql-engine](https://github.com/hasura/graphql-engine) | 32,1 mil | TypeScript | _tradução pendente_ |
-| [dream-num/univer](https://github.com/dream-num/univer) | 32 mil | TypeScript | _tradução pendente_ |
-| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | 31,9 mil | C++ | _tradução pendente_ |
+| [prisma/orm](https://github.com/prisma/orm) | 47,7 mil | TypeScript | ORM para TypeScript com consultas legíveis em vez de SQL, com opção de hospedar banco e app na Prisma. |
+| [apache/airflow](https://github.com/apache/airflow) | 47,7 mil | Python | Plataforma para criar, agendar e monitorar fluxos de trabalho de dados como código. |
+| [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) | 44,8 mil | JavaScript | Raspador de dados web visual e sem código. |
+| [apache/spark](https://github.com/apache/spark) | 44,7 mil | Scala | Motor unificado de análise de dados em grande escala. |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | 43,4 mil | C++ | Banco de dados analítico embutido e de alto desempenho. |
+| [pola-rs/polars](https://github.com/pola-rs/polars) | 40,6 mil | Rust | Motor de consultas para DataFrames extremamente rápido, escrito em Rust. |
+| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | 40,5 mil | JavaScript | Editor online e gratuito de diagramas de banco de dados com geração de SQL. |
+| [go-gorm/gorm](https://github.com/go-gorm/gorm) | 40 mil | Go | Biblioteca ORM para Go focada na facilidade de uso. |
+| [google/leveldb](https://github.com/google/leveldb) | 39,6 mil | C++ | Biblioteca de armazenamento chave-valor rápida do Google. |
+| [typeorm/typeorm](https://github.com/typeorm/typeorm) | 36,7 mil | TypeScript | ORM para TypeScript e JavaScript compatível com PostgreSQL, MySQL, SQLite e outros. |
+| [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) | 36,4 mil | TypeScript | ORM leve para TypeScript com SQL tipado. |
+| [qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) | 34,9 mil | JavaScript | Gerenciador desktop de Redis rápido e estável. |
+| [apache/kafka](https://github.com/apache/kafka) | 34,3 mil | Java | Plataforma distribuída de streaming de eventos (Apache Kafka). |
+| [numpy/numpy](https://github.com/numpy/numpy) | 33,5 mil | Python | Pacote fundamental para computação científica em Python. |
+| [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 33,4 mil | Rust | Banco de dados de documentos e grafos, distribuído e colaborativo, para a web em tempo real. |
+| [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32,6 mil | Go | Banco SQL distribuído nativo da nuvem, com alta disponibilidade e escala. |
+| [meta/rocksdb](https://github.com/meta/rocksdb) | 32,3 mil | C++ | Biblioteca de armazenamento chave-valor persistente e embutível. |
+| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | 32 mil | C++ | _tradução pendente_ |
 | [influxdata/influxdb](https://github.com/influxdata/influxdb) | 31,8 mil | Rust | _tradução pendente_ |
 | [t8y2/dbx](https://github.com/t8y2/dbx) | 31,7 mil | Rust | _tradução pendente_ |
 | [eugeneyan/applied-ml](https://github.com/eugeneyan/applied-ml) | 31 mil |  | _tradução pendente_ ⚠️ |
 | [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | 30,4 mil |  | _tradução pendente_ |
-| [sequelize/sequelize](https://github.com/sequelize/sequelize) | 30,3 mil | TypeScript | _tradução pendente_ |
+| [sequelize/sequelize](https://github.com/sequelize/sequelize) | 30,4 mil | TypeScript | _tradução pendente_ |
 | [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) | 30,2 mil | Python | _tradução pendente_ ⚠️ |
-| [plausible/analytics](https://github.com/plausible/analytics) | 29,9 mil | Elixir | _tradução pendente_ |
+| [plausible/analytics](https://github.com/plausible/analytics) | 30 mil | Elixir | _tradução pendente_ |
 | [alibaba/canal](https://github.com/alibaba/canal) | 29,8 mil | Java | _tradução pendente_ |
 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 29,7 mil | Python | _tradução pendente_ |
 | [donnemartin/data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) | 29,4 mil | Python | _tradução pendente_ ⚠️ |
