@@ -2,7 +2,7 @@
 # Vídeos do canal IA para Pessoas — configuração
 # Um vídeo de 3 a 5 minutos por repositório, do mais estrelado para o menos.
 #
-#   08:41  (seg, qua e sex) a tarefa agendada do Claude escreve o roteiro do próximo da fila
+#   08:41  (todos os dias) a tarefa agendada do Claude escreve o roteiro do próximo da fila
 #          (videos/roteiros/NNN-nome.json) e dispara a renderização;
 #   ~08:50 o GitHub Actions gera a narração, monta o vídeo, abre a issue "🎬 Vídeo #N pronto"
 #          e envia ao YouTube agendado para o horário de postagem abaixo.
@@ -14,7 +14,7 @@ canal:
 
 postagem:
   ativa: true                   # posta sozinho quando os secrets YT_* existem no GitHub (veja videos/README.md)
-  dias: [seg, qua, sex]         # dias de publicação (seg, ter, qua, qui, sex, sab, dom)
+  dias: [seg, ter, qua, qui, sex, sab, dom]   # dias de publicação: um episódio por dia
   horario: "18:00"              # o vídeo sobe de manhã agendado e fica público neste horário (Brasília)
 
 fila: foco                      # foco = os repositórios de IA do radar | todos = os 20 mil+ estrelas
