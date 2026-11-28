@@ -22,9 +22,19 @@
   "episodio": 2,
   "repo": "openclaw/openclaw",
   "arquivo": "videos/roteiros/002-openclaw.json",
-  "status": "roteiro",
+  "status": "publicado",
   "data": "2026-11-28",
   "titulo": "OpenClaw: a IA que FAZ as coisas por você, direto do WhatsApp",
-  "abertura": "Uma IA que mora no seu computador e fala pelo WhatsApp"
+  "abertura": "Uma IA que mora no seu computador e fala pelo WhatsApp",
+  "release": "https://github.com/marcelojacint/radar-github-50k/releases/tag/video-002",
+  "issue": "https://github.com/marcelojacint/radar-github-50k/issues/4",
+  "duracao": 296.0,
+  "renderizado_em": "2026-11-28",
+  "youtube_id": "d8aMuxhGdUg",
+  "youtube": "https://youtu.be/d8aMuxhGdUg",
+  "agendado_para": "2026-11-28T11:11:50-03:00",
+  "postado_em": "2026-11-28",
+  "capa_ok": true,
+  "publicado_em": "2026-11-28T11:11:50-03:00"
  }
 }
