@@ -1,0 +1,300 @@
+{
+ "repo": "openclaw/openclaw",
+ "titulo_youtube": "OpenClaw: a IA que FAZ as coisas por você, direto do WhatsApp",
+ "descricao_youtube": "E se você mandasse uma mensagem no WhatsApp e uma IA no seu próprio computador resolvesse a tarefa? O OpenClaw, com quase 400 mil estrelas no GitHub, é um assistente de IA de código aberto que roda na sua máquina e conversa pelos apps que você já usa. Neste vídeo você entende como ele funciona, como instalar e os cuidados de segurança antes de dar acesso ao seu computador.",
+ "tags": [
+  "OpenClaw",
+  "assistente de IA",
+  "agentes de IA",
+  "inteligência artificial",
+  "WhatsApp",
+  "Telegram",
+  "Claude",
+  "código aberto",
+  "automação",
+  "IA auto-hospedada",
+  "segurança"
+ ],
+ "capa": {
+  "linha1": "Uma IA que faz por você",
+  "linha2": "No seu WhatsApp, no seu computador"
+ },
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": "Uma IA que mora no seu computador e fala pelo WhatsApp",
+   "subtitulo": "O 2º repositório de IA mais estrelado do GitHub",
+   "falas": [
+    {
+     "texto": "Imagine mandar uma mensagem no WhatsApp pedindo para organizar uma pasta ou automatizar uma tarefa chata. E, do outro lado, uma IA no seu próprio computador faz isso de verdade.",
+     "falado": "",
+     "mostra": null
+    },
+    {
+     "texto": "Essa é a ideia do OpenClaw, o número 2 entre os repositórios de inteligência artificial mais estrelados do GitHub, com quase 400 mil estrelas.",
+     "falado": "Essa é a ideia do Ôupen Cló, o número 2 entre os repositórios de inteligência artificial mais estrelados do GitHub, com quase 400 mil estrelas.",
+     "mostra": null
+    },
+    {
+     "texto": "Neste vídeo você vai entender o que ele é, como funciona por dentro, como instalar e quais cuidados ter antes de deixar uma IA mexer no seu computador.",
+     "falado": "",
+     "mostra": null
+    }
+   ]
+  },
+  {
+   "tipo": "comparacao",
+   "titulo": "Chatbot comum x OpenClaw",
+   "esquerda": {
+    "titulo": "Chatbot comum",
+    "itens": [
+     "Você abre o site ou o app dele",
+     "Ele sugere, quem executa é você"
+    ]
+   },
+   "direita": {
+    "titulo": "OpenClaw",
+    "itens": [
+     "Fala com você no WhatsApp e em mais de 20 apps",
+     "Age no seu computador",
+     "Memória e credenciais ficam na sua máquina"
+    ]
+   },
+   "falas": [
+    {
+     "texto": "Pensa num chatbot comum: você abre o site ou o aplicativo dele e conversa ali dentro.",
+     "falado": "",
+     "mostra": 0
+    },
+    {
+     "texto": "Ele até sugere o que fazer, mas quem executa a tarefa, no fim das contas, é você.",
+     "falado": "",
+     "mostra": 1
+    },
+    {
+     "texto": "O OpenClaw vai até você: ele conversa pelos apps que você já usa, como WhatsApp, Telegram, Slack, Discord e mais de vinte outros.",
+     "falado": "O Ôupen Cló vai até você: ele conversa pelos apps que você já usa, como WhatsApp, Telegram, Slack, Discord e mais de vinte outros.",
+     "mostra": 2
+    },
+    {
+     "texto": "E ele não fica só na conversa. Como roda no seu computador, ele consegue agir: usar ferramentas, mexer em arquivos e automatizar tarefas.",
+     "falado": "",
+     "mostra": 3
+    },
+    {
+     "texto": "Outro ponto importante: a memória, o histórico e as suas chaves de acesso ficam guardados na sua máquina, e não num servidor do projeto.",
+     "falado": "",
+     "mostra": 4
+    }
+   ]
+  },
+  {
+   "tipo": "topicos",
+   "titulo": "Como ele funciona por dentro",
+   "itens": [
+    "Gateway: a central que fica ligada no seu computador",
+    "Canais: WhatsApp, Telegram, Slack, Discord, iMessage...",
+    "Modelo trocável: Claude, Codex ou um modelo local",
+    "Skills e plugins ensinam habilidades novas",
+    "Apps para celular e computador: voz, câmera e tela"
+   ],
+   "falas": [
+    {
+     "texto": "A peça principal se chama Gateway. Pensa nele como a central de controle: um programa que fica ligado no seu computador e organiza conversas, ferramentas e conexões.",
+     "falado": "A peça principal se chama Gueituêi. Pensa nele como a central de controle: um programa que fica ligado no seu computador e organiza conversas, ferramentas e conexões.",
+     "mostra": 0
+    },
+    {
+     "texto": "Os canais são as portas de entrada. Você conecta o WhatsApp, o Telegram ou o Slack, e o mesmo assistente responde em qualquer um deles.",
+     "falado": "",
+     "mostra": 1
+    },
+    {
+     "texto": "O cérebro é o modelo de IA, e ele é trocável. Você pode usar o Claude, o Codex ou até um modelo que roda no seu próprio computador, sem mudar o resto.",
+     "falado": "O cérebro é o modelo de IA, e ele é trocável. Você pode usar o Cláude, o Códex ou até um modelo que roda no seu próprio computador, sem mudar o resto.",
+     "mostra": 2
+    },
+    {
+     "texto": "Skills e plugins funcionam como cursos rápidos: cada um ensina ao assistente uma habilidade nova, e a comunidade compartilha vários deles no ClawHub.",
+     "falado": "Skills e plugins funcionam como cursos rápidos: cada um ensina ao assistente uma habilidade nova, e a comunidade compartilha vários deles no Cló Râb.",
+     "mostra": 3
+    },
+    {
+     "texto": "E existem apps para Mac, Windows, Linux, iPhone e Android, que adicionam voz, câmera e controle de tela nos aparelhos compatíveis.",
+     "falado": "",
+     "mostra": 4
+    }
+   ]
+  },
+  {
+   "tipo": "destaque",
+   "titulo": "Sem pegadinha",
+   "texto": "Código aberto, sem plano pago, sem versão na nuvem e sem criptomoeda. Quem cuida é uma fundação independente.",
+   "falas": [
+    {
+     "texto": "Um detalhe que chama atenção: o projeto não tem plano pago, nem versão hospedada na nuvem, nem criptomoeda própria. Quem cuida dele é a OpenClaw Foundation, uma fundação sem fins lucrativos.",
+     "falado": "Um detalhe que chama atenção: o projeto não tem plano pago, nem versão hospedada na nuvem, nem criptomoeda própria. Quem cuida dele é a Ôupen Cló Foundation, uma fundação sem fins lucrativos.",
+     "mostra": null
+    },
+    {
+     "texto": "Mas não ter plano pago não quer dizer custo zero. Se você usar um modelo como o Claude, paga a API do provedor, a não ser que rode um modelo local.",
+     "falado": "Mas não ter plano pago não quer dizer custo zero. Se você usar um modelo como o Cláude, paga a A P I do provedor, a não ser que rode um modelo local.",
+     "mostra": null
+    }
+   ]
+  },
+  {
+   "tipo": "terminal",
+   "titulo": "Como começar",
+   "linhas": [
+    "# macOS, Linux ou WSL2:",
+    "$ curl -fsSL https://openclaw.ai/install.sh | bash",
+    "# Se você já tem o Node.js:",
+    "$ npm install -g openclaw@latest --allow-scripts=openclaw",
+    "$ openclaw onboard --install-daemon",
+    "$ openclaw gateway status",
+    "$ openclaw dashboard"
+   ],
+   "falas": [
+    {
+     "texto": "O jeito mais simples de instalar é com um único comando no terminal. No Mac, no Linux ou no WSL do Windows, é este aqui. E também existe uma versão para o PowerShell.",
+     "falado": "O jeito mais simples de instalar é com um único comando no terminal. No Mac, no Linux ou no W S L do Windows, é este aqui. E também existe uma versão para o Páuer Xél.",
+     "mostra": 1
+    },
+    {
+     "texto": "Se você já usa o Node.js, dá para instalar direto pelo npm, o gerenciador de pacotes dele.",
+     "falado": "Se você já usa o Node J S, dá para instalar direto pelo N P M, o gerenciador de pacotes dele.",
+     "mostra": 3
+    },
+    {
+     "texto": "Depois vem a configuração guiada. Ela confere se o modelo de IA está acessível, cria a pasta de trabalho e prepara o Gateway.",
+     "falado": "Depois vem a configuração guiada. Ela confere se o modelo de IA está acessível, cria a pasta de trabalho e prepara o Gueituêi.",
+     "mostra": 4
+    },
+    {
+     "texto": "No fim, um comando mostra se está tudo rodando e outro abre o painel de controle. Mande uma mensagem por lá para confirmar que o assistente responde.",
+     "falado": "",
+     "mostra": 6
+    }
+   ]
+  },
+  {
+   "tipo": "topicos",
+   "titulo": "Cuidados antes de usar",
+   "itens": [
+    "Sem isolamento, as ferramentas rodam direto na sua máquina",
+    "Trate toda mensagem recebida como suspeita",
+    "O que você escreve vai para o provedor do modelo",
+    "A checagem de atualização vem ligada",
+    "Projeto novo, que muda muito rápido"
+   ],
+   "falas": [
+    {
+     "texto": "Agora a parte que muita gente pula. Por padrão, as ferramentas do assistente rodam direto no seu computador. Isolar tudo numa área separada, o chamado sandbox, é uma configuração que você precisa ativar.",
+     "falado": "Agora a parte que muita gente pula. Por padrão, as ferramentas do assistente rodam direto no seu computador. Isolar tudo numa área separada, o chamado sêndbox, é uma configuração que você precisa ativar.",
+     "mostra": 0
+    },
+    {
+     "texto": "A própria documentação pede para tratar toda mensagem recebida como suspeita, porque alguém pode tentar enganar a IA por uma mensagem. Por isso, contatos desconhecidos precisam ser aprovados antes.",
+     "falado": "",
+     "mostra": 1
+    },
+    {
+     "texto": "Na privacidade, memória e chaves ficam com você, mas o que você escreve vai para o provedor do modelo que escolher, como acontece com qualquer IA na nuvem.",
+     "falado": "",
+     "mostra": 2
+    },
+    {
+     "texto": "A checagem diária de atualização vem ligada e envia a versão, a plataforma e uma localização aproximada. Dá para desligar nas configurações.",
+     "falado": "",
+     "mostra": 3
+    },
+    {
+     "texto": "E o projeto é recente, de novembro de 2025, e muda muito rápido. Antes de usar com dados de clientes ou da empresa, revise bem a segurança.",
+     "falado": "",
+     "mostra": 4
+    }
+   ]
+  },
+  {
+   "tipo": "ficha",
+   "titulo": "Ficha técnica",
+   "falas": [
+    {
+     "texto": "Em números: quase 400 mil estrelas e mais de 80 mil forks. O projeto é escrito em TypeScript e usa a licença MIT, que permite usar, modificar e até vender soluções em cima dele.",
+     "falado": "",
+     "mostra": null
+    },
+    {
+     "texto": "Ele foi criado por Peter Steinberger e pela comunidade, e o mascote é uma lagosta espacial chamada Molty. Por isso tem lagosta por todo lado no projeto.",
+     "falado": "",
+     "mostra": null
+    }
+   ]
+  },
+  {
+   "tipo": "encerramento",
+   "titulo": "Resumo",
+   "itens": [
+    "Assistente de IA que roda no seu computador",
+    "Conversa pelo WhatsApp, Telegram e mais de 20 apps",
+    "Modelo trocável: do Claude a um modelo local",
+    "Ative o isolamento e revise as permissões"
+   ],
+   "falas": [
+    {
+     "texto": "Resumindo: o OpenClaw é um assistente de IA que roda no seu computador.",
+     "falado": "Resumindo: o Ôupen Cló é um assistente de IA que roda no seu computador.",
+     "mostra": 0
+    },
+    {
+     "texto": "Ele conversa com você pelos aplicativos que você já usa, e age de verdade.",
+     "falado": "",
+     "mostra": 1
+    },
+    {
+     "texto": "Você escolhe o modelo, do Claude a um modelo local, e paga só o que o provedor cobrar.",
+     "falado": "Você escolhe o modelo, do Cláude a um modelo local, e paga só o que o provedor cobrar.",
+     "mostra": 2
+    },
+    {
+     "texto": "E antes de liberar tudo, ative o isolamento e revise com calma o que ele pode fazer na sua máquina.",
+     "falado": "",
+     "mostra": 3
+    },
+    {
+     "texto": "Amanhã, às seis da manhã, chega o próximo da fila: o mattpocock skills, a coleção de skills que o Matt Pocock usa com agentes de código para trabalhar como um engenheiro experiente. Até lá!",
+     "falado": "Amanhã, às seis da manhã, chega o próximo da fila: o Mét Pócok skills, a coleção de skills que o Mét Pócok usa com agentes de código para trabalhar como um engenheiro experiente. Até lá!",
+     "mostra": null
+    }
+   ]
+  }
+ ],
+ "episodio": 2,
+ "rank": 2,
+ "total_fila": 372,
+ "dados": {
+  "nome": "openclaw/openclaw",
+  "descricao": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+  "estrelas": 395367,
+  "forks": 83016,
+  "linguagem": "TypeScript",
+  "licenca": "MIT",
+  "topicos": [
+   "ai",
+   "assistant",
+   "crustacean",
+   "molty",
+   "openclaw",
+   "own-your-data",
+   "personal"
+  ],
+  "homepage": "https://openclaw.ai",
+  "criado_em": "2025-11-24",
+  "ultimo_push": "2026-11-28",
+  "url": "https://github.com/openclaw/openclaw"
+ },
+ "proximo": "mattpocock/skills",
+ "gerado_em": "2026-11-28",
+ "palavras": 774
+}

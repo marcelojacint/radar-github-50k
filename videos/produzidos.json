@@ -17,5 +17,14 @@
   "postado_em": "2026-11-27",
   "publicado_em": "2026-11-27T13:10:00-03:00",
   "capa_ok": true
+ },
+ "openclaw/openclaw": {
+  "episodio": 2,
+  "repo": "openclaw/openclaw",
+  "arquivo": "videos/roteiros/002-openclaw.json",
+  "status": "roteiro",
+  "data": "2026-11-28",
+  "titulo": "OpenClaw: a IA que FAZ as coisas por você, direto do WhatsApp",
+  "abertura": "Uma IA que mora no seu computador e fala pelo WhatsApp"
  }
 }
