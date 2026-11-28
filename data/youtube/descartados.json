@@ -23,6 +23,12 @@
   "motivo": "nicho demais",
   "titulo": "Shipping a VS Code extension backed by a .NET Tool based analyzer"
  },
+ "3mAhtBjBW88": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-28",
+  "motivo": "bom, mas ficou fora do limite diário (muitos vídeos do canal dotnet hoje)",
+  "titulo": "ASP.NET Core 11 loves OpenTelemetry"
+ },
  "3wTzHDxtpnw": {
   "canal_id": "UCFuIUoyHB12qpYa8Jpxoxow",
   "data": "2026-11-27",
@@ -41,17 +47,47 @@
   "motivo": "treino de modelo, longe da entrega de software",
   "titulo": "Harness Adapters - Train Your Model to Your Harness"
  },
+ "6UJPFP09lro": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-28",
+  "motivo": "entrevista de produto (OpenRouter), pouco prática",
+  "titulo": "Fireside Chat With Alex Atallah, OpenRouter"
+ },
+ "8GCqVb4c_yQ": {
+  "canal_id": "UC3i3qKQ5aR_guegQj5bhOMw",
+  "data": "2026-11-28",
+  "motivo": "promoção de plataforma no-code (Softr)",
+  "titulo": "Claude Code: How to Build & Deploy Your First AI App"
+ },
  "9UMpD5QMU-c": {
   "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
   "data": "2026-11-27",
   "motivo": "anúncio de produto",
   "titulo": "Stop manually picking AI models: how GitHub Copilot Fusion works"
  },
+ "9UbzM5WbZkk": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-28",
+  "motivo": "bom, mas ficou fora do limite diário (arquitetura .NET já coberta hoje)",
+  "titulo": "Miniservices not Microservices in Azure"
+ },
  "9mNnoPdT0q0": {
   "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
   "data": "2026-11-27",
   "motivo": "produto muito de nicho",
   "titulo": "How We Tested Jev as an Agent Eval Judge with LangSmith + Deep Agents"
+ },
+ "B8pK94kYCTg": {
+  "canal_id": "UCY6N8zZhs2V7gNTUxPuKWoQ",
+  "data": "2026-11-28",
+  "motivo": "agente sem código para iniciantes, com venda de curso",
+  "titulo": "Build Your First AI Agent with Claude Code(No Coding)"
+ },
+ "BKVDdL1InsA": {
+  "canal_id": "UCJS9pqu9BzkAMNTmzNMNhvg",
+  "data": "2026-11-28",
+  "motivo": "descrição só com links; fora do limite diário",
+  "titulo": "How Google engineers build AI agents in production (complete roadmap)"
  },
  "BQk3T1Ljrk4": {
   "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
@@ -65,11 +101,41 @@
   "motivo": "descrição só traz patrocínios; conteúdo incerto",
   "titulo": "Harness vs. Modelo LLM"
  },
+ "CfzEkEhicbg": {
+  "canal_id": "UCIscmdXDtypp2zTzEEYxJwg",
+  "data": "2026-11-28",
+  "motivo": "vídeo em espanhol",
+  "titulo": "AI agents and sub-agents: Opus orchestrates and a cheap model programs"
+ },
+ "Dg2Z6IRbDVI": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-28",
+  "motivo": "anúncio de produto (LangSmith)",
+  "titulo": "LangSmith for Coding Agents: Track Spend by Outcome"
+ },
+ "EPopZq-vJjA": {
+  "canal_id": "UCR9j1jqqB5Rse69wjUnbYwA",
+  "data": "2026-11-28",
+  "motivo": "previsões sobre GTA 6, fora do foco",
+  "titulo": "8 AI Predictions for GTA 6 — Will Jason or Lucia Die?"
+ },
  "EnXFHNGtC_k": {
   "canal_id": "UCyHOBY6IDZF9zOKJPou2Rgg",
   "data": "2026-11-27",
   "motivo": "opinião genérica sobre IA",
   "titulo": "Verdades sobre AI que HOJE são mentiras"
+ },
+ "FaF__CALVzE": {
+  "canal_id": "UC0yHbz4OxdQFwmVX2BBQqLg",
+  "data": "2026-11-28",
+  "motivo": "curso genérico para iniciantes com patrocínio",
+  "titulo": "FULL Claude Code Course for Beginners in 2026! (Become a PRO!)"
+ },
+ "G-4VnMltDlc": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-28",
+  "motivo": "anúncio de novidades do LangSmith",
+  "titulo": "New in LangSmith: 4 Updates for Managing Agents in Production"
  },
  "GKSQYbELDzw": {
   "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
@@ -101,6 +167,12 @@
   "motivo": "notícia/hype",
   "titulo": "17 million lines of AI slop just cracked a 167-year-old math problem..."
  },
+ "Jz4QT0vH-MU": {
+  "canal_id": "UCOXRjenlq9PmlTqd_JhAbMQ",
+  "data": "2026-11-28",
+  "motivo": "título caça-clique e conteúdo pouco descrito",
+  "titulo": "Give Me 10 Minutes and I'll Make Claude Code 100x Smarter"
+ },
  "L9YOFAglB04": {
   "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
   "data": "2026-11-27",
@@ -112,6 +184,12 @@
   "data": "2026-11-27",
   "motivo": "cultura de empresa, pouco prático",
   "titulo": "How to build an agent that builds the culture — Zach Bruggeman, Ramp"
+ },
+ "M_tzUBAfRP0": {
+  "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
+  "data": "2026-11-28",
+  "motivo": "bom, mas ficou fora do limite diário (testes com IA já cobertos hoje)",
+  "titulo": "Building domain-specific AI agents for hardware reliability at NVIDIA"
  },
  "OJl-hgGrQg8": {
   "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
@@ -137,6 +215,12 @@
   "motivo": "notícia de framework sem IA",
   "titulo": "The only software that didn’t break this week..."
  },
+ "R5IQ2Y_u_Q4": {
+  "canal_id": "UCPMjxJ6ErGMNGww6-NlHCRw",
+  "data": "2026-11-28",
+  "motivo": "opinião genérica",
+  "titulo": "yes, I still think it's a trap"
+ },
  "SRhXgeNluIk": {
   "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
   "data": "2026-11-27",
@@ -161,6 +245,30 @@
   "motivo": "métricas de empresa, pouco prático",
   "titulo": "40x More Merged PRs With 2.7x the Engineers — Walden Yan, CPO, Cognition"
  },
+ "UUg5oij7ptw": {
+  "canal_id": "UCFeFVytEkT8kaqPCJZGFswg",
+  "data": "2026-11-28",
+  "motivo": "título caça-clique, descrição só com patrocínio",
+  "titulo": "How To Build Self-Improving AI Agents with Claude (Stanford's Method)"
+ },
+ "V4i2FQRTZJU": {
+  "canal_id": "UCCfqyGl3nq_V0bo64CjZh8g",
+  "data": "2026-11-28",
+  "motivo": "tema de fábrica de software já no catálogo; fora do limite diário",
+  "titulo": "He Built An AI Software Factory From Scratch, Here's What He Learned"
+ },
+ "VoSBZZicX1Q": {
+  "canal_id": "UCT-L4MSL9B9nOOk_WuhKlFQ",
+  "data": "2026-11-28",
+  "motivo": "edição de vídeo, fora do foco",
+  "titulo": "How to Edit VIDEOS with CLAUDE Code FASTER and with Fewer TOKENS"
+ },
+ "WH-CuZEQa_A": {
+  "canal_id": "UCf6AGqO98eGk11nfazociVQ",
+  "data": "2026-11-28",
+  "motivo": "dicas soltas com patrocínio; fora do limite diário",
+  "titulo": "15 Life-Changing Claude Tips For Developers (That Will Change How You Code)"
+ },
  "WYdILMLuFnE": {
   "canal_id": "UCyHOBY6IDZF9zOKJPou2Rgg",
   "data": "2026-11-27",
@@ -179,17 +287,83 @@
   "motivo": "gestão de empresa, pouco prático",
   "titulo": "How 21 People Built a $100M+ Agent Company — Quinn Slack, Amp"
  },
+ "YCvKoOE0X1w": {
+  "canal_id": "UCR9j1jqqB5Rse69wjUnbYwA",
+  "data": "2026-11-28",
+  "motivo": "previsão de eventos com IA, fora do foco",
+  "titulo": "Can AI Predict the Unpredictable? (the black swan event)"
+ },
+ "YWLC6RwwxWg": {
+  "canal_id": "UCClTa_jbo8yksWrtJJBejVw",
+  "data": "2026-11-28",
+  "motivo": "vídeo em vietnamita",
+  "titulo": "Hướng dẫn Claude Code dễ hiểu cho người mới"
+ },
+ "_5ZDkWP8K0c": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-28",
+  "motivo": "aula de série de produto (LangSmith), canal já no catálogo",
+  "titulo": "Automating the ADLC with Engine | Introduction to LangSmith (12/12)"
+ },
+ "_iTbNy5aOR0": {
+  "canal_id": "UCKWaEZ-_VweaEx1j62do_vQ",
+  "data": "2026-11-28",
+  "motivo": "canal já no catálogo; fora do limite diário",
+  "titulo": "AI Agent Architecture: Where Does Your Agent Actually Run?"
+ },
  "a90pZ1DSyls": {
   "canal_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
   "data": "2026-11-27",
   "motivo": "edição de vídeo, fora do foco",
   "titulo": "This Skill Turns Claude Code Into an Expert Video Editor (I'm Giving It Away)"
  },
+ "aLsIaslZ0Ik": {
+  "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
+  "data": "2026-11-28",
+  "motivo": "agentes proativos em tom conceitual; fora do limite diário",
+  "titulo": "Beyond the prompt: building an AI that takes initiative"
+ },
+ "achbbrgQnRA": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-28",
+  "motivo": "anúncio de produto (LangSmith Tool Gateway)",
+  "titulo": "LangSmith Tool Gateway: Secure, Governed Tool Use for Agents"
+ },
+ "bEaK4JIGuTc": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-28",
+  "motivo": "bom, mas ficou fora do limite diário (muitos vídeos do canal dotnet hoje)",
+  "titulo": "SE.Redis in .NET 11"
+ },
  "bFcob2p6u3A": {
   "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
   "data": "2026-11-27",
   "motivo": "palestra motivacional",
   "titulo": "Execution Is Free. How Ambitious Are You? — Jason Liu, OpenAI"
+ },
+ "bQCBfcZZj0Y": {
+  "canal_id": "UCaU3h5OqvHWhzWFthCGr3gg",
+  "data": "2026-11-28",
+  "motivo": "conteúdo pouco descrito; fora do limite diário",
+  "titulo": "Proofs Are the Biggest Upgrade to Claude Code Yet"
+ },
+ "bUhCBYi4dys": {
+  "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
+  "data": "2026-11-28",
+  "motivo": "bom, mas ficou fora do limite diário (DevOps já coberto hoje)",
+  "titulo": "What open source can teach us about agents in CI/CD"
+ },
+ "efBlbQahwng": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-28",
+  "motivo": "entrevista de caso de go-to-market, pouco aplicável",
+  "titulo": "Inside Clay’s GTM agent rebuild"
+ },
+ "eg5O6q9H84I": {
+  "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "data": "2026-11-28",
+  "motivo": "aula de série de produto (LangSmith), canal já no catálogo",
+  "titulo": "Closing the Loop | Introduction to LangSmith (11/12)"
  },
  "emId9_O2sU8": {
   "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
@@ -209,17 +383,53 @@
   "motivo": "patrocinado; segurança já coberta hoje",
   "titulo": "The Best Defense Against This Wave of AI Attacks: Hack Yourself First (Try This Now)"
  },
+ "fNx77UK1G80": {
+  "canal_id": "UCX_dT6nVtCIHRo_GFOsWK2A",
+  "data": "2026-11-28",
+  "motivo": "vídeo em espanhol",
+  "titulo": "Stop Creating AI Agents: This Is What Claude's Engineers Recommend"
+ },
  "fTHByDwTxGM": {
   "canal_id": "UCLKPca3kwwd-B59HNr-_lvA",
   "data": "2026-11-27",
   "motivo": "treino de modelo, longe da entrega",
   "titulo": "Post-Training Gemini 4 for Real Engineering Work — Melvin Johnson, Google DeepMind"
  },
+ "f_50TDQeuPk": {
+  "canal_id": "UCkJl0AYaYDEKl25Zulrr54Q",
+  "data": "2026-11-28",
+  "motivo": "geração de imagem e vídeo com IA",
+  "titulo": "🚀 Fish Creative MCP Tutorial: AI Image & Video in Cursor! 🎬"
+ },
+ "fth1QR6pNME": {
+  "canal_id": "UCFV3j-V6aESI35hwHYrno9Q",
+  "data": "2026-11-28",
+  "motivo": "título caça-clique, descrição só com patrocínio",
+  "titulo": "You're Still Using Claude Code the Old Way (Anthropic Changed the Rules)"
+ },
  "gEhhvQJKHfQ": {
   "canal_id": "UCyHOBY6IDZF9zOKJPou2Rgg",
   "data": "2026-11-27",
   "motivo": "comentário sobre outro youtuber",
   "titulo": "Theo entrou na era do churn. Hyrum's Law explica a conta"
+ },
+ "gNPH2axWjF8": {
+  "canal_id": "UCB6dvaWu0N8uVq2yKsZ5s5g",
+  "data": "2026-11-28",
+  "motivo": "opinião e mercado de trabalho",
+  "titulo": "I was wrong about AI. Here are my updated thoughts"
+ },
+ "hGiADFtU76E": {
+  "canal_id": "UC9vp81wJs8nMGU-H7ebbINQ",
+  "data": "2026-11-28",
+  "motivo": "venda de comunidade, conteúdo pouco descrito",
+  "titulo": "Claude Code: Create Your First AI Agent in Just 5 Steps"
+ },
+ "i1IbHVstmH4": {
+  "canal_id": "UCUyeluBRhGPCW4rPe_UvBZQ",
+  "data": "2026-11-28",
+  "motivo": "opinião/manifesto",
+  "titulo": "No AI Slop Manifesto"
  },
  "iVm3lsgxH64": {
   "canal_id": "UC55ODQSvARtgSyc8ThfiepQ",
@@ -239,17 +449,77 @@
   "motivo": "notícia de modelo",
   "titulo": "Opus just lost to the last company you'd expect..."
  },
+ "jVTyW6gosOE": {
+  "canal_id": "UCoy6cTJ7Tg0dqS-DI-_REsA",
+  "data": "2026-11-28",
+  "motivo": "notícia de MCP sem conteúdo descrito",
+  "titulo": "The BIGGEST MCP Upgrade In 2 Years Just Dropped"
+ },
+ "k5NgrQDCdKE": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-28",
+  "motivo": "visão geral ampla demais; fora do limite diário",
+  "titulo": "Developer Workflows in AI Age - Local or Cloud"
+ },
  "k87Iqft91j8": {
   "canal_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
   "data": "2026-11-27",
   "motivo": "segurança de agentes já coberta hoje",
   "titulo": "The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)"
  },
+ "kH7xpWZqjKU": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-28",
+  "motivo": "nicho demais (dispositivos dual-screen)",
+  "titulo": "Building Dual-Screen Experiences with Avalonia"
+ },
+ "klWiHxXC1rk": {
+  "canal_id": "UCjXAQ-cayM4mIZmUZKMFW_w",
+  "data": "2026-11-28",
+  "motivo": "título caça-clique, opinião",
+  "titulo": "CODING IS POINTLESS NOW! AI Does EVERYTHING"
+ },
+ "l0wvwafjN2k": {
+  "canal_id": "UCDeOorqWlJyYikc6SlbFiyg",
+  "data": "2026-11-28",
+  "motivo": "vídeo em espanhol",
+  "titulo": "Estoy harto de programar con IA"
+ },
+ "ln1KbRyJdt8": {
+  "canal_id": "UC4JX40jDee_tINbkjycV4Sg",
+  "data": "2026-11-28",
+  "motivo": "título caça-clique",
+  "titulo": "Anthropic Just Shipped Claude 2.0 (Master it in 15 minutes)"
+ },
  "mbaFDIuEAXA": {
   "canal_id": "UCC_dVe-RI-vgCZfls06mDZQ",
   "data": "2026-11-27",
   "motivo": "continuação; o vídeo principal do tema entrou hoje",
   "titulo": "Union Types Broke My Build (And That's the Point)"
+ },
+ "nT_oMAIZ3P4": {
+  "canal_id": "UCgscS8mBsQZ5sFRkJIFWD7Q",
+  "data": "2026-11-28",
+  "motivo": "título caça-clique, isca de PDF",
+  "titulo": "Anthropic Just Revealed the NEW Rules of Claude Code (Master it in 11mins)"
+ },
+ "nbW5g-3XHrY": {
+  "canal_id": "UCIQne9yW4TvCCNYQLszfXCQ",
+  "data": "2026-11-28",
+  "motivo": "conceitual, opinião sobre vibe coding",
+  "titulo": "VIBE CODING vs. AGENTIC CODING: The end of simple code generation!"
+ },
+ "nraROC2wl8s": {
+  "canal_id": "UCkVfrGwV-iG9bSsgCbrNPxQ",
+  "data": "2026-11-28",
+  "motivo": "mesmo tema (Code Mode) já escolhido em português",
+  "titulo": "I Tested Claude Code's New Code Mode 6 Times"
+ },
+ "okZ_ybEqXPY": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-28",
+  "motivo": "bom, mas ficou fora do limite diário (IaC já coberto hoje)",
+  "titulo": "IaC Forged in Code: Building Resilient Infrastructure with Modules"
  },
  "oxC876G42f8": {
   "canal_id": "UCrkPsvLGln62OMZRO6K-llg",
@@ -262,6 +532,18 @@
   "data": "2026-11-27",
   "motivo": "história de produto, pouco prático",
   "titulo": "What it takes to set intelligence free — Fabian Hedin, CTO, Lovable"
+ },
+ "q-dvPBfZuGs": {
+  "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
+  "data": "2026-11-28",
+  "motivo": "gestão de comunidade open source, sem IA nem arquitetura",
+  "titulo": "Code is the easy part: building Home Assistant in the open"
+ },
+ "q3R0Jpv42ag": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-28",
+  "motivo": "vitrine de produto comercial (Telerik)",
+  "titulo": "AI Journey with Telerik UI for Blazor: From Developer Productivity to Intelligent User Experiences"
  },
  "qquIt--ANqI": {
   "canal_id": "UCC-lyoTfSrcJzA1ab3APAgw",
@@ -281,6 +563,18 @@
   "motivo": "vídeo institucional",
   "titulo": "The making of Anthropic"
  },
+ "uUJztTsg-SY": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-28",
+  "motivo": "bom, mas ficou fora do limite diário (muitos vídeos do canal dotnet hoje)",
+  "titulo": "Lessons from Blazor WASM in Production"
+ },
+ "vfSIqdvmMEc": {
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "data": "2026-11-28",
+  "motivo": "experimentos curiosos, pouco aplicáveis no dia a dia",
+  "titulo": "Why not both? Bringing Modern Web Development to .NET"
+ },
  "wfc5iETZFnQ": {
   "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
   "data": "2026-11-27",
@@ -298,5 +592,11 @@
   "data": "2026-11-27",
   "motivo": "reflexão, pouco prático",
   "titulo": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent"
+ },
+ "y8QtW6Qd1J8": {
+  "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
+  "data": "2026-11-28",
+  "motivo": "caso institucional de empresa",
+  "titulo": "How Marks & Spencer uses GitHub Copilot to scale retail engineering"
  }
 }

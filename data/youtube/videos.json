@@ -84,6 +84,69 @@
   "url": "https://youtu.be/1G38wJ0KWSY",
   "views": 5864
  },
+ "85Avki4ihNE": {
+  "area": "Design e UI/UX",
+  "canal": "Create With AI",
+  "canal_id": "UCC6nGrp8G1v_BQNwcvyXArQ",
+  "duracao_s": 633,
+  "entrada": "2026-11-28",
+  "fontes": [
+   "busca \"claude code skills\""
+  ],
+  "id": "85Avki4ihNE",
+  "idioma": "en",
+  "nivel": "iniciante",
+  "por_que_assistir": "Mostra lado a lado o quanto skills de design mudam a interface gerada pelo agente.",
+  "publicado": null,
+  "repo": "Leonxlnx/taste-skill",
+  "resumo": "O autor dá ao Claude Code o mesmo briefing de site duas vezes, primeiro sem skills e depois com três skills de web design, entre elas a Taste Skill, e compara os resultados.",
+  "titulo": "This Claude Skill Changed Web Design Forever! (i wish someone showed me this before)",
+  "titulo_pt": "Claude Code com e sem skills de web design",
+  "url": "https://youtu.be/85Avki4ihNE",
+  "views": 58365
+ },
+ "8Ofrox5ycgQ": {
+  "area": "Engenharia e produtividade",
+  "canal": "Matheus Battisti - Hora de Codar",
+  "canal_id": "UCDoFiMhpOnLFq1uG4RL4xag",
+  "duracao_s": 1454,
+  "entrada": "2026-11-28",
+  "fontes": [
+   "busca \"claude code português\""
+  ],
+  "id": "8Ofrox5ycgQ",
+  "idioma": "pt",
+  "nivel": "intermediário",
+  "por_que_assistir": "Explicação em português de um recurso que corta o custo de tokens em tarefas com muitas ferramentas.",
+  "publicado": null,
+  "repo": "",
+  "resumo": "Matheus Battisti explica o Code Mode, modo do Claude Code em que o agente escreve um pequeno código para acionar as ferramentas em vez de chamá-las uma a uma, reduzindo o consumo de tokens.",
+  "titulo": "Claude Code got a HIDDEN mode that cuts tokens in half (Code Mode)",
+  "titulo_pt": "Code Mode do Claude Code: menos tokens por tarefa",
+  "url": "https://youtu.be/8Ofrox5ycgQ",
+  "views": 16546
+ },
+ "8vxdOlv-n9g": {
+  "area": "Banco de dados e dados",
+  "canal": "dotnet",
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "duracao_s": null,
+  "entrada": "2026-11-28",
+  "fontes": [
+   "canal @dotnet"
+  ],
+  "id": "8vxdOlv-n9g",
+  "idioma": "en",
+  "nivel": "intermediário",
+  "por_que_assistir": "Mostra busca vetorial para RAG direto pelo EF Core, sem sair do .NET.",
+  "publicado": "2026-11-20",
+  "repo": "",
+  "resumo": "Demonstra o suporte do EF Core 11 a VECTOR_SEARCH() e a índices vetoriais no Oracle AI Database 26ai, o conector Vector Store integrado ao Microsoft Agent Framework e o acesso de menor privilégio para agentes.",
+  "titulo": "Building Oracle AI Apps with .NET and EF Core 11",
+  "titulo_pt": "Apps de IA com Oracle, .NET e EF Core 11",
+  "url": "https://youtu.be/8vxdOlv-n9g",
+  "views": 1760
+ },
  "AekKS44xBhI": {
   "area": "Arquitetura de software",
   "canal": "LangChain",
@@ -104,6 +167,27 @@
   "titulo_pt": "O que são subagentes? Explicado em 4 minutos",
   "url": "https://youtu.be/AekKS44xBhI",
   "views": 6207
+ },
+ "BDdy1MamCfE": {
+  "area": "Engenharia e produtividade",
+  "canal": "Wanderloots",
+  "canal_id": "UCFiU1vIpPD3lQltke_18m3A",
+  "duracao_s": 1812,
+  "entrada": "2026-11-28",
+  "fontes": [
+   "busca \"ai coding agent\""
+  ],
+  "id": "BDdy1MamCfE",
+  "idioma": "en",
+  "nivel": "intermediário",
+  "por_que_assistir": "Ideias para montar um fluxo com agentes que sobrevive à troca constante de ferramentas.",
+  "publicado": null,
+  "repo": "NousResearch/hermes-agent",
+  "resumo": "Wanderloots mostra como deu capacidade de programar ao agente Hermes para montar um sistema próprio sem recomeçar do zero cada vez que surge um novo 'melhor' agente de código.",
+  "titulo": "The Last Coding Agent You’ll Need? 🧠 How I Give Hermes Coding Powers",
+  "titulo_pt": "Dando poderes de programação ao agente Hermes",
+  "url": "https://youtu.be/BDdy1MamCfE",
+  "views": 77608
  },
  "JNexz3Tbiu8": {
   "area": "Engenharia e produtividade",
@@ -127,6 +211,70 @@
   "url": "https://youtu.be/JNexz3Tbiu8",
   "views": 268093
  },
+ "JSC8eVojIWY": {
+  "area": "Testes e QA",
+  "canal": "GitHub",
+  "canal_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
+  "duracao_s": null,
+  "entrada": "2026-11-28",
+  "fontes": [
+   "canal @GitHub"
+  ],
+  "id": "JSC8eVojIWY",
+  "idioma": "en",
+  "nivel": "avançado",
+  "por_que_assistir": "Modelo concreto de avaliação contínua para pegar regressões de um agente antes dos usuários.",
+  "publicado": "2026-11-18",
+  "repo": "",
+  "resumo": "Julia Kasper (Microsoft) mostra o harness de avaliação que o time do Copilot usa para testar o agente de código numa matriz de clientes, modelos e configurações, com benchmarks reproduzíveis, milhares de execuções autônomas e asserções avaliadas por LLM.",
+  "titulo": "How we optimize GitHub Copilot for every new model",
+  "titulo_pt": "Como o time do GitHub Copilot otimiza o agente para cada novo modelo",
+  "url": "https://youtu.be/JSC8eVojIWY",
+  "views": 5875
+ },
+ "QCR7WXzQRN0": {
+  "area": "Testes e QA",
+  "canal": "Java Techie",
+  "canal_id": "UCORuRdpN2QTCKnsuEaeK-kQ",
+  "duracao_s": 855,
+  "entrada": "2026-11-28",
+  "fontes": [
+   "busca \"mcp server tutorial\"",
+   "busca \"ai test automation playwright\""
+  ],
+  "id": "QCR7WXzQRN0",
+  "idioma": "en",
+  "nivel": "iniciante",
+  "por_que_assistir": "Introdução prática para dar ao agente de IA controle do navegador em testes E2E.",
+  "publicado": null,
+  "repo": "microsoft/playwright-mcp",
+  "resumo": "Java Techie apresenta o servidor Playwright MCP e mostra como usá-lo para automatizar interações no navegador e fazer testes ponta a ponta de aplicações web.",
+  "titulo": "🚀 Playwright MCP Explained | Automate Your Browser Using AI",
+  "titulo_pt": "Playwright MCP explicado: automatize o navegador com IA",
+  "url": "https://youtu.be/QCR7WXzQRN0",
+  "views": 12193
+ },
+ "Sj6tz0lZNm8": {
+  "area": "Arquitetura de software",
+  "canal": "dotnet",
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "duracao_s": null,
+  "entrada": "2026-11-28",
+  "fontes": [
+   "canal @dotnet"
+  ],
+  "id": "Sj6tz0lZNm8",
+  "idioma": "en",
+  "nivel": "avançado",
+  "por_que_assistir": "Alternativa concreta ao dilema monólito versus microsserviços no ecossistema .NET.",
+  "publicado": "2026-11-20",
+  "repo": "",
+  "resumo": "Com base em backends de jogos e outros serviços, a palestra mostra como o Orleans separa a estrutura da aplicação da topologia de implantação, permitindo evoluir de um único processo para vários clusters e regiões sem mudar o modelo de programação.",
+  "titulo": "Rethinking Microservices with Orleans",
+  "titulo_pt": "Repensando microsserviços com Orleans",
+  "url": "https://youtu.be/Sj6tz0lZNm8",
+  "views": 3281
+ },
  "TvsF67C2F54": {
   "area": "Engenharia e produtividade",
   "canal": "AI Engineer",
@@ -148,6 +296,27 @@
   "url": "https://youtu.be/TvsF67C2F54",
   "views": 48577
  },
+ "VsPfCtHwNQQ": {
+  "area": "Engenharia e produtividade",
+  "canal": "DevOps Toolbox",
+  "canal_id": "UCYeiozh-4QwuC1sjgCmB92w",
+  "duracao_s": 823,
+  "entrada": "2026-11-28",
+  "fontes": [
+   "busca \"ai code review\""
+  ],
+  "id": "VsPfCtHwNQQ",
+  "idioma": "en",
+  "nivel": "intermediário",
+  "por_que_assistir": "Avaliação na prática de uma alternativa open source para revisão automática de pull requests.",
+  "publicado": null,
+  "repo": "alibaba/open-code-review",
+  "resumo": "DevOps Toolbox coloca o Open Code Review à prova para ver se ele encontra bugs de verdade, melhora a revisão de PRs e substitui ferramentas pagas de revisão com IA.",
+  "titulo": "This Open Source Code Reviewer Is on Another Level",
+  "titulo_pt": "Testando o Open Code Review, revisor de código open source",
+  "url": "https://youtu.be/VsPfCtHwNQQ",
+  "views": 45670
+ },
  "Wg9l-ObI90w": {
   "area": "DevOps e infraestrutura",
   "canal": "Milan Jovanović",
@@ -168,6 +337,27 @@
   "titulo_pt": "Pare de rodar o Claude Code no seu notebook",
   "url": "https://youtu.be/Wg9l-ObI90w",
   "views": 16754
+ },
+ "gOtjSXdWxAI": {
+  "area": "DevOps e infraestrutura",
+  "canal": "dotnet",
+  "canal_id": "UCvtT19MZW8dq5Wwfu6B0oxw",
+  "duracao_s": null,
+  "entrada": "2026-11-28",
+  "fontes": [
+   "canal @dotnet"
+  ],
+  "id": "gOtjSXdWxAI",
+  "idioma": "en",
+  "nivel": "intermediário",
+  "por_que_assistir": "IaC tipada para quem já é de .NET, útil também para validar a infraestrutura que agentes de IA escrevem.",
+  "publicado": "2026-11-20",
+  "repo": "pulumi/pulumi",
+  "resumo": "A sessão usa o SDK .NET open source do Pulumi para criar e implantar infraestrutura real no Azure em C# puro, com recursos do C# 15 e do .NET 11 para o compilador pegar erros de infraestrutura antes de chegarem à nuvem.",
+  "titulo": "Infrastructure as (Actual) Code with C# 15 and .NET 11.",
+  "titulo_pt": "Infraestrutura como código de verdade com C# 15 e .NET 11",
+  "url": "https://youtu.be/gOtjSXdWxAI",
+  "views": 5061
  },
  "h4tHDFCPmQE": {
   "area": "Engenharia e produtividade",
@@ -193,6 +383,30 @@
   "titulo_pt": "Vibe coding ou agentic coding: qual usar?",
   "url": "https://youtu.be/h4tHDFCPmQE",
   "views": 543065
+ },
+ "mU8WKII1gpk": {
+  "area": "Engenharia e produtividade",
+  "canal": "NetworkChuck and Matt Pocock",
+  "canal_id": "",
+  "duracao_s": 7356,
+  "entrada": "2026-11-28",
+  "fontes": [
+   "busca \"agentic coding workflow\"",
+   "busca \"ai coding agent\"",
+   "busca \"cursor ai workflow\"",
+   "busca \"ai code review\""
+  ],
+  "id": "mU8WKII1gpk",
+  "idioma": "en",
+  "nivel": "intermediário",
+  "por_que_assistir": "Matt Pocock, educador de TypeScript e autor de skills populares para agentes de código, é uma boa referência de fluxo de trabalho com IA.",
+  "publicado": null,
+  "repo": "",
+  "resumo": "Em pouco mais de duas horas, NetworkChuck e Matt Pocock tratam de como programar com IA na prática.",
+  "titulo": "How to Actually Code with AI (ft. Matt Pocock)",
+  "titulo_pt": "Como programar com IA na prática, com Matt Pocock",
+  "url": "https://youtu.be/mU8WKII1gpk",
+  "views": 666459
  },
  "n_jqdTLrMFA": {
   "area": "Backend e APIs",

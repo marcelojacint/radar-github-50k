@@ -1,6 +1,46 @@
 # 🎬 Engenharia e produtividade
 
-4 vídeo(s) · atualizado em 27/11/2026 · [todas as áreas](../README.md) · [repositórios desta área no radar](../../areas/engenharia-e-produtividade.md)
+8 vídeo(s) · atualizado em 28/11/2026 · [todas as áreas](../README.md) · [repositórios desta área no radar](../../areas/engenharia-e-produtividade.md)
+
+### [Code Mode do Claude Code: menos tokens por tarefa](https://youtu.be/8Ofrox5ycgQ)
+**Matheus Battisti - Hora de Codar** · 24 min · 🇧🇷 português · intermediário · 17 mil views
+
+Matheus Battisti explica o Code Mode, modo do Claude Code em que o agente escreve um pequeno código para acionar as ferramentas em vez de chamá-las uma a uma, reduzindo o consumo de tokens.
+
+**Por que assistir:** Explicação em português de um recurso que corta o custo de tokens em tarefas com muitas ferramentas.
+
+---
+
+### [Dando poderes de programação ao agente Hermes](https://youtu.be/BDdy1MamCfE)
+**Wanderloots** · 30 min · 🇺🇸 inglês · intermediário · 78 mil views
+
+Wanderloots mostra como deu capacidade de programar ao agente Hermes para montar um sistema próprio sem recomeçar do zero cada vez que surge um novo 'melhor' agente de código.
+
+**Por que assistir:** Ideias para montar um fluxo com agentes que sobrevive à troca constante de ferramentas.
+
+Repositório relacionado: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+
+---
+
+### [Testando o Open Code Review, revisor de código open source](https://youtu.be/VsPfCtHwNQQ)
+**DevOps Toolbox** · 14 min · 🇺🇸 inglês · intermediário · 46 mil views
+
+DevOps Toolbox coloca o Open Code Review à prova para ver se ele encontra bugs de verdade, melhora a revisão de PRs e substitui ferramentas pagas de revisão com IA.
+
+**Por que assistir:** Avaliação na prática de uma alternativa open source para revisão automática de pull requests.
+
+Repositório relacionado: [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
+
+---
+
+### [Como programar com IA na prática, com Matt Pocock](https://youtu.be/mU8WKII1gpk)
+**NetworkChuck and Matt Pocock** · 2h03 · 🇺🇸 inglês · intermediário · 666 mil views
+
+Em pouco mais de duas horas, NetworkChuck e Matt Pocock tratam de como programar com IA na prática.
+
+**Por que assistir:** Matt Pocock, educador de TypeScript e autor de skills populares para agentes de código, é uma boa referência de fluxo de trabalho com IA.
+
+---
 
 ### [Vibe coding ou agentic coding: qual usar?](https://youtu.be/h4tHDFCPmQE)
 **IBM Technology** · 9 min · 🇺🇸 inglês · iniciante · 543 mil views

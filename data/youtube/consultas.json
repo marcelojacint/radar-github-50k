@@ -1,8 +1,16 @@
 {
  "repos": {
+  "Graphify-Labs/graphify": {
+   "busca": "graphify claude code",
+   "desde": "2026-11-28"
+  },
   "NousResearch/hermes-agent": {
    "busca": "hermes agent nous research",
    "desde": "2026-11-27"
+  },
+  "Significant-Gravitas/AutoGPT": {
+   "busca": "autogpt platform tutorial",
+   "desde": "2026-11-28"
   },
   "affaan-m/ECC": {
    "busca": "everything claude code",
@@ -12,6 +20,10 @@
    "busca": "opencode ai",
    "desde": "2026-11-27"
   },
+  "anthropics/claude-code": {
+   "busca": "claude code tutorial",
+   "desde": "2026-11-28"
+  },
   "anthropics/skills": {
    "busca": "anthropic agent skills",
    "desde": "2026-11-27"
@@ -20,9 +32,29 @@
    "busca": "deepseek harness",
    "desde": "2026-11-27"
   },
+  "farion1231/cc-switch": {
+   "busca": "cc switch claude code",
+   "desde": "2026-11-28"
+  },
   "firecrawl/firecrawl": {
    "busca": "firecrawl",
    "desde": "2026-11-27"
+  },
+  "github/spec-kit": {
+   "busca": "github spec kit",
+   "desde": "2026-11-28"
+  },
+  "langchain-ai/langchain": {
+   "busca": "langchain agents tutorial",
+   "desde": "2026-11-28"
+  },
+  "langflow-ai/langflow": {
+   "busca": "langflow tutorial",
+   "desde": "2026-11-28"
+  },
+  "langgenius/dify": {
+   "busca": "dify ai tutorial",
+   "desde": "2026-11-28"
   },
   "mattpocock/skills": {
    "busca": "matt pocock skills",
@@ -36,6 +68,10 @@
    "busca": "ai agent reverse engineering",
    "desde": "2026-11-27"
   },
+  "msitarzewski/agency-agents": {
+   "busca": "agency agents claude code",
+   "desde": "2026-11-28"
+  },
   "multica-ai/andrej-karpathy-skills": {
    "busca": "karpathy claude.md",
    "desde": "2026-11-27"
@@ -44,9 +80,21 @@
    "busca": "n8n ai agent",
    "desde": "2026-11-27"
   },
+  "nextlevelbuilder/ui-ux-pro-max-skill": {
+   "busca": "ui ux pro max skill",
+   "desde": "2026-11-28"
+  },
   "obra/superpowers": {
    "busca": "superpowers claude code",
    "desde": "2026-11-27"
+  },
+  "ollama/ollama": {
+   "busca": "ollama local llm",
+   "desde": "2026-11-28"
+  },
+  "open-webui/open-webui": {
+   "busca": "open webui tutorial",
+   "desde": "2026-11-28"
   },
   "openclaw/openclaw": {
    "busca": "openclaw",
@@ -55,6 +103,9 @@
  },
  "sem_busca": [
   "tensorflow/tensorflow",
-  "DietrichGebert/ponytail"
+  "DietrichGebert/ponytail",
+  "f/prompts.chat",
+  "huggingface/transformers",
+  "Comfy-Org/ComfyUI"
  ]
 }

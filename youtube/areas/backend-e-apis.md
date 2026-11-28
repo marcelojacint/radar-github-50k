@@ -1,6 +1,6 @@
 # 🎬 Backend e APIs
 
-1 vídeo(s) · atualizado em 27/11/2026 · [todas as áreas](../README.md) · [repositórios desta área no radar](../../areas/backend-e-apis.md)
+1 vídeo(s) · atualizado em 28/11/2026 · [todas as áreas](../README.md) · [repositórios desta área no radar](../../areas/backend-e-apis.md)
 
 ### [Troquei minha classe Result por uma linha de C# 15](https://youtu.be/n_jqdTLrMFA)
 **Milan Jovanović** · 20/11/2026 · 🇺🇸 inglês · intermediário · 56 mil views

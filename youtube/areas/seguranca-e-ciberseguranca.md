@@ -1,6 +1,6 @@
 # 🎬 Segurança e cibersegurança
 
-1 vídeo(s) · atualizado em 27/11/2026 · [todas as áreas](../README.md) · [repositórios desta área no radar](../../areas/seguranca-e-ciberseguranca.md)
+1 vídeo(s) · atualizado em 28/11/2026 · [todas as áreas](../README.md) · [repositórios desta área no radar](../../areas/seguranca-e-ciberseguranca.md)
 
 ### [Hackers estão mirando seu agente de código: como proteger](https://youtu.be/0q0UbO4oqgQ)
 **Cole Medin** · 23/11/2026 · 🇺🇸 inglês · iniciante · 21 mil views

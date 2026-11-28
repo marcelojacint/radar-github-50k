@@ -2,23 +2,133 @@
 
 Vídeos do YouTube escolhidos e explicados em português todos os dias, com o mesmo foco do [radar de repositórios](../CATALOGO.md): agentes de código, skills, MCP, RAG e IA aplicada a arquitetura, backend, frontend, banco de dados, segurança, testes e DevOps.
 
-**10 vídeos** no catálogo · atualizado em 27/11/2026 · 21 canais seguidos
+**20 vídeos** no catálogo · atualizado em 28/11/2026 · 21 canais seguidos
 
 Este catálogo também serve de pesquisa para os roteiros da [série de vídeos](../videos/README.md).
 
 ## Por área
 
-- [Arquitetura de software](areas/arquitetura-de-software.md) — 2 vídeo(s)
-- [Engenharia e produtividade](areas/engenharia-e-produtividade.md) — 4 vídeo(s)
-- [Design e UI/UX](areas/design-e-ui-ux.md) — 0 vídeo(s)
+- [Arquitetura de software](areas/arquitetura-de-software.md) — 3 vídeo(s)
+- [Engenharia e produtividade](areas/engenharia-e-produtividade.md) — 8 vídeo(s)
+- [Design e UI/UX](areas/design-e-ui-ux.md) — 1 vídeo(s)
 - [Frontend](areas/frontend.md) — 0 vídeo(s)
 - [Backend e APIs](areas/backend-e-apis.md) — 1 vídeo(s)
-- [Banco de dados e dados](areas/banco-de-dados-e-dados.md) — 0 vídeo(s)
+- [Banco de dados e dados](areas/banco-de-dados-e-dados.md) — 1 vídeo(s)
 - [Segurança e cibersegurança](areas/seguranca-e-ciberseguranca.md) — 1 vídeo(s)
-- [Testes e QA](areas/testes-e-qa.md) — 0 vídeo(s)
-- [DevOps e infraestrutura](areas/devops-e-infraestrutura.md) — 2 vídeo(s)
+- [Testes e QA](areas/testes-e-qa.md) — 2 vídeo(s)
+- [DevOps e infraestrutura](areas/devops-e-infraestrutura.md) — 3 vídeo(s)
 
 ## Últimos que entraram
+
+### [Claude Code com e sem skills de web design](https://youtu.be/85Avki4ihNE)
+**Create With AI** · 11 min · 🇺🇸 inglês · iniciante · 58 mil views
+
+O autor dá ao Claude Code o mesmo briefing de site duas vezes, primeiro sem skills e depois com três skills de web design, entre elas a Taste Skill, e compara os resultados.
+
+**Por que assistir:** Mostra lado a lado o quanto skills de design mudam a interface gerada pelo agente.
+
+Repositório relacionado: [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · Área: [Design e UI/UX](areas/design-e-ui-ux.md)
+
+---
+
+### [Code Mode do Claude Code: menos tokens por tarefa](https://youtu.be/8Ofrox5ycgQ)
+**Matheus Battisti - Hora de Codar** · 24 min · 🇧🇷 português · intermediário · 17 mil views
+
+Matheus Battisti explica o Code Mode, modo do Claude Code em que o agente escreve um pequeno código para acionar as ferramentas em vez de chamá-las uma a uma, reduzindo o consumo de tokens.
+
+**Por que assistir:** Explicação em português de um recurso que corta o custo de tokens em tarefas com muitas ferramentas.
+
+Área: [Engenharia e produtividade](areas/engenharia-e-produtividade.md)
+
+---
+
+### [Dando poderes de programação ao agente Hermes](https://youtu.be/BDdy1MamCfE)
+**Wanderloots** · 30 min · 🇺🇸 inglês · intermediário · 78 mil views
+
+Wanderloots mostra como deu capacidade de programar ao agente Hermes para montar um sistema próprio sem recomeçar do zero cada vez que surge um novo 'melhor' agente de código.
+
+**Por que assistir:** Ideias para montar um fluxo com agentes que sobrevive à troca constante de ferramentas.
+
+Repositório relacionado: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) · Área: [Engenharia e produtividade](areas/engenharia-e-produtividade.md)
+
+---
+
+### [Playwright MCP explicado: automatize o navegador com IA](https://youtu.be/QCR7WXzQRN0)
+**Java Techie** · 14 min · 🇺🇸 inglês · iniciante · 12 mil views
+
+Java Techie apresenta o servidor Playwright MCP e mostra como usá-lo para automatizar interações no navegador e fazer testes ponta a ponta de aplicações web.
+
+**Por que assistir:** Introdução prática para dar ao agente de IA controle do navegador em testes E2E.
+
+Repositório relacionado: [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) · Área: [Testes e QA](areas/testes-e-qa.md)
+
+---
+
+### [Testando o Open Code Review, revisor de código open source](https://youtu.be/VsPfCtHwNQQ)
+**DevOps Toolbox** · 14 min · 🇺🇸 inglês · intermediário · 46 mil views
+
+DevOps Toolbox coloca o Open Code Review à prova para ver se ele encontra bugs de verdade, melhora a revisão de PRs e substitui ferramentas pagas de revisão com IA.
+
+**Por que assistir:** Avaliação na prática de uma alternativa open source para revisão automática de pull requests.
+
+Repositório relacionado: [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · Área: [Engenharia e produtividade](areas/engenharia-e-produtividade.md)
+
+---
+
+### [Como programar com IA na prática, com Matt Pocock](https://youtu.be/mU8WKII1gpk)
+**NetworkChuck and Matt Pocock** · 2h03 · 🇺🇸 inglês · intermediário · 666 mil views
+
+Em pouco mais de duas horas, NetworkChuck e Matt Pocock tratam de como programar com IA na prática.
+
+**Por que assistir:** Matt Pocock, educador de TypeScript e autor de skills populares para agentes de código, é uma boa referência de fluxo de trabalho com IA.
+
+Área: [Engenharia e produtividade](areas/engenharia-e-produtividade.md)
+
+---
+
+### [Apps de IA com Oracle, .NET e EF Core 11](https://youtu.be/8vxdOlv-n9g)
+**dotnet** · 20/11/2026 · 🇺🇸 inglês · intermediário · 2 mil views
+
+Demonstra o suporte do EF Core 11 a VECTOR_SEARCH() e a índices vetoriais no Oracle AI Database 26ai, o conector Vector Store integrado ao Microsoft Agent Framework e o acesso de menor privilégio para agentes.
+
+**Por que assistir:** Mostra busca vetorial para RAG direto pelo EF Core, sem sair do .NET.
+
+Área: [Banco de dados e dados](areas/banco-de-dados-e-dados.md)
+
+---
+
+### [Repensando microsserviços com Orleans](https://youtu.be/Sj6tz0lZNm8)
+**dotnet** · 20/11/2026 · 🇺🇸 inglês · avançado · 3 mil views
+
+Com base em backends de jogos e outros serviços, a palestra mostra como o Orleans separa a estrutura da aplicação da topologia de implantação, permitindo evoluir de um único processo para vários clusters e regiões sem mudar o modelo de programação.
+
+**Por que assistir:** Alternativa concreta ao dilema monólito versus microsserviços no ecossistema .NET.
+
+Área: [Arquitetura de software](areas/arquitetura-de-software.md)
+
+---
+
+### [Infraestrutura como código de verdade com C# 15 e .NET 11](https://youtu.be/gOtjSXdWxAI)
+**dotnet** · 20/11/2026 · 🇺🇸 inglês · intermediário · 5 mil views
+
+A sessão usa o SDK .NET open source do Pulumi para criar e implantar infraestrutura real no Azure em C# puro, com recursos do C# 15 e do .NET 11 para o compilador pegar erros de infraestrutura antes de chegarem à nuvem.
+
+**Por que assistir:** IaC tipada para quem já é de .NET, útil também para validar a infraestrutura que agentes de IA escrevem.
+
+Repositório relacionado: [pulumi/pulumi](https://github.com/pulumi/pulumi) · Área: [DevOps e infraestrutura](areas/devops-e-infraestrutura.md)
+
+---
+
+### [Como o time do GitHub Copilot otimiza o agente para cada novo modelo](https://youtu.be/JSC8eVojIWY)
+**GitHub** · 18/11/2026 · 🇺🇸 inglês · avançado · 6 mil views
+
+Julia Kasper (Microsoft) mostra o harness de avaliação que o time do Copilot usa para testar o agente de código numa matriz de clientes, modelos e configurações, com benchmarks reproduzíveis, milhares de execuções autônomas e asserções avaliadas por LLM.
+
+**Por que assistir:** Modelo concreto de avaliação contínua para pegar regressões de um agente antes dos usuários.
+
+Área: [Testes e QA](areas/testes-e-qa.md)
+
+---
 
 ### [Vibe coding ou agentic coding: qual usar?](https://youtu.be/h4tHDFCPmQE)
 **IBM Technology** · 9 min · 🇺🇸 inglês · iniciante · 543 mil views
