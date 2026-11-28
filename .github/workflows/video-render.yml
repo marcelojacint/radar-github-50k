@@ -7,6 +7,11 @@ name: Vídeos — renderizar
 # o agendamento abaixo só pega o que tiver ficado para trás.
 on:
   workflow_dispatch:
+    inputs:
+      publicar_agora:
+        description: "Publicar no YouTube assim que renderizar (sem esperar o horário do config)"
+        type: boolean
+        default: false
   schedule:
     - cron: "37 12 * * *"   # 09:37 em Brasília
 
@@ -50,6 +55,7 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          PUBLICAR_AGORA: ${{ inputs.publicar_agora && 'true' || '' }}
         run: python scripts/video.py postar
 
       - name: Salvar status

@@ -4,15 +4,17 @@ Série do canal [IA para Pessoas](https://www.youtube.com/@iaparapessoas): um v�
 
 ## Como funciona (um vídeo por dia, sem custo)
 
-1. **08:41, todos os dias — roteiro (tarefa agendada do Claude):** pega o próximo repositório da fila, lê o README oficial, os dados do radar e vídeos do YouTube sobre o projeto (só como pesquisa), escreve o roteiro em `roteiros/NNN-nome.json` e dispara a renderização.
-2. **~08:50 — vídeo (GitHub Actions, `video-render.yml`):** gera a narração com voz sintética grátis (edge-tts), desenha as telas, monta o vídeo 1920×1080 com legenda na tela e a capa.
-3. **Postagem:** cada episódio vira um release `video-NNN` (vídeo, capa, legendas, descrição), uma issue **🎬 Vídeo #N pronto** e, com a postagem automática configurada, sobe sozinho para o YouTube agendado para as 18:00 do mesmo dia.
+1. **04:17, todos os dias — roteiro (tarefa agendada do Claude):** pega o próximo repositório da fila, lê o README oficial, os dados do radar e vídeos do YouTube sobre o projeto (só como pesquisa), escreve o roteiro em `roteiros/NNN-nome.json` e dispara a renderização.
+2. **~04:40 — vídeo (GitHub Actions, `video-render.yml`):** gera a narração com voz sintética grátis (edge-tts), desenha as telas, monta o vídeo 1920×1080 com legenda na tela e a capa.
+3. **Postagem:** cada episódio vira um release `video-NNN` (vídeo, capa, legendas, descrição), uma issue **🎬 Vídeo #N pronto** e, com a postagem automática configurada, sobe sozinho para o YouTube agendado para as 06:00 do mesmo dia.
+
+Para um episódio ir ao ar na hora, sem esperar as 06:00: `python3 scripts/video.py disparar --agora`, ou rode o workflow **Vídeos — renderizar** em Actions marcando *Publicar no YouTube assim que renderizar*.
 
 `produzidos.json` guarda o que já saiu: episódio, status (`roteiro` → `pronto`), release e issue.
 
 ## Postagem automática
 
-Depois de renderizar, o workflow envia o vídeo pela API oficial do YouTube **agendado para o horário de `postagem.horario`** (18:00) nos dias de `postagem.dias` (todos os dias): até lá ele fica privado, e você pode segurar pelo Studio se não gostar. A issue do episódio recebe o link e fecha sozinha.
+Depois de renderizar, o workflow envia o vídeo pela API oficial do YouTube **agendado para o horário de `postagem.horario`** (06:00) nos dias de `postagem.dias` (todos os dias): até lá ele fica privado, e você pode segurar pelo Studio se não gostar. A issue do episódio recebe o link e fecha sozinha.
 
 Configuração única (custo zero), com a conta Google dona do canal:
 

@@ -313,8 +313,8 @@ def salvar(arq, cfg):
         f"~{fmt_tempo(palavras / 2.5 + len(rot['cenas']) * 1.5)} de vídeo.")
 
 
-def disparar():
-    corpo = json.dumps({"ref": "main"}).encode()
+def disparar(agora=False):
+    corpo = json.dumps({"ref": "main", **({"inputs": {"publicar_agora": "true"}} if agora else {})}).encode()
     req = urllib.request.Request(
         f"https://api.github.com/repos/{REPO}/actions/workflows/video-render.yml/dispatches", data=corpo,
         method="POST", headers={"Accept": "application/vnd.github+json", "Content-Type": "application/json",
@@ -1086,19 +1086,26 @@ def postar(cfg):
             meta = {"titulo": rot["titulo_youtube"], "tags": rot.get("tags", []),
                     "descricao": (pasta / "descricao.txt").read_text(encoding="utf-8")
                     if (pasta / "descricao.txt").exists() else rot["descricao_youtube"]}
-        quando = proximo_horario(cfg, prod)
-        vid = enviar_video(token, pasta / "video.mp4", meta, quando)
+        # PUBLICAR_AGORA=true (input do workflow): o primeiro da fila vai ao ar na hora, sem agendamento
+        agora = os.environ.get("PUBLICAR_AGORA", "").strip().lower() in ("1", "true", "sim", "yes")
+        os.environ.pop("PUBLICAR_AGORA", None)
+        quando = dt.datetime.now(ZoneInfo("America/Sao_Paulo")).replace(microsecond=0) if agora \
+            else proximo_horario(cfg, prod)
+        vid = enviar_video(token, pasta / "video.mp4", meta, None if agora else quando)
         capa_ok = enviar_capa(token, vid, pasta / "capa.jpg") if (pasta / "capa.jpg").exists() else False
-        p.update({"status": "agendado", "youtube_id": vid, "youtube": f"https://youtu.be/{vid}",
-                  "agendado_para": quando.isoformat(), "postado_em": HOJE, "capa_ok": capa_ok})
+        p.update({"status": "publicado" if agora else "agendado", "youtube_id": vid,
+                  "youtube": f"https://youtu.be/{vid}", "agendado_para": quando.isoformat(), "postado_em": HOJE,
+                  "capa_ok": capa_ok, **({"publicado_em": quando.isoformat()} if agora else {})})
         salvar_json(ARQ_PROD, prod)
         quando_txt = quando.strftime("%d/%m às %H:%M")
-        log(f"Episódio {p['episodio']} enviado: https://youtu.be/{vid} — público em {quando_txt}")
+        log(f"Episódio {p['episodio']} enviado: https://youtu.be/{vid} — "
+            + ("publicado agora" if agora else f"público em {quando_txt}"))
         if p.get("issue"):
             num = p["issue"].rstrip("/").split("/")[-1]
             aviso = (f"✅ **Postado automaticamente:** https://youtu.be/{vid}\n\n"
-                     f"Fica **público em {quando_txt}** (horário de Brasília). Até lá está agendado e só você vê no "
-                     f"YouTube Studio; se quiser segurar, troque para privado por lá."
+                     + (f"**Já está público** desde {quando_txt} (horário de Brasília)." if agora else
+                        f"Fica **público em {quando_txt}** (horário de Brasília). Até lá está agendado e só você "
+                        f"vê no YouTube Studio; se quiser segurar, troque para privado por lá.")
                      + ("" if capa_ok else "\n\n⚠️ A capa não foi aplicada: no YouTube, capa personalizada exige "
                         "verificar o canal por telefone (youtube.com/verify). Depois disso, suba a capa do "
                         "release pelo Studio."))
@@ -1116,6 +1123,7 @@ def main():
     ap.add_argument("args", nargs="*")
     ap.add_argument("--repo", help="proximo: força um repositório da fila")
     ap.add_argument("--sem-voz", action="store_true", help="renderizar sem narração (teste local)")
+    ap.add_argument("--agora", action="store_true", help="disparar: o episódio vai ao ar assim que renderizar")
     ap.add_argument("--data")
     a = ap.parse_args()
     if a.data:
@@ -1126,7 +1134,7 @@ def main():
     elif a.comando == "salvar":
         salvar(a.args[0] if a.args else DIR_TMP / "video_roteiro.json", cfg)
     elif a.comando == "disparar":
-        disparar()
+        disparar(a.agora)
     elif a.comando == "renderizar":
         renderizar(a.args, cfg, a.sem_voz)
     elif a.comando == "publicar":
